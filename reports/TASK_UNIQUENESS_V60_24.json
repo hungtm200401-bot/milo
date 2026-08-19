@@ -1,0 +1,4007 @@
+{
+  "validatorVersion": "60.23.0",
+  "generatedAt": "2026-08-19T06:35:19.433Z",
+  "totalActivities": 4178,
+  "independentActivities": 4178,
+  "duplicateActivities": 0,
+  "duplicateRate": 0,
+  "referenceReuseSections": 0,
+  "sectionsOverFivePercent": 0,
+  "identicalCrossTypeSets": 0,
+  "target": {
+    "maximumPerSectionPercent": 5,
+    "desiredPerSectionPercent": 0
+  },
+  "passed": true,
+  "duplicateRows": [],
+  "perSection": [
+    {
+      "grade": 2,
+      "unit": 1,
+      "section": "book-big-question",
+      "sectionType": "Big Question",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 1,
+      "section": "book-vocabulary-1",
+      "sectionType": "Vocabulary 1",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 1,
+      "section": "book-pronunciation",
+      "sectionType": "Pronunciation",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 1,
+      "section": "book-reading-1",
+      "sectionType": "Reading 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 1,
+      "section": "book-reading-skill",
+      "sectionType": "Reading Skill",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 1,
+      "section": "book-grammar-1",
+      "sectionType": "Grammar 1",
+      "total": 11,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 1,
+      "section": "book-grammar-practice-1",
+      "sectionType": "Grammar Practice 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 1,
+      "section": "book-listening",
+      "sectionType": "Listening",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 1,
+      "section": "book-speaking-communication",
+      "sectionType": "Speaking/Communication",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 1,
+      "section": "book-vocabulary-2",
+      "sectionType": "Vocabulary 2",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 1,
+      "section": "book-reading-2",
+      "sectionType": "Reading 2",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 1,
+      "section": "book-grammar-2",
+      "sectionType": "Grammar 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 1,
+      "section": "book-grammar-practice-2",
+      "sectionType": "Grammar Practice 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 1,
+      "section": "book-writing",
+      "sectionType": "Writing",
+      "total": 11,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 1,
+      "section": "book-writing-skill",
+      "sectionType": "Writing Skill",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 1,
+      "section": "book-review-unit-check",
+      "sectionType": "Review/Unit Check",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 1,
+      "section": "book-value",
+      "sectionType": "Value",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 1,
+      "section": "book-project",
+      "sectionType": "Project",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 2,
+      "section": "book-big-question",
+      "sectionType": "Big Question",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 2,
+      "section": "book-vocabulary-1",
+      "sectionType": "Vocabulary 1",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 2,
+      "section": "book-pronunciation",
+      "sectionType": "Pronunciation",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 2,
+      "section": "book-reading-1",
+      "sectionType": "Reading 1",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 2,
+      "section": "book-reading-skill",
+      "sectionType": "Reading Skill",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 2,
+      "section": "book-grammar-1",
+      "sectionType": "Grammar 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 2,
+      "section": "book-grammar-practice-1",
+      "sectionType": "Grammar Practice 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 2,
+      "section": "book-listening",
+      "sectionType": "Listening",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 2,
+      "section": "book-speaking-communication",
+      "sectionType": "Speaking/Communication",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 2,
+      "section": "book-vocabulary-2",
+      "sectionType": "Vocabulary 2",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 2,
+      "section": "book-reading-2",
+      "sectionType": "Reading 2",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 2,
+      "section": "book-grammar-2",
+      "sectionType": "Grammar 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 2,
+      "section": "book-grammar-practice-2",
+      "sectionType": "Grammar Practice 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 2,
+      "section": "book-writing",
+      "sectionType": "Writing",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 2,
+      "section": "book-writing-skill",
+      "sectionType": "Writing Skill",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 2,
+      "section": "book-review-unit-check",
+      "sectionType": "Review/Unit Check",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 2,
+      "section": "book-value",
+      "sectionType": "Value",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 2,
+      "section": "book-project",
+      "sectionType": "Project",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 3,
+      "section": "book-big-question",
+      "sectionType": "Big Question",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 3,
+      "section": "book-vocabulary-1",
+      "sectionType": "Vocabulary 1",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 3,
+      "section": "book-pronunciation",
+      "sectionType": "Pronunciation",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 3,
+      "section": "book-reading-1",
+      "sectionType": "Reading 1",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 3,
+      "section": "book-reading-skill",
+      "sectionType": "Reading Skill",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 3,
+      "section": "book-grammar-1",
+      "sectionType": "Grammar 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 3,
+      "section": "book-grammar-practice-1",
+      "sectionType": "Grammar Practice 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 3,
+      "section": "book-listening",
+      "sectionType": "Listening",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 3,
+      "section": "book-speaking-communication",
+      "sectionType": "Speaking/Communication",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 3,
+      "section": "book-vocabulary-2",
+      "sectionType": "Vocabulary 2",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 3,
+      "section": "book-reading-2",
+      "sectionType": "Reading 2",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 3,
+      "section": "book-grammar-2",
+      "sectionType": "Grammar 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 3,
+      "section": "book-grammar-practice-2",
+      "sectionType": "Grammar Practice 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 3,
+      "section": "book-writing",
+      "sectionType": "Writing",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 3,
+      "section": "book-writing-skill",
+      "sectionType": "Writing Skill",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 3,
+      "section": "book-review-unit-check",
+      "sectionType": "Review/Unit Check",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 3,
+      "section": "book-value",
+      "sectionType": "Value",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 3,
+      "section": "book-project",
+      "sectionType": "Project",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 4,
+      "section": "book-big-question",
+      "sectionType": "Big Question",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 4,
+      "section": "book-vocabulary-1",
+      "sectionType": "Vocabulary 1",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 4,
+      "section": "book-pronunciation",
+      "sectionType": "Pronunciation",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 4,
+      "section": "book-reading-1",
+      "sectionType": "Reading 1",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 4,
+      "section": "book-reading-skill",
+      "sectionType": "Reading Skill",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 4,
+      "section": "book-grammar-1",
+      "sectionType": "Grammar 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 4,
+      "section": "book-grammar-practice-1",
+      "sectionType": "Grammar Practice 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 4,
+      "section": "book-listening",
+      "sectionType": "Listening",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 4,
+      "section": "book-speaking-communication",
+      "sectionType": "Speaking/Communication",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 4,
+      "section": "book-vocabulary-2",
+      "sectionType": "Vocabulary 2",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 4,
+      "section": "book-reading-2",
+      "sectionType": "Reading 2",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 4,
+      "section": "book-grammar-2",
+      "sectionType": "Grammar 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 4,
+      "section": "book-grammar-practice-2",
+      "sectionType": "Grammar Practice 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 4,
+      "section": "book-writing",
+      "sectionType": "Writing",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 4,
+      "section": "book-writing-skill",
+      "sectionType": "Writing Skill",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 4,
+      "section": "book-review-unit-check",
+      "sectionType": "Review/Unit Check",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 4,
+      "section": "book-value",
+      "sectionType": "Value",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 4,
+      "section": "book-project",
+      "sectionType": "Project",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 5,
+      "section": "book-big-question",
+      "sectionType": "Big Question",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 5,
+      "section": "book-vocabulary-1",
+      "sectionType": "Vocabulary 1",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 5,
+      "section": "book-pronunciation",
+      "sectionType": "Pronunciation",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 5,
+      "section": "book-reading-1",
+      "sectionType": "Reading 1",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 5,
+      "section": "book-reading-skill",
+      "sectionType": "Reading Skill",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 5,
+      "section": "book-grammar-1",
+      "sectionType": "Grammar 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 5,
+      "section": "book-grammar-practice-1",
+      "sectionType": "Grammar Practice 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 5,
+      "section": "book-listening",
+      "sectionType": "Listening",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 5,
+      "section": "book-speaking-communication",
+      "sectionType": "Speaking/Communication",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 5,
+      "section": "book-vocabulary-2",
+      "sectionType": "Vocabulary 2",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 5,
+      "section": "book-reading-2",
+      "sectionType": "Reading 2",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 5,
+      "section": "book-grammar-2",
+      "sectionType": "Grammar 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 5,
+      "section": "book-grammar-practice-2",
+      "sectionType": "Grammar Practice 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 5,
+      "section": "book-writing",
+      "sectionType": "Writing",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 5,
+      "section": "book-writing-skill",
+      "sectionType": "Writing Skill",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 5,
+      "section": "book-review-unit-check",
+      "sectionType": "Review/Unit Check",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 5,
+      "section": "book-value",
+      "sectionType": "Value",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 5,
+      "section": "book-project",
+      "sectionType": "Project",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 6,
+      "section": "book-big-question",
+      "sectionType": "Big Question",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 6,
+      "section": "book-vocabulary-1",
+      "sectionType": "Vocabulary 1",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 6,
+      "section": "book-pronunciation",
+      "sectionType": "Pronunciation",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 6,
+      "section": "book-reading-1",
+      "sectionType": "Reading 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 6,
+      "section": "book-reading-skill",
+      "sectionType": "Reading Skill",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 6,
+      "section": "book-grammar-1",
+      "sectionType": "Grammar 1",
+      "total": 11,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 6,
+      "section": "book-grammar-practice-1",
+      "sectionType": "Grammar Practice 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 6,
+      "section": "book-listening",
+      "sectionType": "Listening",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 6,
+      "section": "book-speaking-communication",
+      "sectionType": "Speaking/Communication",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 6,
+      "section": "book-vocabulary-2",
+      "sectionType": "Vocabulary 2",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 6,
+      "section": "book-reading-2",
+      "sectionType": "Reading 2",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 6,
+      "section": "book-grammar-2",
+      "sectionType": "Grammar 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 6,
+      "section": "book-grammar-practice-2",
+      "sectionType": "Grammar Practice 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 6,
+      "section": "book-writing",
+      "sectionType": "Writing",
+      "total": 11,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 6,
+      "section": "book-writing-skill",
+      "sectionType": "Writing Skill",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 6,
+      "section": "book-project",
+      "sectionType": "Project",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 6,
+      "section": "book-review-unit-check",
+      "sectionType": "Review/Unit Check",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 6,
+      "section": "book-value",
+      "sectionType": "Value",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 7,
+      "section": "book-big-question",
+      "sectionType": "Big Question",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 7,
+      "section": "book-vocabulary-1",
+      "sectionType": "Vocabulary 1",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 7,
+      "section": "book-pronunciation",
+      "sectionType": "Pronunciation",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 7,
+      "section": "book-reading-1",
+      "sectionType": "Reading 1",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 7,
+      "section": "book-reading-skill",
+      "sectionType": "Reading Skill",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 7,
+      "section": "book-grammar-1",
+      "sectionType": "Grammar 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 7,
+      "section": "book-grammar-practice-1",
+      "sectionType": "Grammar Practice 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 7,
+      "section": "book-listening",
+      "sectionType": "Listening",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 7,
+      "section": "book-speaking-communication",
+      "sectionType": "Speaking/Communication",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 7,
+      "section": "book-vocabulary-2",
+      "sectionType": "Vocabulary 2",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 7,
+      "section": "book-reading-2",
+      "sectionType": "Reading 2",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 7,
+      "section": "book-grammar-2",
+      "sectionType": "Grammar 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 7,
+      "section": "book-grammar-practice-2",
+      "sectionType": "Grammar Practice 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 7,
+      "section": "book-writing",
+      "sectionType": "Writing",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 7,
+      "section": "book-writing-skill",
+      "sectionType": "Writing Skill",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 7,
+      "section": "book-review-unit-check",
+      "sectionType": "Review/Unit Check",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 7,
+      "section": "book-value",
+      "sectionType": "Value",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 7,
+      "section": "book-project",
+      "sectionType": "Project",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 8,
+      "section": "book-big-question",
+      "sectionType": "Big Question",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 8,
+      "section": "book-vocabulary-1",
+      "sectionType": "Vocabulary 1",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 8,
+      "section": "book-pronunciation",
+      "sectionType": "Pronunciation",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 8,
+      "section": "book-reading-1",
+      "sectionType": "Reading 1",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 8,
+      "section": "book-reading-skill",
+      "sectionType": "Reading Skill",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 8,
+      "section": "book-grammar-1",
+      "sectionType": "Grammar 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 8,
+      "section": "book-grammar-practice-1",
+      "sectionType": "Grammar Practice 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 8,
+      "section": "book-listening",
+      "sectionType": "Listening",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 8,
+      "section": "book-speaking-communication",
+      "sectionType": "Speaking/Communication",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 8,
+      "section": "book-vocabulary-2",
+      "sectionType": "Vocabulary 2",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 8,
+      "section": "book-reading-2",
+      "sectionType": "Reading 2",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 8,
+      "section": "book-grammar-2",
+      "sectionType": "Grammar 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 8,
+      "section": "book-grammar-practice-2",
+      "sectionType": "Grammar Practice 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 8,
+      "section": "book-writing",
+      "sectionType": "Writing",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 8,
+      "section": "book-writing-skill",
+      "sectionType": "Writing Skill",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 8,
+      "section": "book-value",
+      "sectionType": "Value",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 8,
+      "section": "book-project",
+      "sectionType": "Project",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 8,
+      "section": "book-review-unit-check",
+      "sectionType": "Review/Unit Check",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 9,
+      "section": "book-big-question",
+      "sectionType": "Big Question",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 9,
+      "section": "book-vocabulary-1",
+      "sectionType": "Vocabulary 1",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 9,
+      "section": "book-pronunciation",
+      "sectionType": "Pronunciation",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 9,
+      "section": "book-reading-1",
+      "sectionType": "Reading 1",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 9,
+      "section": "book-reading-skill",
+      "sectionType": "Reading Skill",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 9,
+      "section": "book-grammar-1",
+      "sectionType": "Grammar 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 9,
+      "section": "book-grammar-practice-1",
+      "sectionType": "Grammar Practice 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 9,
+      "section": "book-listening",
+      "sectionType": "Listening",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 9,
+      "section": "book-speaking-communication",
+      "sectionType": "Speaking/Communication",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 9,
+      "section": "book-vocabulary-2",
+      "sectionType": "Vocabulary 2",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 9,
+      "section": "book-reading-2",
+      "sectionType": "Reading 2",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 9,
+      "section": "book-grammar-2",
+      "sectionType": "Grammar 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 9,
+      "section": "book-grammar-practice-2",
+      "sectionType": "Grammar Practice 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 9,
+      "section": "book-writing",
+      "sectionType": "Writing",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 9,
+      "section": "book-writing-skill",
+      "sectionType": "Writing Skill",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 9,
+      "section": "book-value",
+      "sectionType": "Value",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 9,
+      "section": "book-project",
+      "sectionType": "Project",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 9,
+      "section": "book-review-unit-check",
+      "sectionType": "Review/Unit Check",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 10,
+      "section": "book-big-question",
+      "sectionType": "Big Question",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 10,
+      "section": "book-vocabulary-1",
+      "sectionType": "Vocabulary 1",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 10,
+      "section": "book-pronunciation",
+      "sectionType": "Pronunciation",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 10,
+      "section": "book-reading-1",
+      "sectionType": "Reading 1",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 10,
+      "section": "book-reading-skill",
+      "sectionType": "Reading Skill",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 10,
+      "section": "book-grammar-1",
+      "sectionType": "Grammar 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 10,
+      "section": "book-grammar-practice-1",
+      "sectionType": "Grammar Practice 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 10,
+      "section": "book-listening",
+      "sectionType": "Listening",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 10,
+      "section": "book-speaking-communication",
+      "sectionType": "Speaking/Communication",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 10,
+      "section": "book-vocabulary-2",
+      "sectionType": "Vocabulary 2",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 10,
+      "section": "book-reading-2",
+      "sectionType": "Reading 2",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 10,
+      "section": "book-grammar-2",
+      "sectionType": "Grammar 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 10,
+      "section": "book-grammar-practice-2",
+      "sectionType": "Grammar Practice 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 10,
+      "section": "book-writing",
+      "sectionType": "Writing",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 10,
+      "section": "book-writing-skill",
+      "sectionType": "Writing Skill",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 10,
+      "section": "book-value",
+      "sectionType": "Value",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 10,
+      "section": "book-project",
+      "sectionType": "Project",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 10,
+      "section": "book-review-unit-check",
+      "sectionType": "Review/Unit Check",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 11,
+      "section": "book-big-question",
+      "sectionType": "Big Question",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 11,
+      "section": "book-vocabulary-1",
+      "sectionType": "Vocabulary 1",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 11,
+      "section": "book-pronunciation",
+      "sectionType": "Pronunciation",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 11,
+      "section": "book-reading-1",
+      "sectionType": "Reading 1",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 11,
+      "section": "book-reading-skill",
+      "sectionType": "Reading Skill",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 11,
+      "section": "book-grammar-1",
+      "sectionType": "Grammar 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 11,
+      "section": "book-grammar-practice-1",
+      "sectionType": "Grammar Practice 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 11,
+      "section": "book-listening",
+      "sectionType": "Listening",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 11,
+      "section": "book-speaking-communication",
+      "sectionType": "Speaking/Communication",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 11,
+      "section": "book-vocabulary-2",
+      "sectionType": "Vocabulary 2",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 11,
+      "section": "book-reading-2",
+      "sectionType": "Reading 2",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 11,
+      "section": "book-grammar-2",
+      "sectionType": "Grammar 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 11,
+      "section": "book-grammar-practice-2",
+      "sectionType": "Grammar Practice 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 11,
+      "section": "book-writing",
+      "sectionType": "Writing",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 11,
+      "section": "book-writing-skill",
+      "sectionType": "Writing Skill",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 11,
+      "section": "book-value",
+      "sectionType": "Value",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 11,
+      "section": "book-project",
+      "sectionType": "Project",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 11,
+      "section": "book-review-unit-check",
+      "sectionType": "Review/Unit Check",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 12,
+      "section": "book-big-question",
+      "sectionType": "Big Question",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 12,
+      "section": "book-vocabulary-1",
+      "sectionType": "Vocabulary 1",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 12,
+      "section": "book-pronunciation",
+      "sectionType": "Pronunciation",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 12,
+      "section": "book-reading-1",
+      "sectionType": "Reading 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 12,
+      "section": "book-reading-skill",
+      "sectionType": "Reading Skill",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 12,
+      "section": "book-grammar-1",
+      "sectionType": "Grammar 1",
+      "total": 11,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 12,
+      "section": "book-grammar-practice-1",
+      "sectionType": "Grammar Practice 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 12,
+      "section": "book-listening",
+      "sectionType": "Listening",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 12,
+      "section": "book-speaking-communication",
+      "sectionType": "Speaking/Communication",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 12,
+      "section": "book-vocabulary-2",
+      "sectionType": "Vocabulary 2",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 12,
+      "section": "book-reading-2",
+      "sectionType": "Reading 2",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 12,
+      "section": "book-grammar-2",
+      "sectionType": "Grammar 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 12,
+      "section": "book-grammar-practice-2",
+      "sectionType": "Grammar Practice 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 12,
+      "section": "book-writing",
+      "sectionType": "Writing",
+      "total": 11,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 12,
+      "section": "book-writing-skill",
+      "sectionType": "Writing Skill",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 12,
+      "section": "book-value",
+      "sectionType": "Value",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 12,
+      "section": "book-project",
+      "sectionType": "Project",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 2,
+      "unit": 12,
+      "section": "book-review-unit-check",
+      "sectionType": "Review/Unit Check",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 1,
+      "section": "book-big-question",
+      "sectionType": "Big Question",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 1,
+      "section": "book-clil-content",
+      "sectionType": "CLIL/Content",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 1,
+      "section": "book-vocabulary-1",
+      "sectionType": "Vocabulary 1",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 1,
+      "section": "book-reading-1",
+      "sectionType": "Reading 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 1,
+      "section": "book-reading-skill",
+      "sectionType": "Reading Skill",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 1,
+      "section": "book-vocabulary-in-reading",
+      "sectionType": "Vocabulary in Reading",
+      "total": 11,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 1,
+      "section": "book-grammar-1",
+      "sectionType": "Grammar 1",
+      "total": 11,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 1,
+      "section": "book-grammar-practice-1",
+      "sectionType": "Grammar Practice 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 1,
+      "section": "book-listening",
+      "sectionType": "Listening",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 1,
+      "section": "book-speaking-communication",
+      "sectionType": "Speaking/Communication",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 1,
+      "section": "book-vocabulary-2",
+      "sectionType": "Vocabulary 2",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 1,
+      "section": "book-reading-2",
+      "sectionType": "Reading 2",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 1,
+      "section": "book-pronunciation",
+      "sectionType": "Pronunciation",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 1,
+      "section": "book-grammar-2",
+      "sectionType": "Grammar 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 1,
+      "section": "book-grammar-practice-2",
+      "sectionType": "Grammar Practice 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 1,
+      "section": "book-writing",
+      "sectionType": "Writing",
+      "total": 11,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 1,
+      "section": "book-project",
+      "sectionType": "Project",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 1,
+      "section": "book-review-unit-check",
+      "sectionType": "Review/Unit Check",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 1,
+      "section": "book-writing-skill",
+      "sectionType": "Writing Skill",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 2,
+      "section": "book-big-question",
+      "sectionType": "Big Question",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 2,
+      "section": "book-clil-content",
+      "sectionType": "CLIL/Content",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 2,
+      "section": "book-vocabulary-1",
+      "sectionType": "Vocabulary 1",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 2,
+      "section": "book-reading-1",
+      "sectionType": "Reading 1",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 2,
+      "section": "book-vocabulary-in-reading",
+      "sectionType": "Vocabulary in Reading",
+      "total": 11,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 2,
+      "section": "book-reading-skill",
+      "sectionType": "Reading Skill",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 2,
+      "section": "book-grammar-1",
+      "sectionType": "Grammar 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 2,
+      "section": "book-grammar-practice-1",
+      "sectionType": "Grammar Practice 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 2,
+      "section": "book-listening",
+      "sectionType": "Listening",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 2,
+      "section": "book-speaking-communication",
+      "sectionType": "Speaking/Communication",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 2,
+      "section": "book-vocabulary-2",
+      "sectionType": "Vocabulary 2",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 2,
+      "section": "book-reading-2",
+      "sectionType": "Reading 2",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 2,
+      "section": "book-pronunciation",
+      "sectionType": "Pronunciation",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 2,
+      "section": "book-grammar-2",
+      "sectionType": "Grammar 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 2,
+      "section": "book-grammar-practice-2",
+      "sectionType": "Grammar Practice 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 2,
+      "section": "book-writing",
+      "sectionType": "Writing",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 2,
+      "section": "book-writing-skill",
+      "sectionType": "Writing Skill",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 2,
+      "section": "book-project",
+      "sectionType": "Project",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 2,
+      "section": "book-review-unit-check",
+      "sectionType": "Review/Unit Check",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 3,
+      "section": "book-big-question",
+      "sectionType": "Big Question",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 3,
+      "section": "book-clil-content",
+      "sectionType": "CLIL/Content",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 3,
+      "section": "book-vocabulary-1",
+      "sectionType": "Vocabulary 1",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 3,
+      "section": "book-reading-1",
+      "sectionType": "Reading 1",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 3,
+      "section": "book-vocabulary-in-reading",
+      "sectionType": "Vocabulary in Reading",
+      "total": 11,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 3,
+      "section": "book-reading-skill",
+      "sectionType": "Reading Skill",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 3,
+      "section": "book-listening",
+      "sectionType": "Listening",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 3,
+      "section": "book-grammar-1",
+      "sectionType": "Grammar 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 3,
+      "section": "book-grammar-practice-1",
+      "sectionType": "Grammar Practice 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 3,
+      "section": "book-speaking-communication",
+      "sectionType": "Speaking/Communication",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 3,
+      "section": "book-vocabulary-2",
+      "sectionType": "Vocabulary 2",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 3,
+      "section": "book-reading-2",
+      "sectionType": "Reading 2",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 3,
+      "section": "book-pronunciation",
+      "sectionType": "Pronunciation",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 3,
+      "section": "book-grammar-2",
+      "sectionType": "Grammar 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 3,
+      "section": "book-grammar-practice-2",
+      "sectionType": "Grammar Practice 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 3,
+      "section": "book-writing",
+      "sectionType": "Writing",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 3,
+      "section": "book-project",
+      "sectionType": "Project",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 3,
+      "section": "book-writing-skill",
+      "sectionType": "Writing Skill",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 3,
+      "section": "book-review-unit-check",
+      "sectionType": "Review/Unit Check",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 4,
+      "section": "book-big-question",
+      "sectionType": "Big Question",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 4,
+      "section": "book-clil-content",
+      "sectionType": "CLIL/Content",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 4,
+      "section": "book-vocabulary-1",
+      "sectionType": "Vocabulary 1",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 4,
+      "section": "book-reading-1",
+      "sectionType": "Reading 1",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 4,
+      "section": "book-vocabulary-in-reading",
+      "sectionType": "Vocabulary in Reading",
+      "total": 11,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 4,
+      "section": "book-reading-skill",
+      "sectionType": "Reading Skill",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 4,
+      "section": "book-listening",
+      "sectionType": "Listening",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 4,
+      "section": "book-speaking-communication",
+      "sectionType": "Speaking/Communication",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 4,
+      "section": "book-grammar-1",
+      "sectionType": "Grammar 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 4,
+      "section": "book-grammar-practice-1",
+      "sectionType": "Grammar Practice 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 4,
+      "section": "book-vocabulary-2",
+      "sectionType": "Vocabulary 2",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 4,
+      "section": "book-reading-2",
+      "sectionType": "Reading 2",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 4,
+      "section": "book-pronunciation",
+      "sectionType": "Pronunciation",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 4,
+      "section": "book-grammar-2",
+      "sectionType": "Grammar 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 4,
+      "section": "book-grammar-practice-2",
+      "sectionType": "Grammar Practice 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 4,
+      "section": "book-writing",
+      "sectionType": "Writing",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 4,
+      "section": "book-writing-skill",
+      "sectionType": "Writing Skill",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 4,
+      "section": "book-project",
+      "sectionType": "Project",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 4,
+      "section": "book-review-unit-check",
+      "sectionType": "Review/Unit Check",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 5,
+      "section": "book-big-question",
+      "sectionType": "Big Question",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 5,
+      "section": "book-clil-content",
+      "sectionType": "CLIL/Content",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 5,
+      "section": "book-vocabulary-1",
+      "sectionType": "Vocabulary 1",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 5,
+      "section": "book-reading-1",
+      "sectionType": "Reading 1",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 5,
+      "section": "book-vocabulary-in-reading",
+      "sectionType": "Vocabulary in Reading",
+      "total": 11,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 5,
+      "section": "book-reading-skill",
+      "sectionType": "Reading Skill",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 5,
+      "section": "book-grammar-1",
+      "sectionType": "Grammar 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 5,
+      "section": "book-listening",
+      "sectionType": "Listening",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 5,
+      "section": "book-speaking-communication",
+      "sectionType": "Speaking/Communication",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 5,
+      "section": "book-grammar-practice-1",
+      "sectionType": "Grammar Practice 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 5,
+      "section": "book-reading-2",
+      "sectionType": "Reading 2",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 5,
+      "section": "book-vocabulary-2",
+      "sectionType": "Vocabulary 2",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 5,
+      "section": "book-pronunciation",
+      "sectionType": "Pronunciation",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 5,
+      "section": "book-grammar-2",
+      "sectionType": "Grammar 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 5,
+      "section": "book-grammar-practice-2",
+      "sectionType": "Grammar Practice 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 5,
+      "section": "book-writing",
+      "sectionType": "Writing",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 5,
+      "section": "book-project",
+      "sectionType": "Project",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 5,
+      "section": "book-writing-skill",
+      "sectionType": "Writing Skill",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 5,
+      "section": "book-review-unit-check",
+      "sectionType": "Review/Unit Check",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 6,
+      "section": "book-big-question",
+      "sectionType": "Big Question",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 6,
+      "section": "book-clil-content",
+      "sectionType": "CLIL/Content",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 6,
+      "section": "book-vocabulary-1",
+      "sectionType": "Vocabulary 1",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 6,
+      "section": "book-reading-1",
+      "sectionType": "Reading 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 6,
+      "section": "book-vocabulary-in-reading",
+      "sectionType": "Vocabulary in Reading",
+      "total": 11,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 6,
+      "section": "book-reading-skill",
+      "sectionType": "Reading Skill",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 6,
+      "section": "book-listening",
+      "sectionType": "Listening",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 6,
+      "section": "book-grammar-1",
+      "sectionType": "Grammar 1",
+      "total": 11,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 6,
+      "section": "book-grammar-practice-1",
+      "sectionType": "Grammar Practice 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 6,
+      "section": "book-speaking-communication",
+      "sectionType": "Speaking/Communication",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 6,
+      "section": "book-vocabulary-2",
+      "sectionType": "Vocabulary 2",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 6,
+      "section": "book-reading-2",
+      "sectionType": "Reading 2",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 6,
+      "section": "book-pronunciation",
+      "sectionType": "Pronunciation",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 6,
+      "section": "book-grammar-2",
+      "sectionType": "Grammar 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 6,
+      "section": "book-grammar-practice-2",
+      "sectionType": "Grammar Practice 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 6,
+      "section": "book-writing",
+      "sectionType": "Writing",
+      "total": 11,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 6,
+      "section": "book-project",
+      "sectionType": "Project",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 6,
+      "section": "book-writing-skill",
+      "sectionType": "Writing Skill",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 6,
+      "section": "book-review-unit-check",
+      "sectionType": "Review/Unit Check",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 7,
+      "section": "book-big-question",
+      "sectionType": "Big Question",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 7,
+      "section": "book-clil-content",
+      "sectionType": "CLIL/Content",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 7,
+      "section": "book-vocabulary-1",
+      "sectionType": "Vocabulary 1",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 7,
+      "section": "book-reading-1",
+      "sectionType": "Reading 1",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 7,
+      "section": "book-vocabulary-in-reading",
+      "sectionType": "Vocabulary in Reading",
+      "total": 11,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 7,
+      "section": "book-reading-skill",
+      "sectionType": "Reading Skill",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 7,
+      "section": "book-listening",
+      "sectionType": "Listening",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 7,
+      "section": "book-grammar-1",
+      "sectionType": "Grammar 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 7,
+      "section": "book-grammar-practice-1",
+      "sectionType": "Grammar Practice 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 7,
+      "section": "book-speaking-communication",
+      "sectionType": "Speaking/Communication",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 7,
+      "section": "book-vocabulary-2",
+      "sectionType": "Vocabulary 2",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 7,
+      "section": "book-reading-2",
+      "sectionType": "Reading 2",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 7,
+      "section": "book-pronunciation",
+      "sectionType": "Pronunciation",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 7,
+      "section": "book-grammar-2",
+      "sectionType": "Grammar 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 7,
+      "section": "book-grammar-practice-2",
+      "sectionType": "Grammar Practice 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 7,
+      "section": "book-writing",
+      "sectionType": "Writing",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 7,
+      "section": "book-project",
+      "sectionType": "Project",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 7,
+      "section": "book-writing-skill",
+      "sectionType": "Writing Skill",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 7,
+      "section": "book-review-unit-check",
+      "sectionType": "Review/Unit Check",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 8,
+      "section": "book-big-question",
+      "sectionType": "Big Question",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 8,
+      "section": "book-clil-content",
+      "sectionType": "CLIL/Content",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 8,
+      "section": "book-vocabulary-1",
+      "sectionType": "Vocabulary 1",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 8,
+      "section": "book-reading-1",
+      "sectionType": "Reading 1",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 8,
+      "section": "book-vocabulary-in-reading",
+      "sectionType": "Vocabulary in Reading",
+      "total": 11,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 8,
+      "section": "book-reading-skill",
+      "sectionType": "Reading Skill",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 8,
+      "section": "book-grammar-1",
+      "sectionType": "Grammar 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 8,
+      "section": "book-grammar-practice-1",
+      "sectionType": "Grammar Practice 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 8,
+      "section": "book-listening",
+      "sectionType": "Listening",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 8,
+      "section": "book-speaking-communication",
+      "sectionType": "Speaking/Communication",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 8,
+      "section": "book-vocabulary-2",
+      "sectionType": "Vocabulary 2",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 8,
+      "section": "book-reading-2",
+      "sectionType": "Reading 2",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 8,
+      "section": "book-pronunciation",
+      "sectionType": "Pronunciation",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 8,
+      "section": "book-grammar-2",
+      "sectionType": "Grammar 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 8,
+      "section": "book-grammar-practice-2",
+      "sectionType": "Grammar Practice 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 8,
+      "section": "book-writing",
+      "sectionType": "Writing",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 8,
+      "section": "book-writing-skill",
+      "sectionType": "Writing Skill",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 8,
+      "section": "book-project",
+      "sectionType": "Project",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 8,
+      "section": "book-review-unit-check",
+      "sectionType": "Review/Unit Check",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 9,
+      "section": "book-big-question",
+      "sectionType": "Big Question",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 9,
+      "section": "book-clil-content",
+      "sectionType": "CLIL/Content",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 9,
+      "section": "book-vocabulary-1",
+      "sectionType": "Vocabulary 1",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 9,
+      "section": "book-reading-1",
+      "sectionType": "Reading 1",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 9,
+      "section": "book-vocabulary-in-reading",
+      "sectionType": "Vocabulary in Reading",
+      "total": 11,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 9,
+      "section": "book-reading-skill",
+      "sectionType": "Reading Skill",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 9,
+      "section": "book-speaking-communication",
+      "sectionType": "Speaking/Communication",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 9,
+      "section": "book-grammar-1",
+      "sectionType": "Grammar 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 9,
+      "section": "book-grammar-practice-1",
+      "sectionType": "Grammar Practice 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 9,
+      "section": "book-listening",
+      "sectionType": "Listening",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 9,
+      "section": "book-vocabulary-2",
+      "sectionType": "Vocabulary 2",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 9,
+      "section": "book-reading-2",
+      "sectionType": "Reading 2",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 9,
+      "section": "book-pronunciation",
+      "sectionType": "Pronunciation",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 9,
+      "section": "book-grammar-2",
+      "sectionType": "Grammar 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 9,
+      "section": "book-grammar-practice-2",
+      "sectionType": "Grammar Practice 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 9,
+      "section": "book-writing",
+      "sectionType": "Writing",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 9,
+      "section": "book-project",
+      "sectionType": "Project",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 9,
+      "section": "book-review-unit-check",
+      "sectionType": "Review/Unit Check",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 9,
+      "section": "book-writing-skill",
+      "sectionType": "Writing Skill",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 10,
+      "section": "book-big-question",
+      "sectionType": "Big Question",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 10,
+      "section": "book-clil-content",
+      "sectionType": "CLIL/Content",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 10,
+      "section": "book-vocabulary-1",
+      "sectionType": "Vocabulary 1",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 10,
+      "section": "book-reading-1",
+      "sectionType": "Reading 1",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 10,
+      "section": "book-vocabulary-in-reading",
+      "sectionType": "Vocabulary in Reading",
+      "total": 11,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 10,
+      "section": "book-reading-skill",
+      "sectionType": "Reading Skill",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 10,
+      "section": "book-listening",
+      "sectionType": "Listening",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 10,
+      "section": "book-grammar-1",
+      "sectionType": "Grammar 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 10,
+      "section": "book-grammar-practice-1",
+      "sectionType": "Grammar Practice 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 10,
+      "section": "book-speaking-communication",
+      "sectionType": "Speaking/Communication",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 10,
+      "section": "book-vocabulary-2",
+      "sectionType": "Vocabulary 2",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 10,
+      "section": "book-reading-2",
+      "sectionType": "Reading 2",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 10,
+      "section": "book-pronunciation",
+      "sectionType": "Pronunciation",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 10,
+      "section": "book-grammar-2",
+      "sectionType": "Grammar 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 10,
+      "section": "book-grammar-practice-2",
+      "sectionType": "Grammar Practice 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 10,
+      "section": "book-writing",
+      "sectionType": "Writing",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 10,
+      "section": "book-writing-skill",
+      "sectionType": "Writing Skill",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 10,
+      "section": "book-project",
+      "sectionType": "Project",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 10,
+      "section": "book-review-unit-check",
+      "sectionType": "Review/Unit Check",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 11,
+      "section": "book-big-question",
+      "sectionType": "Big Question",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 11,
+      "section": "book-vocabulary-1",
+      "sectionType": "Vocabulary 1",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 11,
+      "section": "book-clil-content",
+      "sectionType": "CLIL/Content",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 11,
+      "section": "book-reading-1",
+      "sectionType": "Reading 1",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 11,
+      "section": "book-vocabulary-in-reading",
+      "sectionType": "Vocabulary in Reading",
+      "total": 11,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 11,
+      "section": "book-reading-skill",
+      "sectionType": "Reading Skill",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 11,
+      "section": "book-listening",
+      "sectionType": "Listening",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 11,
+      "section": "book-speaking-communication",
+      "sectionType": "Speaking/Communication",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 11,
+      "section": "book-grammar-1",
+      "sectionType": "Grammar 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 11,
+      "section": "book-grammar-practice-1",
+      "sectionType": "Grammar Practice 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 11,
+      "section": "book-vocabulary-2",
+      "sectionType": "Vocabulary 2",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 11,
+      "section": "book-reading-2",
+      "sectionType": "Reading 2",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 11,
+      "section": "book-pronunciation",
+      "sectionType": "Pronunciation",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 11,
+      "section": "book-grammar-2",
+      "sectionType": "Grammar 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 11,
+      "section": "book-grammar-practice-2",
+      "sectionType": "Grammar Practice 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 11,
+      "section": "book-writing",
+      "sectionType": "Writing",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 11,
+      "section": "book-project",
+      "sectionType": "Project",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 11,
+      "section": "book-review-unit-check",
+      "sectionType": "Review/Unit Check",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 11,
+      "section": "book-writing-skill",
+      "sectionType": "Writing Skill",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 12,
+      "section": "book-big-question",
+      "sectionType": "Big Question",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 12,
+      "section": "book-clil-content",
+      "sectionType": "CLIL/Content",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 12,
+      "section": "book-vocabulary-1",
+      "sectionType": "Vocabulary 1",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 12,
+      "section": "book-reading-1",
+      "sectionType": "Reading 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 12,
+      "section": "book-vocabulary-in-reading",
+      "sectionType": "Vocabulary in Reading",
+      "total": 11,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 12,
+      "section": "book-reading-skill",
+      "sectionType": "Reading Skill",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 12,
+      "section": "book-grammar-1",
+      "sectionType": "Grammar 1",
+      "total": 11,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 12,
+      "section": "book-grammar-practice-1",
+      "sectionType": "Grammar Practice 1",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 12,
+      "section": "book-listening",
+      "sectionType": "Listening",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 12,
+      "section": "book-speaking-communication",
+      "sectionType": "Speaking/Communication",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 12,
+      "section": "book-reading-2",
+      "sectionType": "Reading 2",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 12,
+      "section": "book-vocabulary-2",
+      "sectionType": "Vocabulary 2",
+      "total": 12,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 12,
+      "section": "book-pronunciation",
+      "sectionType": "Pronunciation",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 12,
+      "section": "book-grammar-2",
+      "sectionType": "Grammar 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 12,
+      "section": "book-grammar-practice-2",
+      "sectionType": "Grammar Practice 2",
+      "total": 10,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 12,
+      "section": "book-writing",
+      "sectionType": "Writing",
+      "total": 11,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 12,
+      "section": "book-project",
+      "sectionType": "Project",
+      "total": 7,
+      "duplicates": 0,
+      "rate": 0
+    },
+    {
+      "grade": 3,
+      "unit": 12,
+      "section": "book-review-unit-check",
+      "sectionType": "Review/Unit Check",
+      "total": 9,
+      "duplicates": 0,
+      "rate": 0
+    }
+  ],
+  "identicalCrossTypeSetRows": []
+}

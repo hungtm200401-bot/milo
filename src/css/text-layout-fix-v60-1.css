@@ -1,0 +1,89 @@
+/* Text layout hardening v60.12.4 */
+.lesson-app .lesson-shell,
+.lesson-app .lesson-content,
+.lesson-app .lesson-nav,
+.lesson-app .milo-coach,
+.lesson-app .coach-card,
+.lesson-app .coach-level-activity,
+.lesson-app .unit-nav-title,
+.lesson-app .lesson-brand,
+.lesson-app .lesson-back-copy,
+.lesson-app .lesson-mission-ribbon {
+  min-width: 0;
+}
+
+.lesson-app .lesson-mission-ribbon {
+  display: flex !important;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.lesson-app .lesson-mission-ribbon > span {
+  flex: 0 0 auto;
+}
+
+.lesson-app .lesson-mission-ribbon > b,
+.lesson-app .lesson-mission-ribbon b,
+.lesson-app #missionPartName {
+  flex: 1 1 320px;
+  min-width: 220px;
+  display: block;
+  line-height: 1.45;
+  white-space: normal !important;
+  writing-mode: horizontal-tb !important;
+  text-orientation: mixed !important;
+  word-break: normal !important;
+  overflow-wrap: anywhere;
+}
+
+.lesson-app .lesson-mission-ribbon > div {
+  flex: 0 1 auto;
+  min-width: 180px;
+  margin-left: auto;
+  text-align: right;
+  white-space: normal !important;
+  writing-mode: horizontal-tb !important;
+  text-orientation: mixed !important;
+  word-break: normal !important;
+  overflow-wrap: anywhere;
+}
+
+.lesson-app .lesson-brand > div,
+.lesson-app .unit-nav-title > div,
+.lesson-app .coach-level-activity > div,
+.lesson-app .coach-bubble p,
+.lesson-app .coach-next-gift,
+.lesson-app .coach-tips p,
+.lesson-app .lesson-reward-hud span,
+.lesson-app .lesson-nav nav button b,
+.lesson-app .lesson-nav nav button small {
+  min-width: 0;
+  white-space: normal;
+  word-break: normal;
+  overflow-wrap: anywhere;
+}
+
+.lesson-app .coach-level-activity {
+  grid-template-columns: auto minmax(0,1fr) auto;
+}
+
+.lesson-app .unit-nav-title {
+  align-items: flex-start;
+}
+
+@media (max-width: 1040px) {
+  .lesson-app .lesson-mission-ribbon {
+    align-items: flex-start;
+  }
+
+  .lesson-app .lesson-mission-ribbon > b,
+  .lesson-app .lesson-mission-ribbon b,
+  .lesson-app #missionPartName,
+  .lesson-app .lesson-mission-ribbon > div {
+    flex-basis: 100%;
+    min-width: 0;
+    text-align: left;
+    margin-left: 0;
+  }
+}

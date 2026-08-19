@@ -1,0 +1,67 @@
+{
+  "product": "Milo English Adventure",
+  "version": "60.24.4",
+  "contentVersion": "60.25.5-ai-corner-toggle",
+  "createdAt": "2026-08-11T11:26:00+07:00",
+  "testResult": {
+    "passed": 93,
+    "total": 93
+  },
+  "uiValidation": {
+    "resolutions": [
+      "1366x768",
+      "1600x900",
+      "1920x1080"
+    ],
+    "bodyScrollPixels": 0,
+    "maximumVipCardRatio": 0,
+    "method": "Chromium headless using production DOM and CSS",
+    "lessonNav": {
+      "items": 5,
+      "totalAvailableItems": 24,
+      "overlaps": 0,
+      "clipped": 0,
+      "scrollable": true,
+      "minimumCardHeight": 56,
+      "maximumCardHeight": 82
+    }
+  },
+  "validators": {
+    "runtimeTasks": 4178,
+    "duplicateTasks": 0,
+    "duplicateRate": 0,
+    "answerLeakagePassed": true
+  },
+  "sourceImages": {
+    "originalCount": 371,
+    "allSourceAssetFilesIncludingNormalizedCopies": 742
+  },
+  "executables": {
+    "bin/Milo.exe": {
+      "sha256": "de1c482dc61a3037c04b212af9a9e66d15852d13ccf8237ea3ef2e51f233b346",
+      "format": "PE32+ GUI x86-64 .NET single-file native WebView2 host"
+    }
+  },
+  "keyAssets": {
+    "index.html": "fe900fd66989943d0b745f3ee229367687e8353fbe89aa6b30253e320bba9ad2",
+    "lesson.html": "57561e33785c575814a7e56b5ace1cefb74e4d7e5fe132c13104095be9d36c37",
+    "admin.html": "78b481a74750635330326f1e29286663cdf908a6f51c98b3f38e498bb6def0d6",
+    "server.mjs": "96bed62f6158c6c11d4176adc7a112913e2b566d325e930e7c6d18542230ac3c",
+    "student-ui-sync-v60-16.css": "3f66f761efe39e3e749a9d62ce48eea6a32c234c637b565e1ff86e49c35538e0",
+    "student-chat-v60-24.css": "2cde507b99c37d0f43c5a56dc8ac31754d85b1be5668d051d0de533ad8382922",
+    "student-assistant-status-v60-24.js": "047f44e0a8c73e0bff6f8e34cd5dbb5fe95712207d725874b5c27d34ced20d3f",
+    "admin-ai-connection-v60-24.js": "b4b6f86e0b5e0f98de105efadd5273a798e5582c599edd56609c6b4c9a709fa3",
+    "sw.js": "5bb60b864d8cc0be84847f3cc34d17019df89be33c8254cfbe2e3bbb9d498677",
+    "tests/run-all.mjs": "280a8f6e7ed34df49684063e5d502023c77cb75a77cbff902c225cd880897be8",
+    "MiloDesktopHost.csproj": "fee6a09085d110651502c13008f775bfd2c24c2544238b32b65df1d74cc1592f",
+    "MiloDesktopHost.Program.cs": "fc4970dc972a06b7011ea3e3d2998c4033e7a06da7647be14644e172fb725813",
+    "learning-review.js": "d64fa43c03ae1c38f7a9c0424ca96542832ad50a4cc04ff0e787325e323b8003"
+  },
+  "artifactCounts": {
+    "cleanPackageFiles": 1243
+  },
+  "limitations": [
+    "Canonical Milo.exe is a native WinForms/WebView2 single-file host and was opened successfully as an interactive Windows window.",
+    "Milo requires the Windows WebView2 Runtime; it is present on the verified machine."
+  ]
+}

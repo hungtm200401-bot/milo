@@ -1,0 +1,1906 @@
+{
+  "grade2": [
+    {
+      "unit": 1,
+      "title": "What do we do on school days?",
+      "theme": "Trường học",
+      "words": [
+        {
+          "term": "math",
+          "meaning": "môn Toán"
+        },
+        {
+          "term": "art",
+          "meaning": "môn Mỹ thuật"
+        },
+        {
+          "term": "science",
+          "meaning": "môn Khoa học"
+        },
+        {
+          "term": "P.E.",
+          "meaning": "môn Thể dục"
+        },
+        {
+          "term": "computer science",
+          "meaning": "môn Tin học"
+        },
+        {
+          "term": "music",
+          "meaning": "môn Âm nhạc"
+        },
+        {
+          "term": "violin practice",
+          "meaning": "buổi luyện vĩ cầm"
+        },
+        {
+          "term": "piano practice",
+          "meaning": "buổi luyện piano"
+        },
+        {
+          "term": "tired",
+          "meaning": "mệt"
+        },
+        {
+          "term": "bored",
+          "meaning": "chán"
+        },
+        {
+          "term": "worried",
+          "meaning": "lo lắng"
+        },
+        {
+          "term": "difficult",
+          "meaning": "khó"
+        },
+        {
+          "term": "easy",
+          "meaning": "dễ"
+        },
+        {
+          "term": "interesting",
+          "meaning": "thú vị"
+        },
+        {
+          "term": "busy",
+          "meaning": "bận rộn"
+        },
+        {
+          "term": "important",
+          "meaning": "quan trọng"
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "Where do wild animals live?",
+      "theme": "Động vật hoang dã",
+      "words": [
+        {
+          "term": "crocodile",
+          "meaning": "cá sấu"
+        },
+        {
+          "term": "kangaroo",
+          "meaning": "chuột túi"
+        },
+        {
+          "term": "panda",
+          "meaning": "gấu trúc"
+        },
+        {
+          "term": "snake",
+          "meaning": "rắn"
+        },
+        {
+          "term": "cheetah",
+          "meaning": "báo săn"
+        },
+        {
+          "term": "seal",
+          "meaning": "hải cẩu"
+        },
+        {
+          "term": "camel",
+          "meaning": "lạc đà"
+        },
+        {
+          "term": "whale",
+          "meaning": "cá voi"
+        },
+        {
+          "term": "angry",
+          "meaning": "tức giận"
+        },
+        {
+          "term": "smart",
+          "meaning": "thông minh"
+        },
+        {
+          "term": "fat",
+          "meaning": "béo, mập"
+        },
+        {
+          "term": "thin",
+          "meaning": "gầy, mảnh"
+        },
+        {
+          "term": "funny",
+          "meaning": "ngộ nghĩnh"
+        },
+        {
+          "term": "lazy",
+          "meaning": "lười biếng"
+        },
+        {
+          "term": "dangerous",
+          "meaning": "nguy hiểm"
+        },
+        {
+          "term": "strong",
+          "meaning": "khỏe, mạnh"
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "How does the weather change?",
+      "theme": "Thời tiết",
+      "words": [
+        {
+          "term": "windy",
+          "meaning": "có gió"
+        },
+        {
+          "term": "foggy",
+          "meaning": "có sương mù"
+        },
+        {
+          "term": "thunder",
+          "meaning": "sấm"
+        },
+        {
+          "term": "lightning",
+          "meaning": "chớp"
+        },
+        {
+          "term": "storm",
+          "meaning": "cơn bão"
+        },
+        {
+          "term": "hail",
+          "meaning": "mưa đá"
+        },
+        {
+          "term": "sleet",
+          "meaning": "mưa tuyết"
+        },
+        {
+          "term": "tornado",
+          "meaning": "lốc xoáy"
+        },
+        {
+          "term": "scarf",
+          "meaning": "khăn quàng"
+        },
+        {
+          "term": "cap",
+          "meaning": "mũ lưỡi trai"
+        },
+        {
+          "term": "sunglasses",
+          "meaning": "kính râm"
+        },
+        {
+          "term": "sweat suit",
+          "meaning": "bộ đồ thể thao"
+        },
+        {
+          "term": "sneakers",
+          "meaning": "giày thể thao"
+        },
+        {
+          "term": "flip flops",
+          "meaning": "dép xỏ ngón"
+        },
+        {
+          "term": "robe",
+          "meaning": "áo choàng"
+        },
+        {
+          "term": "slippers",
+          "meaning": "dép đi trong nhà"
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "What can you find in big cities?",
+      "theme": "Thành phố",
+      "words": [
+        {
+          "term": "bookstore",
+          "meaning": "hiệu sách"
+        },
+        {
+          "term": "library",
+          "meaning": "thư viện"
+        },
+        {
+          "term": "playground",
+          "meaning": "sân chơi"
+        },
+        {
+          "term": "toy store",
+          "meaning": "cửa hàng đồ chơi"
+        },
+        {
+          "term": "bank",
+          "meaning": "ngân hàng"
+        },
+        {
+          "term": "computer store",
+          "meaning": "cửa hàng máy tính"
+        },
+        {
+          "term": "movie theater",
+          "meaning": "rạp chiếu phim"
+        },
+        {
+          "term": "restaurant",
+          "meaning": "nhà hàng"
+        },
+        {
+          "term": "factory",
+          "meaning": "nhà máy"
+        },
+        {
+          "term": "train station",
+          "meaning": "nhà ga"
+        },
+        {
+          "term": "gas station",
+          "meaning": "trạm xăng"
+        },
+        {
+          "term": "street",
+          "meaning": "đường phố"
+        },
+        {
+          "term": "traffic",
+          "meaning": "giao thông"
+        },
+        {
+          "term": "small town",
+          "meaning": "thị trấn nhỏ"
+        },
+        {
+          "term": "fields",
+          "meaning": "cánh đồng"
+        },
+        {
+          "term": "market",
+          "meaning": "chợ"
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": "How do we celebrate?",
+      "theme": "Lễ kỷ niệm",
+      "words": [
+        {
+          "term": "balloon",
+          "meaning": "bóng bay"
+        },
+        {
+          "term": "card",
+          "meaning": "thiệp"
+        },
+        {
+          "term": "candle",
+          "meaning": "nến"
+        },
+        {
+          "term": "burger",
+          "meaning": "bánh burger"
+        },
+        {
+          "term": "cupcake",
+          "meaning": "bánh nhỏ"
+        },
+        {
+          "term": "milkshake",
+          "meaning": "sữa lắc"
+        },
+        {
+          "term": "popcorn",
+          "meaning": "bỏng ngô"
+        },
+        {
+          "term": "fruit salad",
+          "meaning": "sa lát trái cây"
+        },
+        {
+          "term": "ice rink",
+          "meaning": "sân trượt băng"
+        },
+        {
+          "term": "bowling alley",
+          "meaning": "sân bowling"
+        },
+        {
+          "term": "aquarium",
+          "meaning": "thủy cung"
+        },
+        {
+          "term": "theme park",
+          "meaning": "công viên chủ đề"
+        },
+        {
+          "term": "adventure playground",
+          "meaning": "sân chơi phiêu lưu"
+        },
+        {
+          "term": "arts center",
+          "meaning": "trung tâm nghệ thuật"
+        },
+        {
+          "term": "swimming pool",
+          "meaning": "bể bơi"
+        },
+        {
+          "term": "nature center",
+          "meaning": "trung tâm thiên nhiên"
+        }
+      ]
+    },
+    {
+      "unit": 6,
+      "title": "What jobs can I do?",
+      "theme": "Nghề nghiệp",
+      "words": [
+        {
+          "term": "police officer",
+          "meaning": "cảnh sát"
+        },
+        {
+          "term": "chef",
+          "meaning": "đầu bếp"
+        },
+        {
+          "term": "dentist",
+          "meaning": "nha sĩ"
+        },
+        {
+          "term": "vet",
+          "meaning": "bác sĩ thú y"
+        },
+        {
+          "term": "astronaut",
+          "meaning": "phi hành gia"
+        },
+        {
+          "term": "doctor",
+          "meaning": "bác sĩ"
+        },
+        {
+          "term": "hairdresser",
+          "meaning": "thợ làm tóc"
+        },
+        {
+          "term": "photographer",
+          "meaning": "nhiếp ảnh gia"
+        },
+        {
+          "term": "check",
+          "meaning": "kiểm tra"
+        },
+        {
+          "term": "help",
+          "meaning": "giúp đỡ"
+        },
+        {
+          "term": "fix",
+          "meaning": "sửa chữa"
+        },
+        {
+          "term": "cook",
+          "meaning": "nấu ăn"
+        },
+        {
+          "term": "whistle",
+          "meaning": "huýt sáo"
+        },
+        {
+          "term": "perform",
+          "meaning": "biểu diễn"
+        },
+        {
+          "term": "clean",
+          "meaning": "làm sạch"
+        },
+        {
+          "term": "study",
+          "meaning": "học tập"
+        }
+      ]
+    },
+    {
+      "unit": 7,
+      "title": "Why do we play sports?",
+      "theme": "Thể thao",
+      "words": [
+        {
+          "term": "badminton",
+          "meaning": "cầu lông"
+        },
+        {
+          "term": "baseball",
+          "meaning": "bóng chày"
+        },
+        {
+          "term": "field hockey",
+          "meaning": "khúc côn cầu sân cỏ"
+        },
+        {
+          "term": "horseback riding",
+          "meaning": "cưỡi ngựa"
+        },
+        {
+          "term": "ping-pong",
+          "meaning": "bóng bàn"
+        },
+        {
+          "term": "water polo",
+          "meaning": "bóng nước"
+        },
+        {
+          "term": "skiing",
+          "meaning": "trượt tuyết"
+        },
+        {
+          "term": "paddleboarding",
+          "meaning": "chèo ván"
+        },
+        {
+          "term": "bounce",
+          "meaning": "làm nảy"
+        },
+        {
+          "term": "catch",
+          "meaning": "bắt"
+        },
+        {
+          "term": "hit",
+          "meaning": "đánh"
+        },
+        {
+          "term": "kick",
+          "meaning": "đá"
+        },
+        {
+          "term": "throw",
+          "meaning": "ném"
+        },
+        {
+          "term": "hold",
+          "meaning": "giữ"
+        },
+        {
+          "term": "push",
+          "meaning": "đẩy"
+        },
+        {
+          "term": "pull",
+          "meaning": "kéo"
+        }
+      ]
+    },
+    {
+      "unit": 8,
+      "title": "What makes us feel good?",
+      "theme": "Răng và giác quan",
+      "words": [
+        {
+          "term": "toothpaste",
+          "meaning": "kem đánh răng"
+        },
+        {
+          "term": "toothbrush",
+          "meaning": "bàn chải đánh răng"
+        },
+        {
+          "term": "mouthwash",
+          "meaning": "nước súc miệng"
+        },
+        {
+          "term": "rinse",
+          "meaning": "súc"
+        },
+        {
+          "term": "chew",
+          "meaning": "nhai"
+        },
+        {
+          "term": "toothache",
+          "meaning": "đau răng"
+        },
+        {
+          "term": "dirty",
+          "meaning": "bẩn"
+        },
+        {
+          "term": "braces",
+          "meaning": "niềng răng"
+        },
+        {
+          "term": "hear",
+          "meaning": "nghe"
+        },
+        {
+          "term": "smell",
+          "meaning": "ngửi"
+        },
+        {
+          "term": "taste",
+          "meaning": "nếm"
+        },
+        {
+          "term": "touch",
+          "meaning": "chạm"
+        },
+        {
+          "term": "hurt",
+          "meaning": "đau"
+        },
+        {
+          "term": "feel",
+          "meaning": "cảm thấy"
+        },
+        {
+          "term": "relax",
+          "meaning": "thư giãn"
+        },
+        {
+          "term": "breathe",
+          "meaning": "thở"
+        }
+      ]
+    },
+    {
+      "unit": 9,
+      "title": "How are the seasons different?",
+      "theme": "Mùa và tháng",
+      "words": [
+        {
+          "term": "January",
+          "meaning": "tháng Một"
+        },
+        {
+          "term": "February",
+          "meaning": "tháng Hai"
+        },
+        {
+          "term": "March",
+          "meaning": "tháng Ba"
+        },
+        {
+          "term": "April",
+          "meaning": "tháng Tư"
+        },
+        {
+          "term": "May",
+          "meaning": "tháng Năm"
+        },
+        {
+          "term": "June",
+          "meaning": "tháng Sáu"
+        },
+        {
+          "term": "July",
+          "meaning": "tháng Bảy"
+        },
+        {
+          "term": "August",
+          "meaning": "tháng Tám"
+        },
+        {
+          "term": "September",
+          "meaning": "tháng Chín"
+        },
+        {
+          "term": "October",
+          "meaning": "tháng Mười"
+        },
+        {
+          "term": "November",
+          "meaning": "tháng Mười một"
+        },
+        {
+          "term": "December",
+          "meaning": "tháng Mười hai"
+        },
+        {
+          "term": "spring",
+          "meaning": "mùa xuân"
+        },
+        {
+          "term": "summer",
+          "meaning": "mùa hè"
+        },
+        {
+          "term": "fall",
+          "meaning": "mùa thu"
+        },
+        {
+          "term": "winter",
+          "meaning": "mùa đông"
+        },
+        {
+          "term": "seasons",
+          "meaning": "các mùa"
+        },
+        {
+          "term": "world",
+          "meaning": "thế giới"
+        },
+        {
+          "term": "North",
+          "meaning": "phía Bắc"
+        },
+        {
+          "term": "South",
+          "meaning": "phía Nam"
+        }
+      ]
+    },
+    {
+      "unit": 10,
+      "title": "How are we all different?",
+      "theme": "Con người",
+      "words": [
+        {
+          "term": "hardworking",
+          "meaning": "chăm chỉ"
+        },
+        {
+          "term": "shy",
+          "meaning": "nhút nhát"
+        },
+        {
+          "term": "kind",
+          "meaning": "tốt bụng"
+        },
+        {
+          "term": "helpful",
+          "meaning": "hay giúp đỡ"
+        },
+        {
+          "term": "creative",
+          "meaning": "sáng tạo"
+        },
+        {
+          "term": "chatty",
+          "meaning": "hay nói chuyện"
+        },
+        {
+          "term": "active",
+          "meaning": "năng động"
+        },
+        {
+          "term": "grumpy",
+          "meaning": "cáu kỉnh"
+        },
+        {
+          "term": "beard",
+          "meaning": "râu"
+        },
+        {
+          "term": "bald",
+          "meaning": "hói"
+        },
+        {
+          "term": "blonde",
+          "meaning": "vàng hoe"
+        },
+        {
+          "term": "straight",
+          "meaning": "thẳng"
+        },
+        {
+          "term": "curly",
+          "meaning": "xoăn"
+        },
+        {
+          "term": "wavy",
+          "meaning": "gợn sóng"
+        },
+        {
+          "term": "eyebrows",
+          "meaning": "lông mày"
+        },
+        {
+          "term": "mustache",
+          "meaning": "ria mép"
+        }
+      ]
+    },
+    {
+      "unit": 11,
+      "title": "How do we solve problems?",
+      "theme": "Toán và tư duy",
+      "words": [
+        {
+          "term": "add",
+          "meaning": "cộng"
+        },
+        {
+          "term": "subtract",
+          "meaning": "trừ"
+        },
+        {
+          "term": "sum",
+          "meaning": "tổng"
+        },
+        {
+          "term": "plus",
+          "meaning": "dấu cộng"
+        },
+        {
+          "term": "minus",
+          "meaning": "dấu trừ"
+        },
+        {
+          "term": "equals",
+          "meaning": "bằng"
+        },
+        {
+          "term": "measure",
+          "meaning": "đo"
+        },
+        {
+          "term": "problem",
+          "meaning": "bài toán/vấn đề"
+        },
+        {
+          "term": "hide",
+          "meaning": "giấu"
+        },
+        {
+          "term": "lost",
+          "meaning": "bị lạc/mất"
+        },
+        {
+          "term": "solve",
+          "meaning": "giải"
+        },
+        {
+          "term": "clue",
+          "meaning": "manh mối"
+        },
+        {
+          "term": "treasure hunt",
+          "meaning": "cuộc săn kho báu"
+        },
+        {
+          "term": "maze",
+          "meaning": "mê cung"
+        },
+        {
+          "term": "entrance",
+          "meaning": "lối vào"
+        },
+        {
+          "term": "exit",
+          "meaning": "lối ra"
+        }
+      ]
+    },
+    {
+      "unit": 12,
+      "title": "Why is it good to be outdoors?",
+      "theme": "Thiên nhiên",
+      "words": [
+        {
+          "term": "grass",
+          "meaning": "cỏ"
+        },
+        {
+          "term": "lake",
+          "meaning": "hồ"
+        },
+        {
+          "term": "hills",
+          "meaning": "đồi"
+        },
+        {
+          "term": "pond",
+          "meaning": "ao"
+        },
+        {
+          "term": "wildlife",
+          "meaning": "động vật hoang dã"
+        },
+        {
+          "term": "meadow",
+          "meaning": "đồng cỏ"
+        },
+        {
+          "term": "rocks",
+          "meaning": "đá"
+        },
+        {
+          "term": "sand",
+          "meaning": "cát"
+        },
+        {
+          "term": "fins",
+          "meaning": "chân nhái"
+        },
+        {
+          "term": "snorkel",
+          "meaning": "ống thở"
+        },
+        {
+          "term": "water wings",
+          "meaning": "phao tay"
+        },
+        {
+          "term": "air mattress",
+          "meaning": "đệm hơi"
+        },
+        {
+          "term": "hotel",
+          "meaning": "khách sạn"
+        },
+        {
+          "term": "shell",
+          "meaning": "vỏ sò"
+        },
+        {
+          "term": "seaweed",
+          "meaning": "rong biển"
+        },
+        {
+          "term": "sandcastle",
+          "meaning": "lâu đài cát"
+        }
+      ]
+    }
+  ],
+  "grade3": [
+    {
+      "unit": 1,
+      "title": "How do we find our way?",
+      "words": [
+        {
+          "term": "below",
+          "meaning": "ở phía dưới"
+        },
+        {
+          "term": "above",
+          "meaning": "ở phía trên"
+        },
+        {
+          "term": "beside",
+          "meaning": "bên cạnh"
+        },
+        {
+          "term": "close to",
+          "meaning": "gần"
+        },
+        {
+          "term": "square",
+          "meaning": "quảng trường"
+        },
+        {
+          "term": "downtown",
+          "meaning": "trung tâm thành phố"
+        },
+        {
+          "term": "building",
+          "meaning": "tòa nhà"
+        },
+        {
+          "term": "map",
+          "meaning": "bản đồ"
+        },
+        {
+          "term": "sign",
+          "meaning": "biển báo"
+        },
+        {
+          "term": "cross",
+          "meaning": "băng qua"
+        },
+        {
+          "term": "recreation center",
+          "meaning": "trung tâm giải trí"
+        },
+        {
+          "term": "art gallery",
+          "meaning": "phòng trưng bày nghệ thuật"
+        },
+        {
+          "term": "bridge",
+          "meaning": "cây cầu"
+        },
+        {
+          "term": "harbor",
+          "meaning": "bến cảng"
+        },
+        {
+          "term": "museum",
+          "meaning": "bảo tàng"
+        },
+        {
+          "term": "theater",
+          "meaning": "nhà hát"
+        },
+        {
+          "term": "up",
+          "meaning": "lên trên"
+        },
+        {
+          "term": "down",
+          "meaning": "xuống dưới"
+        },
+        {
+          "term": "along",
+          "meaning": "dọc theo"
+        },
+        {
+          "term": "around",
+          "meaning": "xung quanh"
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "How do we know about the past?",
+      "words": [
+        {
+          "term": "herbivore",
+          "meaning": "động vật ăn cỏ"
+        },
+        {
+          "term": "carnivore",
+          "meaning": "động vật ăn thịt"
+        },
+        {
+          "term": "dinosaur",
+          "meaning": "khủng long"
+        },
+        {
+          "term": "horn",
+          "meaning": "sừng"
+        },
+        {
+          "term": "tail",
+          "meaning": "đuôi"
+        },
+        {
+          "term": "extinct",
+          "meaning": "tuyệt chủng"
+        },
+        {
+          "term": "quick",
+          "meaning": "nhanh"
+        },
+        {
+          "term": "careful",
+          "meaning": "cẩn thận"
+        },
+        {
+          "term": "loud",
+          "meaning": "ồn, to"
+        },
+        {
+          "term": "dead",
+          "meaning": "đã chết"
+        },
+        {
+          "term": "pharaoh",
+          "meaning": "pha-ra-ông"
+        },
+        {
+          "term": "bury",
+          "meaning": "chôn cất"
+        },
+        {
+          "term": "archeologist",
+          "meaning": "nhà khảo cổ học"
+        },
+        {
+          "term": "treasure",
+          "meaning": "kho báu"
+        },
+        {
+          "term": "thieves",
+          "meaning": "những tên trộm"
+        },
+        {
+          "term": "dig",
+          "meaning": "đào"
+        },
+        {
+          "term": "exhibit",
+          "meaning": "hiện vật trưng bày"
+        },
+        {
+          "term": "gold",
+          "meaning": "vàng"
+        },
+        {
+          "term": "steps",
+          "meaning": "bậc thang"
+        },
+        {
+          "term": "tomb",
+          "meaning": "lăng mộ"
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "Why do we go on vacation?",
+      "words": [
+        {
+          "term": "campsite",
+          "meaning": "khu cắm trại"
+        },
+        {
+          "term": "blanket",
+          "meaning": "chăn"
+        },
+        {
+          "term": "sleeping bag",
+          "meaning": "túi ngủ"
+        },
+        {
+          "term": "camping stove",
+          "meaning": "bếp dã ngoại"
+        },
+        {
+          "term": "flashlight",
+          "meaning": "đèn pin"
+        },
+        {
+          "term": "compass",
+          "meaning": "la bàn"
+        },
+        {
+          "term": "set up a tent",
+          "meaning": "dựng lều"
+        },
+        {
+          "term": "make a fire",
+          "meaning": "nhóm lửa"
+        },
+        {
+          "term": "clean up",
+          "meaning": "dọn dẹp"
+        },
+        {
+          "term": "get lost",
+          "meaning": "bị lạc"
+        },
+        {
+          "term": "meet new people",
+          "meaning": "gặp người mới"
+        },
+        {
+          "term": "go zip lining",
+          "meaning": "trượt dây zipline"
+        },
+        {
+          "term": "go rock climbing",
+          "meaning": "leo núi đá"
+        },
+        {
+          "term": "beautiful",
+          "meaning": "đẹp"
+        },
+        {
+          "term": "go kayaking",
+          "meaning": "chèo thuyền kayak"
+        },
+        {
+          "term": "heavy",
+          "meaning": "nặng"
+        },
+        {
+          "term": "light",
+          "meaning": "nhẹ"
+        },
+        {
+          "term": "unsafe",
+          "meaning": "không an toàn"
+        },
+        {
+          "term": "waterfall",
+          "meaning": "thác nước"
+        },
+        {
+          "term": "coast",
+          "meaning": "bờ biển"
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "Why do we tell stories?",
+      "words": [
+        {
+          "term": "giant",
+          "meaning": "người khổng lồ"
+        },
+        {
+          "term": "castle",
+          "meaning": "lâu đài"
+        },
+        {
+          "term": "bowl",
+          "meaning": "cái bát"
+        },
+        {
+          "term": "coin",
+          "meaning": "đồng xu"
+        },
+        {
+          "term": "silver",
+          "meaning": "bạc"
+        },
+        {
+          "term": "enormous",
+          "meaning": "khổng lồ"
+        },
+        {
+          "term": "furious",
+          "meaning": "giận dữ"
+        },
+        {
+          "term": "prince",
+          "meaning": "hoàng tử"
+        },
+        {
+          "term": "princess",
+          "meaning": "công chúa"
+        },
+        {
+          "term": "fairy tale",
+          "meaning": "truyện cổ tích"
+        },
+        {
+          "term": "king",
+          "meaning": "vua"
+        },
+        {
+          "term": "queen",
+          "meaning": "nữ hoàng"
+        },
+        {
+          "term": "fierce",
+          "meaning": "dữ tợn"
+        },
+        {
+          "term": "wife",
+          "meaning": "vợ"
+        },
+        {
+          "term": "hero",
+          "meaning": "anh hùng"
+        },
+        {
+          "term": "husband",
+          "meaning": "chồng"
+        },
+        {
+          "term": "myth",
+          "meaning": "thần thoại"
+        },
+        {
+          "term": "legend",
+          "meaning": "truyền thuyết"
+        },
+        {
+          "term": "search",
+          "meaning": "tìm kiếm"
+        },
+        {
+          "term": "hide",
+          "meaning": "ẩn, giấu"
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "title": "Why take care of the environment?",
+      "words": [
+        {
+          "term": "country",
+          "meaning": "nông thôn"
+        },
+        {
+          "term": "fresh air",
+          "meaning": "không khí trong lành"
+        },
+        {
+          "term": "plant",
+          "meaning": "cây cối"
+        },
+        {
+          "term": "insect",
+          "meaning": "côn trùng"
+        },
+        {
+          "term": "habitat",
+          "meaning": "môi trường sống"
+        },
+        {
+          "term": "wildlife",
+          "meaning": "động vật hoang dã"
+        },
+        {
+          "term": "pretty",
+          "meaning": "xinh đẹp"
+        },
+        {
+          "term": "full",
+          "meaning": "đầy"
+        },
+        {
+          "term": "rescue",
+          "meaning": "giải cứu"
+        },
+        {
+          "term": "throw away",
+          "meaning": "vứt bỏ"
+        },
+        {
+          "term": "breathe",
+          "meaning": "hít thở"
+        },
+        {
+          "term": "lungs",
+          "meaning": "phổi"
+        },
+        {
+          "term": "burn",
+          "meaning": "đốt"
+        },
+        {
+          "term": "coal",
+          "meaning": "than đá"
+        },
+        {
+          "term": "oil",
+          "meaning": "dầu mỏ"
+        },
+        {
+          "term": "fossil fuel",
+          "meaning": "nhiên liệu hóa thạch"
+        },
+        {
+          "term": "electricity",
+          "meaning": "điện"
+        },
+        {
+          "term": "power plant",
+          "meaning": "nhà máy điện"
+        },
+        {
+          "term": "protect",
+          "meaning": "bảo vệ"
+        },
+        {
+          "term": "gadgets",
+          "meaning": "thiết bị điện tử"
+        }
+      ]
+    },
+    {
+      "unit": 6,
+      "title": "Why do we use numbers every day?",
+      "words": [
+        {
+          "term": "go shopping",
+          "meaning": "đi mua sắm"
+        },
+        {
+          "term": "gift",
+          "meaning": "quà tặng"
+        },
+        {
+          "term": "stall",
+          "meaning": "quầy hàng"
+        },
+        {
+          "term": "money",
+          "meaning": "tiền"
+        },
+        {
+          "term": "expensive",
+          "meaning": "đắt"
+        },
+        {
+          "term": "cheap",
+          "meaning": "rẻ"
+        },
+        {
+          "term": "useful",
+          "meaning": "hữu ích"
+        },
+        {
+          "term": "colorful",
+          "meaning": "nhiều màu sắc"
+        },
+        {
+          "term": "choose",
+          "meaning": "chọn"
+        },
+        {
+          "term": "pay",
+          "meaning": "thanh toán"
+        },
+        {
+          "term": "quarter",
+          "meaning": "một phần tư"
+        },
+        {
+          "term": "half",
+          "meaning": "một nửa"
+        },
+        {
+          "term": "hour",
+          "meaning": "giờ"
+        },
+        {
+          "term": "minute",
+          "meaning": "phút"
+        },
+        {
+          "term": "second",
+          "meaning": "giây"
+        },
+        {
+          "term": "century",
+          "meaning": "thế kỷ"
+        },
+        {
+          "term": "decade",
+          "meaning": "thập kỷ"
+        },
+        {
+          "term": "shadow",
+          "meaning": "bóng"
+        },
+        {
+          "term": "invent",
+          "meaning": "phát minh"
+        },
+        {
+          "term": "tell the time",
+          "meaning": "xem, nói giờ"
+        }
+      ]
+    },
+    {
+      "unit": 7,
+      "title": "What do we do for entertainment?",
+      "words": [
+        {
+          "term": "chess",
+          "meaning": "cờ vua"
+        },
+        {
+          "term": "band",
+          "meaning": "ban nhạc"
+        },
+        {
+          "term": "musician",
+          "meaning": "nhạc công"
+        },
+        {
+          "term": "magazine",
+          "meaning": "tạp chí"
+        },
+        {
+          "term": "headphones",
+          "meaning": "tai nghe"
+        },
+        {
+          "term": "hang out",
+          "meaning": "đi chơi cùng nhau"
+        },
+        {
+          "term": "afraid",
+          "meaning": "sợ hãi"
+        },
+        {
+          "term": "famous",
+          "meaning": "nổi tiếng"
+        },
+        {
+          "term": "traditional",
+          "meaning": "truyền thống"
+        },
+        {
+          "term": "modern",
+          "meaning": "hiện đại"
+        },
+        {
+          "term": "orchestra",
+          "meaning": "dàn nhạc giao hưởng"
+        },
+        {
+          "term": "cello",
+          "meaning": "đàn cello"
+        },
+        {
+          "term": "drum",
+          "meaning": "trống"
+        },
+        {
+          "term": "clarinet",
+          "meaning": "kèn clarinet"
+        },
+        {
+          "term": "saxophone",
+          "meaning": "kèn saxophone"
+        },
+        {
+          "term": "trombone",
+          "meaning": "kèn trombone"
+        },
+        {
+          "term": "trumpet",
+          "meaning": "kèn trumpet"
+        },
+        {
+          "term": "string",
+          "meaning": "dây đàn"
+        },
+        {
+          "term": "dream",
+          "meaning": "giấc mơ"
+        },
+        {
+          "term": "exciting",
+          "meaning": "hào hứng"
+        }
+      ]
+    },
+    {
+      "unit": 8,
+      "title": "Why is space interesting?",
+      "words": [
+        {
+          "term": "Moon",
+          "meaning": "Mặt Trăng"
+        },
+        {
+          "term": "bright",
+          "meaning": "sáng"
+        },
+        {
+          "term": "worried",
+          "meaning": "lo lắng"
+        },
+        {
+          "term": "cry",
+          "meaning": "khóc"
+        },
+        {
+          "term": "stick",
+          "meaning": "cành cây"
+        },
+        {
+          "term": "owl",
+          "meaning": "cú mèo"
+        },
+        {
+          "term": "in a hurry",
+          "meaning": "đang vội"
+        },
+        {
+          "term": "frightened",
+          "meaning": "sợ hãi"
+        },
+        {
+          "term": "bump",
+          "meaning": "va phải"
+        },
+        {
+          "term": "rude",
+          "meaning": "thô lỗ"
+        },
+        {
+          "term": "space station",
+          "meaning": "trạm vũ trụ"
+        },
+        {
+          "term": "rocket",
+          "meaning": "tên lửa"
+        },
+        {
+          "term": "scientist",
+          "meaning": "nhà khoa học"
+        },
+        {
+          "term": "float",
+          "meaning": "trôi, lơ lửng"
+        },
+        {
+          "term": "laboratory",
+          "meaning": "phòng thí nghiệm"
+        },
+        {
+          "term": "launch",
+          "meaning": "phóng"
+        },
+        {
+          "term": "orbit",
+          "meaning": "quỹ đạo"
+        },
+        {
+          "term": "telescope",
+          "meaning": "kính thiên văn"
+        },
+        {
+          "term": "planet",
+          "meaning": "hành tinh"
+        },
+        {
+          "term": "spacesuit",
+          "meaning": "bộ đồ vũ trụ"
+        }
+      ]
+    },
+    {
+      "unit": 9,
+      "title": "How are homes different?",
+      "words": [
+        {
+          "term": "roof",
+          "meaning": "mái nhà"
+        },
+        {
+          "term": "balcony",
+          "meaning": "ban công"
+        },
+        {
+          "term": "attic",
+          "meaning": "gác mái"
+        },
+        {
+          "term": "view",
+          "meaning": "quang cảnh"
+        },
+        {
+          "term": "wood",
+          "meaning": "gỗ"
+        },
+        {
+          "term": "stone",
+          "meaning": "đá"
+        },
+        {
+          "term": "sweep",
+          "meaning": "quét"
+        },
+        {
+          "term": "build",
+          "meaning": "xây dựng"
+        },
+        {
+          "term": "steep",
+          "meaning": "dốc"
+        },
+        {
+          "term": "flat",
+          "meaning": "bằng phẳng"
+        },
+        {
+          "term": "narrow",
+          "meaning": "hẹp"
+        },
+        {
+          "term": "wide",
+          "meaning": "rộng"
+        },
+        {
+          "term": "concrete",
+          "meaning": "bê tông"
+        },
+        {
+          "term": "bricks",
+          "meaning": "gạch"
+        },
+        {
+          "term": "metal",
+          "meaning": "kim loại"
+        },
+        {
+          "term": "plastic",
+          "meaning": "nhựa"
+        },
+        {
+          "term": "move",
+          "meaning": "chuyển nhà, di chuyển"
+        },
+        {
+          "term": "stairs",
+          "meaning": "cầu thang bộ"
+        },
+        {
+          "term": "elevator",
+          "meaning": "thang máy"
+        },
+        {
+          "term": "basement",
+          "meaning": "tầng hầm"
+        }
+      ]
+    },
+    {
+      "unit": 10,
+      "title": "How do we take care of our body?",
+      "words": [
+        {
+          "term": "stomach",
+          "meaning": "dạ dày, bụng"
+        },
+        {
+          "term": "back",
+          "meaning": "lưng"
+        },
+        {
+          "term": "neck",
+          "meaning": "cổ"
+        },
+        {
+          "term": "shoulder",
+          "meaning": "vai"
+        },
+        {
+          "term": "fever",
+          "meaning": "sốt"
+        },
+        {
+          "term": "bandage",
+          "meaning": "băng gạc"
+        },
+        {
+          "term": "take medicine",
+          "meaning": "uống thuốc"
+        },
+        {
+          "term": "rest",
+          "meaning": "nghỉ ngơi"
+        },
+        {
+          "term": "pale",
+          "meaning": "xanh xao"
+        },
+        {
+          "term": "sick",
+          "meaning": "ốm"
+        },
+        {
+          "term": "muscles",
+          "meaning": "cơ bắp"
+        },
+        {
+          "term": "skin",
+          "meaning": "da"
+        },
+        {
+          "term": "brain",
+          "meaning": "não"
+        },
+        {
+          "term": "heart",
+          "meaning": "tim"
+        },
+        {
+          "term": "cold",
+          "meaning": "cảm lạnh"
+        },
+        {
+          "term": "cough",
+          "meaning": "ho"
+        },
+        {
+          "term": "sneeze",
+          "meaning": "hắt hơi"
+        },
+        {
+          "term": "vaccination",
+          "meaning": "tiêm chủng"
+        },
+        {
+          "term": "spread",
+          "meaning": "lây lan"
+        },
+        {
+          "term": "save your life",
+          "meaning": "cứu mạng"
+        }
+      ]
+    },
+    {
+      "unit": 11,
+      "title": "Why is Antarctica special?",
+      "words": [
+        {
+          "term": "South Pole",
+          "meaning": "Nam Cực"
+        },
+        {
+          "term": "penguin",
+          "meaning": "chim cánh cụt"
+        },
+        {
+          "term": "expedition",
+          "meaning": "chuyến thám hiểm"
+        },
+        {
+          "term": "temperature",
+          "meaning": "nhiệt độ"
+        },
+        {
+          "term": "degrees",
+          "meaning": "độ"
+        },
+        {
+          "term": "ice",
+          "meaning": "băng"
+        },
+        {
+          "term": "continent",
+          "meaning": "châu lục"
+        },
+        {
+          "term": "freezing",
+          "meaning": "lạnh cóng"
+        },
+        {
+          "term": "crack",
+          "meaning": "vết nứt"
+        },
+        {
+          "term": "deep",
+          "meaning": "sâu"
+        },
+        {
+          "term": "fur",
+          "meaning": "lông thú"
+        },
+        {
+          "term": "octopus",
+          "meaning": "bạch tuộc"
+        },
+        {
+          "term": "hunt",
+          "meaning": "săn mồi"
+        },
+        {
+          "term": "krill",
+          "meaning": "loài nhuyễn thể krill"
+        },
+        {
+          "term": "feather",
+          "meaning": "lông vũ"
+        },
+        {
+          "term": "layer",
+          "meaning": "lớp"
+        },
+        {
+          "term": "migrate",
+          "meaning": "di cư"
+        },
+        {
+          "term": "poisonous",
+          "meaning": "có độc"
+        },
+        {
+          "term": "wing",
+          "meaning": "cánh"
+        },
+        {
+          "term": "waterproof",
+          "meaning": "không thấm nước"
+        }
+      ]
+    },
+    {
+      "unit": 12,
+      "title": "Why do we have festivals?",
+      "words": [
+        {
+          "term": "lantern",
+          "meaning": "đèn lồng"
+        },
+        {
+          "term": "parade",
+          "meaning": "diễu hành"
+        },
+        {
+          "term": "emperor",
+          "meaning": "hoàng đế"
+        },
+        {
+          "term": "stilt walker",
+          "meaning": "người đi cà kheo"
+        },
+        {
+          "term": "annoying",
+          "meaning": "gây khó chịu"
+        },
+        {
+          "term": "hang",
+          "meaning": "treo"
+        },
+        {
+          "term": "crowded",
+          "meaning": "đông đúc"
+        },
+        {
+          "term": "costume",
+          "meaning": "trang phục"
+        },
+        {
+          "term": "furry",
+          "meaning": "có nhiều lông"
+        },
+        {
+          "term": "fireworks",
+          "meaning": "pháo hoa"
+        },
+        {
+          "term": "eel",
+          "meaning": "lươn"
+        },
+        {
+          "term": "cathedral",
+          "meaning": "nhà thờ lớn"
+        },
+        {
+          "term": "bell",
+          "meaning": "chuông"
+        },
+        {
+          "term": "get married",
+          "meaning": "kết hôn"
+        },
+        {
+          "term": "water fight",
+          "meaning": "trò té nước"
+        },
+        {
+          "term": "spray",
+          "meaning": "xịt, phun"
+        },
+        {
+          "term": "have a day off",
+          "meaning": "được nghỉ một ngày"
+        },
+        {
+          "term": "grown-up",
+          "meaning": "người lớn"
+        },
+        {
+          "term": "sticky",
+          "meaning": "dính"
+        },
+        {
+          "term": "coconut",
+          "meaning": "dừa"
+        }
+      ]
+    }
+  ]
+}

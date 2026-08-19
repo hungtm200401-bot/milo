@@ -1,0 +1,25 @@
+{
+  "validatorVersion": "60.23.0",
+  "generatedAt": "2026-08-19T06:35:33.151Z",
+  "passed": true,
+  "totals": {
+    "runtimeTasks": 4178,
+    "runtimeBookExercises": 72,
+    "catalogBookExercises": 78,
+    "directVisualTasks": 30,
+    "verifiedMapTasks": 48,
+    "blockedOcrRows": 335,
+    "storedLegacyExamples": 0,
+    "firstHintLeaks": 0
+  },
+  "checks": [
+    "no answer data attribute",
+    "no legacy task example render",
+    "arrange tokens cannot keep correct order",
+    "answer reveal is gated",
+    "book teaching examples differ from active prompt and answer",
+    "unreviewed OCR is not activated",
+    "first hint does not reveal multi-word answer"
+  ],
+  "failures": []
+}

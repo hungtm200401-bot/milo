@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 520" width="100%" height="100%">
+  <defs>
+    <style>
+      @keyframes vipFloat {
+        0%, 100% {
+          transform: translateY(0px) rotate(0deg) scale(1);
+        }
+        50% {
+          transform: translateY(-18px) rotate(3deg) scale(1.06);
+        }
+      }
+      @keyframes vipShadow {
+        0%, 100% {
+          transform: scale(1);
+          opacity: 0.35;
+        }
+        50% {
+          transform: scale(0.68);
+          opacity: 0.12;
+        }
+      }
+      @keyframes vipAuraSpin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      @keyframes vipPrismBeam {
+        0% { transform: translateX(-420px) skewX(-25deg); opacity: 0; }
+        25% { opacity: 0.75; }
+        100% { transform: translateX(520px) skewX(-25deg); opacity: 0; }
+      }
+
+      .vip3d_g3_u9_20-char {
+        transform-origin: 230px 220px;
+        animation: vipFloat 3.2s ease-in-out infinite;
+      }
+      .vip3d_g3_u9_20-shadow {
+        transform-origin: 230px 310px;
+        animation: vipShadow 3.2s ease-in-out infinite;
+      }
+      .vip3d_g3_u9_20-aura {
+        transform-origin: 230px 215px;
+        animation: vipAuraSpin 12s linear infinite;
+      }
+      .vip3d_g3_u9_20-prism {
+        animation: vipPrismBeam 4.5s ease-in-out infinite;
+      }
+    </style>
+
+    <linearGradient id="vip3d_g3_u9_20-sky" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C3AED" />
+      <stop offset="100%" stop-color="#A78BFA" />
+    </linearGradient>
+
+    <radialGradient id="vip3d_g3_u9_20-glowSphere" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="1" />
+      <stop offset="40%" stop-color="#FEF08A" stop-opacity="0.9" />
+      <stop offset="85%" stop-color="#A78BFA" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="vip3d_g3_u9_20-cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="70%" stop-color="#F8FAFC" />
+      <stop offset="100%" stop-color="#EDE9FE" />
+    </linearGradient>
+
+    <linearGradient id="vip3d_g3_u9_20-prismGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0" />
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="vip3d_g3_u9_20-gradMetal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2E8F0" />
+      <stop offset="50%" stop-color="#94A3B8" />
+      <stop offset="100%" stop-color="#475569" />
+    </linearGradient>
+
+    <filter id="vip3d_g3_u9_20-cardShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#0F172A" flood-opacity="0.25" />
+    </filter>
+
+    <filter id="vip3d_g3_u9_20-charGlow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#6D28D9" flood-opacity="0.4" />
+    </filter>
+
+    <clipPath id="vip3d_g3_u9_20-clip">
+      <rect x="18" y="18" width="424" height="484" rx="34" />
+    </clipPath>
+  </defs>
+
+  <!-- Outer 3D Container -->
+  <rect width="460" height="520" rx="42" fill="url(#vip3d_g3_u9_20-sky)" />
+
+  <!-- Main Card Body -->
+  <g clip-path="url(#vip3d_g3_u9_20-clip)">
+    <rect x="18" y="18" width="424" height="484" rx="34" fill="url(#vip3d_g3_u9_20-cardBg)" filter="url(#vip3d_g3_u9_20-cardShadow)" />
+
+    <!-- Top Scene Horizon Arc -->
+    <path d="M 18 18 L 442 18 L 442 120 Q 230 155 18 120 Z" fill="url(#vip3d_g3_u9_20-sky)" opacity="0.22" />
+
+    <!-- Light Sweep Shimmer Animation -->
+    <rect class="vip3d_g3_u9_20-prism" x="-50" y="18" width="140" height="484" fill="url(#vip3d_g3_u9_20-prismGrad)" />
+
+    <!-- Top Badge -->
+    <g>
+      <rect x="42" y="32" width="376" height="38" rx="19" fill="#FFFFFF" stroke="#8B5CF6" stroke-width="2.5" />
+      <text x="230" y="56" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="900" fill="#6D28D9">
+        🌟 LỚP 3 · UNIT 9: HOW ARE HOMES DIFFERENT?
+      </text>
+    </g>
+
+    <!-- 3D Glow Sphere & Rotating Star Ring -->
+    <g>
+      <circle cx="230" cy="215" r="95" fill="url(#vip3d_g3_u9_20-glowSphere)" />
+      <circle cx="230" cy="215" r="82" fill="#FFFFFF" stroke="#8B5CF6" stroke-width="3.5" stroke-dasharray="12 6" opacity="0.8" />
+    </g>
+
+    <!-- Rotating Sparkle Stars -->
+    <g class="vip3d_g3_u9_20-aura">
+      <path d="M 230 115 L 235 125 L 245 128 L 235 131 L 230 141 L 225 131 L 215 128 L 225 125 Z" fill="#FBBF24" />
+      <path d="M 325 215 L 330 223 L 338 226 L 330 229 L 325 237 L 320 229 L 312 226 L 320 223 Z" fill="#F472B6" />
+      <path d="M 230 305 L 235 313 L 243 316 L 235 319 L 230 327 L 225 319 L 217 316 L 225 313 Z" fill="#38BDF8" />
+      <path d="M 135 215 L 140 223 L 148 226 L 140 229 L 135 237 L 130 229 L 122 226 L 130 223 Z" fill="#34D399" />
+    </g>
+
+    <!-- 3D Ground Shadow -->
+    <ellipse class="vip3d_g3_u9_20-shadow" cx="230" cy="310" rx="72" ry="16" fill="#0F172A" />
+
+    <!-- 3D BESPOKE VECTOR ARTWORK (NO EMOJIS) -->
+    <g class="vip3d_g3_u9_20-char" filter="url(#vip3d_g3_u9_20-charGlow)">
+      
+    <!-- 3D VIP Diamond Crystal Shield -->
+    <g>
+      <polygon points="230,125 305,170 305,260 230,305 155,260 155,170" fill="url(#vip3d_g3_u9_20-cardBg)" stroke="#8B5CF6" stroke-width="6" />
+      <circle cx="230" cy="215" r="48" fill="url(#vip3d_g3_u9_20-sky)" opacity="0.9" />
+      <path d="M 230 180 L 237 202 L 260 206 L 242 222 L 248 245 L 230 232 L 212 245 L 218 222 L 200 206 L 223 202 Z" fill="#FDE047" stroke="#CA8A04" stroke-width="2.5" />
+      <circle cx="185" cy="165" r="5" fill="#FFFFFF" />
+      <circle cx="275" cy="165" r="6" fill="#FFFFFF" />
+      <circle cx="280" cy="265" r="5" fill="#FFFFFF" />
+      <circle cx="180" cy="265" r="6" fill="#FFFFFF" />
+    </g>
+    </g>
+
+    <!-- Vocabulary Term (Large Bold Font) -->
+    <text x="230" y="356" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="34" font-weight="900" fill="#0F172A">
+      basement
+    </text>
+
+    <!-- Vietnamese Meaning Pill -->
+    <g>
+      <rect x="55" y="380" width="350" height="46" rx="23" fill="#FFFFFF" stroke="#8B5CF6" stroke-width="2.5" />
+      <rect x="60" y="385" width="340" height="36" rx="18" fill="#EDE9FE" />
+      <text x="230" y="410" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="19" font-weight="800" fill="#6D28D9">
+        👉 tầng hầm
+      </text>
+    </g>
+
+    <!-- Interactive Total Physical Response (TPR) Prompt -->
+    <g>
+      <rect x="80" y="438" width="300" height="26" rx="13" fill="#FEF3C7" stroke="#FDE68A" stroke-width="1.5" />
+      <text x="230" y="455" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="700" fill="#B45309">
+        🐾 Chạm để nghe phát âm &amp; tương tác 3D
+      </text>
+    </g>
+
+    <!-- Studio Brand Footer -->
+    <text x="230" y="488" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="700" fill="#94A3B8">
+      ✨ Milo 3D Interactive Visual Learning Studio
+    </text>
+  </g>
+</svg>

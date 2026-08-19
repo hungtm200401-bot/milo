@@ -1,0 +1,23 @@
+MILO ENGLISH ADVENTURE - FILE CAU HINH
+
+File app thuc su doc: .env
+
+Cach mo nhanh:
+1. Bam dup MO_FILE_CAU_HINH_ENV.bat
+2. Dien cac dong can thiet.
+3. Luu Notepad.
+4. Dong app Milo va mo lai EXE.
+
+Cac bien trong .env:
+MILO_AI_API_KEY=
+MILO_ADMIN_PASSWORD=
+MILO_BANK_NAME=
+MILO_BANK_ACCOUNT_NUMBER=
+MILO_BANK_ACCOUNT_NAME=
+MILO_BANK_QR_IMAGE=
+MILO_DATABASE_DIR=
+
+Luu y:
+- Khong gui file .env co API key/mat khau cho nguoi khac.
+- .env co the khong hien ro trong Windows vi ten file bat dau bang dau cham.
+- .env.example la mau an toan de tao lai file .env.

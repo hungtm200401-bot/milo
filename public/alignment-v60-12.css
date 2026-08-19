@@ -1,0 +1,591 @@
+/* V60.12.0 — đối chiếu 48 Unit Now I Know và ngân hàng nội dung mở rộng. */
+.scope-coverage-strip {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  margin: 14px 0;
+}
+
+.scope-coverage-strip > div {
+  display: grid;
+  gap: 5px;
+  min-width: 0;
+  padding: 14px;
+  border: 1px solid #cfd9ee;
+  border-radius: 16px;
+  background: #fff;
+}
+
+.scope-coverage-strip small {
+  color: #66758d;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+}
+
+.scope-coverage-strip b {
+  color: #17233b;
+  font-size: 15px;
+}
+
+.scope-word-bank,
+.scope-objectives {
+  margin: 18px 0 0;
+  overflow: hidden;
+  border: 1px solid #c9bafd;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #f8f5ff, #f2fbff);
+  box-shadow: 0 13px 28px #5642a113;
+}
+
+.scope-word-bank > summary,
+.scope-objectives > summary {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 12px;
+  padding: 17px 19px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.scope-word-bank > summary::-webkit-details-marker,
+.scope-objectives > summary::-webkit-details-marker {
+  display: none;
+}
+
+.scope-word-bank > summary > span,
+.scope-objectives > summary > span {
+  width: 43px;
+  height: 43px;
+  display: grid;
+  place-items: center;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 8px 18px #4b3f8b19;
+  font-size: 21px;
+}
+
+.scope-word-bank summary div,
+.scope-objectives summary div {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+}
+
+.scope-word-bank summary b,
+.scope-objectives summary b {
+  color: #17233b;
+  font-size: 16px;
+}
+
+.scope-word-bank summary small,
+.scope-objectives summary small {
+  color: #69778d;
+  font-size: 12px;
+}
+
+.scope-word-bank summary em,
+.scope-objectives summary em {
+  padding: 7px 10px;
+  border-radius: 999px;
+  background: #745bd8;
+  color: #fff;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.scope-word-bank[open] summary em::before,
+.scope-objectives[open] summary em::before {
+  content: "Thu gọn";
+  font-size: 0;
+}
+
+.scope-word-bank[open] summary em,
+.scope-objectives[open] summary em {
+  background: #4e5d73;
+}
+
+.scope-word-intro {
+  margin: 0 18px 12px;
+  padding: 13px 15px;
+  border-radius: 14px;
+  background: #fff;
+}
+
+.scope-word-intro p {
+  margin: 4px 0 0;
+  color: #637088;
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.scope-vocabulary-groups {
+  display: grid;
+  gap: 11px;
+  padding: 0 18px 18px;
+}
+
+.scope-vocabulary-groups article {
+  padding: 14px;
+  border: 1px solid #dae2f0;
+  border-radius: 15px;
+  background: #fff;
+}
+
+.scope-vocabulary-groups article > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.scope-vocabulary-groups article > div b {
+  color: #473991;
+  font-size: 12px;
+}
+
+.scope-vocabulary-groups article > div span {
+  color: #7c8798;
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.scope-vocabulary-groups section {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.scope-term {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 9px;
+  min-width: 0;
+  padding: 9px;
+  border: 1px solid #dce2ed;
+  border-radius: 13px;
+  background: #f7f9fc;
+}
+
+.scope-term.active {
+  border-color: #aa99ed;
+  background: #f2efff;
+}
+
+.scope-term.mastered {
+  border-color: #8bd4a2;
+  background: #f0fff5;
+}
+
+.scope-term > button {
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  border: 0;
+  border-radius: 11px;
+  background: #fff;
+  color: #36445c;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.scope-term > div {
+  display: grid;
+  gap: 2px;
+  min-width: 0;
+}
+
+.scope-term > div b {
+  color: #263451;
+  font-size: 12px;
+}
+
+.scope-term > div small {
+  color: #6351b3;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.scope-term > div em {
+  overflow: hidden;
+  color: #718097;
+  font-size: 9px;
+  font-style: normal;
+  line-height: 1.35;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.scope-term > label {
+  display: grid;
+  justify-items: center;
+  gap: 2px;
+  color: #728096;
+  font-size: 8px;
+  font-weight: 850;
+  cursor: pointer;
+}
+
+.scope-term > label input {
+  width: 17px;
+  height: 17px;
+  accent-color: #32b96b;
+}
+
+.source-knowledge-panel {
+  margin: 18px 0;
+  overflow: hidden;
+  border: 1px solid #b9d9ef;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #f3fbff, #f8fff3);
+}
+
+.source-knowledge-panel > summary {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 18px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.source-knowledge-panel > summary::-webkit-details-marker { display: none; }
+.source-knowledge-panel > summary > span { font-size: 23px; }
+.source-knowledge-panel > summary > div { display: grid; gap: 3px; }
+.source-knowledge-panel > summary b { color: #173b58; font-size: 15px; }
+.source-knowledge-panel > summary small { color: #607b8e; font-size: 11px; }
+.source-knowledge-panel > summary em {
+  padding: 6px 9px;
+  border-radius: 999px;
+  background: #247e58;
+  color: #fff;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.source-evidence-grid,
+.source-skill-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 9px;
+  padding: 0 18px 10px;
+}
+
+.source-evidence-grid article,
+.source-skill-grid article {
+  padding: 13px;
+  border: 1px solid #d8e7ef;
+  border-radius: 14px;
+  background: #fff;
+}
+
+.source-evidence-grid span { color: #1671a4; font-size: 9px; font-weight: 950; }
+.source-evidence-grid h3 { margin: 4px 0; color: #193d59; font-size: 14px; }
+.source-evidence-grid p,
+.source-skill-grid p { margin: 4px 0; color: #566d80; font-size: 11px; line-height: 1.5; }
+.source-evidence-grid small { color: #8393a2; font-size: 8px; }
+.source-skill-grid b { color: #3d4c75; font-size: 11px; }
+.source-limit-note {
+  margin: 0 18px 17px;
+  padding: 11px 13px;
+  border-radius: 12px;
+  background: #fff7de;
+  color: #715f28;
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+.scope-objectives > div {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  padding: 0 18px 18px;
+}
+
+.scope-objectives article {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 10px;
+  padding: 13px;
+  border: 1px solid #dbe2ef;
+  border-radius: 14px;
+  background: #fff;
+}
+
+.scope-objectives article > span {
+  font-size: 19px;
+}
+
+.scope-objectives article b {
+  color: #41318f;
+  font-size: 12px;
+}
+
+.scope-objectives article p {
+  margin: 4px 0 0;
+  color: #5f6d83;
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.curriculum-panel {
+  padding: 0;
+  overflow: hidden;
+}
+
+.curriculum-head {
+  align-items: end;
+  padding: 20px 22px;
+  background:
+    radial-gradient(circle at 95% 0, #fff1b6 0 7%, transparent 7.5%),
+    linear-gradient(135deg, #f4f0ff, #eefaff);
+}
+
+.curriculum-head p:not(.eyebrow) {
+  max-width: 900px;
+  margin: 5px 0 0;
+  color: #607087;
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.curriculum-head label {
+  display: grid;
+  gap: 6px;
+  min-width: 150px;
+  color: #536179;
+  font-size: 11px;
+  font-weight: 900;
+}
+
+.curriculum-head select {
+  min-height: 40px;
+  padding: 0 12px;
+  border: 1px solid #cfc5f7;
+  border-radius: 11px;
+  background: #fff;
+  color: #25324a;
+  font-weight: 800;
+}
+
+.curriculum-summary {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  padding: 16px 20px 0;
+}
+
+.curriculum-summary article {
+  display: grid;
+  gap: 4px;
+  padding: 15px;
+  border: 1px solid #dbe1ed;
+  border-radius: 15px;
+  background: #fff;
+}
+
+.curriculum-summary small {
+  color: #68768c;
+  font-size: 9px;
+  font-weight: 950;
+  letter-spacing: 0.07em;
+}
+
+.curriculum-summary b {
+  color: #553dbc;
+  font-size: 22px;
+}
+
+.curriculum-summary span {
+  color: #6b788d;
+  font-size: 10px;
+  font-weight: 750;
+}
+
+.curriculum-legal {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 12px;
+  margin: 13px 20px;
+  padding: 14px 16px;
+  border: 1px solid #f1ce6c;
+  border-radius: 15px;
+  background: #fff9e7;
+}
+
+.curriculum-legal > span {
+  font-size: 23px;
+}
+
+.curriculum-legal b {
+  color: #634c12;
+  font-size: 12px;
+}
+
+.curriculum-legal p {
+  margin: 4px 0 0;
+  color: #796833;
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.curriculum-table-wrap {
+  max-height: 680px;
+  border-top: 1px solid #e5e9f1;
+}
+
+.curriculum-table {
+  min-width: 1320px;
+}
+
+.curriculum-table th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: #f4f6fb;
+}
+
+.curriculum-table td {
+  min-width: 145px;
+  vertical-align: top;
+}
+
+.curriculum-table td:nth-child(2) {
+  min-width: 215px;
+}
+
+.curriculum-table td:nth-child(3),
+.curriculum-table td:nth-child(4),
+.curriculum-table td:nth-child(5) {
+  min-width: 200px;
+}
+
+.curriculum-table td > b,
+.curriculum-table td > small {
+  display: block;
+}
+
+.curriculum-table td > small {
+  margin-top: 4px;
+  color: #758196;
+  font-size: 10px;
+  line-height: 1.4;
+}
+
+.curriculum-level {
+  display: inline-flex;
+  margin-bottom: 7px;
+  padding: 5px 7px;
+  border-radius: 999px;
+  background: #e9e3ff;
+  color: #563bb8;
+  font-size: 9px;
+  font-weight: 950;
+}
+
+.coverage-ready,
+.coverage-licensed {
+  display: inline-flex;
+  padding: 5px 8px;
+  border-radius: 999px;
+  background: #e8f8ee;
+  color: #157244;
+  font-size: 9px;
+  font-weight: 900;
+}
+
+.coverage-licensed {
+  background: #fff2d5;
+  color: #805b08;
+}
+
+.curriculum-details {
+  margin-top: 8px;
+}
+
+.curriculum-details summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 7px;
+  border: 1px solid #d8deea;
+  border-radius: 8px;
+  background: #f8fafc;
+  color: #53627b;
+  font-size: 9px;
+  font-weight: 850;
+  cursor: pointer;
+}
+
+.curriculum-details summary span {
+  display: grid;
+  min-width: 18px;
+  height: 18px;
+  place-items: center;
+  border-radius: 999px;
+  background: #e9e3ff;
+  color: #543ab7;
+  font-size: 8px;
+}
+
+.curriculum-details > div {
+  display: grid;
+  gap: 5px;
+  min-width: 260px;
+  max-width: 430px;
+  margin-top: 7px;
+  padding: 9px;
+  border: 1px solid #e1e5ed;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 10px 24px #202c4513;
+}
+
+.curriculum-details p {
+  margin: 0;
+  color: #55637a;
+  font-size: 9px;
+  line-height: 1.45;
+}
+
+@media (max-width: 900px) {
+  .scope-coverage-strip {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .curriculum-summary {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 620px) {
+  .scope-coverage-strip,
+  .scope-objectives > div,
+  .scope-vocabulary-groups section,
+  .source-evidence-grid,
+  .source-skill-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .scope-word-bank > summary,
+  .scope-objectives > summary,
+  .source-knowledge-panel > summary {
+    grid-template-columns: auto 1fr;
+  }
+
+  .scope-word-bank summary em,
+  .scope-objectives summary em,
+  .source-knowledge-panel summary em {
+    grid-column: 1 / -1;
+    justify-self: start;
+  }
+
+  .curriculum-summary {
+    grid-template-columns: 1fr;
+  }
+}

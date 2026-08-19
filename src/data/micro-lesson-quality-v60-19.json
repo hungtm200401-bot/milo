@@ -1,0 +1,56 @@
+{
+  "version": "60.19.0",
+  "generatedAt": "2026-08-04T09:59:16.554Z",
+  "totalStudentSections": 443,
+  "passedSections": 443,
+  "failedSections": 0,
+  "minimumThreeActivitiesCoverage": 443,
+  "fiveQuestionQuickCheckCoverage": 443,
+  "tasksWithClearInstruction": 4634,
+  "tasksWithExample": 4634,
+  "sampleUnits": [
+    {
+      "grade": 2,
+      "unit": 1,
+      "sectionsChecked": 18,
+      "passed": 18,
+      "types": "Big Question | Vocabulary 1 | Pronunciation | Reading 1 | Reading Skill | Grammar 1 | Grammar Practice 1 | Listening | Speaking/Communication | Vocabulary 2 | Reading 2 | Grammar 2 | Grammar Practice 2 | Writing | Writing Skill | Review/Unit Check | Value | Project"
+    },
+    {
+      "grade": 2,
+      "unit": 6,
+      "sectionsChecked": 18,
+      "passed": 18,
+      "types": "Big Question | Vocabulary 1 | Pronunciation | Reading 1 | Reading Skill | Grammar 1 | Grammar Practice 1 | Listening | Speaking/Communication | Vocabulary 2 | Reading 2 | Grammar 2 | Grammar Practice 2 | Writing | Writing Skill | Project | Review/Unit Check | Value"
+    },
+    {
+      "grade": 2,
+      "unit": 12,
+      "sectionsChecked": 18,
+      "passed": 18,
+      "types": "Big Question | Vocabulary 1 | Pronunciation | Reading 1 | Reading Skill | Grammar 1 | Grammar Practice 1 | Listening | Speaking/Communication | Vocabulary 2 | Reading 2 | Grammar 2 | Grammar Practice 2 | Writing | Writing Skill | Value | Project | Review/Unit Check"
+    },
+    {
+      "grade": 3,
+      "unit": 1,
+      "sectionsChecked": 19,
+      "passed": 19,
+      "types": "Big Question | CLIL/Content | Vocabulary 1 | Reading 1 | Reading Skill | Vocabulary in Reading | Grammar 1 | Grammar Practice 1 | Listening | Speaking/Communication | Vocabulary 2 | Reading 2 | Pronunciation | Grammar 2 | Grammar Practice 2 | Writing | Project | Review/Unit Check | Writing Skill"
+    },
+    {
+      "grade": 3,
+      "unit": 6,
+      "sectionsChecked": 19,
+      "passed": 19,
+      "types": "Big Question | CLIL/Content | Vocabulary 1 | Reading 1 | Vocabulary in Reading | Reading Skill | Listening | Grammar 1 | Grammar Practice 1 | Speaking/Communication | Vocabulary 2 | Reading 2 | Pronunciation | Grammar 2 | Grammar Practice 2 | Writing | Project | Writing Skill | Review/Unit Check"
+    },
+    {
+      "grade": 3,
+      "unit": 12,
+      "sectionsChecked": 18,
+      "passed": 18,
+      "types": "Big Question | CLIL/Content | Vocabulary 1 | Reading 1 | Vocabulary in Reading | Reading Skill | Grammar 1 | Grammar Practice 1 | Listening | Speaking/Communication | Reading 2 | Vocabulary 2 | Pronunciation | Grammar 2 | Grammar Practice 2 | Writing | Project | Review/Unit Check"
+    }
+  ],
+  "errors": []
+}

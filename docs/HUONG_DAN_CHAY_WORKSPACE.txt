@@ -1,0 +1,34 @@
+====================================================================
+           MILO ENGLISH ADVENTURE - HƯỚNG DẪN CHẠY WORKSPACE
+====================================================================
+Phiên bản: V60.25.0-LEARNING-FOCUS
+Môi trường: Ứng dụng Windows native Milo
+Ngày cập nhật: 10/08/2026
+
+--------------------------------------------------------------------
+1. CÁCH MỞ ỨNG DỤNG
+--------------------------------------------------------------------
+- Mở duy nhất file: bin\Milo.exe
+- Milo tự khởi động dịch vụ nội bộ cần thiết và hiển thị trong một cửa sổ
+  Windows riêng. Không cần mở terminal hoặc trình duyệt.
+
+--------------------------------------------------------------------
+2. KHU VỰC TRONG MILO
+--------------------------------------------------------------------
+- Milo.exe luôn mở thẳng khu học viên trong cửa sổ Windows riêng.
+- Không còn thanh điều hướng native Học viên / Quản trị ở đầu cửa sổ.
+- Khu quản trị là khu nội bộ dành cho quản trị viên, không hiển thị trong
+  cửa sổ học của trẻ.
+- Không có file .exe riêng cho quản trị và không có liên kết nào mở trình duyệt ngoài Milo.
+
+--------------------------------------------------------------------
+3. CÁCH ĐÓNG ỨNG DỤNG
+--------------------------------------------------------------------
+- Đóng cửa sổ Milo như các ứng dụng Windows khác.
+- Khi cần mở lại, chạy lại bin\Milo.exe.
+
+--------------------------------------------------------------------
+4. LƯU Ý BẢO MẬT
+--------------------------------------------------------------------
+- Chỉ quản trị viên cấu hình dịch vụ nội bộ. Trẻ em không nhìn thấy thông tin kỹ thuật hay cấu hình nhạy cảm.
+====================================================================

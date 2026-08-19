@@ -1,0 +1,70 @@
+/* V60.13.11 - luôn phân biệt dùng thử và mua gói VIP PRO MAX */
+#premiumPaymentModal .plan-section-head {
+  scroll-margin-top: 18px;
+  padding: 14px 16px;
+  border: 2px solid #7b64df;
+  border-radius: 17px;
+  background: linear-gradient(135deg,#f3efff,#eef8ff);
+}
+#premiumPaymentModal .plan-section-head span {
+  color: #5b42c7;
+  font-weight: 950;
+}
+#premiumPaymentModal .premium-plan-grid.plans-attention {
+  animation: miloPlansAttention .9s ease-in-out 2;
+}
+@keyframes miloPlansAttention {
+  50% { filter: drop-shadow(0 0 14px rgba(93,72,207,.38)); transform: translateY(-2px); }
+}
+#premiumPaymentModal .ai-trial-offer {
+  margin-top: 16px;
+  border-style: dashed;
+}
+#premiumPaymentModal .trial-offer-actions {
+  display: flex;
+  gap: 9px;
+  flex-wrap: wrap;
+}
+#premiumPaymentModal .trial-offer-actions button,
+#premiumPaymentModal [data-show-paid-plans] {
+  cursor: pointer;
+}
+#premiumPaymentModal .trial-offer-actions [data-show-paid-plans],
+#premiumPaymentModal [data-show-paid-plans] {
+  border-color: #6f55d5;
+  background: linear-gradient(135deg,#765bd9,#348fe9);
+  color: #fff;
+}
+#premiumPaymentModal .premium-pay-button {
+  position: sticky;
+  bottom: 0;
+  z-index: 5;
+  box-shadow: 0 -8px 20px rgba(255,255,255,.92),0 10px 24px rgba(77,56,166,.22);
+}
+@media (max-width: 700px) {
+  #premiumPaymentModal .trial-offer-actions { display:grid; grid-template-columns:1fr; width:100%; }
+}
+
+/* V60.13.14 - chọn gói tự do, chỉ tạo bill sau khi xác nhận */
+#premiumPaymentModal .premium-plan-card:disabled{opacity:1;cursor:pointer;filter:none}
+#premiumPaymentModal .pending-order-toggle{display:inline-flex;margin-top:8px;border:1px solid #cdbef3;border-radius:10px;padding:7px 10px;background:#f1edff;color:#5b3fbd;font-weight:900;cursor:pointer}
+.purchase-confirm-overlay{position:fixed;inset:0;z-index:4000;display:grid;place-items:center;padding:18px;background:rgba(7,21,40,.62);backdrop-filter:blur(9px)}
+.purchase-confirm-overlay.hidden{display:none}
+.purchase-confirm-card{position:relative;width:min(520px,96vw);padding:28px;border:1px solid #d2c7f5;border-radius:25px;background:linear-gradient(145deg,#fff,#f5f1ff);box-shadow:0 30px 80px rgba(8,26,55,.35);text-align:center}
+.purchase-confirm-close{position:absolute;right:14px;top:14px;width:36px;height:36px;border:0;border-radius:11px;background:#eef2f6;color:#405568;font-size:20px;cursor:pointer}
+.purchase-confirm-icon{width:62px;height:62px;margin:auto;display:grid;place-items:center;border-radius:20px;background:linear-gradient(145deg,#fff0ba,#ffd25f);font-size:31px}
+.purchase-confirm-card>small{display:block;margin-top:13px;color:#7154ce;font-size:9px;font-weight:950;letter-spacing:.1em}
+.purchase-confirm-card h3{margin:7px 0 14px;font-size:25px;color:#172e51}
+#purchaseConfirmSummary{display:grid;gap:5px;padding:16px;border:1px solid #d9e3ec;border-radius:17px;background:#fff;text-align:left}
+#purchaseConfirmSummary b{font-size:18px;color:#243d67}
+#purchaseConfirmSummary strong{font-size:27px;color:#6847cf}
+#purchaseConfirmSummary span,#purchaseConfirmSummary em{color:#687c8c;font-size:11px;line-height:1.5}
+#purchaseConfirmSummary em{padding:8px;border-radius:10px;background:#fff4d9;color:#8a5e12;font-style:normal}
+.purchase-confirm-card>p{color:#667b8c;font-size:11px;line-height:1.55}
+.purchase-confirm-actions{display:grid;grid-template-columns:1fr 1.2fr;gap:9px;margin-top:16px}
+.purchase-confirm-actions button{border:0;border-radius:13px;padding:13px;font-weight:950;cursor:pointer}
+.purchase-confirm-actions button:first-child{background:#edf2f6;color:#526a7c}
+.purchase-confirm-actions button:last-child{background:linear-gradient(135deg,#7658d8,#2f9ee7);color:#fff}
+@media(max-width:520px){.purchase-confirm-actions{grid-template-columns:1fr}}
+#premiumPaymentModal .pending-order-actions{display:flex;gap:7px;flex-wrap:wrap;margin-top:8px}
+#premiumPaymentModal .pending-order-cancel{display:inline-flex;border:1px solid #f0c4cc;border-radius:10px;padding:7px 10px;background:#fff0f2;color:#b13950;font-weight:900;cursor:pointer}

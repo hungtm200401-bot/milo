@@ -1,0 +1,496 @@
+=======================================================
+DANH SÁCH TOÀN BỘ TỪ MỚI LỚP 2 VÀ LỚP 3 (TỔNG CỘNG 436 TỪ)
+=======================================================
+
+-------------------------------------------------------
+PHẦN I: TỪ MỚI LỚP 2 (12 UNITS - 196 TỪ)
+-------------------------------------------------------
+
+[LỚP 2 - UNIT 1: WHAT DO WE DO ON SCHOOL DAYS? (Trường học)]
+  1. math: môn Toán
+  2. art: môn Mỹ thuật
+  3. science: môn Khoa học
+  4. P.E.: môn Thể dục
+  5. computer science: môn Tin học
+  6. music: môn Âm nhạc
+  7. violin practice: buổi luyện vĩ cầm
+  8. piano practice: buổi luyện piano
+  9. tired: mệt
+  10. bored: chán
+  11. worried: lo lắng
+  12. difficult: khó
+  13. easy: dễ
+  14. interesting: thú vị
+  15. busy: bận rộn
+  16. important: quan trọng
+
+[LỚP 2 - UNIT 2: WHERE DO WILD ANIMALS LIVE? (Động vật hoang dã)]
+  1. crocodile: cá sấu
+  2. kangaroo: chuột túi
+  3. panda: gấu trúc
+  4. snake: rắn
+  5. cheetah: báo săn
+  6. seal: hải cẩu
+  7. camel: lạc đà
+  8. whale: cá voi
+  9. angry: tức giận
+  10. smart: thông minh
+  11. fat: béo, mập
+  12. thin: gầy, mảnh
+  13. funny: ngộ nghĩnh
+  14. lazy: lười biếng
+  15. dangerous: nguy hiểm
+  16. strong: khỏe, mạnh
+
+[LỚP 2 - UNIT 3: HOW DOES THE WEATHER CHANGE? (Thời tiết)]
+  1. windy: có gió
+  2. foggy: có sương mù
+  3. thunder: sấm
+  4. lightning: chớp
+  5. storm: cơn bão
+  6. hail: mưa đá
+  7. sleet: mưa tuyết
+  8. tornado: lốc xoáy
+  9. scarf: khăn quàng
+  10. cap: mũ lưỡi trai
+  11. sunglasses: kính râm
+  12. sweat suit: bộ đồ thể thao
+  13. sneakers: giày thể thao
+  14. flip flops: dép xỏ ngón
+  15. robe: áo choàng
+  16. slippers: dép đi trong nhà
+
+[LỚP 2 - UNIT 4: WHAT CAN YOU FIND IN BIG CITIES? (Thành phố)]
+  1. bookstore: hiệu sách
+  2. library: thư viện
+  3. playground: sân chơi
+  4. toy store: cửa hàng đồ chơi
+  5. bank: ngân hàng
+  6. computer store: cửa hàng máy tính
+  7. movie theater: rạp chiếu phim
+  8. restaurant: nhà hàng
+  9. factory: nhà máy
+  10. train station: nhà ga
+  11. gas station: trạm xăng
+  12. street: đường phố
+  13. traffic: giao thông
+  14. small town: thị trấn nhỏ
+  15. fields: cánh đồng
+  16. market: chợ
+
+[LỚP 2 - UNIT 5: HOW DO WE CELEBRATE? (Lễ kỷ niệm)]
+  1. balloon: bóng bay
+  2. card: thiệp
+  3. candle: nến
+  4. burger: bánh burger
+  5. cupcake: bánh nhỏ
+  6. milkshake: sữa lắc
+  7. popcorn: bỏng ngô
+  8. fruit salad: sa lát trái cây
+  9. ice rink: sân trượt băng
+  10. bowling alley: sân bowling
+  11. aquarium: thủy cung
+  12. theme park: công viên chủ đề
+  13. adventure playground: sân chơi phiêu lưu
+  14. arts center: trung tâm nghệ thuật
+  15. swimming pool: bể bơi
+  16. nature center: trung tâm thiên nhiên
+
+[LỚP 2 - UNIT 6: WHAT JOBS CAN I DO? (Nghề nghiệp)]
+  1. police officer: cảnh sát
+  2. chef: đầu bếp
+  3. dentist: nha sĩ
+  4. vet: bác sĩ thú y
+  5. astronaut: phi hành gia
+  6. doctor: bác sĩ
+  7. hairdresser: thợ làm tóc
+  8. photographer: nhiếp ảnh gia
+  9. check: kiểm tra
+  10. help: giúp đỡ
+  11. fix: sửa chữa
+  12. cook: nấu ăn
+  13. whistle: huýt sáo
+  14. perform: biểu diễn
+  15. clean: làm sạch
+  16. study: học tập
+
+[LỚP 2 - UNIT 7: WHY DO WE PLAY SPORTS? (Thể thao)]
+  1. badminton: cầu lông
+  2. baseball: bóng chày
+  3. field hockey: khúc côn cầu sân cỏ
+  4. horseback riding: cưỡi ngựa
+  5. ping-pong: bóng bàn
+  6. water polo: bóng nước
+  7. skiing: trượt tuyết
+  8. paddleboarding: chèo ván
+  9. bounce: làm nảy
+  10. catch: bắt
+  11. hit: đánh
+  12. kick: đá
+  13. throw: ném
+  14. hold: giữ
+  15. push: đẩy
+  16. pull: kéo
+
+[LỚP 2 - UNIT 8: WHAT MAKES US FEEL GOOD? (Răng và giác quan)]
+  1. toothpaste: kem đánh răng
+  2. toothbrush: bàn chải đánh răng
+  3. mouthwash: nước súc miệng
+  4. rinse: súc
+  5. chew: nhai
+  6. toothache: đau răng
+  7. dirty: bẩn
+  8. braces: niềng răng
+  9. hear: nghe
+  10. smell: ngửi
+  11. taste: nếm
+  12. touch: chạm
+  13. hurt: đau
+  14. feel: cảm thấy
+  15. relax: thư giãn
+  16. breathe: thở
+
+[LỚP 2 - UNIT 9: HOW ARE THE SEASONS DIFFERENT? (Mùa và tháng)]
+  1. January: tháng Một
+  2. February: tháng Hai
+  3. March: tháng Ba
+  4. April: tháng Tư
+  5. May: tháng Năm
+  6. June: tháng Sáu
+  7. July: tháng Bảy
+  8. August: tháng Tám
+  9. September: tháng Chín
+  10. October: tháng Mười
+  11. November: tháng Mười một
+  12. December: tháng Mười hai
+  13. spring: mùa xuân
+  14. summer: mùa hè
+  15. fall: mùa thu
+  16. winter: mùa đông
+  17. seasons: các mùa
+  18. world: thế giới
+  19. North: phía Bắc
+  20. South: phía Nam
+
+[LỚP 2 - UNIT 10: HOW ARE WE ALL DIFFERENT? (Con người)]
+  1. hardworking: chăm chỉ
+  2. shy: nhút nhát
+  3. kind: tốt bụng
+  4. helpful: hay giúp đỡ
+  5. creative: sáng tạo
+  6. chatty: hay nói chuyện
+  7. active: năng động
+  8. grumpy: cáu kỉnh
+  9. beard: râu
+  10. bald: hói
+  11. blonde: vàng hoe
+  12. straight: thẳng
+  13. curly: xoăn
+  14. wavy: gợn sóng
+  15. eyebrows: lông mày
+  16. mustache: ria mép
+
+[LỚP 2 - UNIT 11: HOW DO WE SOLVE PROBLEMS? (Toán và tư duy)]
+  1. add: cộng
+  2. subtract: trừ
+  3. sum: tổng
+  4. plus: dấu cộng
+  5. minus: dấu trừ
+  6. equals: bằng
+  7. measure: đo
+  8. problem: bài toán/vấn đề
+  9. hide: giấu
+  10. lost: bị lạc/mất
+  11. solve: giải
+  12. clue: manh mối
+  13. treasure hunt: cuộc săn kho báu
+  14. maze: mê cung
+  15. entrance: lối vào
+  16. exit: lối ra
+
+[LỚP 2 - UNIT 12: WHY IS IT GOOD TO BE OUTDOORS? (Thiên nhiên)]
+  1. grass: cỏ
+  2. lake: hồ
+  3. hills: đồi
+  4. pond: ao
+  5. wildlife: động vật hoang dã
+  6. meadow: đồng cỏ
+  7. rocks: đá
+  8. sand: cát
+  9. fins: chân nhái
+  10. snorkel: ống thở
+  11. water wings: phao tay
+  12. air mattress: đệm hơi
+  13. hotel: khách sạn
+  14. shell: vỏ sò
+  15. seaweed: rong biển
+  16. sandcastle: lâu đài cát
+
+-------------------------------------------------------
+PHẦN II: TỪ MỚI LỚP 3 (12 UNITS - 240 TỪ)
+-------------------------------------------------------
+
+[LỚP 3 - UNIT 1: HOW DO WE FIND OUR WAY?]
+  1. below: ở phía dưới
+  2. above: ở phía trên
+  3. beside: bên cạnh
+  4. close to: gần
+  5. square: quảng trường
+  6. downtown: trung tâm thành phố
+  7. building: tòa nhà
+  8. map: bản đồ
+  9. sign: biển báo
+  10. cross: băng qua
+  11. recreation center: trung tâm giải trí
+  12. art gallery: phòng trưng bày nghệ thuật
+  13. bridge: cây cầu
+  14. harbor: bến cảng
+  15. museum: bảo tàng
+  16. theater: nhà hát
+  17. up: lên trên
+  18. down: xuống dưới
+  19. along: dọc theo
+  20. around: xung quanh
+
+[LỚP 3 - UNIT 2: HOW DO WE KNOW ABOUT THE PAST?]
+  1. herbivore: động vật ăn cỏ
+  2. carnivore: động vật ăn thịt
+  3. dinosaur: khủng long
+  4. horn: sừng
+  5. tail: đuôi
+  6. extinct: tuyệt chủng
+  7. quick: nhanh
+  8. careful: cẩn thận
+  9. loud: ồn, to
+  10. dead: đã chết
+  11. pharaoh: pha-ra-ông
+  12. bury: chôn cất
+  13. archeologist: nhà khảo cổ học
+  14. treasure: kho báu
+  15. thieves: những tên trộm
+  16. dig: đào
+  17. exhibit: hiện vật trưng bày
+  18. gold: vàng
+  19. steps: bậc thang
+  20. tomb: lăng mộ
+
+[LỚP 3 - UNIT 3: WHY DO WE GO ON VACATION?]
+  1. campsite: khu cắm trại
+  2. blanket: chăn
+  3. sleeping bag: túi ngủ
+  4. camping stove: bếp dã ngoại
+  5. flashlight: đèn pin
+  6. compass: la bàn
+  7. set up a tent: dựng lều
+  8. make a fire: nhóm lửa
+  9. clean up: dọn dẹp
+  10. get lost: bị lạc
+  11. meet new people: gặp người mới
+  12. go zip lining: trượt dây zipline
+  13. go rock climbing: leo núi đá
+  14. beautiful: đẹp
+  15. go kayaking: chèo thuyền kayak
+  16. heavy: nặng
+  17. light: nhẹ
+  18. unsafe: không an toàn
+  19. waterfall: thác nước
+  20. coast: bờ biển
+
+[LỚP 3 - UNIT 4: WHY DO WE TELL STORIES?]
+  1. giant: người khổng lồ
+  2. castle: lâu đài
+  3. bowl: cái bát
+  4. coin: đồng xu
+  5. silver: bạc
+  6. enormous: khổng lồ
+  7. furious: giận dữ
+  8. prince: hoàng tử
+  9. princess: công chúa
+  10. fairy tale: truyện cổ tích
+  11. king: vua
+  12. queen: nữ hoàng
+  13. fierce: dữ tợn
+  14. wife: vợ
+  15. hero: anh hùng
+  16. husband: chồng
+  17. myth: thần thoại
+  18. legend: truyền thuyết
+  19. search: tìm kiếm
+  20. hide: ẩn, giấu
+
+[LỚP 3 - UNIT 5: WHY TAKE CARE OF THE ENVIRONMENT?]
+  1. country: nông thôn
+  2. fresh air: không khí trong lành
+  3. plant: cây cối
+  4. insect: côn trùng
+  5. habitat: môi trường sống
+  6. wildlife: động vật hoang dã
+  7. pretty: xinh đẹp
+  8. full: đầy
+  9. rescue: giải cứu
+  10. throw away: vứt bỏ
+  11. breathe: hít thở
+  12. lungs: phổi
+  13. burn: đốt
+  14. coal: than đá
+  15. oil: dầu mỏ
+  16. fossil fuel: nhiên liệu hóa thạch
+  17. electricity: điện
+  18. power plant: nhà máy điện
+  19. protect: bảo vệ
+  20. gadgets: thiết bị điện tử
+
+[LỚP 3 - UNIT 6: WHY DO WE USE NUMBERS EVERY DAY?]
+  1. go shopping: đi mua sắm
+  2. gift: quà tặng
+  3. stall: quầy hàng
+  4. money: tiền
+  5. expensive: đắt
+  6. cheap: rẻ
+  7. useful: hữu ích
+  8. colorful: nhiều màu sắc
+  9. choose: chọn
+  10. pay: thanh toán
+  11. quarter: một phần tư
+  12. half: một nửa
+  13. hour: giờ
+  14. minute: phút
+  15. second: giây
+  16. century: thế kỷ
+  17. decade: thập kỷ
+  18. shadow: bóng
+  19. invent: phát minh
+  20. tell the time: xem, nói giờ
+
+[LỚP 3 - UNIT 7: WHAT DO WE DO FOR ENTERTAINMENT?]
+  1. chess: cờ vua
+  2. band: ban nhạc
+  3. musician: nhạc công
+  4. magazine: tạp chí
+  5. headphones: tai nghe
+  6. hang out: đi chơi cùng nhau
+  7. afraid: sợ hãi
+  8. famous: nổi tiếng
+  9. traditional: truyền thống
+  10. modern: hiện đại
+  11. orchestra: dàn nhạc giao hưởng
+  12. cello: đàn cello
+  13. drum: trống
+  14. clarinet: kèn clarinet
+  15. saxophone: kèn saxophone
+  16. trombone: kèn trombone
+  17. trumpet: kèn trumpet
+  18. string: dây đàn
+  19. dream: giấc mơ
+  20. exciting: hào hứng
+
+[LỚP 3 - UNIT 8: WHY IS SPACE INTERESTING?]
+  1. Moon: Mặt Trăng
+  2. bright: sáng
+  3. worried: lo lắng
+  4. cry: khóc
+  5. stick: cành cây
+  6. owl: cú mèo
+  7. in a hurry: đang vội
+  8. frightened: sợ hãi
+  9. bump: va phải
+  10. rude: thô lỗ
+  11. space station: trạm vũ trụ
+  12. rocket: tên lửa
+  13. scientist: nhà khoa học
+  14. float: trôi, lơ lửng
+  15. laboratory: phòng thí nghiệm
+  16. launch: phóng
+  17. orbit: quỹ đạo
+  18. telescope: kính thiên văn
+  19. planet: hành tinh
+  20. spacesuit: bộ đồ vũ trụ
+
+[LỚP 3 - UNIT 9: HOW ARE HOMES DIFFERENT?]
+  1. roof: mái nhà
+  2. balcony: ban công
+  3. attic: gác mái
+  4. view: quang cảnh
+  5. wood: gỗ
+  6. stone: đá
+  7. sweep: quét
+  8. build: xây dựng
+  9. steep: dốc
+  10. flat: bằng phẳng
+  11. narrow: hẹp
+  12. wide: rộng
+  13. concrete: bê tông
+  14. bricks: gạch
+  15. metal: kim loại
+  16. plastic: nhựa
+  17. move: chuyển nhà, di chuyển
+  18. stairs: cầu thang bộ
+  19. elevator: thang máy
+  20. basement: tầng hầm
+
+[LỚP 3 - UNIT 10: HOW DO WE TAKE CARE OF OUR BODY?]
+  1. stomach: dạ dày, bụng
+  2. back: lưng
+  3. neck: cổ
+  4. shoulder: vai
+  5. fever: sốt
+  6. bandage: băng gạc
+  7. take medicine: uống thuốc
+  8. rest: nghỉ ngơi
+  9. pale: xanh xao
+  10. sick: ốm
+  11. muscles: cơ bắp
+  12. skin: da
+  13. brain: não
+  14. heart: tim
+  15. cold: cảm lạnh
+  16. cough: ho
+  17. sneeze: hắt hơi
+  18. vaccination: tiêm chủng
+  19. spread: lây lan
+  20. save your life: cứu mạng
+
+[LỚP 3 - UNIT 11: WHY IS ANTARCTICA SPECIAL?]
+  1. South Pole: Nam Cực
+  2. penguin: chim cánh cụt
+  3. expedition: chuyến thám hiểm
+  4. temperature: nhiệt độ
+  5. degrees: độ
+  6. ice: băng
+  7. continent: châu lục
+  8. freezing: lạnh cóng
+  9. crack: vết nứt
+  10. deep: sâu
+  11. fur: lông thú
+  12. octopus: bạch tuộc
+  13. hunt: săn mồi
+  14. krill: loài nhuyễn thể krill
+  15. feather: lông vũ
+  16. layer: lớp
+  17. migrate: di cư
+  18. poisonous: có độc
+  19. wing: cánh
+  20. waterproof: không thấm nước
+
+[LỚP 3 - UNIT 12: WHY DO WE HAVE FESTIVALS?]
+  1. lantern: đèn lồng
+  2. parade: diễu hành
+  3. emperor: hoàng đế
+  4. stilt walker: người đi cà kheo
+  5. annoying: gây khó chịu
+  6. hang: treo
+  7. crowded: đông đúc
+  8. costume: trang phục
+  9. furry: có nhiều lông
+  10. fireworks: pháo hoa
+  11. eel: lươn
+  12. cathedral: nhà thờ lớn
+  13. bell: chuông
+  14. get married: kết hôn
+  15. water fight: trò té nước
+  16. spray: xịt, phun
+  17. have a day off: được nghỉ một ngày
+  18. grown-up: người lớn
+  19. sticky: dính
+  20. coconut: dừa
+

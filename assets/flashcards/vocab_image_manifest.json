@@ -1,0 +1,2238 @@
+{
+  "version": "V60.24.4-REAL-IMAGES",
+  "generatedAt": "2026-08-17T14:57:52.765Z",
+  "grades": {
+    "2": {
+      "1": {
+        "math": {
+          "term": "math",
+          "image": "assets/flashcards/grade2/g2_u1_math.png",
+          "icon": "➗"
+        },
+        "art": {
+          "term": "art",
+          "image": "assets/flashcards/grade2/g2_u1_art.png",
+          "icon": "🎨"
+        },
+        "science": {
+          "term": "science",
+          "image": "assets/flashcards/grade2/g2_u1_science.png",
+          "icon": "🔬"
+        },
+        "p.e.": {
+          "term": "P.E.",
+          "image": "assets/flashcards/grade2/g2_u1_p_e.png",
+          "icon": "🏃"
+        },
+        "computer science": {
+          "term": "computer science",
+          "image": "assets/flashcards/grade2/g2_u1_computer_science.png",
+          "icon": "💻"
+        },
+        "music": {
+          "term": "music",
+          "image": "assets/flashcards/grade2/g2_u1_music.png",
+          "icon": "🎵"
+        },
+        "violin practice": {
+          "term": "violin practice",
+          "image": "assets/flashcards/grade2/g2_u1_violin_practice.png",
+          "icon": "🎻"
+        },
+        "piano practice": {
+          "term": "piano practice",
+          "image": "assets/flashcards/grade2/g2_u1_piano_practice.png",
+          "icon": "🎹"
+        },
+        "tired": {
+          "term": "tired",
+          "image": "assets/flashcards/grade2/g2_u1_tired.png",
+          "icon": "😴"
+        },
+        "bored": {
+          "term": "bored",
+          "image": "assets/flashcards/grade2/g2_u1_bored.png",
+          "icon": "🥱"
+        },
+        "worried": {
+          "term": "worried",
+          "image": "assets/flashcards/grade2/g2_u1_worried.png",
+          "icon": "😟"
+        },
+        "difficult": {
+          "term": "difficult",
+          "image": "assets/flashcards/grade2/g2_u1_difficult.png",
+          "icon": "🧗"
+        },
+        "easy": {
+          "term": "easy",
+          "image": "assets/flashcards/grade2/g2_u1_easy.png",
+          "icon": "🟢"
+        },
+        "interesting": {
+          "term": "interesting",
+          "image": "assets/flashcards/grade2/g2_u1_interesting.png",
+          "icon": "💡"
+        },
+        "busy": {
+          "term": "busy",
+          "image": "assets/flashcards/grade2/g2_u1_busy.png",
+          "icon": "⏱️"
+        },
+        "important": {
+          "term": "important",
+          "image": "assets/flashcards/grade2/g2_u1_important.png",
+          "icon": "⭐"
+        }
+      },
+      "2": {
+        "crocodile": {
+          "term": "crocodile",
+          "image": "assets/flashcards/grade2/g2_u2_crocodile.png",
+          "icon": "🐊"
+        },
+        "kangaroo": {
+          "term": "kangaroo",
+          "image": "assets/flashcards/grade2/g2_u2_kangaroo.png",
+          "icon": "🦘"
+        },
+        "panda": {
+          "term": "panda",
+          "image": "assets/flashcards/grade2/g2_u2_panda.png",
+          "icon": "🐼"
+        },
+        "snake": {
+          "term": "snake",
+          "image": "assets/flashcards/grade2/g2_u2_snake.png",
+          "icon": "🐍"
+        },
+        "cheetah": {
+          "term": "cheetah",
+          "image": "assets/flashcards/grade2/g2_u2_cheetah.png",
+          "icon": "🐆"
+        },
+        "seal": {
+          "term": "seal",
+          "image": "assets/flashcards/grade2/g2_u2_seal.png",
+          "icon": "🦭"
+        },
+        "camel": {
+          "term": "camel",
+          "image": "assets/flashcards/grade2/g2_u2_camel.png",
+          "icon": "🐪"
+        },
+        "whale": {
+          "term": "whale",
+          "image": "assets/flashcards/grade2/g2_u2_whale.png",
+          "icon": "🐋"
+        },
+        "angry": {
+          "term": "angry",
+          "image": "assets/flashcards/grade2/g2_u2_angry.png",
+          "icon": "😠"
+        },
+        "smart": {
+          "term": "smart",
+          "image": "assets/flashcards/grade2/g2_u2_smart.png",
+          "icon": "🧠"
+        },
+        "fat": {
+          "term": "fat",
+          "image": "assets/flashcards/grade2/g2_u2_fat.png",
+          "icon": "🦛"
+        },
+        "thin": {
+          "term": "thin",
+          "image": "assets/flashcards/grade2/g2_u2_thin.png",
+          "icon": "🦎"
+        },
+        "funny": {
+          "term": "funny",
+          "image": "assets/flashcards/grade2/g2_u2_funny.png",
+          "icon": "😄"
+        },
+        "lazy": {
+          "term": "lazy",
+          "image": "assets/flashcards/grade2/g2_u2_lazy.png",
+          "icon": "😴"
+        },
+        "dangerous": {
+          "term": "dangerous",
+          "image": "assets/flashcards/grade2/g2_u2_dangerous.png",
+          "icon": "⚠️"
+        },
+        "strong": {
+          "term": "strong",
+          "image": "assets/flashcards/grade2/g2_u2_strong.png",
+          "icon": "💪"
+        }
+      },
+      "3": {
+        "windy": {
+          "term": "windy",
+          "image": "assets/flashcards/grade2/g2_u3_windy.svg",
+          "icon": "💨"
+        },
+        "foggy": {
+          "term": "foggy",
+          "image": "assets/flashcards/grade2/g2_u3_foggy.svg",
+          "icon": "🌫️"
+        },
+        "thunder": {
+          "term": "thunder",
+          "image": "assets/flashcards/grade2/g2_u3_thunder.svg",
+          "icon": "⚡"
+        },
+        "lightning": {
+          "term": "lightning",
+          "image": "assets/flashcards/grade2/g2_u3_lightning.svg",
+          "icon": "🌩️"
+        },
+        "storm": {
+          "term": "storm",
+          "image": "assets/flashcards/grade2/g2_u3_storm.svg",
+          "icon": "⛈️"
+        },
+        "hail": {
+          "term": "hail",
+          "image": "assets/flashcards/grade2/g2_u3_hail.svg",
+          "icon": "🧊"
+        },
+        "sleet": {
+          "term": "sleet",
+          "image": "assets/flashcards/grade2/g2_u3_sleet.svg",
+          "icon": "🌨️"
+        },
+        "tornado": {
+          "term": "tornado",
+          "image": "assets/flashcards/grade2/g2_u3_tornado.svg",
+          "icon": "🌪️"
+        },
+        "scarf": {
+          "term": "scarf",
+          "image": "assets/flashcards/grade2/g2_u3_scarf.svg",
+          "icon": "🧣"
+        },
+        "cap": {
+          "term": "cap",
+          "image": "assets/flashcards/grade2/g2_u3_cap.svg",
+          "icon": "🧢"
+        },
+        "sunglasses": {
+          "term": "sunglasses",
+          "image": "assets/flashcards/grade2/g2_u3_sunglasses.svg",
+          "icon": "🕶️"
+        },
+        "sweat suit": {
+          "term": "sweat suit",
+          "image": "assets/flashcards/grade2/g2_u3_sweat_suit.svg",
+          "icon": "🥋"
+        },
+        "sneakers": {
+          "term": "sneakers",
+          "image": "assets/flashcards/grade2/g2_u3_sneakers.svg",
+          "icon": "👟"
+        },
+        "flip flops": {
+          "term": "flip flops",
+          "image": "assets/flashcards/grade2/g2_u3_flip_flops.svg",
+          "icon": "🩴"
+        },
+        "robe": {
+          "term": "robe",
+          "image": "assets/flashcards/grade2/g2_u3_robe.svg",
+          "icon": "🥼"
+        },
+        "slippers": {
+          "term": "slippers",
+          "image": "assets/flashcards/grade2/g2_u3_slippers.svg",
+          "icon": "🥿"
+        }
+      },
+      "4": {
+        "bookstore": {
+          "term": "bookstore",
+          "image": "assets/flashcards/grade2/g2_u4_bookstore.png",
+          "icon": "📚"
+        },
+        "library": {
+          "term": "library",
+          "image": "assets/flashcards/grade2/g2_u4_library.png",
+          "icon": "🏛️"
+        },
+        "playground": {
+          "term": "playground",
+          "image": "assets/flashcards/grade2/g2_u4_playground.png",
+          "icon": "🛝"
+        },
+        "toy store": {
+          "term": "toy store",
+          "image": "assets/flashcards/grade2/g2_u4_toy_store.png",
+          "icon": "🧸"
+        },
+        "bank": {
+          "term": "bank",
+          "image": "assets/flashcards/grade2/g2_u4_bank.png",
+          "icon": "🏦"
+        },
+        "computer store": {
+          "term": "computer store",
+          "image": "assets/flashcards/grade2/g2_u4_computer_store.png",
+          "icon": "🖥️"
+        },
+        "movie theater": {
+          "term": "movie theater",
+          "image": "assets/flashcards/grade2/g2_u4_movie_theater.png",
+          "icon": "🎬"
+        },
+        "restaurant": {
+          "term": "restaurant",
+          "image": "assets/flashcards/grade2/g2_u4_restaurant.png",
+          "icon": "🍽️"
+        },
+        "factory": {
+          "term": "factory",
+          "image": "assets/flashcards/grade2/g2_u4_factory.png",
+          "icon": "🏭"
+        },
+        "train station": {
+          "term": "train station",
+          "image": "assets/flashcards/grade2/g2_u4_train_station.png",
+          "icon": "🚉"
+        },
+        "gas station": {
+          "term": "gas station",
+          "image": "assets/flashcards/grade2/g2_u4_gas_station.png",
+          "icon": "⛽"
+        },
+        "street": {
+          "term": "street",
+          "image": "assets/flashcards/grade2/g2_u4_street.png",
+          "icon": "🛣️"
+        },
+        "traffic": {
+          "term": "traffic",
+          "image": "assets/flashcards/grade2/g2_u4_traffic.png",
+          "icon": "🚦"
+        },
+        "small town": {
+          "term": "small town",
+          "image": "assets/flashcards/grade2/g2_u4_small_town.png",
+          "icon": "🏘️"
+        },
+        "fields": {
+          "term": "fields",
+          "image": "assets/flashcards/grade2/g2_u4_fields.png",
+          "icon": "🌾"
+        },
+        "market": {
+          "term": "market",
+          "image": "assets/flashcards/grade2/g2_u4_market.png",
+          "icon": "🧺"
+        }
+      },
+      "5": {
+        "balloon": {
+          "term": "balloon",
+          "image": "assets/flashcards/grade2/g2_u5_balloon.png",
+          "icon": "🎈"
+        },
+        "card": {
+          "term": "card",
+          "image": "assets/flashcards/grade2/g2_u5_card.png",
+          "icon": "💌"
+        },
+        "candle": {
+          "term": "candle",
+          "image": "assets/flashcards/grade2/g2_u5_candle.png",
+          "icon": "🕯️"
+        },
+        "burger": {
+          "term": "burger",
+          "image": "assets/flashcards/grade2/g2_u5_burger.png",
+          "icon": "🍔"
+        },
+        "cupcake": {
+          "term": "cupcake",
+          "image": "assets/flashcards/grade2/g2_u5_cupcake.png",
+          "icon": "🧁"
+        },
+        "milkshake": {
+          "term": "milkshake",
+          "image": "assets/flashcards/grade2/g2_u5_milkshake.png",
+          "icon": "🥤"
+        },
+        "popcorn": {
+          "term": "popcorn",
+          "image": "assets/flashcards/grade2/g2_u5_popcorn.png",
+          "icon": "🍿"
+        },
+        "fruit salad": {
+          "term": "fruit salad",
+          "image": "assets/flashcards/grade2/g2_u5_fruit_salad.png",
+          "icon": "🥗"
+        },
+        "ice rink": {
+          "term": "ice rink",
+          "image": "assets/flashcards/grade2/g2_u5_ice_rink.png",
+          "icon": "⛸️"
+        },
+        "bowling alley": {
+          "term": "bowling alley",
+          "image": "assets/flashcards/grade2/g2_u5_bowling_alley.png",
+          "icon": "🎳"
+        },
+        "aquarium": {
+          "term": "aquarium",
+          "image": "assets/flashcards/grade2/g2_u5_aquarium.png",
+          "icon": "🐠"
+        },
+        "theme park": {
+          "term": "theme park",
+          "image": "assets/flashcards/grade2/g2_u5_theme_park.png",
+          "icon": "🎡"
+        },
+        "adventure playground": {
+          "term": "adventure playground",
+          "image": "assets/flashcards/grade2/g2_u5_adventure_playground.png",
+          "icon": "🛝"
+        },
+        "arts center": {
+          "term": "arts center",
+          "image": "assets/flashcards/grade2/g2_u5_arts_center.png",
+          "icon": "🎨"
+        },
+        "swimming pool": {
+          "term": "swimming pool",
+          "image": "assets/flashcards/grade2/g2_u5_swimming_pool.png",
+          "icon": "🏊"
+        },
+        "nature center": {
+          "term": "nature center",
+          "image": "assets/flashcards/grade2/g2_u5_nature_center.png",
+          "icon": "🌿"
+        }
+      },
+      "6": {
+        "police officer": {
+          "term": "police officer",
+          "image": "assets/flashcards/grade2/g2_u6_police_officer.png",
+          "icon": "👮"
+        },
+        "chef": {
+          "term": "chef",
+          "image": "assets/flashcards/grade2/g2_u6_chef.png",
+          "icon": "🧑‍🍳"
+        },
+        "dentist": {
+          "term": "dentist",
+          "image": "assets/flashcards/grade2/g2_u6_dentist.png",
+          "icon": "🦷"
+        },
+        "vet": {
+          "term": "vet",
+          "image": "assets/flashcards/grade2/g2_u6_vet.png",
+          "icon": "🐾"
+        },
+        "astronaut": {
+          "term": "astronaut",
+          "image": "assets/flashcards/grade2/g2_u6_astronaut.png",
+          "icon": "🧑‍🚀"
+        },
+        "doctor": {
+          "term": "doctor",
+          "image": "assets/flashcards/grade2/g2_u6_doctor.png",
+          "icon": "🩺"
+        },
+        "hairdresser": {
+          "term": "hairdresser",
+          "image": "assets/flashcards/grade2/g2_u6_hairdresser.png",
+          "icon": "💇"
+        },
+        "photographer": {
+          "term": "photographer",
+          "image": "assets/flashcards/grade2/g2_u6_photographer.png",
+          "icon": "📷"
+        },
+        "check": {
+          "term": "check",
+          "image": "assets/flashcards/grade2/g2_u6_check.png",
+          "icon": "✅"
+        },
+        "help": {
+          "term": "help",
+          "image": "assets/flashcards/grade2/g2_u6_help.png",
+          "icon": "🤝"
+        },
+        "fix": {
+          "term": "fix",
+          "image": "assets/flashcards/grade2/g2_u6_fix.png",
+          "icon": "🔧"
+        },
+        "cook": {
+          "term": "cook",
+          "image": "assets/flashcards/grade2/g2_u6_cook.png",
+          "icon": "🍳"
+        },
+        "whistle": {
+          "term": "whistle",
+          "image": "assets/flashcards/grade2/g2_u6_whistle.png",
+          "icon": "🎵"
+        },
+        "perform": {
+          "term": "perform",
+          "image": "assets/flashcards/grade2/g2_u6_perform.png",
+          "icon": "🎭"
+        },
+        "clean": {
+          "term": "clean",
+          "image": "assets/flashcards/grade2/g2_u6_clean.png",
+          "icon": "🧹"
+        },
+        "study": {
+          "term": "study",
+          "image": "assets/flashcards/grade2/g2_u6_study.png",
+          "icon": "📖"
+        }
+      },
+      "7": {
+        "badminton": {
+          "term": "badminton",
+          "image": "assets/flashcards/grade2/g2_u7_badminton.png",
+          "icon": "🏸"
+        },
+        "baseball": {
+          "term": "baseball",
+          "image": "assets/flashcards/grade2/g2_u7_baseball.png",
+          "icon": "⚾"
+        },
+        "field hockey": {
+          "term": "field hockey",
+          "image": "assets/flashcards/grade2/g2_u7_field_hockey.png",
+          "icon": "🏑"
+        },
+        "horseback riding": {
+          "term": "horseback riding",
+          "image": "assets/flashcards/grade2/g2_u7_horseback_riding.png",
+          "icon": "🏇"
+        },
+        "ping-pong": {
+          "term": "ping-pong",
+          "image": "assets/flashcards/grade2/g2_u7_ping_pong.png",
+          "icon": "🏓"
+        },
+        "water polo": {
+          "term": "water polo",
+          "image": "assets/flashcards/grade2/g2_u7_water_polo.png",
+          "icon": "🤽"
+        },
+        "skiing": {
+          "term": "skiing",
+          "image": "assets/flashcards/grade2/g2_u7_skiing.png",
+          "icon": "🎿"
+        },
+        "paddleboarding": {
+          "term": "paddleboarding",
+          "image": "assets/flashcards/grade2/g2_u7_paddleboarding.png",
+          "icon": "🏄"
+        },
+        "bounce": {
+          "term": "bounce",
+          "image": "assets/flashcards/grade2/g2_u7_bounce.png",
+          "icon": "🏀"
+        },
+        "catch": {
+          "term": "catch",
+          "image": "assets/flashcards/grade2/g2_u7_catch.png",
+          "icon": "👐"
+        },
+        "hit": {
+          "term": "hit",
+          "image": "assets/flashcards/grade2/g2_u7_hit.png",
+          "icon": "🏓"
+        },
+        "kick": {
+          "term": "kick",
+          "image": "assets/flashcards/grade2/g2_u7_kick.png",
+          "icon": "🦶"
+        },
+        "throw": {
+          "term": "throw",
+          "image": "assets/flashcards/grade2/g2_u7_throw.png",
+          "icon": "🤾"
+        },
+        "hold": {
+          "term": "hold",
+          "image": "assets/flashcards/grade2/g2_u7_hold.png",
+          "icon": "✋"
+        },
+        "push": {
+          "term": "push",
+          "image": "assets/flashcards/grade2/g2_u7_push.png",
+          "icon": "➡️"
+        },
+        "pull": {
+          "term": "pull",
+          "image": "assets/flashcards/grade2/g2_u7_pull.png",
+          "icon": "⬅️"
+        }
+      },
+      "8": {
+        "toothpaste": {
+          "term": "toothpaste",
+          "image": "assets/flashcards/grade2/g2_u8_toothpaste.png",
+          "icon": "🪥"
+        },
+        "toothbrush": {
+          "term": "toothbrush",
+          "image": "assets/flashcards/grade2/g2_u8_toothbrush.png",
+          "icon": "🪥"
+        },
+        "mouthwash": {
+          "term": "mouthwash",
+          "image": "assets/flashcards/grade2/g2_u8_mouthwash.png",
+          "icon": "💧"
+        },
+        "rinse": {
+          "term": "rinse",
+          "image": "assets/flashcards/grade2/g2_u8_rinse.png",
+          "icon": "🚿"
+        },
+        "chew": {
+          "term": "chew",
+          "image": "assets/flashcards/grade2/g2_u8_chew.png",
+          "icon": "😋"
+        },
+        "toothache": {
+          "term": "toothache",
+          "image": "assets/flashcards/grade2/g2_u8_toothache.png",
+          "icon": "🦷"
+        },
+        "dirty": {
+          "term": "dirty",
+          "image": "assets/flashcards/grade2/g2_u8_dirty.png",
+          "icon": "🟤"
+        },
+        "braces": {
+          "term": "braces",
+          "image": "assets/flashcards/grade2/g2_u8_braces.png",
+          "icon": "😁"
+        },
+        "hear": {
+          "term": "hear",
+          "image": "assets/flashcards/grade2/g2_u8_hear.png",
+          "icon": "👂"
+        },
+        "smell": {
+          "term": "smell",
+          "image": "assets/flashcards/grade2/g2_u8_smell.png",
+          "icon": "👃"
+        },
+        "taste": {
+          "term": "taste",
+          "image": "assets/flashcards/grade2/g2_u8_taste.png",
+          "icon": "👅"
+        },
+        "touch": {
+          "term": "touch",
+          "image": "assets/flashcards/grade2/g2_u8_touch.png",
+          "icon": "✋"
+        },
+        "hurt": {
+          "term": "hurt",
+          "image": "assets/flashcards/grade2/g2_u8_hurt.png",
+          "icon": "🤕"
+        },
+        "feel": {
+          "term": "feel",
+          "image": "assets/flashcards/grade2/g2_u8_feel.png",
+          "icon": "🙂"
+        },
+        "relax": {
+          "term": "relax",
+          "image": "assets/flashcards/grade2/g2_u8_relax.png",
+          "icon": "🧘"
+        },
+        "breathe": {
+          "term": "breathe",
+          "image": "assets/flashcards/grade2/g2_u8_breathe.png",
+          "icon": "🌬️"
+        }
+      },
+      "9": {
+        "january": {
+          "term": "January",
+          "image": "assets/flashcards/grade2/g2_u9_january.png",
+          "icon": "1️⃣"
+        },
+        "february": {
+          "term": "February",
+          "image": "assets/flashcards/grade2/g2_u9_february.png",
+          "icon": "2️⃣"
+        },
+        "march": {
+          "term": "March",
+          "image": "assets/flashcards/grade2/g2_u9_march.png",
+          "icon": "3️⃣"
+        },
+        "april": {
+          "term": "April",
+          "image": "assets/flashcards/grade2/g2_u9_april.png",
+          "icon": "4️⃣"
+        },
+        "may": {
+          "term": "May",
+          "image": "assets/flashcards/grade2/g2_u9_may.png",
+          "icon": "5️⃣"
+        },
+        "june": {
+          "term": "June",
+          "image": "assets/flashcards/grade2/g2_u9_june.png",
+          "icon": "6️⃣"
+        },
+        "july": {
+          "term": "July",
+          "image": "assets/flashcards/grade2/g2_u9_july.png",
+          "icon": "7️⃣"
+        },
+        "august": {
+          "term": "August",
+          "image": "assets/flashcards/grade2/g2_u9_august.png",
+          "icon": "8️⃣"
+        },
+        "september": {
+          "term": "September",
+          "image": "assets/flashcards/grade2/g2_u9_september.png",
+          "icon": "9️⃣"
+        },
+        "october": {
+          "term": "October",
+          "image": "assets/flashcards/grade2/g2_u9_october.png",
+          "icon": "🔟"
+        },
+        "november": {
+          "term": "November",
+          "image": "assets/flashcards/grade2/g2_u9_november.png",
+          "icon": "🍁"
+        },
+        "december": {
+          "term": "December",
+          "image": "assets/flashcards/grade2/g2_u9_december.png",
+          "icon": "🎄"
+        },
+        "spring": {
+          "term": "spring",
+          "image": "assets/flashcards/grade2/g2_u9_spring.png",
+          "icon": "🌸"
+        },
+        "summer": {
+          "term": "summer",
+          "image": "assets/flashcards/grade2/g2_u9_summer.png",
+          "icon": "☀️"
+        },
+        "fall": {
+          "term": "fall",
+          "image": "assets/flashcards/grade2/g2_u9_fall.png",
+          "icon": "🍂"
+        },
+        "winter": {
+          "term": "winter",
+          "image": "assets/flashcards/grade2/g2_u9_winter.png",
+          "icon": "❄️"
+        },
+        "seasons": {
+          "term": "seasons",
+          "image": "assets/flashcards/grade2/g2_u9_seasons.png",
+          "icon": "🗓️"
+        },
+        "world": {
+          "term": "world",
+          "image": "assets/flashcards/grade2/g2_u9_world.png",
+          "icon": "🌍"
+        },
+        "north": {
+          "term": "North",
+          "image": "assets/flashcards/grade2/g2_u9_north.png",
+          "icon": "⬆️"
+        },
+        "south": {
+          "term": "South",
+          "image": "assets/flashcards/grade2/g2_u9_south.png",
+          "icon": "⬇️"
+        }
+      },
+      "10": {
+        "hardworking": {
+          "term": "hardworking",
+          "image": "assets/flashcards/grade2/g2_u10_hardworking.png",
+          "icon": "📚"
+        },
+        "shy": {
+          "term": "shy",
+          "image": "assets/flashcards/grade2/g2_u10_shy.png",
+          "icon": "🙈"
+        },
+        "kind": {
+          "term": "kind",
+          "image": "assets/flashcards/grade2/g2_u10_kind.png",
+          "icon": "💚"
+        },
+        "helpful": {
+          "term": "helpful",
+          "image": "assets/flashcards/grade2/g2_u10_helpful.png",
+          "icon": "🤝"
+        },
+        "creative": {
+          "term": "creative",
+          "image": "assets/flashcards/grade2/g2_u10_creative.png",
+          "icon": "🎨"
+        },
+        "chatty": {
+          "term": "chatty",
+          "image": "assets/flashcards/grade2/g2_u10_chatty.png",
+          "icon": "💬"
+        },
+        "active": {
+          "term": "active",
+          "image": "assets/flashcards/grade2/g2_u10_active.png",
+          "icon": "⚡"
+        },
+        "grumpy": {
+          "term": "grumpy",
+          "image": "assets/flashcards/grade2/g2_u10_grumpy.png",
+          "icon": "😠"
+        },
+        "beard": {
+          "term": "beard",
+          "image": "assets/flashcards/grade2/g2_u10_beard.png",
+          "icon": "🧔"
+        },
+        "bald": {
+          "term": "bald",
+          "image": "assets/flashcards/grade2/g2_u10_bald.png",
+          "icon": "👨‍🦲"
+        },
+        "blonde": {
+          "term": "blonde",
+          "image": "assets/flashcards/grade2/g2_u10_blonde.png",
+          "icon": "👱"
+        },
+        "straight": {
+          "term": "straight",
+          "image": "assets/flashcards/grade2/g2_u10_straight.png",
+          "icon": "📏"
+        },
+        "curly": {
+          "term": "curly",
+          "image": "assets/flashcards/grade2/g2_u10_curly.png",
+          "icon": "🌀"
+        },
+        "wavy": {
+          "term": "wavy",
+          "image": "assets/flashcards/grade2/g2_u10_wavy.png",
+          "icon": "〰️"
+        },
+        "eyebrows": {
+          "term": "eyebrows",
+          "image": "assets/flashcards/grade2/g2_u10_eyebrows.png",
+          "icon": "👀"
+        },
+        "mustache": {
+          "term": "mustache",
+          "image": "assets/flashcards/grade2/g2_u10_mustache.png",
+          "icon": "🥸"
+        }
+      },
+      "11": {
+        "add": {
+          "term": "add",
+          "image": "assets/flashcards/grade2/g2_u11_add.png",
+          "icon": "➕"
+        },
+        "subtract": {
+          "term": "subtract",
+          "image": "assets/flashcards/grade2/g2_u11_subtract.png",
+          "icon": "➖"
+        },
+        "sum": {
+          "term": "sum",
+          "image": "assets/flashcards/grade2/g2_u11_sum.png",
+          "icon": "🧮"
+        },
+        "plus": {
+          "term": "plus",
+          "image": "assets/flashcards/grade2/g2_u11_plus.png",
+          "icon": "➕"
+        },
+        "minus": {
+          "term": "minus",
+          "image": "assets/flashcards/grade2/g2_u11_minus.png",
+          "icon": "➖"
+        },
+        "equals": {
+          "term": "equals",
+          "image": "assets/flashcards/grade2/g2_u11_equals.png",
+          "icon": "🟰"
+        },
+        "measure": {
+          "term": "measure",
+          "image": "assets/flashcards/grade2/g2_u11_measure.png",
+          "icon": "📏"
+        },
+        "problem": {
+          "term": "problem",
+          "image": "assets/flashcards/grade2/g2_u11_problem.png",
+          "icon": "❓"
+        },
+        "hide": {
+          "term": "hide",
+          "image": "assets/flashcards/grade2/g2_u11_hide.png",
+          "icon": "🙈"
+        },
+        "lost": {
+          "term": "lost",
+          "image": "assets/flashcards/grade2/g2_u11_lost.png",
+          "icon": "🧭"
+        },
+        "solve": {
+          "term": "solve",
+          "image": "assets/flashcards/grade2/g2_u11_solve.png",
+          "icon": "💡"
+        },
+        "clue": {
+          "term": "clue",
+          "image": "assets/flashcards/grade2/g2_u11_clue.png",
+          "icon": "🔎"
+        },
+        "treasure hunt": {
+          "term": "treasure hunt",
+          "image": "assets/flashcards/grade2/g2_u11_treasure_hunt.png",
+          "icon": "🗺️"
+        },
+        "maze": {
+          "term": "maze",
+          "image": "assets/flashcards/grade2/g2_u11_maze.png",
+          "icon": "🌀"
+        },
+        "entrance": {
+          "term": "entrance",
+          "image": "assets/flashcards/grade2/g2_u11_entrance.png",
+          "icon": "🚪"
+        },
+        "exit": {
+          "term": "exit",
+          "image": "assets/flashcards/grade2/g2_u11_exit.png",
+          "icon": "🚶"
+        }
+      },
+      "12": {
+        "grass": {
+          "term": "grass",
+          "image": "assets/flashcards/grade2/g2_u12_grass.png",
+          "icon": "🌱"
+        },
+        "lake": {
+          "term": "lake",
+          "image": "assets/flashcards/grade2/g2_u12_lake.png",
+          "icon": "🏞️"
+        },
+        "hills": {
+          "term": "hills",
+          "image": "assets/flashcards/grade2/g2_u12_hills.png",
+          "icon": "⛰️"
+        },
+        "pond": {
+          "term": "pond",
+          "image": "assets/flashcards/grade2/g2_u12_pond.png",
+          "icon": "🪷"
+        },
+        "wildlife": {
+          "term": "wildlife",
+          "image": "assets/flashcards/grade2/g2_u12_wildlife.png",
+          "icon": "🦋"
+        },
+        "meadow": {
+          "term": "meadow",
+          "image": "assets/flashcards/grade2/g2_u12_meadow.png",
+          "icon": "🌼"
+        },
+        "rocks": {
+          "term": "rocks",
+          "image": "assets/flashcards/grade2/g2_u12_rocks.png",
+          "icon": "🪨"
+        },
+        "sand": {
+          "term": "sand",
+          "image": "assets/flashcards/grade2/g2_u12_sand.png",
+          "icon": "🏖️"
+        },
+        "fins": {
+          "term": "fins",
+          "image": "assets/flashcards/grade2/g2_u12_fins.png",
+          "icon": "🩴"
+        },
+        "snorkel": {
+          "term": "snorkel",
+          "image": "assets/flashcards/grade2/g2_u12_snorkel.png",
+          "icon": "🤿"
+        },
+        "water wings": {
+          "term": "water wings",
+          "image": "assets/flashcards/grade2/g2_u12_water_wings.png",
+          "icon": "🛟"
+        },
+        "air mattress": {
+          "term": "air mattress",
+          "image": "assets/flashcards/grade2/g2_u12_air_mattress.png",
+          "icon": "🛏️"
+        },
+        "hotel": {
+          "term": "hotel",
+          "image": "assets/flashcards/grade2/g2_u12_hotel.png",
+          "icon": "🏨"
+        },
+        "shell": {
+          "term": "shell",
+          "image": "assets/flashcards/grade2/g2_u12_shell.png",
+          "icon": "🐚"
+        },
+        "seaweed": {
+          "term": "seaweed",
+          "image": "assets/flashcards/grade2/g2_u12_seaweed.png",
+          "icon": "🌿"
+        },
+        "sandcastle": {
+          "term": "sandcastle",
+          "image": "assets/flashcards/grade2/g2_u12_sandcastle.png",
+          "icon": "🏰"
+        }
+      }
+    },
+    "3": {
+      "1": {
+        "below": {
+          "term": "below",
+          "image": "assets/flashcards/grade3/g3_u1_below.png",
+          "icon": "⬇️"
+        },
+        "above": {
+          "term": "above",
+          "image": "assets/flashcards/grade3/g3_u1_above.png",
+          "icon": "⬆️"
+        },
+        "beside": {
+          "term": "beside",
+          "image": "assets/flashcards/grade3/g3_u1_beside.png",
+          "icon": "↔️"
+        },
+        "close to": {
+          "term": "close to",
+          "image": "assets/flashcards/grade3/g3_u1_close_to.png",
+          "icon": "📍"
+        },
+        "square": {
+          "term": "square",
+          "image": "assets/flashcards/grade3/g3_u1_square.png",
+          "icon": "🏙️"
+        },
+        "downtown": {
+          "term": "downtown",
+          "image": "assets/flashcards/grade3/g3_u1_downtown.png",
+          "icon": "🏢"
+        },
+        "building": {
+          "term": "building",
+          "image": "assets/flashcards/grade3/g3_u1_building.png",
+          "icon": "🏬"
+        },
+        "map": {
+          "term": "map",
+          "image": "assets/flashcards/grade3/g3_u1_map.png",
+          "icon": "🗺️"
+        },
+        "sign": {
+          "term": "sign",
+          "image": "assets/flashcards/grade3/g3_u1_sign.png",
+          "icon": "🪧"
+        },
+        "cross": {
+          "term": "cross",
+          "image": "assets/flashcards/grade3/g3_u1_cross.png",
+          "icon": "🚶"
+        },
+        "recreation center": {
+          "term": "recreation center",
+          "image": "assets/flashcards/grade3/g3_u1_recreation_center.png",
+          "icon": "🏟️"
+        },
+        "art gallery": {
+          "term": "art gallery",
+          "image": "assets/flashcards/grade3/g3_u1_art_gallery.png",
+          "icon": "🖼️"
+        },
+        "bridge": {
+          "term": "bridge",
+          "image": "assets/flashcards/grade3/g3_u1_bridge.png",
+          "icon": "🌉"
+        },
+        "harbor": {
+          "term": "harbor",
+          "image": "assets/flashcards/grade3/g3_u1_harbor.png",
+          "icon": "⚓"
+        },
+        "museum": {
+          "term": "museum",
+          "image": "assets/flashcards/grade3/g3_u1_museum.png",
+          "icon": "🏛️"
+        },
+        "theater": {
+          "term": "theater",
+          "image": "assets/flashcards/grade3/g3_u1_theater.png",
+          "icon": "🎭"
+        },
+        "up": {
+          "term": "up",
+          "image": "assets/flashcards/grade3/g3_u1_up.png",
+          "icon": "⬆️"
+        },
+        "down": {
+          "term": "down",
+          "image": "assets/flashcards/grade3/g3_u1_down.png",
+          "icon": "⬇️"
+        },
+        "along": {
+          "term": "along",
+          "image": "assets/flashcards/grade3/g3_u1_along.png",
+          "icon": "➡️"
+        },
+        "around": {
+          "term": "around",
+          "image": "assets/flashcards/grade3/g3_u1_around.png",
+          "icon": "🔄"
+        }
+      },
+      "2": {
+        "herbivore": {
+          "term": "herbivore",
+          "image": "assets/flashcards/grade3/g3_u2_herbivore.png",
+          "icon": "🦕"
+        },
+        "carnivore": {
+          "term": "carnivore",
+          "image": "assets/flashcards/grade3/g3_u2_carnivore.png",
+          "icon": "🦖"
+        },
+        "dinosaur": {
+          "term": "dinosaur",
+          "image": "assets/flashcards/grade3/g3_u2_dinosaur.png",
+          "icon": "🦖"
+        },
+        "horn": {
+          "term": "horn",
+          "image": "assets/flashcards/grade3/g3_u2_horn.png",
+          "icon": "🦏"
+        },
+        "tail": {
+          "term": "tail",
+          "image": "assets/flashcards/grade3/g3_u2_tail.png",
+          "icon": "🐋"
+        },
+        "extinct": {
+          "term": "extinct",
+          "image": "assets/flashcards/grade3/g3_u2_extinct.png",
+          "icon": "⌛"
+        },
+        "quick": {
+          "term": "quick",
+          "image": "assets/flashcards/grade3/g3_u2_quick.png",
+          "icon": "⚡"
+        },
+        "careful": {
+          "term": "careful",
+          "image": "assets/flashcards/grade3/g3_u2_careful.png",
+          "icon": "👀"
+        },
+        "loud": {
+          "term": "loud",
+          "image": "assets/flashcards/grade3/g3_u2_loud.png",
+          "icon": "🔊"
+        },
+        "dead": {
+          "term": "dead",
+          "image": "assets/flashcards/grade3/g3_u2_dead.svg",
+          "icon": "☠️"
+        },
+        "pharaoh": {
+          "term": "pharaoh",
+          "image": "assets/flashcards/grade3/g3_u2_pharaoh.svg",
+          "icon": "👑"
+        },
+        "bury": {
+          "term": "bury",
+          "image": "assets/flashcards/grade3/g3_u2_bury.svg",
+          "icon": "⛏️"
+        },
+        "archeologist": {
+          "term": "archeologist",
+          "image": "assets/flashcards/grade3/g3_u2_archeologist.svg",
+          "icon": "🏺"
+        },
+        "treasure": {
+          "term": "treasure",
+          "image": "assets/flashcards/grade3/g3_u2_treasure.svg",
+          "icon": "💎"
+        },
+        "thieves": {
+          "term": "thieves",
+          "image": "assets/flashcards/grade3/g3_u2_thieves.svg",
+          "icon": "🥷"
+        },
+        "dig": {
+          "term": "dig",
+          "image": "assets/flashcards/grade3/g3_u2_dig.svg",
+          "icon": "⛏️"
+        },
+        "exhibit": {
+          "term": "exhibit",
+          "image": "assets/flashcards/grade3/g3_u2_exhibit.svg",
+          "icon": "🗿"
+        },
+        "gold": {
+          "term": "gold",
+          "image": "assets/flashcards/grade3/g3_u2_gold.svg",
+          "icon": "🪙"
+        },
+        "steps": {
+          "term": "steps",
+          "image": "assets/flashcards/grade3/g3_u2_steps.svg",
+          "icon": "🪜"
+        },
+        "tomb": {
+          "term": "tomb",
+          "image": "assets/flashcards/grade3/g3_u2_tomb.svg",
+          "icon": "⚰️"
+        }
+      },
+      "3": {
+        "campsite": {
+          "term": "campsite",
+          "image": "assets/flashcards/grade3/g3_u3_campsite.png",
+          "icon": "🏕️"
+        },
+        "blanket": {
+          "term": "blanket",
+          "image": "assets/flashcards/grade3/g3_u3_blanket.svg",
+          "icon": "🛌"
+        },
+        "sleeping bag": {
+          "term": "sleeping bag",
+          "image": "assets/flashcards/grade3/g3_u3_sleeping_bag.svg",
+          "icon": "🛏️"
+        },
+        "camping stove": {
+          "term": "camping stove",
+          "image": "assets/flashcards/grade3/g3_u3_camping_stove.svg",
+          "icon": "🔥"
+        },
+        "flashlight": {
+          "term": "flashlight",
+          "image": "assets/flashcards/grade3/g3_u3_flashlight.svg",
+          "icon": "🔦"
+        },
+        "compass": {
+          "term": "compass",
+          "image": "assets/flashcards/grade3/g3_u3_compass.svg",
+          "icon": "🧭"
+        },
+        "set up a tent": {
+          "term": "set up a tent",
+          "image": "assets/flashcards/grade3/g3_u3_set_up_a_tent.svg",
+          "icon": "⛺"
+        },
+        "make a fire": {
+          "term": "make a fire",
+          "image": "assets/flashcards/grade3/g3_u3_make_a_fire.svg",
+          "icon": "🔥"
+        },
+        "clean up": {
+          "term": "clean up",
+          "image": "assets/flashcards/grade3/g3_u3_clean_up.svg",
+          "icon": "🧹"
+        },
+        "get lost": {
+          "term": "get lost",
+          "image": "assets/flashcards/grade3/g3_u3_get_lost.svg",
+          "icon": "🗺️"
+        },
+        "meet new people": {
+          "term": "meet new people",
+          "image": "assets/flashcards/grade3/g3_u3_meet_new_people.svg",
+          "icon": "🤝"
+        },
+        "go zip lining": {
+          "term": "go zip lining",
+          "image": "assets/flashcards/grade3/g3_u3_go_zip_lining.svg",
+          "icon": "🪢"
+        },
+        "go rock climbing": {
+          "term": "go rock climbing",
+          "image": "assets/flashcards/grade3/g3_u3_go_rock_climbing.svg",
+          "icon": "🧗"
+        },
+        "beautiful": {
+          "term": "beautiful",
+          "image": "assets/flashcards/grade3/g3_u3_beautiful.svg",
+          "icon": "🌄"
+        },
+        "go kayaking": {
+          "term": "go kayaking",
+          "image": "assets/flashcards/grade3/g3_u3_go_kayaking.svg",
+          "icon": "🛶"
+        },
+        "heavy": {
+          "term": "heavy",
+          "image": "assets/flashcards/grade3/g3_u3_heavy.svg",
+          "icon": "🏋️"
+        },
+        "light": {
+          "term": "light",
+          "image": "assets/flashcards/grade3/g3_u3_light.svg",
+          "icon": "🪶"
+        },
+        "unsafe": {
+          "term": "unsafe",
+          "image": "assets/flashcards/grade3/g3_u3_unsafe.svg",
+          "icon": "⚠️"
+        },
+        "waterfall": {
+          "term": "waterfall",
+          "image": "assets/flashcards/grade3/g3_u3_waterfall.svg",
+          "icon": "💦"
+        },
+        "coast": {
+          "term": "coast",
+          "image": "assets/flashcards/grade3/g3_u3_coast.svg",
+          "icon": "🏖️"
+        }
+      },
+      "4": {
+        "giant": {
+          "term": "giant",
+          "image": "assets/flashcards/grade3/g3_u4_giant.png",
+          "icon": "🧌"
+        },
+        "castle": {
+          "term": "castle",
+          "image": "assets/flashcards/grade3/g3_u4_castle.png",
+          "icon": "🏰"
+        },
+        "bowl": {
+          "term": "bowl",
+          "image": "assets/flashcards/grade3/g3_u4_bowl.png",
+          "icon": "🥣"
+        },
+        "coin": {
+          "term": "coin",
+          "image": "assets/flashcards/grade3/g3_u4_coin.png",
+          "icon": "🪙"
+        },
+        "silver": {
+          "term": "silver",
+          "image": "assets/flashcards/grade3/g3_u4_silver.png",
+          "icon": "🥈"
+        },
+        "enormous": {
+          "term": "enormous",
+          "image": "assets/flashcards/grade3/g3_u4_enormous.png",
+          "icon": "🐘"
+        },
+        "furious": {
+          "term": "furious",
+          "image": "assets/flashcards/grade3/g3_u4_furious.png",
+          "icon": "😡"
+        },
+        "prince": {
+          "term": "prince",
+          "image": "assets/flashcards/grade3/g3_u4_prince.png",
+          "icon": "🤴"
+        },
+        "princess": {
+          "term": "princess",
+          "image": "assets/flashcards/grade3/g3_u4_princess.png",
+          "icon": "👸"
+        },
+        "fairy tale": {
+          "term": "fairy tale",
+          "image": "assets/flashcards/grade3/g3_u4_fairy_tale.png",
+          "icon": "🧚"
+        },
+        "king": {
+          "term": "king",
+          "image": "assets/flashcards/grade3/g3_u4_king.png",
+          "icon": "🤴"
+        },
+        "queen": {
+          "term": "queen",
+          "image": "assets/flashcards/grade3/g3_u4_queen.png",
+          "icon": "👸"
+        },
+        "fierce": {
+          "term": "fierce",
+          "image": "assets/flashcards/grade3/g3_u4_fierce.png",
+          "icon": "🐲"
+        },
+        "wife": {
+          "term": "wife",
+          "image": "assets/flashcards/grade3/g3_u4_wife.png",
+          "icon": "👩"
+        },
+        "hero": {
+          "term": "hero",
+          "image": "assets/flashcards/grade3/g3_u4_hero.png",
+          "icon": "🦸"
+        },
+        "husband": {
+          "term": "husband",
+          "image": "assets/flashcards/grade3/g3_u4_husband.png",
+          "icon": "👨"
+        },
+        "myth": {
+          "term": "myth",
+          "image": "assets/flashcards/grade3/g3_u4_myth.png",
+          "icon": "⚡"
+        },
+        "legend": {
+          "term": "legend",
+          "image": "assets/flashcards/grade3/g3_u4_legend.png",
+          "icon": "📜"
+        },
+        "search": {
+          "term": "search",
+          "image": "assets/flashcards/grade3/g3_u4_search.png",
+          "icon": "🔎"
+        },
+        "hide": {
+          "term": "hide",
+          "image": "assets/flashcards/grade3/g3_u4_hide.png",
+          "icon": "🙈"
+        }
+      },
+      "5": {
+        "country": {
+          "term": "country",
+          "image": "assets/flashcards/grade3/g3_u5_country.png",
+          "icon": "🌄"
+        },
+        "fresh air": {
+          "term": "fresh air",
+          "image": "assets/flashcards/grade3/g3_u5_fresh_air.png",
+          "icon": "🌬️"
+        },
+        "plant": {
+          "term": "plant",
+          "image": "assets/flashcards/grade3/g3_u5_plant.png",
+          "icon": "🌱"
+        },
+        "insect": {
+          "term": "insect",
+          "image": "assets/flashcards/grade3/g3_u5_insect.png",
+          "icon": "🐞"
+        },
+        "habitat": {
+          "term": "habitat",
+          "image": "assets/flashcards/grade3/g3_u5_habitat.png",
+          "icon": "🏞️"
+        },
+        "wildlife": {
+          "term": "wildlife",
+          "image": "assets/flashcards/grade3/g3_u5_wildlife.png",
+          "icon": "🦌"
+        },
+        "pretty": {
+          "term": "pretty",
+          "image": "assets/flashcards/grade3/g3_u5_pretty.png",
+          "icon": "🌸"
+        },
+        "full": {
+          "term": "full",
+          "image": "assets/flashcards/grade3/g3_u5_full.png",
+          "icon": "🫙"
+        },
+        "rescue": {
+          "term": "rescue",
+          "image": "assets/flashcards/grade3/g3_u5_rescue.png",
+          "icon": "🛟"
+        },
+        "throw away": {
+          "term": "throw away",
+          "image": "assets/flashcards/grade3/g3_u5_throw_away.png",
+          "icon": "🚮"
+        },
+        "breathe": {
+          "term": "breathe",
+          "image": "assets/flashcards/grade3/g3_u5_breathe.png",
+          "icon": "🫁"
+        },
+        "lungs": {
+          "term": "lungs",
+          "image": "assets/flashcards/grade3/g3_u5_lungs.png",
+          "icon": "🫁"
+        },
+        "burn": {
+          "term": "burn",
+          "image": "assets/flashcards/grade3/g3_u5_burn.png",
+          "icon": "🔥"
+        },
+        "coal": {
+          "term": "coal",
+          "image": "assets/flashcards/grade3/g3_u5_coal.png",
+          "icon": "🪨"
+        },
+        "oil": {
+          "term": "oil",
+          "image": "assets/flashcards/grade3/g3_u5_oil.png",
+          "icon": "🛢️"
+        },
+        "fossil fuel": {
+          "term": "fossil fuel",
+          "image": "assets/flashcards/grade3/g3_u5_fossil_fuel.png",
+          "icon": "🏭"
+        },
+        "electricity": {
+          "term": "electricity",
+          "image": "assets/flashcards/grade3/g3_u5_electricity.png",
+          "icon": "⚡"
+        },
+        "power plant": {
+          "term": "power plant",
+          "image": "assets/flashcards/grade3/g3_u5_power_plant.png",
+          "icon": "🏭"
+        },
+        "protect": {
+          "term": "protect",
+          "image": "assets/flashcards/grade3/g3_u5_protect.png",
+          "icon": "🛡️"
+        },
+        "gadgets": {
+          "term": "gadgets",
+          "image": "assets/flashcards/grade3/g3_u5_gadgets.png",
+          "icon": "📱"
+        }
+      },
+      "6": {
+        "go shopping": {
+          "term": "go shopping",
+          "image": "assets/flashcards/grade3/g3_u6_go_shopping.png",
+          "icon": "🛍️"
+        },
+        "gift": {
+          "term": "gift",
+          "image": "assets/flashcards/grade3/g3_u6_gift.png",
+          "icon": "🎁"
+        },
+        "stall": {
+          "term": "stall",
+          "image": "assets/flashcards/grade3/g3_u6_stall.png",
+          "icon": "🏪"
+        },
+        "money": {
+          "term": "money",
+          "image": "assets/flashcards/grade3/g3_u6_money.png",
+          "icon": "💵"
+        },
+        "expensive": {
+          "term": "expensive",
+          "image": "assets/flashcards/grade3/g3_u6_expensive.png",
+          "icon": "💸"
+        },
+        "cheap": {
+          "term": "cheap",
+          "image": "assets/flashcards/grade3/g3_u6_cheap.png",
+          "icon": "🏷️"
+        },
+        "useful": {
+          "term": "useful",
+          "image": "assets/flashcards/grade3/g3_u6_useful.png",
+          "icon": "🧰"
+        },
+        "colorful": {
+          "term": "colorful",
+          "image": "assets/flashcards/grade3/g3_u6_colorful.png",
+          "icon": "🌈"
+        },
+        "choose": {
+          "term": "choose",
+          "image": "assets/flashcards/grade3/g3_u6_choose.png",
+          "icon": "✅"
+        },
+        "pay": {
+          "term": "pay",
+          "image": "assets/flashcards/grade3/g3_u6_pay.png",
+          "icon": "💳"
+        },
+        "quarter": {
+          "term": "quarter",
+          "image": "assets/flashcards/grade3/g3_u6_quarter.png",
+          "icon": "¼"
+        },
+        "half": {
+          "term": "half",
+          "image": "assets/flashcards/grade3/g3_u6_half.png",
+          "icon": "½"
+        },
+        "hour": {
+          "term": "hour",
+          "image": "assets/flashcards/grade3/g3_u6_hour.png",
+          "icon": "🕐"
+        },
+        "minute": {
+          "term": "minute",
+          "image": "assets/flashcards/grade3/g3_u6_minute.png",
+          "icon": "⏱️"
+        },
+        "second": {
+          "term": "second",
+          "image": "assets/flashcards/grade3/g3_u6_second.png",
+          "icon": "⏲️"
+        },
+        "century": {
+          "term": "century",
+          "image": "assets/flashcards/grade3/g3_u6_century.png",
+          "icon": "💯"
+        },
+        "decade": {
+          "term": "decade",
+          "image": "assets/flashcards/grade3/g3_u6_decade.png",
+          "icon": "🔟"
+        },
+        "shadow": {
+          "term": "shadow",
+          "image": "assets/flashcards/grade3/g3_u6_shadow.png",
+          "icon": "👤"
+        },
+        "invent": {
+          "term": "invent",
+          "image": "assets/flashcards/grade3/g3_u6_invent.png",
+          "icon": "💡"
+        },
+        "tell the time": {
+          "term": "tell the time",
+          "image": "assets/flashcards/grade3/g3_u6_tell_the_time.png",
+          "icon": "🕒"
+        }
+      },
+      "7": {
+        "chess": {
+          "term": "chess",
+          "image": "assets/flashcards/grade3/g3_u7_chess.png",
+          "icon": "♟️"
+        },
+        "band": {
+          "term": "band",
+          "image": "assets/flashcards/grade3/g3_u7_band.png",
+          "icon": "🎸"
+        },
+        "musician": {
+          "term": "musician",
+          "image": "assets/flashcards/grade3/g3_u7_musician.png",
+          "icon": "🧑‍🎤"
+        },
+        "magazine": {
+          "term": "magazine",
+          "image": "assets/flashcards/grade3/g3_u7_magazine.png",
+          "icon": "📰"
+        },
+        "headphones": {
+          "term": "headphones",
+          "image": "assets/flashcards/grade3/g3_u7_headphones.png",
+          "icon": "🎧"
+        },
+        "hang out": {
+          "term": "hang out",
+          "image": "assets/flashcards/grade3/g3_u7_hang_out.png",
+          "icon": "🧑‍🤝‍🧑"
+        },
+        "afraid": {
+          "term": "afraid",
+          "image": "assets/flashcards/grade3/g3_u7_afraid.png",
+          "icon": "😨"
+        },
+        "famous": {
+          "term": "famous",
+          "image": "assets/flashcards/grade3/g3_u7_famous.png",
+          "icon": "⭐"
+        },
+        "traditional": {
+          "term": "traditional",
+          "image": "assets/flashcards/grade3/g3_u7_traditional.png",
+          "icon": "🏮"
+        },
+        "modern": {
+          "term": "modern",
+          "image": "assets/flashcards/grade3/g3_u7_modern.png",
+          "icon": "✨"
+        },
+        "orchestra": {
+          "term": "orchestra",
+          "image": "assets/flashcards/grade3/g3_u7_orchestra.png",
+          "icon": "🎻"
+        },
+        "cello": {
+          "term": "cello",
+          "image": "assets/flashcards/grade3/g3_u7_cello.png",
+          "icon": "🎻"
+        },
+        "drum": {
+          "term": "drum",
+          "image": "assets/flashcards/grade3/g3_u7_drum.png",
+          "icon": "🥁"
+        },
+        "clarinet": {
+          "term": "clarinet",
+          "image": "assets/flashcards/grade3/g3_u7_clarinet.png",
+          "icon": "🎶"
+        },
+        "saxophone": {
+          "term": "saxophone",
+          "image": "assets/flashcards/grade3/g3_u7_saxophone.png",
+          "icon": "🎷"
+        },
+        "trombone": {
+          "term": "trombone",
+          "image": "assets/flashcards/grade3/g3_u7_trombone.png",
+          "icon": "🎺"
+        },
+        "trumpet": {
+          "term": "trumpet",
+          "image": "assets/flashcards/grade3/g3_u7_trumpet.svg",
+          "icon": "🎺"
+        },
+        "string": {
+          "term": "string",
+          "image": "assets/flashcards/grade3/g3_u7_string.svg",
+          "icon": "🧵"
+        },
+        "dream": {
+          "term": "dream",
+          "image": "assets/flashcards/grade3/g3_u7_dream.svg",
+          "icon": "💭"
+        },
+        "exciting": {
+          "term": "exciting",
+          "image": "assets/flashcards/grade3/g3_u7_exciting.svg",
+          "icon": "🤩"
+        }
+      },
+      "8": {
+        "moon": {
+          "term": "Moon",
+          "image": "assets/flashcards/grade3/g3_u8_moon.png",
+          "icon": "🌙"
+        },
+        "bright": {
+          "term": "bright",
+          "image": "assets/flashcards/grade3/g3_u8_bright.png",
+          "icon": "✨"
+        },
+        "worried": {
+          "term": "worried",
+          "image": "assets/flashcards/grade3/g3_u8_worried.png",
+          "icon": "😟"
+        },
+        "cry": {
+          "term": "cry",
+          "image": "assets/flashcards/grade3/g3_u8_cry.png",
+          "icon": "😭"
+        },
+        "stick": {
+          "term": "stick",
+          "image": "assets/flashcards/grade3/g3_u8_stick.png",
+          "icon": "🪵"
+        },
+        "owl": {
+          "term": "owl",
+          "image": "assets/flashcards/grade3/g3_u8_owl.png",
+          "icon": "🦉"
+        },
+        "in a hurry": {
+          "term": "in a hurry",
+          "image": "assets/flashcards/grade3/g3_u8_in_a_hurry.png",
+          "icon": "🏃"
+        },
+        "frightened": {
+          "term": "frightened",
+          "image": "assets/flashcards/grade3/g3_u8_frightened.png",
+          "icon": "😱"
+        },
+        "bump": {
+          "term": "bump",
+          "image": "assets/flashcards/grade3/g3_u8_bump.png",
+          "icon": "💥"
+        },
+        "rude": {
+          "term": "rude",
+          "image": "assets/flashcards/grade3/g3_u8_rude.png",
+          "icon": "😠"
+        },
+        "space station": {
+          "term": "space station",
+          "image": "assets/flashcards/grade3/g3_u8_space_station.png",
+          "icon": "🛰️"
+        },
+        "rocket": {
+          "term": "rocket",
+          "image": "assets/flashcards/grade3/g3_u8_rocket.png",
+          "icon": "🚀"
+        },
+        "scientist": {
+          "term": "scientist",
+          "image": "assets/flashcards/grade3/g3_u8_scientist.png",
+          "icon": "🧑‍🔬"
+        },
+        "float": {
+          "term": "float",
+          "image": "assets/flashcards/grade3/g3_u8_float.png",
+          "icon": "🫧"
+        },
+        "laboratory": {
+          "term": "laboratory",
+          "image": "assets/flashcards/grade3/g3_u8_laboratory.png",
+          "icon": "🧪"
+        },
+        "launch": {
+          "term": "launch",
+          "image": "assets/flashcards/grade3/g3_u8_launch.png",
+          "icon": "🚀"
+        },
+        "orbit": {
+          "term": "orbit",
+          "image": "assets/flashcards/grade3/g3_u8_orbit.png",
+          "icon": "🪐"
+        },
+        "telescope": {
+          "term": "telescope",
+          "image": "assets/flashcards/grade3/g3_u8_telescope.png",
+          "icon": "🔭"
+        },
+        "planet": {
+          "term": "planet",
+          "image": "assets/flashcards/grade3/g3_u8_planet.png",
+          "icon": "🪐"
+        },
+        "spacesuit": {
+          "term": "spacesuit",
+          "image": "assets/flashcards/grade3/g3_u8_spacesuit.png",
+          "icon": "🧑‍🚀"
+        }
+      },
+      "9": {
+        "roof": {
+          "term": "roof",
+          "image": "assets/flashcards/grade3/g3_u9_roof.png",
+          "icon": "🏠"
+        },
+        "balcony": {
+          "term": "balcony",
+          "image": "assets/flashcards/grade3/g3_u9_balcony.png",
+          "icon": "🏢"
+        },
+        "attic": {
+          "term": "attic",
+          "image": "assets/flashcards/grade3/g3_u9_attic.png",
+          "icon": "🏚️"
+        },
+        "view": {
+          "term": "view",
+          "image": "assets/flashcards/grade3/g3_u9_view.png",
+          "icon": "🌅"
+        },
+        "wood": {
+          "term": "wood",
+          "image": "assets/flashcards/grade3/g3_u9_wood.png",
+          "icon": "🪵"
+        },
+        "stone": {
+          "term": "stone",
+          "image": "assets/flashcards/grade3/g3_u9_stone.png",
+          "icon": "🪨"
+        },
+        "sweep": {
+          "term": "sweep",
+          "image": "assets/flashcards/grade3/g3_u9_sweep.png",
+          "icon": "🧹"
+        },
+        "build": {
+          "term": "build",
+          "image": "assets/flashcards/grade3/g3_u9_build.png",
+          "icon": "🏗️"
+        },
+        "steep": {
+          "term": "steep",
+          "image": "assets/flashcards/grade3/g3_u9_steep.png",
+          "icon": "⛰️"
+        },
+        "flat": {
+          "term": "flat",
+          "image": "assets/flashcards/grade3/g3_u9_flat.png",
+          "icon": "➖"
+        },
+        "narrow": {
+          "term": "narrow",
+          "image": "assets/flashcards/grade3/g3_u9_narrow.png",
+          "icon": "↔️"
+        },
+        "wide": {
+          "term": "wide",
+          "image": "assets/flashcards/grade3/g3_u9_wide.png",
+          "icon": "↔️"
+        },
+        "concrete": {
+          "term": "concrete",
+          "image": "assets/flashcards/grade3/g3_u9_concrete.png",
+          "icon": "🧱"
+        },
+        "bricks": {
+          "term": "bricks",
+          "image": "assets/flashcards/grade3/g3_u9_bricks.png",
+          "icon": "🧱"
+        },
+        "metal": {
+          "term": "metal",
+          "image": "assets/flashcards/grade3/g3_u9_metal.png",
+          "icon": "🔩"
+        },
+        "plastic": {
+          "term": "plastic",
+          "image": "assets/flashcards/grade3/g3_u9_plastic.png",
+          "icon": "🧴"
+        },
+        "move": {
+          "term": "move",
+          "image": "assets/flashcards/grade3/g3_u9_move.png",
+          "icon": "📦"
+        },
+        "stairs": {
+          "term": "stairs",
+          "image": "assets/flashcards/grade3/g3_u9_stairs.png",
+          "icon": "🪜"
+        },
+        "elevator": {
+          "term": "elevator",
+          "image": "assets/flashcards/grade3/g3_u9_elevator.png",
+          "icon": "🛗"
+        },
+        "basement": {
+          "term": "basement",
+          "image": "assets/flashcards/grade3/g3_u9_basement.png",
+          "icon": "⬇️"
+        }
+      },
+      "10": {
+        "stomach": {
+          "term": "stomach",
+          "image": "assets/flashcards/grade3/g3_u10_stomach.png",
+          "icon": "🫄"
+        },
+        "back": {
+          "term": "back",
+          "image": "assets/flashcards/grade3/g3_u10_back.svg",
+          "icon": "🧍"
+        },
+        "neck": {
+          "term": "neck",
+          "image": "assets/flashcards/grade3/g3_u10_neck.svg",
+          "icon": "🧣"
+        },
+        "shoulder": {
+          "term": "shoulder",
+          "image": "assets/flashcards/grade3/g3_u10_shoulder.svg",
+          "icon": "💪"
+        },
+        "fever": {
+          "term": "fever",
+          "image": "assets/flashcards/grade3/g3_u10_fever.svg",
+          "icon": "🌡️"
+        },
+        "bandage": {
+          "term": "bandage",
+          "image": "assets/flashcards/grade3/g3_u10_bandage.svg",
+          "icon": "🩹"
+        },
+        "take medicine": {
+          "term": "take medicine",
+          "image": "assets/flashcards/grade3/g3_u10_take_medicine.svg",
+          "icon": "💊"
+        },
+        "rest": {
+          "term": "rest",
+          "image": "assets/flashcards/grade3/g3_u10_rest.svg",
+          "icon": "🛌"
+        },
+        "pale": {
+          "term": "pale",
+          "image": "assets/flashcards/grade3/g3_u10_pale.svg",
+          "icon": "😶"
+        },
+        "sick": {
+          "term": "sick",
+          "image": "assets/flashcards/grade3/g3_u10_sick.svg",
+          "icon": "🤒"
+        },
+        "muscles": {
+          "term": "muscles",
+          "image": "assets/flashcards/grade3/g3_u10_muscles.svg",
+          "icon": "💪"
+        },
+        "skin": {
+          "term": "skin",
+          "image": "assets/flashcards/grade3/g3_u10_skin.svg",
+          "icon": "🖐️"
+        },
+        "brain": {
+          "term": "brain",
+          "image": "assets/flashcards/grade3/g3_u10_brain.svg",
+          "icon": "🧠"
+        },
+        "heart": {
+          "term": "heart",
+          "image": "assets/flashcards/grade3/g3_u10_heart.svg",
+          "icon": "❤️"
+        },
+        "cold": {
+          "term": "cold",
+          "image": "assets/flashcards/grade3/g3_u10_cold.svg",
+          "icon": "🤧"
+        },
+        "cough": {
+          "term": "cough",
+          "image": "assets/flashcards/grade3/g3_u10_cough.svg",
+          "icon": "😷"
+        },
+        "sneeze": {
+          "term": "sneeze",
+          "image": "assets/flashcards/grade3/g3_u10_sneeze.svg",
+          "icon": "🤧"
+        },
+        "vaccination": {
+          "term": "vaccination",
+          "image": "assets/flashcards/grade3/g3_u10_vaccination.svg",
+          "icon": "💉"
+        },
+        "spread": {
+          "term": "spread",
+          "image": "assets/flashcards/grade3/g3_u10_spread.svg",
+          "icon": "🦠"
+        },
+        "save your life": {
+          "term": "save your life",
+          "image": "assets/flashcards/grade3/g3_u10_save_your_life.svg",
+          "icon": "🛟"
+        }
+      },
+      "11": {
+        "south pole": {
+          "term": "South Pole",
+          "image": "assets/flashcards/grade3/g3_u11_south_pole.png",
+          "icon": "🧭"
+        },
+        "penguin": {
+          "term": "penguin",
+          "image": "assets/flashcards/grade3/g3_u11_penguin.png",
+          "icon": "🐧"
+        },
+        "expedition": {
+          "term": "expedition",
+          "image": "assets/flashcards/grade3/g3_u11_expedition.png",
+          "icon": "🧭"
+        },
+        "temperature": {
+          "term": "temperature",
+          "image": "assets/flashcards/grade3/g3_u11_temperature.png",
+          "icon": "🌡️"
+        },
+        "degrees": {
+          "term": "degrees",
+          "image": "assets/flashcards/grade3/g3_u11_degrees.png",
+          "icon": "°"
+        },
+        "ice": {
+          "term": "ice",
+          "image": "assets/flashcards/grade3/g3_u11_ice.png",
+          "icon": "🧊"
+        },
+        "continent": {
+          "term": "continent",
+          "image": "assets/flashcards/grade3/g3_u11_continent.png",
+          "icon": "🌍"
+        },
+        "freezing": {
+          "term": "freezing",
+          "image": "assets/flashcards/grade3/g3_u11_freezing.png",
+          "icon": "🥶"
+        },
+        "crack": {
+          "term": "crack",
+          "image": "assets/flashcards/grade3/g3_u11_crack.png",
+          "icon": "🧊"
+        },
+        "deep": {
+          "term": "deep",
+          "image": "assets/flashcards/grade3/g3_u11_deep.png",
+          "icon": "⬇️"
+        },
+        "fur": {
+          "term": "fur",
+          "image": "assets/flashcards/grade3/g3_u11_fur.png",
+          "icon": "🦊"
+        },
+        "octopus": {
+          "term": "octopus",
+          "image": "assets/flashcards/grade3/g3_u11_octopus.png",
+          "icon": "🐙"
+        },
+        "hunt": {
+          "term": "hunt",
+          "image": "assets/flashcards/grade3/g3_u11_hunt.png",
+          "icon": "🎯"
+        },
+        "krill": {
+          "term": "krill",
+          "image": "assets/flashcards/grade3/g3_u11_krill.png",
+          "icon": "🦐"
+        },
+        "feather": {
+          "term": "feather",
+          "image": "assets/flashcards/grade3/g3_u11_feather.png",
+          "icon": "🪶"
+        },
+        "layer": {
+          "term": "layer",
+          "image": "assets/flashcards/grade3/g3_u11_layer.png",
+          "icon": "📚"
+        },
+        "migrate": {
+          "term": "migrate",
+          "image": "assets/flashcards/grade3/g3_u11_migrate.png",
+          "icon": "🦅"
+        },
+        "poisonous": {
+          "term": "poisonous",
+          "image": "assets/flashcards/grade3/g3_u11_poisonous.png",
+          "icon": "☠️"
+        },
+        "wing": {
+          "term": "wing",
+          "image": "assets/flashcards/grade3/g3_u11_wing.png",
+          "icon": "🪽"
+        },
+        "waterproof": {
+          "term": "waterproof",
+          "image": "assets/flashcards/grade3/g3_u11_waterproof.png",
+          "icon": "💧"
+        }
+      },
+      "12": {
+        "lantern": {
+          "term": "lantern",
+          "image": "assets/flashcards/grade3/g3_u12_lantern.png",
+          "icon": "🏮"
+        },
+        "parade": {
+          "term": "parade",
+          "image": "assets/flashcards/grade3/g3_u12_parade.png",
+          "icon": "🎊"
+        },
+        "emperor": {
+          "term": "emperor",
+          "image": "assets/flashcards/grade3/g3_u12_emperor.png",
+          "icon": "👑"
+        },
+        "stilt walker": {
+          "term": "stilt walker",
+          "image": "assets/flashcards/grade3/g3_u12_stilt_walker.png",
+          "icon": "🪵"
+        },
+        "annoying": {
+          "term": "annoying",
+          "image": "assets/flashcards/grade3/g3_u12_annoying.png",
+          "icon": "😣"
+        },
+        "hang": {
+          "term": "hang",
+          "image": "assets/flashcards/grade3/g3_u12_hang.png",
+          "icon": "🪝"
+        },
+        "crowded": {
+          "term": "crowded",
+          "image": "assets/flashcards/grade3/g3_u12_crowded.png",
+          "icon": "👥"
+        },
+        "costume": {
+          "term": "costume",
+          "image": "assets/flashcards/grade3/g3_u12_costume.png",
+          "icon": "👘"
+        },
+        "furry": {
+          "term": "furry",
+          "image": "assets/flashcards/grade3/g3_u12_furry.png",
+          "icon": "🦊"
+        },
+        "fireworks": {
+          "term": "fireworks",
+          "image": "assets/flashcards/grade3/g3_u12_fireworks.png",
+          "icon": "🎆"
+        },
+        "eel": {
+          "term": "eel",
+          "image": "assets/flashcards/grade3/g3_u12_eel.png",
+          "icon": "🐍"
+        },
+        "cathedral": {
+          "term": "cathedral",
+          "image": "assets/flashcards/grade3/g3_u12_cathedral.png",
+          "icon": "⛪"
+        },
+        "bell": {
+          "term": "bell",
+          "image": "assets/flashcards/grade3/g3_u12_bell.png",
+          "icon": "🔔"
+        },
+        "get married": {
+          "term": "get married",
+          "image": "assets/flashcards/grade3/g3_u12_get_married.png",
+          "icon": "💍"
+        },
+        "water fight": {
+          "term": "water fight",
+          "image": "assets/flashcards/grade3/g3_u12_water_fight.png",
+          "icon": "💦"
+        },
+        "spray": {
+          "term": "spray",
+          "image": "assets/flashcards/grade3/g3_u12_spray.png",
+          "icon": "💦"
+        },
+        "have a day off": {
+          "term": "have a day off",
+          "image": "assets/flashcards/grade3/g3_u12_have_a_day_off.png",
+          "icon": "🏖️"
+        },
+        "grown-up": {
+          "term": "grown-up",
+          "image": "assets/flashcards/grade3/g3_u12_grown_up.png",
+          "icon": "🧑"
+        },
+        "sticky": {
+          "term": "sticky",
+          "image": "assets/flashcards/grade3/g3_u12_sticky.png",
+          "icon": "🍯"
+        },
+        "coconut": {
+          "term": "coconut",
+          "image": "assets/flashcards/grade3/g3_u12_coconut.png",
+          "icon": "🥥"
+        }
+      }
+    }
+  }
+}

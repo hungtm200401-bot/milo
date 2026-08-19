@@ -1,0 +1,174 @@
+/* V60.13.8 · Đăng nhập, đăng ký và hồ sơ chiếm toàn bộ cửa sổ app */
+#accountLoginModal.child-login,
+#childLogin.child-login {
+  inset: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  height: 100dvh !important;
+  padding: 0 !important;
+  place-items: stretch !important;
+  overflow: hidden !important;
+  background: #0d1731 !important;
+  backdrop-filter: none !important;
+}
+
+#accountLoginForm.child-login-card.pro-auth-shell,
+#childLoginForm.child-login-card.pro-auth-shell {
+  position: relative !important;
+  inset: auto !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  height: 100dvh !important;
+  max-width: none !important;
+  max-height: none !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  grid-template-columns: minmax(330px, 38vw) minmax(0, 1fr) !important;
+  align-items: stretch !important;
+  overflow: hidden !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: #fff !important;
+  box-shadow: none !important;
+}
+
+#accountLoginForm .login-showcase.auth-showcase,
+#childLoginForm .auth-showcase {
+  min-width: 0 !important;
+  min-height: 100% !important;
+  max-height: none !important;
+  height: 100% !important;
+  padding: clamp(28px, 4vw, 68px) clamp(26px, 4vw, 64px) !important;
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+  border-radius: 0 !important;
+}
+
+#accountLoginForm .login-form-panel,
+#accountLoginForm .auth-form-panel,
+#childLoginForm .auth-form-panel {
+  width: 100% !important;
+  height: 100% !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  padding: clamp(24px, 3.2vw, 54px) clamp(28px, 5vw, 82px) clamp(18px, 2.6vw, 42px) !important;
+  overflow: hidden !important;
+  border-radius: 0 !important;
+  background: #fff !important;
+}
+
+#accountLoginForm .auth-form-scroll,
+#childLoginForm .auth-form-scroll {
+  width: 100% !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+  padding-right: 12px !important;
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+}
+
+#accountLoginForm .auth-switch,
+#childLoginForm .auth-switch {
+  width: 100% !important;
+  max-width: none !important;
+}
+
+#accountLoginForm .auth-action-footer,
+#childLoginForm .auth-action-footer {
+  width: 100% !important;
+  max-width: none !important;
+  flex: 0 0 auto !important;
+}
+
+#childLoginForm.is-profile .auth-showcase {
+  display: flex !important;
+}
+
+#childLoginForm.is-profile .auth-form-panel {
+  height: 100% !important;
+  max-height: none !important;
+}
+
+#childLoginForm .profile-close {
+  top: 20px !important;
+  right: 22px !important;
+  z-index: 30 !important;
+}
+
+@media (min-width: 1500px) {
+  #accountLoginForm.child-login-card.pro-auth-shell,
+  #childLoginForm.child-login-card.pro-auth-shell {
+    grid-template-columns: minmax(430px, 36vw) minmax(0, 1fr) !important;
+  }
+
+  #accountLoginForm .login-form-panel,
+  #accountLoginForm .auth-form-panel,
+  #childLoginForm .auth-form-panel {
+    padding-left: clamp(64px, 7vw, 120px) !important;
+    padding-right: clamp(64px, 7vw, 120px) !important;
+  }
+}
+
+@media (max-width: 850px) {
+  #accountLoginForm.child-login-card.pro-auth-shell,
+  #childLoginForm.child-login-card.pro-auth-shell {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: minmax(150px, 28vh) minmax(0, 1fr) !important;
+  }
+
+  #accountLoginForm .login-showcase.auth-showcase,
+  #childLoginForm .auth-showcase,
+  #childLoginForm.is-profile .auth-showcase {
+    display: flex !important;
+    min-height: 0 !important;
+    height: auto !important;
+    max-height: none !important;
+    padding: 22px 24px !important;
+  }
+
+  #accountLoginForm .login-form-panel,
+  #accountLoginForm .auth-form-panel,
+  #childLoginForm .auth-form-panel {
+    min-height: 0 !important;
+    padding: 20px 22px 14px !important;
+  }
+
+  #accountLoginForm .login-showcase .account-plan-snapshot,
+  #childLoginForm .auth-showcase .account-plan-snapshot,
+  #accountLoginForm .auth-trust-list,
+  #childLoginForm .auth-trust-list {
+    display: none !important;
+  }
+
+  #accountLoginForm .login-showcase > p,
+  #childLoginForm .auth-showcase > p {
+    margin-top: 8px !important;
+  }
+}
+
+@media (max-width: 560px) {
+  #accountLoginForm.child-login-card.pro-auth-shell,
+  #childLoginForm.child-login-card.pro-auth-shell {
+    grid-template-rows: minmax(125px, 23vh) minmax(0, 1fr) !important;
+  }
+
+  #accountLoginForm .login-showcase.auth-showcase,
+  #childLoginForm .auth-showcase,
+  #childLoginForm.is-profile .auth-showcase {
+    padding: 16px 17px !important;
+  }
+
+  #accountLoginForm .login-form-panel,
+  #accountLoginForm .auth-form-panel,
+  #childLoginForm .auth-form-panel {
+    padding: 16px 15px 10px !important;
+  }
+
+  #childLoginForm .profile-close {
+    top: 10px !important;
+    right: 10px !important;
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "version": "60.24.0",
+  "generatedAt": "2026-08-18T03:36:11.361Z",
+  "method": "Node performance harness executing the production interaction runtime; local assessment and incremental render are representative deterministic operations.",
+  "thresholdsMs": {
+    "visualResponse": 100,
+    "localResult": 300,
+    "prefetchedNextQuestion": 300,
+    "longTask": 100
+  },
+  "sampleSize": 120,
+  "visualResponse": {
+    "count": 120,
+    "p50Ms": 0.026,
+    "p95Ms": 0.068,
+    "maxMs": 0.131,
+    "meanMs": 0.031
+  },
+  "localAssessmentVisible": {
+    "count": 120,
+    "p50Ms": 30.995,
+    "p95Ms": 32.063,
+    "maxMs": 32.896,
+    "meanMs": 29.832
+  },
+  "nextQuestionReady": {
+    "count": 120,
+    "p50Ms": 31.051,
+    "p95Ms": 32.109,
+    "maxMs": 32.937,
+    "meanMs": 29.893
+  },
+  "singleExecution": {
+    "intendedExecutions": 120,
+    "actualExecutions": 120,
+    "duplicateHandlerExecutions": 0,
+    "duplicateAttemptsSkipped": 120,
+    "passed": true
+  },
+  "progressQueue": {
+    "enqueues": 100,
+    "physicalWrites": 1,
+    "retainedQuestion": 99,
+    "flushDurationMs": 0.026,
+    "passed": true
+  },
+  "pass": true
+}

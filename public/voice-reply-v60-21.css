@@ -1,0 +1,18 @@
+/* Milo V60.21 voice reply states and typed fallback. */
+.milo-voice-status,.micro-voice-status{display:inline-flex;align-items:center;min-height:32px;padding:4px 10px;border-radius:999px;background:#eef8ff;color:#31506f;font-size:14px;font-weight:700}
+.milo-voice-status[data-state="requesting"],.micro-voice-status[data-state="requesting"]{background:#fff4d8;color:#765000}
+.milo-voice-status[data-state="listening"],.micro-voice-status[data-state="listening"]{background:#e8fff3;color:#146444;animation:miloVoicePulse 1s ease-in-out infinite}
+.milo-voice-status[data-state="processing"],.micro-voice-status[data-state="processing"]{background:#f1edff;color:#553d8f}
+.milo-voice-status[data-state="fallback"],.micro-voice-status[data-state="fallback"]{background:#fff0f1;color:#8a3040}
+.micro-speak-actions{display:grid;grid-template-columns:repeat(2,minmax(150px,1fr));gap:10px;align-items:center}
+.micro-speak-actions button{min-height:44px}
+.micro-voice-status,.micro-voice-fallback{grid-column:1/-1}
+.micro-voice-fallback{display:grid;gap:6px;font-size:14px;font-weight:700;color:#40536c}
+.micro-voice-fallback input{min-height:46px;border:2px solid #cddff2;border-radius:14px;padding:10px 12px;font-size:15px;background:#fff}
+.micro-vip-coach-link{background:#f5f0ff!important;color:#6140a0!important;border-color:#d8c9ff!important}
+@keyframes miloVoicePulse{50%{transform:scale(1.02);box-shadow:0 0 0 5px rgba(38,181,117,.12)}}
+@media(max-width:700px){.micro-speak-actions{grid-template-columns:1fr}}
+/* Chat status is an overlay, so it never steals the input's grid column. */
+#chatForm{position:relative!important}
+#chatForm>.milo-voice-status{position:absolute!important;z-index:6;left:8px;right:8px;top:-34px;display:flex!important;justify-content:center!important;max-width:none!important;pointer-events:none!important;box-sizing:border-box!important}
+#chatForm>.milo-voice-status[data-state="idle"]{display:none!important}

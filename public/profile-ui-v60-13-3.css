@@ -1,0 +1,209 @@
+/* V60.13.3 · Hồ sơ đầy đủ, vùng lưu luôn hiển thị */
+#childLoginForm.is-profile .auth-form-panel {
+  position: relative;
+  min-height: 0;
+  display: grid !important;
+  grid-template-rows: auto minmax(0, 1fr) auto auto !important;
+  overflow: hidden !important;
+}
+
+#childLoginForm.is-profile .auth-switch {
+  display: none !important;
+}
+
+#childLoginForm.is-profile .auth-form-scroll {
+  min-height: 0;
+  padding: 0 10px 22px 0;
+  overflow-y: auto !important;
+  overflow-x: hidden;
+  scrollbar-gutter: stable;
+}
+
+#childLoginForm.is-profile .auth-action-footer {
+  position: relative !important;
+  z-index: 20;
+  display: grid !important;
+  gap: 9px;
+  width: 100%;
+  margin: 0 !important;
+  padding: 14px 0 0 !important;
+  border-top: 1px solid #e2e8f2;
+  background: #fff !important;
+  box-shadow: 0 -14px 30px rgba(24, 43, 78, .08) !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+#childLoginForm.is-profile .profile-submit {
+  display: flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  width: 100%;
+  min-height: 58px;
+  margin: 0 !important;
+  border: 0;
+  background: linear-gradient(120deg, #ff8b16, #ff6808 58%, #f54e00);
+  box-shadow: 0 14px 28px rgba(242, 103, 10, .25);
+  color: #fff;
+  cursor: pointer;
+}
+
+#childLoginForm.is-profile .profile-submit:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 17px 32px rgba(242, 103, 10, .31);
+}
+
+#childLoginForm.is-profile .profile-submit:disabled {
+  cursor: wait;
+  opacity: .7 !important;
+  transform: none;
+}
+
+.profile-save-copy {
+  display: grid;
+  gap: 2px;
+  padding: 10px 12px;
+  border: 1px solid #d9e5f2;
+  border-radius: 13px;
+  background: linear-gradient(135deg, #f7fbff, #fff9ec);
+}
+
+.profile-save-copy b {
+  color: #263a59;
+  font-size: 12px;
+}
+
+.profile-save-copy small {
+  color: #728097;
+  font-size: 10px;
+  line-height: 1.45;
+}
+
+.profile-secondary-block {
+  margin-top: 18px;
+  padding: 14px;
+  border: 1px solid #dfe6f2;
+  border-radius: 16px;
+  background: #f8faff;
+}
+
+.profile-secondary-block .profile-session-actions {
+  margin-top: 0;
+}
+
+.profile-secondary-block .profile-pin-recovery {
+  margin-bottom: 0;
+}
+
+#childLoginForm.is-profile .profile-privacy {
+  margin: 8px 0 0;
+  padding-bottom: 0;
+}
+
+@media (max-height: 760px) {
+  #childLoginForm.is-profile .auth-form-panel {
+    padding-top: 18px !important;
+    padding-bottom: 12px !important;
+  }
+
+  #childLoginForm.is-profile .auth-form-scroll {
+    padding-bottom: 14px;
+  }
+
+  #childLoginForm.is-profile .auth-action-footer {
+    padding-top: 10px !important;
+  }
+
+  #childLoginForm.is-profile .profile-submit {
+    min-height: 50px;
+  }
+
+  #childLoginForm.is-profile .profile-save-copy {
+    display: none;
+  }
+}
+
+@media (max-width: 850px) {
+  #childLoginForm.is-profile .auth-showcase {
+    display: none !important;
+  }
+
+  #childLoginForm.is-profile {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+
+/* V60.13.4 - Hồ sơ không nhấp nháy, nút lưu/đăng xuất luôn hiển thị */
+#childLogin:not(.hidden) {
+  display: grid !important;
+}
+
+#childLogin .profile-footer-actions {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 10px;
+  align-items: stretch;
+}
+
+#childLogin .profile-footer-actions .profile-submit {
+  width: 100%;
+  min-width: 0;
+}
+
+#childLogin .profile-footer-logout {
+  min-width: 142px;
+  border: 1px solid #efb9bf;
+  border-radius: 14px;
+  padding: 12px 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  background: #fff4f5;
+  color: #bd3545;
+  font: inherit;
+  font-weight: 950;
+  cursor: pointer;
+}
+
+#childLogin .profile-footer-logout:hover {
+  border-color: #e98995;
+  background: #ffe9ec;
+  transform: translateY(-1px);
+}
+
+#childLogin .profile-footer-logout i {
+  font-style: normal;
+}
+
+#childLogin .profile-footer-logout.hidden {
+  display: none !important;
+}
+
+#childLogin .auth-action-footer {
+  position: relative;
+  z-index: 5;
+  flex: 0 0 auto;
+}
+
+@media (max-width: 720px) {
+  #childLogin .profile-footer-actions {
+    grid-template-columns: 1fr;
+  }
+
+  #childLogin .profile-footer-logout {
+    width: 100%;
+  }
+}
+
+
+/* V60.13.5 - trạng thái .env/API rõ ràng */
+.milo-env-api-check{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:12px 0;padding:11px 12px;border:1px solid #ffffff38;border-radius:14px;background:#ffffff12}
+.milo-env-api-check span{flex:1 1 320px;font-size:11px;font-weight:850;line-height:1.45;color:#f4f2ff}
+.milo-env-api-check span[data-state="success"]{color:#d9ffe8}
+.milo-env-api-check span[data-state="error"]{color:#ffe1e1}
+.milo-env-api-check span[data-state="warning"]{color:#fff0bd}
+.milo-env-api-check span[data-state="loaded"]{color:#e6f7ff}
+.milo-env-api-check button{flex:0 0 auto;border:1px solid #ffffff66;border-radius:11px;padding:9px 12px;background:#ffffffef;color:#4d3c91;font-weight:950;cursor:pointer}
+.milo-env-api-check button:disabled{opacity:.65;cursor:wait}

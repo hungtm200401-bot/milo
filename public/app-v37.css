@@ -1,0 +1,592 @@
+/* Crop-safe pets và trợ giảng; dùng token App Shell V60.12.0. */
+
+html {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: "Aptos", "Segoe UI Variable", "Segoe UI", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+button,
+input,
+select {
+  letter-spacing: 0;
+}
+
+.eyebrow {
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: .1em;
+}
+
+.subtle {
+  color: #596a81;
+  font-size: 15px;
+}
+
+.app {
+  overflow-x: clip;
+  overflow-y: visible;
+}
+
+.layout > *,
+.main,
+.view {
+  min-width: 0;
+}
+
+.avatar {
+  width: auto;
+  min-width: 44px;
+  height: 44px;
+  padding: 4px 10px 4px 5px;
+  gap: 7px;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  border: 0;
+}
+
+.avatar .profile-icon {
+  width: 34px;
+  height: 34px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: rgba(255,255,255,.2);
+  font-size: 18px;
+}
+
+.avatar small {
+  max-width: 96px;
+  overflow: hidden;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 900;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Never enlarge or bottom-crop the main evolution artwork. */
+.offline-evolution-feature > div {
+  position: relative;
+  min-height: 330px;
+  height: clamp(330px, var(--pet-frame-height, 350px), 410px);
+  padding: 24px !important;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+}
+
+.offline-evolution-feature img {
+  width: auto !important;
+  height: auto !important;
+  max-width: min(84%, 310px) !important;
+  max-height: calc(100% - 44px) !important;
+  margin: auto;
+  object-fit: contain !important;
+  object-position: center center !important;
+  animation: evolutionFloat 3.1s ease-in-out infinite !important;
+}
+
+@keyframes evolutionFloat {
+  0%, 100% { transform: translateY(2px); }
+  50% { transform: translateY(-7px); }
+}
+
+.milo-image {
+  min-height: 330px;
+  overflow: hidden;
+}
+
+.milo-image > img,
+.hero-avatar-frame .hero-fox,
+.pet-choice-card .pet-portrait img,
+.pet-hub-hero img {
+  width: auto !important;
+  height: auto !important;
+  max-width: calc(var(--pet-body-scale, .9) * 270px) !important;
+  max-height: calc(100% - 28px) !important;
+  object-fit: contain !important;
+  object-position: center center !important;
+}
+
+.pet-choice-card .pet-portrait {
+  min-height: 250px;
+  padding: 20px !important;
+}
+
+.pet-choice-card p {
+  color: #53647b;
+  font-size: 15px !important;
+  line-height: 1.55;
+}
+
+.pet-choice-card.disabled-choice {
+  cursor: not-allowed !important;
+  opacity: .52;
+  filter: saturate(.62);
+  box-shadow: none !important;
+  transform: none !important;
+}
+
+.pet-choice-card.disabled-choice button {
+  color: #677487;
+  background: #e7edf2;
+}
+
+.pet-choice-card.pending {
+  border: 3px solid #f09a46;
+  background: linear-gradient(180deg,#fff7e9,#fff);
+  box-shadow: 0 12px 28px rgba(240,154,70,.22);
+}
+
+.pet-choice-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.pet-choice-actions button {
+  border: 0;
+  border-radius: 13px;
+  padding: 10px 14px;
+  font-size: 14px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.confirm-pet {
+  color: #fff;
+  background: linear-gradient(135deg,#6d56d2,#9277e6);
+  box-shadow: 0 8px 18px rgba(100,76,202,.25);
+}
+
+.change-pet {
+  color: #5f50a6;
+  background: #eee9ff;
+}
+
+.pet-choice-lock-note {
+  margin: 12px 0 0;
+  padding: 12px 14px;
+  border-radius: 14px;
+  color: #3c6547;
+  background: #ebfaee;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.offline-motion-lab > div {
+  font-size: 13px;
+}
+
+.offline-motion-lab button {
+  min-height: 54px;
+  font-size: 13px;
+}
+
+.offline-motion-lab button span {
+  font-size: 22px;
+}
+
+.offline-motion-lab .level-special-motion > b {
+  font-size: 14px;
+}
+
+.offline-motion-lab .level-special-motion > small {
+  font-size: 12px;
+}
+
+.milo-image .touch-milo,
+.level-activity-card small,
+.growth-progress span,
+.growth-progress > small,
+.pet-meter,
+.pet-care button {
+  font-size: 12px;
+}
+
+.level-activity-card b {
+  font-size: 16px;
+}
+
+.level-activity-card p,
+.level-activity-card button {
+  font-size: 14px !important;
+}
+
+.growth-progress > small {
+  font-weight: 800;
+}
+
+.milo-say p {
+  font-size: 14px;
+  line-height: 1.62;
+}
+
+.bubble {
+  font-size: 14px;
+  line-height: 1.62;
+  white-space: pre-line;
+}
+
+.tutor-intro {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 12px;
+  margin-bottom: 14px;
+  padding: 14px 16px;
+  border: 1px solid #dcd4fa;
+  border-radius: 18px;
+  background: linear-gradient(135deg,#f2edff,#edf9ff);
+}
+
+.tutor-intro > span {
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  border-radius: 14px;
+  background: #fff;
+  font-size: 24px;
+}
+
+.tutor-intro b,
+.tutor-intro small {
+  display: block;
+}
+
+.tutor-intro b {
+  font-size: 15px;
+}
+
+.tutor-intro small {
+  margin-top: 3px;
+  color: #62728a;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.tutor-quick {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  padding: 0 14px 12px;
+  background: #fff;
+}
+
+.tutor-quick button {
+  border: 1px solid #d9e4ea;
+  border-radius: 999px;
+  padding: 8px 10px;
+  color: #4d5f78;
+  background: #fff;
+  font-size: 13px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.tutor-mode {
+  margin-left: auto;
+  color: #527765;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+/* Name + gender only, stored on the child's device. */
+.child-login {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: grid;
+  place-items: center;
+  padding: 18px;
+  background: rgba(30,43,65,.66);
+  backdrop-filter: blur(12px);
+}
+
+.child-login.hidden {
+  display: none;
+}
+
+.child-login-card {
+  width: min(520px,100%);
+  padding: clamp(24px,5vw,38px);
+  border: 1px solid rgba(255,255,255,.78);
+  border-radius: 32px;
+  background: linear-gradient(155deg,#fff,#f7fbff 58%,#fff7e9);
+  box-shadow: 0 30px 90px rgba(20,37,60,.3);
+}
+
+.login-pet-mark {
+  width: 74px;
+  height: 74px;
+  display: grid;
+  place-items: center;
+  margin: 0 auto 14px;
+  border-radius: 25px;
+  background: linear-gradient(145deg,#eee8ff,#fff1d8);
+  font-size: 40px;
+  animation: evolutionFloat 2.6s ease-in-out infinite;
+}
+
+.child-login-card h2 {
+  margin: 0;
+  color: #22314b;
+  font-size: clamp(27px,5vw,36px);
+  line-height: 1.12;
+  text-align: center;
+}
+
+.child-login-card > p {
+  margin: 9px auto 22px;
+  color: #5d6d84;
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.profile-field {
+  display: grid;
+  gap: 7px;
+  margin-top: 16px;
+}
+
+.profile-field > span,
+.gender-group legend {
+  color: #40516a;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.profile-field input[type="text"] {
+  width: 100%;
+  border: 2px solid #dce6ed;
+  border-radius: 15px;
+  padding: 13px 14px;
+  color: #22314b;
+  background: #fff;
+  font-size: 16px;
+  font-weight: 750;
+  outline: 0;
+}
+
+.profile-field input[type="text"]:focus {
+  border-color: #816bd5;
+  box-shadow: 0 0 0 4px rgba(129,107,213,.13);
+}
+
+.gender-group {
+  margin: 17px 0 0;
+  padding: 0;
+  border: 0;
+}
+
+.gender-options {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 9px;
+  margin-top: 8px;
+}
+
+.gender-options label {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  gap: 5px;
+  padding: 12px 6px;
+  border: 2px solid #dce6ed;
+  border-radius: 16px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.gender-options label:has(input:checked) {
+  border-color: #8069d4;
+  background: #f0ebff;
+  box-shadow: 0 7px 18px rgba(105,82,190,.15);
+}
+
+.gender-options input {
+  position: absolute;
+  opacity: 0;
+}
+
+.gender-options i {
+  font-size: 28px;
+  font-style: normal;
+}
+
+.gender-options b {
+  font-size: 14px;
+}
+
+.profile-error {
+  min-height: 20px;
+  margin: 9px 0 0;
+  color: #b34343;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.profile-submit {
+  width: 100%;
+  margin-top: 5px;
+  border: 0;
+  border-radius: 16px;
+  padding: 14px;
+  color: #fff;
+  background: linear-gradient(135deg,#f09542,#f7b85f);
+  box-shadow: 0 10px 24px rgba(240,149,66,.28);
+  font-size: 15px;
+  font-weight: 950;
+  cursor: pointer;
+}
+
+.profile-privacy {
+  display: block;
+  margin-top: 12px;
+  color: #75849a;
+  font-size: 12px;
+  line-height: 1.45;
+  text-align: center;
+}
+
+.profile-close {
+  width: 100%;
+  margin-top: 8px;
+  border: 0;
+  padding: 8px;
+  color: #6556aa;
+  background: transparent;
+  font-size: 13px;
+  font-weight: 850;
+  cursor: pointer;
+}
+
+/* The legacy V30–V36 screens used 6–11 px helper labels. Keep every learning
+   instruction readable on a normal laptop without browser zoom. */
+.offline-evolution-head p,
+.offline-evolution-head > b,
+.offline-evolution-feature section p,
+.offline-evolution-feature section strong,
+.growth-note,
+.pet-stage-chip,
+.pet-benefits span,
+#petSavedBadge {
+  font-size: 13px !important;
+  line-height: 1.55;
+}
+
+.offline-evolution-feature > div > span,
+.offline-unit-levels span,
+.offline-unit-levels b,
+.offline-level-card span,
+.offline-level-card small,
+.level-activity-card small,
+.growth-progress span,
+.growth-progress > small {
+  font-size: 12px !important;
+  line-height: 1.35;
+}
+
+.offline-unit-levels small {
+  font-size: 11px !important;
+}
+
+.offline-level-card {
+  min-height: 198px;
+}
+
+.offline-level-card img {
+  height: 126px;
+}
+
+@media (max-width: 1260px) {
+  .layout {
+    grid-template-columns: 160px minmax(0,1fr);
+  }
+
+  .milo.card {
+    grid-column: 1 / -1;
+    width: min(760px,100%);
+    min-height: 0;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 820px) {
+  .header {
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .header-actions {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  .layout {
+    display: block;
+  }
+
+  .nav {
+    display: flex;
+    margin-bottom: 12px;
+    overflow-x: auto;
+  }
+
+  .nav-btn {
+    flex: 0 0 auto;
+  }
+
+  .main {
+    min-height: 0;
+  }
+
+  .offline-evolution-feature {
+    grid-template-columns: 1fr;
+  }
+
+  .offline-evolution-feature > div {
+    min-height: 340px;
+  }
+}
+
+@media (max-width: 620px) {
+  .app {
+    padding: 10px;
+  }
+
+  .brand h1 {
+    font-size: 18px;
+  }
+
+  .header .pill {
+    display: none;
+  }
+
+  .main {
+    padding: 15px;
+    border-radius: 22px;
+  }
+
+  .offline-evolution {
+    padding: 15px;
+  }
+
+  .offline-evolution-feature > div {
+    min-height: 320px;
+  }
+
+  .gender-options {
+    grid-template-columns: 1fr;
+  }
+}

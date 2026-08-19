@@ -1,0 +1,10 @@
+/* Milo V60.22 — clear acknowledgement without delaying the next screen. */
+button{touch-action:manipulation}
+button.milo-pointer-down{transform:translateY(1px) scale(.985)!important;filter:brightness(.97)}
+button.milo-action-received,button.is-submitting{cursor:progress!important;opacity:.94;box-shadow:0 0 0 4px rgba(39,151,214,.16),0 8px 18px rgba(28,91,137,.16)!important}
+button.is-submitting::after{content:'  •';display:inline-block;animation:milo-action-pulse .7s ease-in-out infinite alternate}
+@keyframes milo-action-pulse{from{opacity:.25}to{opacity:1}}
+.micro-screen.milo-screen-enter{animation:milo-screen-enter .14s ease-out both}
+@keyframes milo-screen-enter{from{opacity:.72;transform:translateY(3px)}to{opacity:1;transform:none}}
+.micro-action-error{margin-top:8px;color:#a33f3f;font-weight:850}
+@media (prefers-reduced-motion:reduce){button.milo-pointer-down,.micro-screen.milo-screen-enter{transform:none!important;animation:none!important}}

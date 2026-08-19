@@ -1,0 +1,1159 @@
+/* Focused child learning route: one session, one task and readable deep teaching. */
+body.micro-focus-mode .lesson-page {
+  padding-inline: clamp(10px, 2vw, 28px);
+}
+
+body.micro-focus-mode .lesson-topbar {
+  width: min(1120px, 100%);
+  min-height: 64px;
+  grid-template-columns: minmax(0, 1fr) !important;
+  margin-bottom: 12px;
+}
+
+body.micro-focus-mode .lesson-brand,
+body.micro-focus-mode .lesson-reward-hud,
+body.micro-focus-mode .lesson-grade-progress,
+body.micro-focus-mode .lesson-selectors,
+body.micro-focus-mode .lesson-main-nav,
+body.micro-focus-mode .lesson-nav,
+body.micro-focus-mode .milo-coach {
+  display: none !important;
+}
+
+body.micro-focus-mode .lesson-app-layout,
+body.micro-focus-mode .lesson-shell {
+  width: min(1120px, 100%);
+  display: block !important;
+  margin: 0 auto;
+}
+
+body.micro-focus-mode .lesson-content {
+  width: 100%;
+  min-height: calc(100dvh - 102px);
+  box-sizing: border-box;
+  padding: clamp(18px, 3vw, 38px);
+}
+
+body.micro-focus-mode .micro-lesson-shell {
+  max-width: 920px;
+  padding-bottom: 92px;
+  font-size: 18px;
+  line-height: 1.62;
+}
+
+.micro-session-context {
+  display: grid;
+  grid-template-columns: 54px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 13px;
+  margin-bottom: 12px;
+  padding: 13px 16px;
+  border: 1px solid #b9dfc9;
+  border-radius: 18px;
+  background: linear-gradient(120deg, #effbf3, #f7fff1);
+  color: #235f42;
+}
+
+.micro-session-context > span {
+  display: grid;
+  width: 52px;
+  height: 52px;
+  place-items: center;
+  border-radius: 16px;
+  background: #fff;
+  font-size: 27px;
+  box-shadow: 0 7px 16px #3a8a5a1a;
+}
+
+.micro-session-context small,
+.micro-session-context b {
+  display: block;
+}
+
+.micro-session-context small {
+  margin-bottom: 2px;
+  font-size: 12px;
+  font-weight: 950;
+  letter-spacing: .06em;
+}
+
+.micro-session-context b {
+  font-size: 18px;
+}
+
+.micro-session-context em {
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #fff;
+  color: #557365;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 850;
+  white-space: nowrap;
+}
+
+body.micro-focus-mode .micro-lesson-header p,
+body.micro-focus-mode .micro-teacher p,
+body.micro-focus-mode .micro-screen p,
+body.micro-focus-mode .micro-screen li {
+  font-size: 17px;
+  line-height: 1.65;
+}
+
+body.micro-focus-mode .micro-lesson-header small,
+body.micro-focus-mode .micro-screen small,
+body.micro-focus-mode .micro-primary-footer small {
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.micro-phase-nav.micro-step-nav {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  overflow: visible;
+}
+
+.micro-phase-nav.micro-step-nav button {
+  min-width: 0;
+  min-height: 76px;
+  display: grid;
+  grid-template-columns: 32px minmax(0, 1fr);
+  grid-template-rows: auto auto;
+  align-content: center;
+  column-gap: 9px;
+  padding: 10px 12px;
+  text-align: left;
+}
+
+.micro-phase-nav.micro-step-nav button span {
+  grid-row: 1 / 3;
+  align-self: center;
+  width: 30px;
+  height: 30px;
+  margin: 0;
+}
+
+.micro-phase-nav.micro-step-nav button b {
+  font-size: 14px;
+  line-height: 1.3;
+}
+
+.micro-phase-nav.micro-step-nav button small {
+  color: inherit;
+  font-size: 11px;
+  line-height: 1.35;
+  opacity: .82;
+}
+
+.micro-step-position {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin: 2px 2px 10px;
+  color: #526f83;
+}
+
+.micro-step-position span {
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: #eaf6ff;
+  color: #147ab5;
+  font-size: 12px;
+  font-weight: 950;
+}
+
+.micro-step-position b {
+  font-size: 14px;
+}
+
+.micro-deep-teaching {
+  display: grid;
+  gap: 16px;
+}
+
+.micro-deep-teaching > .micro-teacher {
+  display: grid;
+  gap: 16px;
+}
+
+.micro-teacher-head > div {
+  min-width: 0;
+}
+
+.micro-teacher-head > div > p {
+  max-width: 65ch;
+  margin: 7px 0 0;
+  color: #526f83;
+}
+
+.micro-deep-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 11px;
+}
+
+.micro-deep-grid > article {
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr);
+  gap: 11px;
+  padding: 15px;
+  border: 1px solid #d7e6ef;
+  border-radius: 16px;
+  background: #f9fcfe;
+}
+
+.micro-deep-grid > article > span {
+  display: grid;
+  width: 40px;
+  height: 40px;
+  place-items: center;
+  border-radius: 12px;
+  background: #eaf6ff;
+  font-size: 20px;
+}
+
+.micro-deep-grid h3,
+.micro-deep-grid p {
+  margin: 0;
+}
+
+.micro-deep-grid h3 {
+  margin-bottom: 4px;
+  color: #244e69;
+  font-size: 16px;
+}
+
+.micro-deep-grid p {
+  color: #526f83;
+}
+
+.micro-deep-rule {
+  padding: 14px 16px;
+  border-left: 5px solid #6c50ce;
+  border-radius: 14px;
+  background: #f4f0ff;
+}
+
+.micro-deep-rule p {
+  margin: 5px 0 0;
+}
+
+.micro-source-status,
+.micro-exact-source {
+  border: 1px solid #c8dfea;
+  border-radius: 18px;
+  background: #f7fcff;
+}
+
+.micro-source-status {
+  display: grid;
+  grid-template-columns: 46px minmax(0, 1fr);
+  gap: 12px;
+  padding: 15px;
+}
+
+.micro-source-status > span {
+  font-size: 30px;
+}
+
+.micro-source-status small,
+.micro-exact-source header small,
+.micro-source-current > small {
+  display: block;
+  color: #1878ad;
+  font-size: 12px;
+  font-weight: 950;
+  letter-spacing: .05em;
+}
+
+.micro-source-status b {
+  display: block;
+  margin: 3px 0;
+}
+
+.micro-source-status p {
+  margin: 0;
+  color: #60798a;
+}
+
+.micro-exact-source {
+  overflow: hidden;
+}
+
+.micro-exact-source > header {
+  display: grid;
+  grid-template-columns: 48px minmax(0, 1fr);
+  gap: 12px;
+  padding: 16px;
+  background: linear-gradient(120deg, #eef9ff, #f4fff0);
+}
+
+.micro-exact-source > header > span {
+  font-size: 32px;
+}
+
+.micro-exact-source h3,
+.micro-exact-source header p {
+  margin: 3px 0 0;
+}
+
+.micro-source-current {
+  margin: 14px;
+  padding: 15px;
+  border: 1px solid #d9e5ec;
+  border-radius: 14px;
+  background: #fff;
+}
+
+.micro-source-current b {
+  display: block;
+  margin: 5px 0 8px;
+}
+
+.micro-source-current p,
+.micro-source-full p {
+  max-width: 65ch;
+  margin: 5px 0;
+  color: #223f55;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.micro-exact-source details {
+  margin: 0 14px 14px;
+  padding: 12px 14px;
+  border-radius: 13px;
+  background: #fff;
+}
+
+.micro-exact-source summary {
+  color: #176f9f;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.micro-source-full {
+  display: grid;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.micro-source-full article {
+  padding-top: 10px;
+  border-top: 1px solid #e1e9ee;
+}
+
+.micro-source-full h4 {
+  margin: 0 0 7px;
+}
+
+.micro-exact-source > button {
+  margin: 0 14px 14px;
+  min-height: 46px;
+}
+
+body.micro-focus-mode button,
+body.micro-focus-mode .micro-guide-toggle {
+  min-height: 44px;
+}
+
+body.micro-focus-mode .micro-main-action {
+  min-height: 56px;
+  font-size: 18px;
+}
+
+@media (max-width: 720px) {
+  body.micro-focus-mode .lesson-topbar {
+    position: static;
+  }
+
+  body.micro-focus-mode .lesson-content {
+    min-height: auto;
+    padding: 13px;
+  }
+
+  body.micro-focus-mode .micro-lesson-shell {
+    padding-bottom: 76px;
+    font-size: 17px;
+  }
+
+  .micro-session-context {
+    grid-template-columns: 48px minmax(0, 1fr);
+  }
+
+  .micro-session-context > span {
+    width: 46px;
+    height: 46px;
+  }
+
+  .micro-session-context em {
+    grid-column: 2;
+    justify-self: start;
+  }
+
+  .micro-phase-nav.micro-step-nav {
+    grid-template-columns: 1fr;
+  }
+
+  .micro-phase-nav.micro-step-nav button {
+    min-height: 58px;
+  }
+
+  .micro-phase-nav.micro-step-nav button small {
+    display: none;
+  }
+
+  .micro-deep-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* V60.25.2 — compact, readable native-app learning workspace. */
+body.micro-focus-mode .journey-ai-stage-card,
+body.micro-focus-mode .micro-parent-source {
+  display: none !important;
+}
+
+body.micro-focus-mode .lesson-page {
+  padding-inline: clamp(8px, 1.4vw, 20px);
+}
+
+body.micro-focus-mode .lesson-topbar {
+  min-height: 50px;
+  margin-bottom: 8px;
+}
+
+body.micro-focus-mode .lesson-topbar .back-link {
+  min-height: 44px;
+  padding-block: 4px;
+}
+
+body.micro-focus-mode .lesson-content {
+  width: 100%;
+  max-width: none !important;
+  min-height: calc(100dvh - 76px);
+  padding: clamp(10px, 1.5vw, 16px);
+}
+
+body.micro-focus-mode .micro-lesson-shell {
+  width: 100%;
+  max-width: 1080px;
+  padding-bottom: 72px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.micro-top-summary {
+  display: grid;
+  grid-template-columns: minmax(280px, .8fr) minmax(0, 1.55fr);
+  gap: 10px;
+  align-items: stretch;
+  margin-bottom: 8px;
+}
+
+.micro-top-summary .micro-session-context {
+  grid-template-columns: 42px minmax(0, 1fr);
+  gap: 10px;
+  min-width: 0;
+  margin: 0;
+  padding: 9px 11px;
+  border-radius: 15px;
+}
+
+.micro-top-summary .micro-session-context > span {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  font-size: 21px;
+}
+
+.micro-top-summary .micro-session-context small {
+  font-size: 10px;
+  letter-spacing: .04em;
+}
+
+.micro-top-summary .micro-session-context b {
+  font-size: 15px;
+  line-height: 1.25;
+}
+
+.micro-top-summary .micro-session-context em {
+  grid-column: 2;
+  justify-self: start;
+  padding: 3px 7px;
+  font-size: 11px;
+}
+
+.micro-top-summary .micro-lesson-header {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 12px;
+  align-items: center;
+  min-width: 0;
+  padding: 10px 14px;
+  border-radius: 15px;
+}
+
+.micro-top-summary .micro-lesson-header h1 {
+  margin: 2px 0;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+body.micro-focus-mode .micro-top-summary .micro-lesson-header p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.35;
+}
+
+.micro-top-summary .micro-guide-toggle {
+  min-height: 40px;
+  padding: 7px 10px;
+  border-radius: 12px;
+  font-size: 13px;
+}
+
+.micro-top-summary .micro-guide-toggle input {
+  width: 18px;
+  height: 18px;
+}
+
+.micro-phase-nav.micro-step-nav {
+  gap: 6px;
+  margin: 8px 0;
+  padding: 6px;
+  border-radius: 14px;
+}
+
+.micro-phase-nav.micro-step-nav button {
+  min-height: 56px;
+  grid-template-columns: 27px minmax(0, 1fr);
+  column-gap: 8px;
+  padding: 7px 9px;
+  border-radius: 10px;
+}
+
+.micro-phase-nav.micro-step-nav button span {
+  width: 25px;
+  height: 25px;
+  font-size: 12px;
+}
+
+.micro-phase-nav.micro-step-nav button b {
+  font-size: 13px;
+  line-height: 1.2;
+}
+
+.micro-phase-nav.micro-step-nav button small {
+  font-size: 10px;
+  line-height: 1.2;
+}
+
+.micro-action-context {
+  display: grid;
+  grid-template-columns: minmax(145px, auto) minmax(0, 1fr);
+  gap: 8px;
+  align-items: stretch;
+  margin-bottom: 9px;
+}
+
+.micro-action-context .micro-step-position {
+  display: grid;
+  align-content: center;
+  gap: 3px;
+  min-width: 0;
+  margin: 0;
+  padding: 8px 11px;
+  border: 1px solid #d7e6ef;
+  border-radius: 13px;
+  background: #f7fbfd;
+}
+
+.micro-action-context .micro-step-position span {
+  justify-self: start;
+  padding: 2px 6px;
+  font-size: 10px;
+}
+
+.micro-action-context .micro-step-position b {
+  font-size: 12px;
+  line-height: 1.25;
+}
+
+.micro-action-context .micro-now {
+  gap: 10px;
+  min-width: 0;
+  margin: 0;
+  padding: 9px 13px;
+  border-radius: 13px;
+  box-shadow: 0 8px 18px #12679b1d;
+}
+
+.micro-action-context .micro-now > span {
+  font-size: 22px;
+}
+
+.micro-action-context .micro-now small {
+  margin-bottom: 1px;
+  font-size: 9px;
+}
+
+.micro-action-context .micro-now b {
+  font-size: 15px;
+  line-height: 1.3;
+}
+
+body.micro-focus-mode .micro-screen {
+  min-height: 0;
+  padding: 15px;
+  border-radius: 18px;
+  box-shadow: 0 9px 22px #18567e0e;
+}
+
+body.micro-focus-mode .micro-screen p,
+body.micro-focus-mode .micro-screen li,
+body.micro-focus-mode .micro-teacher p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.micro-deep-teaching {
+  grid-template-columns: minmax(300px, .85fr) minmax(0, 1.15fr);
+  gap: 13px;
+  align-items: start;
+}
+
+.micro-deep-teaching > .micro-teacher {
+  gap: 11px;
+}
+
+.micro-deep-grid {
+  gap: 8px;
+}
+
+.micro-deep-grid > article {
+  grid-template-columns: 34px minmax(0, 1fr);
+  gap: 8px;
+  padding: 10px;
+  border-radius: 13px;
+}
+
+.micro-deep-grid > article > span {
+  width: 32px;
+  height: 32px;
+  font-size: 16px;
+}
+
+.micro-deep-grid h3 {
+  font-size: 14px;
+}
+
+.micro-deep-grid p,
+body.micro-focus-mode .micro-deep-grid p {
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.micro-deep-rule,
+.micro-source-status,
+.micro-exact-source > header,
+.micro-source-current,
+.micro-safe-example {
+  padding: 11px 12px;
+}
+
+.micro-source-current {
+  margin: 10px;
+}
+
+.micro-exact-source details {
+  margin: 0 10px 10px;
+  padding: 9px 11px;
+}
+
+.micro-guided-workspace {
+  display: grid;
+  gap: 12px;
+}
+
+.micro-guided-workspace.is-ready {
+  grid-template-columns: minmax(300px, .82fr) minmax(0, 1.18fr);
+  align-items: start;
+}
+
+.micro-guided-model,
+.micro-guided-practice {
+  min-width: 0;
+}
+
+.micro-guided-model {
+  padding: 13px;
+  border: 1px solid #d7e6ef;
+  border-radius: 16px;
+  background: #f8fbfd;
+}
+
+.micro-guided-model .micro-model {
+  gap: 10px;
+}
+
+.micro-guided-model .micro-model-avatar,
+.micro-teacher-head > span {
+  flex-basis: 46px;
+  width: 46px;
+  height: 46px;
+  border-radius: 14px;
+  font-size: 25px;
+}
+
+.micro-guided-model .micro-safe-example {
+  margin-top: 8px;
+}
+
+.micro-guided-model .micro-safe-example h3 {
+  margin: 5px 0 8px;
+  font-size: 17px;
+}
+
+.micro-guided-model .micro-safe-example ol {
+  margin: 7px 0;
+  padding-left: 20px;
+}
+
+.micro-level-banner {
+  margin-bottom: 8px;
+  padding: 9px 12px;
+  border-radius: 12px;
+}
+
+.micro-level-banner b {
+  margin: 1px 0;
+  font-size: 16px;
+}
+
+body.micro-focus-mode .micro-level-banner p {
+  font-size: 13px;
+  line-height: 1.35;
+}
+
+.micro-exercise {
+  padding: 13px;
+  border-radius: 15px;
+}
+
+.micro-task-count {
+  padding: 3px 7px;
+  font-size: 9px;
+}
+
+.micro-book-source,
+.micro-milo-practice {
+  gap: 6px;
+  margin: 7px 0;
+  padding: 7px 9px;
+  border-radius: 10px;
+}
+
+.micro-book-source small,
+.micro-milo-practice small {
+  font-size: 11px;
+}
+
+.micro-instruction-block small {
+  margin-top: 7px;
+}
+
+.micro-instruction-block h3 {
+  margin: 3px 0 7px;
+  font-size: 18px;
+  line-height: 1.35;
+}
+
+.micro-instruction-block p {
+  margin-bottom: 8px;
+}
+
+.micro-child-work {
+  margin-top: 8px;
+  padding-top: 8px;
+}
+
+.micro-answer-grid {
+  gap: 7px;
+}
+
+.micro-answer-grid button,
+.micro-token-bank button {
+  padding: 9px;
+  border-radius: 10px;
+}
+
+.micro-support-actions {
+  gap: 7px;
+  margin-top: 8px;
+}
+
+.micro-support-actions button {
+  min-height: 40px;
+  padding: 7px 10px;
+}
+
+.micro-primary-footer {
+  display: grid;
+  grid-template-columns: minmax(260px, 520px) auto;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  bottom: 8px;
+  margin-top: 9px;
+  padding: 7px;
+  border-radius: 14px;
+}
+
+body.micro-focus-mode .micro-main-action {
+  min-height: 48px;
+  font-size: 16px;
+}
+
+.micro-primary-footer small,
+body.micro-focus-mode .micro-primary-footer small {
+  margin: 0;
+  font-size: 11px;
+  text-align: left;
+}
+
+@media (min-width: 901px) {
+  .micro-vocab-group.active,
+  .micro-reading {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .micro-reading .micro-predict {
+    grid-column: 1 / -1;
+  }
+
+  .micro-pronunciation-ladder {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  .micro-pronunciation-ladder article {
+    display: flex;
+    min-width: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 900px) {
+  .micro-top-summary,
+  .micro-deep-teaching,
+  .micro-guided-workspace.is-ready {
+    grid-template-columns: 1fr;
+  }
+
+  .micro-top-summary .micro-lesson-header {
+    grid-template-columns: minmax(0, 1fr) auto;
+  }
+}
+
+@media (max-width: 720px) {
+  body.micro-focus-mode .lesson-content {
+    padding: 9px;
+  }
+
+  body.micro-focus-mode .micro-lesson-shell {
+    padding-bottom: 64px;
+    font-size: 16px;
+  }
+
+  .micro-top-summary .micro-lesson-header {
+    grid-template-columns: 1fr;
+  }
+
+  .micro-top-summary .micro-guide-toggle {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .micro-phase-nav.micro-step-nav {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .micro-phase-nav.micro-step-nav button {
+    min-height: 52px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 22px auto;
+    gap: 3px;
+    padding: 6px 4px;
+    text-align: center;
+  }
+
+  .micro-phase-nav.micro-step-nav button span {
+    grid-row: 1;
+    justify-self: center;
+    width: 22px;
+    height: 22px;
+  }
+
+  .micro-phase-nav.micro-step-nav button b {
+    font-size: 11px;
+  }
+
+  .micro-phase-nav.micro-step-nav button small {
+    display: none;
+  }
+
+  .micro-action-context,
+  .micro-primary-footer {
+    grid-template-columns: 1fr;
+  }
+
+  .micro-action-context .micro-step-position {
+    display: flex;
+    align-items: center;
+  }
+
+  .micro-primary-footer small {
+    text-align: center;
+  }
+
+  body.micro-focus-mode .micro-screen {
+    padding: 11px;
+  }
+}
+
+/* V60.25.3 — persistent lesson assistant rail fills the desktop right side. */
+@media (min-width: 1201px) {
+  body.micro-focus-mode .lesson-topbar,
+  body.micro-focus-mode .lesson-app-layout,
+  body.micro-focus-mode .lesson-shell {
+    width: min(1720px, calc(100vw - 32px));
+  }
+
+  body.micro-focus-mode .lesson-shell {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) clamp(285px, 18vw, 320px);
+    gap: 16px;
+    align-items: start;
+  }
+
+  body.micro-focus-mode .lesson-content {
+    grid-column: 1;
+    min-width: 0;
+  }
+
+  body.micro-focus-mode .micro-lesson-shell {
+    max-width: 1180px;
+  }
+
+  body.micro-focus-mode .milo-coach {
+    display: block !important;
+    position: sticky !important;
+    top: 66px !important;
+    grid-column: 2;
+    max-height: calc(100dvh - 78px);
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    scrollbar-gutter: stable;
+    scrollbar-width: thin;
+  }
+
+  body.micro-focus-mode .milo-coach .coach-card {
+    position: static;
+    top: auto;
+    padding: 12px !important;
+    border-radius: 20px;
+    box-shadow: 0 14px 34px #173f6920;
+  }
+
+  body.micro-focus-mode .milo-coach .coach-rail-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+  }
+
+  body.micro-focus-mode .milo-coach .coach-label {
+    display: block;
+    min-width: 0;
+    padding: 3px;
+    font-size: 13px;
+  }
+
+  body.micro-focus-mode .milo-coach .coach-rail-toggle {
+    display: inline-flex;
+    min-height: 34px;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    flex: 0 0 auto;
+    border: 1px solid #cbddea;
+    border-radius: 10px;
+    padding: 5px 8px;
+    background: #eef7fd;
+    color: #286282;
+    font: inherit;
+    font-size: 11px;
+    font-weight: 900;
+    cursor: pointer;
+  }
+
+  body.micro-focus-mode .milo-coach .coach-rail-toggle span {
+    font-size: 16px;
+    line-height: 1;
+  }
+
+  body.micro-focus-mode .milo-coach .coach-image {
+    display: grid !important;
+    height: 132px;
+    min-height: 0;
+    padding: 8px !important;
+    border-radius: 16px;
+  }
+
+  body.micro-focus-mode .milo-coach .coach-image img {
+    max-width: 150px !important;
+    max-height: 116px !important;
+  }
+
+  body.micro-focus-mode .milo-coach .coach-bubble {
+    margin-top: 8px;
+    padding: 11px;
+    border-radius: 14px;
+  }
+
+  body.micro-focus-mode .milo-coach .coach-bubble p {
+    min-height: 0;
+    margin-bottom: 7px;
+    font-size: 14px;
+    line-height: 1.45;
+  }
+
+  body.micro-focus-mode .milo-coach .lesson-tutor-toggle {
+    min-height: 46px;
+    margin-top: 9px;
+    padding: 9px 11px;
+    font-size: 14px;
+    line-height: 1.35;
+  }
+
+  body.micro-focus-mode .milo-coach .lesson-tutor-panel {
+    margin-top: 8px;
+    padding: 10px;
+    border-radius: 14px;
+  }
+
+  body.micro-focus-mode .milo-coach .lesson-tutor-panel > p {
+    margin-bottom: 8px;
+    font-size: 13px;
+    line-height: 1.45;
+  }
+
+  body.micro-focus-mode .milo-coach .lesson-help-quick {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 6px;
+  }
+
+  body.micro-focus-mode .milo-coach .lesson-help-quick button {
+    min-height: 38px;
+    border-radius: 10px;
+    padding: 6px;
+    font-size: 11px;
+    line-height: 1.25;
+  }
+
+  body.micro-focus-mode .milo-coach #lessonTutorForm {
+    grid-template-columns: minmax(0, 1fr) 54px;
+  }
+
+  body.micro-focus-mode .milo-coach #lessonTutorForm input {
+    min-height: 42px;
+    padding: 8px 9px;
+    font-size: 13px;
+  }
+
+  body.micro-focus-mode .milo-coach #lessonTutorForm button {
+    min-height: 42px;
+    padding: 7px;
+    font-size: 12px;
+  }
+
+  body.micro-focus-mode .milo-coach .lesson-tutor-answer {
+    max-height: 240px;
+    overflow-y: auto;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  body.micro-focus-mode.milo-coach-rail-collapsed .lesson-shell {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  body.micro-focus-mode.milo-coach-rail-collapsed .milo-coach {
+    position: fixed !important;
+    top: auto !important;
+    right: 18px;
+    bottom: 18px;
+    z-index: 1500;
+    grid-column: auto;
+    width: 64px;
+    max-height: none;
+    overflow: visible;
+    cursor: pointer;
+  }
+
+  body.micro-focus-mode.milo-coach-rail-collapsed .milo-coach .coach-card {
+    padding: 6px !important;
+    border-radius: 19px;
+    background: #fffffffa;
+    box-shadow: 0 16px 38px #173f6940;
+  }
+
+  body.micro-focus-mode.milo-coach-rail-collapsed .milo-coach .coach-rail-head {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  body.micro-focus-mode.milo-coach-rail-collapsed .milo-coach .coach-label {
+    padding: 2px 0;
+    font-size: 0;
+    text-align: center;
+  }
+
+  body.micro-focus-mode.milo-coach-rail-collapsed .milo-coach .coach-label::after {
+    content: "AI";
+    font-size: 13px;
+    font-weight: 950;
+  }
+
+  body.micro-focus-mode.milo-coach-rail-collapsed .milo-coach .coach-rail-toggle {
+    width: 50px;
+    min-height: 48px;
+    padding: 5px;
+    border: 0;
+    border-radius: 15px;
+    background: linear-gradient(145deg, #6c50d8, #168fd1);
+    color: #fff;
+    box-shadow: 0 8px 18px #245c9b35;
+  }
+
+  body.micro-focus-mode.milo-coach-rail-collapsed .milo-coach .coach-rail-toggle b {
+    display: none;
+  }
+
+  body.micro-focus-mode.milo-coach-rail-collapsed .milo-coach .coach-card > :not(.coach-rail-head) {
+    display: none !important;
+  }
+}
+
+@media (min-width: 721px) and (max-width: 1200px) {
+  body.micro-focus-mode #miloAiGlobalDock {
+    display: block !important;
+    right: 12px;
+    bottom: 12px;
+    width: min(310px, calc(100vw - 24px));
+  }
+}

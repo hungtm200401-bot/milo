@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quản trị VIP PRO MAX · Milo English Adventure V60.24.4</title>
+  <link rel="icon" type="image/svg+xml" href="milo-admin-app.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="admin-vip-pro-max-v60-7.css?v=60.24.5-master-detail">
+</head>
+<body>
+  <main class="admin-shell">
+    <section class="admin-login" id="adminLogin">
+      <div class="admin-login-card">
+        <div class="login-logo-wrap">
+          <img src="/pet-assets/levels/milo/lv-08-wave.webp" alt="Milo" class="login-milo-avatar">
+        </div>
+        <span class="admin-tag">MILO ADMIN · VIP PRO MAX</span>
+        <h1>Trung tâm quản trị</h1>
+        <p class="login-description">Quản lý tài khoản, hồ sơ học tập, đơn hàng và kết nối AI bằng dữ liệu thật.</p>
+        <form id="adminLoginForm" novalidate>
+          <div class="form-group">
+            <label for="adminPassword">Mật khẩu quản trị viên</label>
+            <div class="password-input-wrap">
+              <input id="adminPassword" type="password" autocomplete="current-password" placeholder="Nhập mật khẩu quản trị…" required>
+              <button type="button" class="btn-toggle-password" id="togglePasswordBtn" aria-label="Hiện hoặc ẩn mật khẩu">👁️</button>
+            </div>
+          </div>
+          <button type="submit" class="btn-primary btn-block" id="adminLoginBtn"><span>Mở trang quản trị</span><span>→</span></button>
+          <div id="adminLoginError" class="alert alert-error hidden" role="alert"></div>
+        </form>
+        <small class="login-security">🛡️ Không hiển thị khóa API, mật khẩu hoặc dữ liệu bí mật.</small>
+      </div>
+    </section>
+
+    <div class="admin-layout hidden" id="adminApp">
+      <aside class="admin-sidebar" id="adminSidebar">
+        <div class="sidebar-brand">
+          <img src="/pet-assets/levels/milo/lv-08-wave.webp" alt="Milo" class="sidebar-milo-avatar">
+          <div class="brand-info">
+            <h2>MILO ADMIN</h2>
+            <span>VIP PRO MAX</span>
+            <b class="version-badge">V60.24.4</b>
+          </div>
+        </div>
+
+        <nav class="admin-nav" aria-label="Menu quản trị">
+          <button type="button" class="nav-item active" data-admin-view="overview"><span class="nav-icon">⌂</span><span class="nav-label">Tổng quan</span></button>
+          <button type="button" class="nav-item" data-admin-view="pending"><span class="nav-icon">⌛</span><span class="nav-label">Đơn chờ duyệt</span><span class="nav-badge badge-orange" id="pendingTabCount">0</span></button>
+          <button type="button" class="nav-item" data-admin-view="accounts"><span class="nav-icon">♟</span><span class="nav-label">Người dùng</span><span class="nav-badge" id="accountsTabCount">0</span></button>
+          <button type="button" class="nav-item" data-admin-view="orders"><span class="nav-icon">▣</span><span class="nav-label">Tất cả đơn hàng</span><span class="nav-badge" id="ordersTabCount">0</span></button>
+          <button type="button" class="nav-item" data-admin-view="plans"><span class="nav-icon">✦</span><span class="nav-label">Gói dịch vụ &amp; VIP</span><span class="nav-badge" id="plansTabCount">0</span></button>
+          <button type="button" class="nav-item" data-admin-view="transactions"><span class="nav-icon">▤</span><span class="nav-label">Đối chiếu giao dịch</span><span class="nav-badge" id="transactionsTabCount">0</span></button>
+          <button type="button" class="nav-item" data-admin-view="connection"><span class="nav-icon">✣</span><span class="nav-label">Kết nối AI</span></button>
+          <button type="button" class="nav-item" data-admin-view="updates"><span class="nav-icon">🚀</span><span class="nav-label">Phát hành cập nhật</span></button>
+          <button type="button" class="nav-item" data-admin-view="reports"><span class="nav-icon">▥</span><span class="nav-label">Báo cáo &amp; Thống kê</span></button>
+          <button type="button" class="nav-item" data-admin-view="settings"><span class="nav-icon">⚙</span><span class="nav-label">Cài đặt hệ thống</span></button>
+        </nav>
+
+        <div class="sidebar-footer">
+          <div class="admin-user-card">
+            <div class="user-avatar-circle">👤</div>
+            <div class="user-details"><span class="user-name">Administrator</span><span class="user-role">Quản trị viên</span><span class="user-status-text">● Đang hoạt động</span></div>
+          </div>
+          <button type="button" class="btn-logout-red" id="logoutAdminSidebar"><span>⇥</span><span>Đăng xuất</span></button>
+        </div>
+      </aside>
+
+      <div class="admin-main">
+        <header class="admin-topbar">
+          <div class="topbar-left">
+            <button type="button" class="btn-hamburger" id="sidebarCollapseBtn" aria-label="Thu gọn menu">☰</button>
+            <div class="topbar-title-wrap">
+              <h1 id="currentPageTitle">Tổng quan hệ thống</h1>
+              <p class="breadcrumb-text">MILO ADMIN – VIP PRO MAX <span>•</span> <span id="currentPageSubtitle">Dashboard</span></p>
+            </div>
+          </div>
+          <div class="topbar-right">
+            <div class="search-input-box"><span class="search-icon">⌕</span><input type="search" placeholder="Tìm kiếm nhanh..." id="topbarSearch"><kbd>Ctrl K</kbd></div>
+            <button type="button" class="topbar-circle-button" title="Đơn đang chờ duyệt" id="pendingNotificationBtn">♧<span class="bell-count hidden" id="pendingNotificationCount">0</span></button>
+            <button type="button" class="topbar-circle-button" title="Cài đặt hệ thống" id="openSettingsBtn">⚙</button>
+            <div class="topbar-user-profile" id="refreshAdmin">
+              <div class="profile-avatar">👤</div>
+              <div class="profile-info"><span class="profile-name">Administrator</span><span class="profile-role">Quản trị viên</span></div>
+              <button type="button" class="btn-logout-link" id="logoutAdmin" title="Đăng xuất">⌄</button>
+            </div>
+          </div>
+        </header>
+
+        <div class="admin-content-container">
+          <div class="blue-notice-banner">
+            <div class="banner-left"><span class="info-circle-icon">i</span><span>Trang quản trị chỉ hiển thị dữ liệu thật đang lưu trong database. Chỉ duyệt đơn sau khi đã đối chiếu ngân hàng. <span id="providerStatus"></span></span></div>
+            <button type="button" class="btn-guide-link" id="refreshDataBanner">Làm mới dữ liệu ↻</button>
+          </div>
+
+          <section class="filter-bar-card hidden" id="mainToolbar">
+            <div class="filter-group-flex">
+              <div class="search-input-box toolbar-search"><span class="search-icon">⌕</span><input type="search" placeholder="Tìm nick, mã học viên, mã đơn hoặc nội dung chuyển khoản…" id="adminSearch" autocomplete="off"></div>
+              <div class="select-box"><label for="adminStatusFilter">Trạng thái</label><select id="adminStatusFilter"><option value="all">Tất cả trạng thái</option></select></div>
+              <button type="button" class="btn-blue-export" id="exportDataBtn">⇩ Xuất danh sách</button>
+            </div>
+          </section>
+
+          <section class="admin-panel" id="overviewPanel" data-admin-panel="overview">
+            <div class="seven-kpi-row">
+              <article class="kpi-card"><div class="kpi-icon-wrap icon-purple">♟</div><div class="kpi-body"><span class="kpi-title">Tổng người dùng</span><strong class="kpi-val" id="summaryUsers">0</strong><span class="kpi-sub">Tài khoản thật trong DB</span></div></article>
+              <article class="kpi-card"><div class="kpi-icon-wrap icon-green">✓</div><div class="kpi-body"><span class="kpi-title">Đã đăng nhập</span><strong class="kpi-val" id="summaryLoggedIn">0</strong><span class="kpi-sub">Có lịch sử đăng nhập</span></div></article>
+              <article class="kpi-card"><div class="kpi-icon-wrap icon-amber">⌛</div><div class="kpi-body"><span class="kpi-title">Chờ đối chiếu</span><strong class="kpi-val" id="summaryPending">0</strong><span class="kpi-sub">Đơn cần xử lý</span></div></article>
+              <article class="kpi-card"><div class="kpi-icon-wrap icon-violet">♛</div><div class="kpi-body"><span class="kpi-title">VIP đang hoạt động</span><strong class="kpi-val" id="summaryVip">0</strong><span class="kpi-sub">Gói trả phí còn hạn</span></div></article>
+              <article class="kpi-card"><div class="kpi-icon-wrap icon-orange">✦</div><div class="kpi-body"><span class="kpi-title">Đang dùng thử</span><strong class="kpi-val" id="summaryTrial">0</strong><span class="kpi-sub">Gói thử còn hạn</span></div></article>
+              <article class="kpi-card"><div class="kpi-icon-wrap icon-emerald">▣</div><div class="kpi-body"><span class="kpi-title">Đã thanh toán</span><strong class="kpi-val" id="summaryPaid">0</strong><span class="kpi-sub">Đơn đã xác nhận thật</span></div></article>
+              <article class="kpi-card"><div class="kpi-icon-wrap icon-gold">●</div><div class="kpi-body"><span class="kpi-title">Doanh thu đã trả</span><strong class="kpi-val" id="summaryRevenue">0 ₫</strong><span class="kpi-sub">Tổng đơn đã duyệt</span></div></article>
+            </div>
+
+            <div class="overview-three-grid">
+              <article class="dash-card chart-card">
+                <div class="dash-card-head"><div><h3>Hoạt động người dùng 7 ngày</h3><p>Tính từ ngày tạo tài khoản và lần đăng nhập gần nhất trong DB</p></div><span class="live-data-badge">7 ngày qua</span></div>
+                <div class="spline-chart-wrap"><svg viewBox="0 0 520 210" class="spline-svg" id="activityChartSvg" aria-label="Biểu đồ hoạt động 7 ngày"></svg><div class="chart-x-labels" id="activityChartLabels"></div><div class="admin-empty compact hidden" id="activityChartEmpty"><p>Chưa có hoạt động người dùng trong 7 ngày gần nhất.</p></div></div>
+                <div class="chart-mini-summary"><div><small>Tạo tài khoản mới</small><b id="reportNewAccounts">0</b></div><div><small>Đăng nhập</small><b id="reportLogins">0</b></div></div>
+              </article>
+              <article class="dash-card donut-card">
+                <div class="dash-card-head"><div><h3>Phân bổ quyền AI</h3><p>Theo quyền hiện tại của từng tài khoản thật</p></div></div>
+                <div class="donut-flex-container"><div class="donut-chart-box"><svg viewBox="0 0 100 100" class="donut-svg" id="packageDonutSvg"></svg><div class="donut-center-text"><strong id="packageTotal">0</strong><span>Tài khoản</span></div></div><div class="donut-legend-list" id="packageLegend"><div class="empty-inline">Chưa có tài khoản.</div></div></div>
+                <div class="dash-card-footer-line"><span>Tổng tài khoản có quyền AI</span><strong id="packageFooterTotal">0</strong></div>
+              </article>
+              <article class="dash-card recent-card">
+                <div class="dash-card-head"><div><h3>Hoạt động gần đây</h3><p>Dữ liệu thật mới nhất</p></div></div>
+                <div class="activity-timeline-list" id="recentActivityList"><div class="admin-empty compact"><p>Chưa có hoạt động trong database.</p></div></div>
+                <button type="button" class="text-link-button" data-admin-view="reports">Xem tất cả hoạt động →</button>
+              </article>
+            </div>
+
+            <div class="overview-bottom-grid">
+              <article class="dash-card database-overview-card"><div class="card-title-row"><div class="card-large-icon">🛡️</div><div><h3>Database dùng chung trên máy</h3><p>Tài khoản, tiến độ và đơn hàng được đọc trực tiếp từ kho dữ liệu hiện tại; không chèn bản ghi mẫu.</p></div></div><div class="check-grid"><span>✓ Chống trùng nick</span><span>✓ Sao lưu trước thay đổi quan trọng</span><span>✓ Đồng bộ tiến độ 12 Unit</span><span>✓ Chỉ hiển thị dữ liệu thật</span></div><div class="connection-strip"><div><small>Trạng thái kết nối</small><b id="overviewDatabaseState">Đang kiểm tra database…</b></div><div><small>Cập nhật cuối</small><b id="overviewDatabaseUpdated">Chưa có dữ liệu</b></div></div></article>
+              <article class="dash-card database-stats-card"><div class="card-title-row"><div class="card-large-icon purple">▤</div><div><h3 id="databaseTitle">Kho dữ liệu VIP PRO MAX</h3><p id="databaseMigration">Đang chờ tải trạng thái database.</p></div></div><div class="db-stats-four-box"><div class="box-cell"><small>Chế độ lưu</small><span class="badge-success-pill" id="databaseStorageMode">Chưa tải</span></div><div class="box-cell"><small>Cập nhật gần nhất</small><b id="databaseUpdated">Chưa có dữ liệu</b></div><div class="box-cell"><small>Bản ghi thật</small><b id="databaseRecords">0 bản ghi</b></div><div class="box-cell"><small>Sao lưu gần nhất</small><b id="databaseBackupStatus">Chưa có bản sao</b></div></div></article>
+            </div>
+          </section>
+
+          <section class="admin-panel hidden" id="pendingPanel" data-admin-panel="pending">
+            <div class="page-intro"><div><span class="eyebrow">CẦN XỬ LÝ</span><h2>Đơn hàng chờ duyệt</h2><p>Chỉ hiển thị đơn chuyển khoản thật đang chờ đối chiếu.</p></div><span class="count-chip" id="pendingPageCount">0 đơn</span></div>
+            <div class="content-split-grid detail-on-demand" id="pendingMasterDetail">
+              <article class="dash-card table-card"><div class="table-wrap"><table class="orders-table"><thead><tr><th>Người dùng</th><th>Gói đăng ký</th><th>Số tiền</th><th>Mã chuyển khoản</th><th>Thời gian</th><th>Thao tác</th></tr></thead><tbody id="pendingRows"></tbody></table></div><div class="admin-empty hidden" id="pendingEmpty"><span class="empty-icon">⌛</span><p>Không có đơn thật đang chờ duyệt.</p></div></article>
+              <article class="dash-card detail-card" aria-hidden="true"><div class="dash-card-head"><div><h3>Chi tiết đơn chờ duyệt</h3><p>Đối chiếu đủ thông tin trước khi xác nhận</p></div><div class="detail-head-actions"><span class="live-data-badge">TỪ DATABASE</span><button type="button" class="detail-back-button" data-detail-close="pending">← Danh sách đơn</button></div></div><div id="pendingSelectedDetail" class="selected-order-detail"><div class="admin-empty"><p>Chọn một đơn để xem chi tiết.</p></div></div></article>
+            </div>
+          </section>
+
+          <section class="admin-panel hidden" id="accountsPanel" data-admin-panel="accounts">
+            <div class="page-intro"><div><span class="eyebrow">TÀI KHOẢN THẬT</span><h2>Quản lý người dùng</h2><p>Chọn từng nick để xem hồ sơ, tiến độ 12 Unit, lịch sử học và quyền AI.</p></div><span id="accountsUpdated" class="timestamp-badge">Chưa tải dữ liệu</span></div>
+            <div class="grid-table-and-profile detail-on-demand" id="accountsMasterDetail">
+              <article class="dash-card table-card"><div class="table-wrap"><table class="accounts-table"><thead><tr><th>Tài khoản / học viên</th><th>Lớp / nhân vật</th><th>Tiến độ 12 Unit</th><th>Bảo mật PIN</th><th>Đăng nhập gần nhất</th><th>Quyền AI</th><th>Trạng thái</th><th>Ngày tạo</th><th>Quản lý</th></tr></thead><tbody id="accountRows"></tbody></table></div><div class="admin-empty hidden" id="accountsEmpty"><span class="empty-icon">♟</span><p>Không tìm thấy tài khoản người dùng phù hợp.</p></div></article>
+              <article class="dash-card profile-side-panel" id="accountProfilePanel" aria-hidden="true"><div class="dash-card-head"><div><h3>Hồ sơ thật của tài khoản</h3><p>Dữ liệu riêng của nick đang chọn</p></div><div class="detail-head-actions"><span class="live-data-badge">TỪ DATABASE</span><button type="button" class="detail-back-button" data-detail-close="accounts">← Danh sách người dùng</button></div></div><div id="selectedAccountProfile" class="selected-account-profile"><div class="admin-empty"><p>Chọn một tài khoản để xem hồ sơ thật.</p></div></div></article>
+            </div>
+          </section>
+
+          <section class="admin-panel hidden" id="ordersPanel" data-admin-panel="orders">
+            <div class="page-intro"><div><span class="eyebrow" id="ordersEyebrow">DATABASE ĐƠN HÀNG</span><h2 id="ordersTitle">Toàn bộ lịch sử đơn</h2><p>Hiển thị đầy đủ đơn chờ duyệt, đã thanh toán, bị từ chối và hết hạn.</p></div><span id="lastUpdated" class="timestamp-badge">Chưa tải dữ liệu</span></div>
+            <div class="master-detail-panel" id="ordersMasterDetail">
+              <article class="dash-card table-card orders-live-card"><div class="table-wrap live-table-wrap"><table class="orders-table"><thead><tr><th>Người dùng</th><th>Lớp / nhân vật</th><th>Gói đăng ký</th><th>Số tiền</th><th>Mã chuyển khoản / mã đơn</th><th>Trạng thái</th><th>Thời gian</th><th>Thao tác</th></tr></thead><tbody id="purchaseRows"></tbody></table></div><div class="admin-empty hidden" id="adminEmpty"><span class="empty-icon">▣</span><p>Không có đơn hàng thật phù hợp với bộ lọc.</p></div></article>
+              <div class="two-card-grid order-detail-view" aria-hidden="true"><article class="dash-card selected-detail-card"><div class="dash-card-head"><div><h3>Chi tiết đơn đã chọn</h3><p>Thông tin đầy đủ từ database</p></div><div class="detail-head-actions"><span class="live-data-badge">TỪ DATABASE</span><button type="button" class="detail-back-button" data-detail-close="orders">← Danh sách đơn</button></div></div><div id="selectedOrderDetail" class="selected-order-detail"><div class="admin-empty"><p>Chọn một đơn trong danh sách.</p></div></div></article><article class="dash-card"><div class="dash-card-head"><div><h3>Lịch sử kiểm duyệt</h3><p>Các đơn đã duyệt hoặc từ chối</p></div></div><div class="audit-log-list" id="orderAuditList"><div class="admin-empty compact"><p>Chưa có đơn đã kiểm duyệt.</p></div></div></article></div>
+            </div>
+          </section>
+
+          <section class="admin-panel hidden" id="plansPanel" data-admin-panel="plans">
+            <div class="page-intro"><div><span class="eyebrow">GÓI ĐANG ÁP DỤNG</span><h2>Gói dịch vụ &amp; VIP PRO MAX</h2><p>Thông tin được tải trực tiếp từ cấu hình gói của hệ thống.</p></div><span class="live-data-badge">DỮ LIỆU THẬT</span></div>
+            <div class="plans-summary-grid"><article><small>Gói đang cung cấp</small><b id="plansAvailableCount">0</b></article><article><small>VIP đang hoạt động</small><b id="plansActiveVip">0</b></article><article><small>Đang dùng thử</small><b id="plansTrialCount">0</b></article><article><small>Doanh thu đã duyệt</small><b id="plansRevenue">0 ₫</b></article></div>
+            <div class="plans-grid" id="plansGrid"><div class="admin-empty"><p>Đang tải cấu hình gói thật…</p></div></div>
+          </section>
+
+          <section class="admin-panel hidden" id="transactionsPanel" data-admin-panel="transactions">
+            <div class="page-intro"><div><span class="eyebrow">ĐỐI CHIẾU NGÂN HÀNG</span><h2>Đối chiếu giao dịch</h2><p>Kiểm tra nội dung chuyển khoản, số tiền, mã đơn và trạng thái xác nhận.</p></div><span class="count-chip" id="transactionsPageCount">0 giao dịch</span></div>
+            <div class="transactions-kpi-grid"><article><small>Chờ đối chiếu</small><b id="transactionsPending">0</b></article><article><small>Đã xác nhận</small><b id="transactionsPaid">0</b></article><article><small>Đã từ chối</small><b id="transactionsRejected">0</b></article><article><small>Tổng tiền đã duyệt</small><b id="transactionsRevenue">0 ₫</b></article></div>
+            <div class="content-split-grid transactions-layout detail-on-demand" id="transactionsMasterDetail"><article class="dash-card table-card"><div class="table-wrap"><table class="transactions-table"><thead><tr><th>Mã đơn</th><th>Nick</th><th>Nội dung chuyển khoản</th><th>Số tiền</th><th>Trạng thái</th><th>Cập nhật</th></tr></thead><tbody id="transactionRows"></tbody></table></div><div class="admin-empty hidden" id="transactionEmpty"><p>Không có giao dịch thật phù hợp.</p></div></article><article class="dash-card detail-card" aria-hidden="true"><div class="dash-card-head"><div><h3>Chi tiết đối chiếu</h3><p>Đối chiếu giao dịch đã chọn trước khi xác nhận</p></div><button type="button" class="detail-back-button" data-detail-close="transactions">← Danh sách giao dịch</button></div><div id="transactionSelectedDetail" class="selected-order-detail"><div class="admin-empty"><p>Chưa chọn giao dịch.</p></div></div></article></div>
+          </section>
+
+          <section class="admin-panel hidden" id="connectionPanel" data-admin-panel="connection">
+            <div class="page-intro"><div><span class="eyebrow">CHỈ DÀNH CHO QUẢN TRỊ</span><h2>Kết nối AI</h2><p>Kiểm tra trạng thái dịch vụ mà không hiển thị khóa bí mật.</p></div><span id="adminAiLastChecked" class="timestamp-badge">Chưa kiểm tra</span></div>
+            <article class="dash-card connection-card"><div class="provider-card" id="adminAiProviderCard"><div class="provider-icon">✣</div><div class="provider-info"><h4 id="adminAiProviderName">Dịch vụ AI đang cấu hình</h4><small id="adminAiProviderDetail">Chưa tải cấu hình thật</small></div><span class="provider-status" id="adminAiProviderStatus">Chưa kiểm tra</span></div><div class="admin-ai-status-grid"><article><span>⚙</span><small>AI API</small><b id="adminAiConfigured">Chưa tải</b></article><article><span>↔</span><small>KẾT NỐI THỰC TẾ</small><b id="adminAiConnectionState">Chưa kiểm tra</b></article><article><span>●</span><small>DỊCH VỤ</small><b id="adminAiServiceState">Chưa có trạng thái</b></article><article><span>▣</span><small>THANH TOÁN</small><b id="adminPaymentConfigured">Chưa tải</b></article></div><div class="admin-ai-actions"><button id="adminAiRefresh" class="btn-resend-outline" type="button">↻ Làm mới trạng thái</button><button id="adminAiTest" class="btn-confirm-blue" type="button">Kiểm tra kết nối</button></div><p id="adminAiMessage" class="admin-ai-message" role="status">Trang này không hiển thị khóa hoặc thông tin bí mật.</p></article>
+          </section>
+
+          <section class="admin-panel hidden" id="updatesPanel" data-admin-panel="updates">
+            <div class="page-intro">
+              <div>
+                <span class="eyebrow">ĐỒNG BỘ TRỰC TIẾP</span>
+                <h2>Trung Tâm Phát Hành &amp; Cập Nhật</h2>
+                <p>Đẩy cập nhật bài học và tính năng mới trực tiếp từ máy chủ sang toàn bộ app học viên.</p>
+              </div>
+              <span class="live-data-badge">TRỰC TIẾP 100%</span>
+            </div>
+
+            <div class="settings-grid" style="grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px;">
+              <article class="dash-card">
+                <div class="settings-icon blue">🚀</div>
+                <h3>Phát Hành Bản Mới (Push Update)</h3>
+                <p style="color: #64748b; font-size: 12px; margin: 6px 0 14px;">Kích hoạt phiên bản mới để app học sinh tự động nhận diện và cập nhật.</p>
+                <div class="settings-list">
+                  <div><small>Phiên bản phát hành</small><input type="text" id="adminNewVersion" value="60.25.0" style="padding: 6px 10px; border: 1px solid #cbd5e1; border-radius: 8px; width: 120px; font-weight: 700;"></div>
+                  <div><small>Tiêu đề</small><input type="text" id="adminReleaseTitle" value="Cập nhật bài học &amp; giao diện mới" style="padding: 6px 10px; border: 1px solid #cbd5e1; border-radius: 8px; width: 220px;"></div>
+                  <div><small>Ghi chú</small><textarea id="adminReleaseChangelog" rows="2" style="padding: 6px 10px; border: 1px solid #cbd5e1; border-radius: 8px; width: 100%; font-size: 12px;">Bổ sung bài tập tương tác mới&#10;Tối ưu tốc độ mở bài học</textarea></div>
+                </div>
+                <button type="button" class="btn-confirm-blue full" id="adminPushReleaseBtn" style="margin-top: 12px;">⚡ Phát Hành Ngay Lên Toàn Bộ App</button>
+                <div id="adminPushStatus" style="font-size: 12px; margin-top: 8px; text-align: center; font-weight: 600;"></div>
+              </article>
+
+              <article class="dash-card">
+                <div class="settings-icon green">📦</div>
+                <h3>Xuất Gói Cập Nhật (.milo Patch)</h3>
+                <p style="color: #64748b; font-size: 12px; margin: 6px 0 14px;">Xuất toàn bộ bài học và code thành 1 tệp .milo siêu nhẹ để gửi qua Zalo / Telegram.</p>
+                <div class="settings-list">
+                  <div><small>Định dạng tệp</small><b>Milo Patch Bundle (.milo)</b></div>
+                  <div><small>Phạm vi đóng gói</small><b>content, public, server</b></div>
+                </div>
+                <button type="button" class="btn-resend-outline full" id="adminExportPatchBtn" style="margin-top: 24px;">📥 Tải Tệp Gói Cập Nhật (.milo)</button>
+              </article>
+            </div>
+          </section>
+
+          <section class="admin-panel hidden" id="reportsPanel" data-admin-panel="reports">
+            <div class="page-intro"><div><span class="eyebrow">DỮ LIỆU TỔNG HỢP</span><h2>Báo cáo &amp; Thống kê</h2><p>Thống kê được tính trực tiếp từ tài khoản, tiến độ và đơn hàng thật.</p></div><span class="live-data-badge">KHÔNG DỮ LIỆU DEMO</span></div>
+            <div class="report-kpi-grid"><article><small>Tài khoản</small><b id="reportUsers">0</b></article><article><small>Sự kiện học</small><b id="reportLearningEvents">0</b></article><article><small>Phút học</small><b id="reportLearningMinutes">0</b></article><article><small>Đơn hàng</small><b id="reportOrders">0</b></article><article><small>Tỷ lệ duyệt</small><b id="reportApprovalRate">0%</b></article><article><small>Doanh thu</small><b id="reportRevenue">0 ₫</b></article></div>
+            <div class="two-card-grid"><article class="dash-card"><div class="dash-card-head"><div><h3>Hoạt động mới nhất</h3><p>Tối đa 20 sự kiện thật</p></div></div><div class="activity-timeline-list report-activity-list" id="reportActivityList"><div class="admin-empty compact"><p>Chưa có hoạt động.</p></div></div></article><article class="dash-card"><div class="dash-card-head"><div><h3>Phân bố trạng thái đơn</h3><p>Tính trên toàn bộ giao dịch thật</p></div></div><div class="status-distribution" id="reportOrderDistribution"><div class="admin-empty compact"><p>Chưa có đơn hàng.</p></div></div></article></div>
+            <article class="dash-card curriculum-panel" id="alignmentPanel"><div class="dash-card-head curriculum-head"><div><span class="eyebrow">ĐỐI CHIẾU GIÁO TRÌNH</span><h3>Ma trận nội dung 48 Unit</h3><p>Phạm vi nội dung đang dùng trong ứng dụng.</p></div><div class="level-select-wrap"><label for="alignmentLevel">Chọn Level</label><select id="alignmentLevel"><option value="all">Tất cả Level</option><option value="2">Level 2</option><option value="3">Level 3</option><option value="4">Level 4</option><option value="5">Level 5</option></select></div></div><div class="curriculum-summary"><article><small>UNIT ĐÃ ĐỐI CHIẾU</small><b id="alignmentUnits">48/48</b></article><article><small>MỤC TỪ</small><b id="alignmentWords">0</b></article></div><div class="table-wrap curriculum-table-wrap"><table class="curriculum-table"><thead><tr><th>Level / Unit</th><th>Big Question</th><th>Từ vựng</th><th>Cấu trúc</th><th>4 kỹ năng</th><th>Dạng bài Milo</th><th>Tài sản bản quyền</th></tr></thead><tbody id="alignmentRows"></tbody></table></div><div class="admin-empty hidden" id="alignmentEmpty"><p>Không tìm thấy Unit phù hợp.</p></div></article>
+          </section>
+
+          <section class="admin-panel hidden" id="settingsPanel" data-admin-panel="settings">
+            <div class="page-intro"><div><span class="eyebrow">CẤU HÌNH AN TOÀN</span><h2>Cài đặt hệ thống</h2><p>Quản lý sao lưu và kiểm tra trạng thái mà không hiển thị dữ liệu bí mật.</p></div><span class="live-data-badge">QUẢN TRỊ VIÊN</span></div>
+            <div class="settings-grid"><article class="dash-card"><div class="settings-icon">▤</div><h3>Database</h3><div class="settings-list"><div><small>Chế độ lưu</small><b id="settingsStorageMode">Chưa tải</b></div><div><small>Bản ghi thật</small><b id="settingsRecords">0</b></div><div><small>Cập nhật gần nhất</small><b id="settingsUpdated">Chưa có dữ liệu</b></div><div><small>Sao lưu gần nhất</small><b id="settingsBackup">Chưa có bản sao</b></div></div><button type="button" class="btn-confirm-blue full" id="backupDatabase">Tạo bản sao database</button></article><article class="dash-card"><div class="settings-icon blue">✣</div><h3>Dịch vụ</h3><div class="settings-list"><div><small>Nhận thanh toán</small><b id="settingsPayment">Chưa tải</b></div><div><small>Kết nối AI</small><b id="settingsAi">Chưa kiểm tra</b></div><div><small>Phiên bản quản trị</small><b>V60.24.4</b></div><div><small>Dữ liệu demo</small><b class="success-text">Đã tắt hoàn toàn</b></div></div><button type="button" class="btn-resend-outline full" data-admin-view="connection">Mở trang kết nối AI</button></article><article class="dash-card"><div class="settings-icon green">🛡️</div><h3>Nguyên tắc dữ liệu</h3><ul class="settings-check-list"><li>Chỉ đọc dữ liệu thật từ database.</li><li>Không tự tạo email hoặc số điện thoại.</li><li>Không hiển thị API key hoặc mật khẩu.</li><li>Không duyệt đơn khi chưa đối chiếu ngân hàng.</li></ul></article></div>
+          </section>
+
+          <footer class="admin-footer"><span>© 2026 Milo English Adventure. All rights reserved.</span><span>Phiên bản: V60.24.4</span></footer>
+        </div>
+        <p class="admin-status" id="adminStatus" role="status"></p>
+      </div>
+    </div>
+  </main>
+
+  <div id="toastContainer" class="toast-container" aria-live="polite"></div>
+  <script src="grade2-source-content.js?v=60.12.0-g2full2"></script>
+  <script src="curriculum.js"></script>
+  <script src="vocab-expansion.js"></script>
+  <script src="now-i-know-alignment.js?v=60.12.0-g2full2"></script>
+  <script src="grade2-full-knowledge.js?v=60.12.0-g2full2"></script>
+  <script src="grade2-strict-source.js?v=60.12.2-zip-strict-196"></script>
+  <script src="admin-ai-connection-v60-24.js?v=60.24.5-master-detail"></script>
+  <script src="admin-vip-pro-max-v60-7.js?v=60.24.5-master-detail"></script>
+  <script src="admin-update-manager.js"></script>
+</body>
+</html>

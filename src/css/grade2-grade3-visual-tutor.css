@@ -1,0 +1,1376 @@
+/* ==========================================================================
+   MILO MAGIC FULLSCREEN THEATER + DEDICATED VIETNAMESE AI TEACHER (V60.70.0)
+   Full Width, Instant AI & Dedicated Vietnamese Teacher Milo Voice Hub
+   ========================================================================== */
+
+:root {
+  --milo-sky: #0ea5e9;
+  --milo-sky-dark: #0284c7;
+  --milo-sky-shadow: #0369a1;
+  --milo-green: #10b981;
+  --milo-green-dark: #059669;
+  --milo-green-shadow: #047857;
+  --milo-orange: #f97316;
+  --milo-orange-shadow: #c2410c;
+  --milo-purple: #8b5cf6;
+  --milo-purple-shadow: #6d28d9;
+  --milo-pink: #ec4899;
+  --milo-yellow: #fbbf24;
+  --milo-bg: #f8fafc;
+  --milo-card-bg: #ffffff;
+  --milo-text: #1e293b;
+}
+
+/* Expand Parent Shell to 100% Full Width in Grade 2/3 */
+.lesson-app .lesson-shell,
+.lesson-app .lesson-page,
+.lesson-app .lesson-app-layout,
+.has-visual-tutor .lesson-shell,
+.has-visual-tutor .lesson-page,
+.has-visual-tutor .lesson-app-layout,
+body:has(#miloVisualLessonBox) .lesson-shell,
+.lesson-shell:has(#miloVisualLessonBox) {
+  display: block !important;
+  max-width: 100% !important;
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+}
+
+/* Instantly and permanently hide all legacy UI components on the lesson page */
+.lesson-app .lesson-nav,
+.lesson-app .milo-coach,
+.lesson-app .lesson-mission-ribbon,
+.lesson-app .lesson-main-nav,
+.lesson-app .lesson-topbar,
+.has-visual-tutor .lesson-nav,
+.has-visual-tutor .milo-coach,
+.has-visual-tutor .lesson-mission-ribbon,
+.has-visual-tutor .lesson-main-nav,
+.has-visual-tutor .lesson-topbar,
+body:has(#miloVisualLessonBox) .lesson-nav,
+body:has(#miloVisualLessonBox) .milo-coach,
+body:has(#miloVisualLessonBox) .lesson-mission-ribbon,
+.lesson-shell:has(#miloVisualLessonBox) .lesson-nav,
+.lesson-shell:has(#miloVisualLessonBox) .milo-coach,
+.lesson-shell:has(#miloVisualLessonBox) .lesson-mission-ribbon,
+body.has-visual-tutor .lesson-nav,
+body.has-visual-tutor .milo-coach,
+body.has-visual-tutor .lesson-mission-ribbon {
+  display: none !important;
+}
+
+/* Hide legacy micro lesson text exercises when Visual Tutor theater is active */
+.lesson-app #lessonContent > :not(#miloVisualLessonBox),
+.has-visual-tutor #lessonContent > :not(#miloVisualLessonBox),
+body:has(#miloVisualLessonBox) #lessonContent > :not(#miloVisualLessonBox),
+#lessonContent:has(#miloVisualLessonBox) > :not(#miloVisualLessonBox),
+.milo-visual-lesson-container ~ * {
+  display: none !important;
+}
+
+.lesson-app .micro-lesson-shell,
+.lesson-app .micro-phase-bar,
+.lesson-app .micro-task-card,
+.lesson-app .micro-deep-card,
+.lesson-app .micro-step-flow,
+.has-visual-tutor .micro-lesson-shell,
+.has-visual-tutor .micro-phase-bar,
+.has-visual-tutor .micro-task-card,
+.has-visual-tutor .micro-deep-card,
+.has-visual-tutor .micro-step-flow,
+body:has(#miloVisualLessonBox) .micro-lesson-shell,
+body:has(#miloVisualLessonBox) .micro-phase-bar,
+body:has(#miloVisualLessonBox) .micro-task-card,
+body:has(#miloVisualLessonBox) .micro-deep-card,
+body:has(#miloVisualLessonBox) .micro-step-flow {
+  display: none !important;
+}
+
+.lesson-app,
+body.has-visual-tutor {
+  background: linear-gradient(180deg, #e8f8ff, #f9fdff) !important;
+}
+
+.lesson-app .lesson-page,
+.has-visual-tutor .lesson-page {
+  padding: 10px 14px !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  background: transparent !important;
+}
+
+.lesson-app .lesson-content,
+.has-visual-tutor .lesson-content,
+body:has(#miloVisualLessonBox) .lesson-content,
+.lesson-shell:has(#miloVisualLessonBox) .lesson-content {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: block !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  min-height: auto !important;
+}
+
+/* Header Exit buttons */
+.milo-btn-exit-journey {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  padding: 7px 14px !important;
+  background: #f1f5f9 !important;
+  color: #334155 !important;
+  border: 1.5px solid #cbd5e1 !important;
+  border-radius: 12px !important;
+  font-weight: 800 !important;
+  font-size: 13px !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.04) !important;
+  flex-shrink: 0 !important;
+}
+
+.milo-btn-exit-journey:hover {
+  background: #fee2e2 !important;
+  color: #dc2626 !important;
+  border-color: #fca5a5 !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 4px 12px rgba(220, 38, 38, 0.15) !important;
+}
+
+.milo-btn-exit-top {
+  width: 36px !important;
+  height: 36px !important;
+  border-radius: 50% !important;
+  background: #fee2e2 !important;
+  color: #ef4444 !important;
+  border: 2px solid #fecaca !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 18px !important;
+  font-weight: 900 !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+  box-shadow: 0 3px 8px rgba(239, 68, 68, 0.2) !important;
+  flex-shrink: 0 !important;
+  line-height: 1 !important;
+}
+
+.milo-btn-exit-top:hover {
+  background: #ef4444 !important;
+  color: #ffffff !important;
+  border-color: #dc2626 !important;
+  transform: scale(1.1) rotate(90deg) !important;
+  box-shadow: 0 6px 16px rgba(239, 68, 68, 0.4) !important;
+}
+
+
+/* Floating AI Plus dock stays visible and floating at bottom-right */
+#miloAiGlobalDock,
+body #miloAiGlobalDock,
+body.has-visual-tutor #miloAiGlobalDock {
+  display: block !important;
+  position: fixed !important;
+  right: 18px !important;
+  bottom: 18px !important;
+  z-index: 1500 !important;
+  width: min(330px, calc(100vw - 28px)) !important;
+}
+
+#miloAiGlobalDock.is-minimized,
+body.has-visual-tutor #miloAiGlobalDock.is-minimized {
+  width: auto !important;
+}
+
+/* Full Width Container */
+.milo-visual-lesson-container {
+  margin: 8px auto 24px auto;
+  width: 100%;
+  max-width: 100%;
+  background: #ffffff;
+  border-radius: 28px;
+  border: 3px solid #e0f2fe;
+  box-shadow: 0 14px 40px rgba(14, 165, 233, 0.1);
+  padding: 24px 36px;
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  box-sizing: border-box;
+  color: var(--milo-text);
+  position: relative;
+}
+
+/* Fullscreen Theater */
+.milo-visual-lesson-container.is-fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  max-width: 100vw;
+  border-radius: 0;
+  border: none;
+  z-index: 999999;
+  overflow-y: auto;
+  padding: 30px 48px;
+  margin: 0;
+  background: #f8fafc;
+}
+
+/* Header */
+.milo-clean-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px;
+  padding-bottom: 14px;
+  border-bottom: 2px solid #f1f5f9;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.milo-clean-title-group {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.milo-unit-badge-pill {
+  background: linear-gradient(135deg, #0ea5e9, #0284c7);
+  color: white;
+  font-weight: 900;
+  font-size: 14px;
+  padding: 7px 16px;
+  border-radius: 16px;
+  box-shadow: 0 3px 0 #0369a1;
+  letter-spacing: 0.5px;
+}
+
+.milo-unit-main-heading {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 900;
+  color: #0f172a;
+}
+
+.milo-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.milo-btn-vn-teacher {
+  background: linear-gradient(135deg, #ec4899, #f43f5e);
+  color: #ffffff !important;
+  border: none;
+  border-bottom: 4px solid #be123c;
+  border-radius: 16px;
+  padding: 7px 16px;
+  font-size: 13.5px;
+  font-weight: 900;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: 0 4px 14px rgba(244, 63, 94, 0.28);
+  transition: all 0.15s ease;
+  animation: miloPulse 2.5s infinite;
+}
+
+@keyframes miloPulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.03); }
+}
+
+.milo-btn-vn-teacher:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, #db2777, #e11d48);
+}
+
+.milo-stage-progress-badge {
+  background: #ecfdf5;
+  color: #059669;
+  border: 2px solid #a7f3d0;
+  font-weight: 900;
+  font-size: 13.5px;
+  padding: 7px 16px;
+  border-radius: 16px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.milo-btn-fullscreen-toggle {
+  background: #ffffff;
+  border: 2px solid #cbd5e1;
+  border-bottom: 4px solid #94a3b8;
+  color: #334155;
+  font-size: 13.5px;
+  font-weight: 800;
+  padding: 6px 14px;
+  border-radius: 14px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.15s ease;
+}
+
+.milo-btn-fullscreen-toggle:hover {
+  border-color: #38bdf8;
+  color: #0284c7;
+  transform: translateY(-2px);
+}
+
+/* Stepper Track */
+.milo-stepper-track {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  background: #f1f5f9;
+  padding: 8px;
+  border-radius: 20px;
+  margin-bottom: 24px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.milo-tab-node {
+  background: #ffffff;
+  border: 2px solid #cbd5e1;
+  border-bottom: 4px solid #94a3b8;
+  border-radius: 16px;
+  padding: 10px 18px;
+  font-size: 14px;
+  font-weight: 800;
+  color: #475569;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  white-space: nowrap;
+  flex: 1;
+  transition: all 0.15s ease;
+}
+
+.milo-tab-node:hover {
+  transform: translateY(-2px);
+  border-color: #38bdf8;
+  color: #0284c7;
+}
+
+.milo-tab-node.active {
+  background: #0284c7;
+  color: #ffffff;
+  border-color: #0284c7;
+  border-bottom: 4px solid #0369a1;
+  box-shadow: 0 4px 14px rgba(2, 132, 199, 0.3);
+}
+
+.milo-tab-node.done {
+  background: #ecfdf5;
+  color: #059669;
+  border-color: #a7f3d0;
+  border-bottom-color: #34d399;
+}
+
+.milo-stage-panel {
+  display: none;
+  animation: miloFadeIn 0.25s ease-out;
+}
+
+.milo-stage-panel.active {
+  display: block;
+}
+
+@keyframes miloFadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ==========================================================================
+   DEDICATED VIETNAMESE TEACHER AI MODAL / DRAWER
+   ========================================================================== */
+.milo-vn-ai-modal-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(4px);
+  z-index: 1000000;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.milo-vn-ai-modal-overlay.open {
+  display: flex;
+}
+
+.milo-vn-ai-modal-card {
+  background: #ffffff;
+  border-radius: 28px;
+  border: 3px solid #fda4af;
+  box-shadow: 0 20px 50px rgba(244, 63, 94, 0.2);
+  width: 100%;
+  max-width: 680px;
+  max-height: 90vh;
+  overflow-y: auto;
+  padding: 26px 30px;
+  box-sizing: border-box;
+  animation: modalPopIn 0.28s ease-out;
+}
+
+@keyframes modalPopIn {
+  from { opacity: 0; transform: scale(0.92); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* ==========================================================================
+   AI READING & PRONUNCIATION SCORER (CHẤM ĐIỂM ĐỌC AI)
+   ========================================================================== */
+.milo-reading-scorer-modal-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(15, 23, 42, 0.65);
+  backdrop-filter: blur(6px);
+  z-index: 1000000;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.milo-reading-scorer-modal-overlay.open {
+  display: flex;
+}
+
+.milo-reading-scorer-card {
+  background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+  border-radius: 28px;
+  border: 3px solid #c084fc;
+  box-shadow: 0 24px 60px rgba(147, 51, 234, 0.25);
+  width: 100%;
+  max-width: 640px;
+  max-height: 92vh;
+  overflow-y: auto;
+  padding: 26px 30px;
+  box-sizing: border-box;
+  animation: modalPopIn 0.28s cubic-bezier(0.34, 1.56, 0.64, 1);
+  text-align: center;
+  position: relative;
+}
+
+.milo-scorer-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #f3e8ff;
+  padding-bottom: 12px;
+  margin-bottom: 18px;
+}
+
+.milo-scorer-title-badge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 17px;
+  font-weight: 900;
+  color: #7e22ce;
+}
+
+.milo-scorer-target-box {
+  background: #faf5ff;
+  border: 2px solid #e9d5ff;
+  border-radius: 22px;
+  padding: 20px 24px;
+  margin-bottom: 20px;
+  box-shadow: inset 0 2px 6px rgba(168, 85, 247, 0.06);
+}
+
+.milo-scorer-target-text {
+  font-size: 34px;
+  font-weight: 900;
+  color: #6b21a8;
+  margin: 0 0 6px 0;
+  letter-spacing: -0.5px;
+}
+
+.milo-scorer-target-meta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  font-size: 14.5px;
+  color: #4b5563;
+  margin-bottom: 12px;
+}
+
+.milo-scorer-target-meta code {
+  background: #f3e8ff;
+  color: #7e22ce;
+  padding: 3px 10px;
+  border-radius: 8px;
+  font-weight: 800;
+}
+
+.milo-scorer-target-meta b {
+  color: #059669;
+}
+
+.milo-scorer-mic-stage {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.milo-scorer-big-mic-btn {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #a855f7 0%, #7e22ce 100%);
+  border: 4px solid #ffffff;
+  box-shadow: 0 10px 28px rgba(126, 34, 206, 0.35);
+  font-size: 38px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+  position: relative;
+}
+
+.milo-scorer-big-mic-btn:hover {
+  transform: scale(1.08);
+  box-shadow: 0 14px 34px rgba(126, 34, 206, 0.45);
+}
+
+.milo-scorer-big-mic-btn.listening {
+  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+  box-shadow: 0 0 0 12px rgba(239, 68, 68, 0.25), 0 10px 30px rgba(220, 38, 38, 0.4);
+  animation: pulseMic 1.4s infinite;
+}
+
+@keyframes pulseMic {
+  0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.5), 0 10px 24px rgba(220, 38, 38, 0.3); }
+  50% { transform: scale(1.06); box-shadow: 0 0 0 16px rgba(239, 68, 68, 0), 0 14px 32px rgba(220, 38, 38, 0.5); }
+  100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0), 0 10px 24px rgba(220, 38, 38, 0.3); }
+}
+
+.milo-scorer-status-pill {
+  font-size: 14.5px;
+  font-weight: 800;
+  padding: 8px 18px;
+  border-radius: 999px;
+  background: #f3e8ff;
+  color: #7e22ce;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s ease;
+}
+
+.milo-scorer-status-pill.recording {
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+.milo-scorer-status-pill.evaluating {
+  background: #fef3c7;
+  color: #b45309;
+}
+
+.milo-scorer-result-card {
+  background: #ffffff;
+  border: 2px solid #e2e8f0;
+  border-radius: 22px;
+  padding: 20px;
+  margin-top: 18px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+  animation: miloFadeIn 0.3s ease;
+}
+
+.milo-scorer-score-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.milo-score-circle {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 900;
+  box-shadow: 0 8px 20px rgba(16, 185, 129, 0.3);
+}
+
+.milo-score-circle.great {
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.3);
+}
+
+.milo-score-circle.retry {
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  box-shadow: 0 8px 20px rgba(245, 158, 11, 0.3);
+}
+
+.milo-score-circle small {
+  font-size: 10px;
+  opacity: 0.9;
+}
+
+.milo-score-stars {
+  font-size: 26px;
+  letter-spacing: 2px;
+}
+
+.milo-score-message {
+  font-size: 16.5px;
+  font-weight: 900;
+  color: #0f172a;
+  margin: 4px 0;
+}
+
+.milo-score-words-feedback {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 12px 0;
+}
+
+.milo-score-word-pill {
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.milo-score-word-pill.correct {
+  background: #dcfce7;
+  color: #15803d;
+  border: 1px solid #86efac;
+}
+
+.milo-score-word-pill.close {
+  background: #fef3c7;
+  color: #b45309;
+  border: 1px solid #fde68a;
+}
+
+.milo-score-word-pill.missed {
+  background: #fee2e2;
+  color: #b91c1c;
+  border: 1px solid #fca5a5;
+}
+
+.milo-scorer-teacher-bubble {
+  background: #faf5ff;
+  border: 1.5px solid #f3e8ff;
+  border-radius: 16px;
+  padding: 12px 16px;
+  color: #6b21a8;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.milo-scorer-actions-row {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+
+.milo-vn-ai-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #ffe4e6;
+  padding-bottom: 14px;
+  margin-bottom: 16px;
+}
+
+.milo-vn-ai-modal-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.milo-vn-teacher-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #ffe4e6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  box-shadow: 0 4px 10px rgba(244, 63, 94, 0.15);
+}
+
+.milo-vn-ai-modal-header h3 {
+  margin: 0;
+  font-size: 19px;
+  font-weight: 900;
+  color: #9f1239;
+}
+
+.milo-vn-ai-chat-box {
+  background: #fff1f2;
+  border: 1.5px solid #fecdd3;
+  border-radius: 20px;
+  padding: 16px 20px;
+  margin-bottom: 16px;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #881337;
+}
+
+.milo-vn-ai-quick-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 600px) {
+  .milo-vn-ai-quick-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.milo-vn-ai-quick-btn {
+  background: #ffffff;
+  border: 2px solid #cbd5e1;
+  border-bottom: 3px solid #94a3b8;
+  border-radius: 14px;
+  padding: 10px 14px;
+  font-size: 13px;
+  font-weight: 800;
+  color: #334155;
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.15s ease;
+}
+
+.milo-vn-ai-quick-btn:hover {
+  border-color: #f43f5e;
+  color: #be123c;
+  transform: translateY(-2px);
+}
+
+/* In-Context AI Chips */
+.milo-btn-ai-incontext {
+  background: linear-gradient(135deg, #7c3aed, #a855f7);
+  color: #ffffff !important;
+  border: none;
+  border-bottom: 3px solid #6d28d9;
+  border-radius: 12px;
+  padding: 5px 12px;
+  font-size: 12px;
+  font-weight: 800;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  box-shadow: 0 2px 8px rgba(124, 58, 237, 0.25);
+  transition: all 0.15s ease;
+}
+
+.milo-btn-ai-incontext:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, #6d28d9, #9333ea);
+}
+
+.milo-btn-ai-vn-direct {
+  background: linear-gradient(135deg, #ec4899, #f43f5e);
+  color: #ffffff !important;
+  border: none;
+  border-bottom: 3px solid #be123c;
+  border-radius: 12px;
+  padding: 5px 12px;
+  font-size: 12px;
+  font-weight: 800;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  transition: all 0.15s ease;
+}
+
+.milo-btn-ai-vn-direct:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, #db2777, #e11d48);
+}
+
+/* Inline AI Drawer Card */
+.milo-ai-instant-card {
+  display: none;
+  background: linear-gradient(135deg, #f5f3ff 0%, #ede9fe 100%);
+  border: 2px solid #c4b5fd;
+  border-radius: 20px;
+  padding: 18px 22px;
+  margin-top: 14px;
+  box-shadow: 0 8px 24px rgba(124, 58, 237, 0.12);
+  animation: aiCardSlideDown 0.3s ease-out;
+}
+
+.milo-ai-instant-card.open {
+  display: block;
+}
+
+@keyframes aiCardSlideDown {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.milo-ai-instant-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.milo-ai-instant-header-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 900;
+  font-size: 15px;
+  color: #6d28d9;
+}
+
+.milo-ai-instant-close-btn {
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  color: #8b5cf6;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.milo-ai-instant-body {
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: #1e1b4b;
+}
+
+.milo-ai-instant-body b {
+  color: #5b21b6;
+}
+
+.milo-ai-quick-prompts-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.milo-ai-prompt-chip {
+  background: #ffffff;
+  border: 1.5px solid #ddd6fe;
+  color: #6d28d9;
+  font-size: 12.5px;
+  font-weight: 800;
+  padding: 5px 12px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.milo-ai-prompt-chip:hover {
+  background: #7c3aed;
+  color: white;
+  border-color: #7c3aed;
+}
+
+/* ==========================================================================
+   STAGE 2: VOCABULARY DUO STAGE
+   ========================================================================== */
+.milo-vocab-selector-row {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 12px;
+  margin-bottom: 18px;
+  scrollbar-width: none;
+}
+
+.milo-word-chip {
+  background: #f8fafc;
+  border: 2px solid #cbd5e1;
+  border-bottom: 3px solid #94a3b8;
+  color: #475569;
+  font-size: 13px;
+  font-weight: 800;
+  padding: 8px 16px;
+  border-radius: 14px;
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: all 0.15s ease;
+}
+
+.milo-word-chip:hover {
+  border-color: #38bdf8;
+  color: #0284c7;
+}
+
+.milo-word-chip.active {
+  background: #0284c7;
+  color: white;
+  border-color: #0284c7;
+  border-bottom: 3px solid #0369a1;
+}
+
+.milo-word-chip.done {
+  background: #ecfdf5;
+  border-color: #10b981;
+  color: #047857;
+}
+
+.milo-vocab-duo-stage {
+  display: grid;
+  grid-template-columns: 420px 1fr;
+  gap: 28px;
+  background: #f8fafc;
+  border-radius: 28px;
+  border: 2px solid #e2e8f0;
+  padding: 24px;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+@media (max-width: 1100px) {
+  .milo-vocab-duo-stage {
+    grid-template-columns: 360px 1fr;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .milo-vocab-duo-stage {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
+
+.milo-vocab-image-box {
+  background: #ffffff;
+  border-radius: 26px;
+  border: 2.5px solid #bae6fd;
+  padding: 10px 10px 14px 10px;
+  text-align: center;
+  box-shadow: 0 10px 28px rgba(14, 165, 233, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.milo-vocab-image-box img {
+  width: 100%;
+  max-width: 100%;
+  height: 480px;
+  max-height: 500px;
+  object-fit: contain;
+  filter: drop-shadow(0 14px 26px rgba(0, 0, 0, 0.15));
+  cursor: pointer;
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+  border-radius: 20px;
+  background: #ffffff;
+}
+
+.milo-vocab-image-box img:hover {
+  transform: scale(1.03) translateY(-3px);
+}
+
+.milo-vocab-info-box {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.milo-vocab-big-word {
+  margin: 0;
+  font-size: 44px;
+  font-weight: 900;
+  color: #0284c7;
+  letter-spacing: -0.5px;
+}
+
+.milo-vocab-meta-pills {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.milo-pill-syllable {
+  background: #fef08a;
+  color: #854d0e;
+  font-weight: 800;
+  font-size: 14px;
+  padding: 5px 12px;
+  border-radius: 12px;
+  border: 1px solid #facc15;
+}
+
+.milo-pill-ipa {
+  background: #ffffff;
+  color: #475569;
+  font-family: monospace;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 5px 12px;
+  border-radius: 12px;
+  border: 1px solid #cbd5e1;
+}
+
+.milo-vocab-meaning {
+  margin: 0;
+  font-size: 23px;
+  font-weight: 900;
+  color: #0f172a;
+}
+
+.milo-context-sentence-box {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 14px 18px;
+  border-left: 5px solid #10b981;
+  border-top: 1px solid #e2e8f0;
+  border-right: 1px solid #e2e8f0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.milo-context-sentence-box b {
+  color: #047857;
+  font-size: 12.5px;
+  display: block;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+}
+
+.milo-context-sentence-box p {
+  margin: 0;
+  font-size: 15.5px;
+  font-weight: 800;
+  color: #1e293b;
+}
+
+.milo-context-sentence-box small {
+  color: #059669;
+  display: block;
+  margin-top: 3px;
+  font-size: 13.5px;
+}
+
+/* Comic Chat */
+.milo-comic-chat-container {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 22px;
+}
+
+.milo-comic-bubble-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.milo-comic-bubble-row.right {
+  flex-direction: row-reverse;
+}
+
+.milo-comic-avatar {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: #fef08a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  flex-shrink: 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.milo-comic-avatar.student {
+  background: #c7d2fe;
+}
+
+.milo-comic-speech-bubble {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 14px 22px;
+  border: 2px solid #e2e8f0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  position: relative;
+  max-width: 82%;
+}
+
+.milo-comic-speech-bubble.left {
+  border-top-left-radius: 4px;
+  background: #f0f9ff;
+  border-color: #bae6fd;
+}
+
+.milo-comic-speech-bubble.right {
+  border-top-right-radius: 4px;
+  background: #f5f3ff;
+  border-color: #ddd6fe;
+}
+
+.milo-comic-speech-bubble b {
+  font-size: 12.5px;
+  display: block;
+  margin-bottom: 3px;
+  text-transform: uppercase;
+}
+
+.milo-comic-speech-bubble.left b { color: #0284c7; }
+.milo-comic-speech-bubble.right b { color: #7c3aed; }
+
+.milo-comic-speech-bubble p {
+  margin: 0;
+  font-size: 16.5px;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.milo-comic-speech-bubble small {
+  color: #059669;
+  font-weight: 600;
+  display: block;
+  margin-top: 4px;
+  font-size: 14px;
+}
+
+/* Card Box & Quiz */
+.milo-card-box {
+  background: #ffffff;
+  border-radius: 24px;
+  border: 2px solid #e2e8f0;
+  padding: 24px;
+  margin-bottom: 18px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.03);
+}
+
+.milo-quiz-question-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 18px 20px;
+  border: 2px solid #fed7aa;
+  margin-bottom: 14px;
+  box-shadow: 0 3px 0 #fdba74;
+}
+
+.milo-quiz-question-card p {
+  margin: 0 0 12px 0;
+  font-size: 16px;
+  font-weight: 800;
+  color: #1e293b;
+}
+
+.milo-options-grid {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.milo-choice-btn {
+  background: #ffffff;
+  border: 2px solid #cbd5e1;
+  border-bottom: 4px solid #94a3b8;
+  color: #334155;
+  font-size: 14.5px;
+  font-weight: 800;
+  padding: 9px 18px;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.milo-choice-btn:hover {
+  border-color: #38bdf8;
+  color: #0284c7;
+  transform: translateY(-2px);
+}
+
+.milo-choice-btn:active {
+  transform: translateY(2px);
+  border-bottom-width: 2px;
+}
+
+.milo-choice-btn.correct {
+  background: #10b981 !important;
+  color: #ffffff !important;
+  border-color: #059669 !important;
+  border-bottom: 4px solid #047857 !important;
+}
+
+.milo-choice-btn.wrong {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+.milo-feedback-pill {
+  display: none;
+  margin-top: 10px;
+  padding: 9px 14px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 800;
+  background: #d1fae5;
+  color: #065f46;
+}
+
+/* 3D Buttons */
+.milo-btn-3d-blue {
+  background: #0ea5e9;
+  color: white;
+  border: none;
+  border-bottom: 4px solid #0284c7;
+  border-radius: 18px;
+  padding: 11px 22px;
+  font-size: 14.5px;
+  font-weight: 800;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.12s ease;
+}
+
+.milo-btn-3d-blue:hover {
+  background: #38bdf8;
+  transform: translateY(-2px);
+}
+
+.milo-btn-3d-green {
+  background: #10b981;
+  color: white;
+  border: none;
+  border-bottom: 4px solid #059669;
+  border-radius: 18px;
+  padding: 11px 22px;
+  font-size: 14.5px;
+  font-weight: 800;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.12s ease;
+}
+
+.milo-btn-3d-green:hover {
+  background: #34d399;
+  transform: translateY(-2px);
+}
+
+.milo-btn-3d-purple {
+  background: #8b5cf6;
+  color: white;
+  border: none;
+  border-bottom: 4px solid #6d28d9;
+  border-radius: 18px;
+  padding: 11px 22px;
+  font-size: 14.5px;
+  font-weight: 800;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.12s ease;
+}
+
+.milo-btn-3d-purple:hover {
+  background: #a78bfa;
+  transform: translateY(-2px);
+}
+
+/* Footer Navigation */
+.milo-footer-nav-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding-top: 14px;
+}
+
+.milo-btn-footer-prev {
+  background: #ffffff;
+  color: #64748b;
+  border: 2px solid #cbd5e1;
+  border-bottom: 4px solid #94a3b8;
+  border-radius: 20px;
+  padding: 12px 24px;
+  font-size: 15px;
+  font-weight: 900;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.milo-btn-footer-prev:hover {
+  background: #f8fafc;
+  color: #334155;
+  transform: translateY(-2px);
+}
+
+.milo-btn-footer-next {
+  background: #0284c7;
+  color: white;
+  border: none;
+  border-bottom: 4px solid #0369a1;
+  border-radius: 20px;
+  padding: 13px 28px;
+  font-size: 15.5px;
+  font-weight: 900;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(2, 132, 199, 0.25);
+  transition: all 0.15s ease;
+}
+
+.milo-btn-footer-next:hover {
+  background: #0ea5e9;
+  transform: translateY(-2px);
+}

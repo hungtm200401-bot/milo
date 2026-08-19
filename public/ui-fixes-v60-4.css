@@ -1,0 +1,43 @@
+/* V60.4 — căn icon hội thoại vào đúng ô trắng. */
+.ai-live-console {
+  grid-template-columns: 116px minmax(0, 1fr) auto;
+  background: linear-gradient(135deg, #f3efff, #ecfaff 58%, #fff7df);
+}
+
+.ai-live-icon-shell {
+  width: 112px;
+  height: 112px;
+  display: grid;
+  place-items: center;
+  align-self: center;
+  justify-self: center;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow:
+    0 13px 28px #4c5b7924,
+    inset 0 0 0 7px #f8f6ff;
+}
+
+.ai-live-icon-shell .ai-live-orb {
+  width: 82px;
+  height: 82px;
+  margin: 0;
+}
+
+@media (max-width: 760px) {
+  .ai-live-console {
+    grid-template-columns: 1fr;
+  }
+
+  .ai-live-icon-shell {
+    width: 96px;
+    height: 96px;
+    justify-self: start;
+  }
+
+  .ai-live-icon-shell .ai-live-orb {
+    width: 70px;
+    height: 70px;
+  }
+}

@@ -1,0 +1,29 @@
+/* Milo V60.20 · 12 Unit / Lv.50 */
+:root{--milo-progress-blue:#168fd3;--milo-progress-indigo:#5362d8;--milo-progress-green:#25a86b;--milo-progress-lock:#dbe5ec}
+html,body{max-width:100%;overflow-x:hidden}
+.journey-unit-grid{display:grid!important;grid-template-columns:repeat(6,minmax(0,1fr))!important;gap:12px!important;align-items:stretch}
+.journey-unit-grid .unit-card{min-width:0;min-height:118px;padding:13px 12px;align-items:flex-start;overflow:hidden}
+.journey-unit-grid .unit-card>span:last-child{min-width:0}
+.journey-unit-grid .unit-card strong,.journey-unit-grid .unit-card small{overflow-wrap:anywhere}
+.journey-unit-grid .unit-card strong{font-size:13px;line-height:1.25}
+.journey-unit-grid .unit-card small{display:block;font-size:11px}
+.journey-unit-grid .unit-card .unit-number{width:40px;height:40px;flex:0 0 40px}
+.unit-card.locked{background:#f1f5f8;border-color:#dce6ed;box-shadow:none;cursor:not-allowed;opacity:.82}
+.unit-card.locked:hover{transform:none;border-color:#dce6ed}
+.unit-card .unit-status{font-weight:850;color:#176ba2;margin:3px 0}
+.unit-card.locked .unit-status{color:#6e7f8c}
+.unit-card.done .unit-status{color:#138050}
+.progress #journeyXpDetails,.progress small{display:block;margin-top:4px;white-space:normal;font-size:10px;line-height:1.2}
+.offline-unit-levels{grid-template-columns:repeat(6,minmax(0,1fr))!important}
+.offline-node.locked{filter:grayscale(.55);opacity:.55;cursor:not-allowed}
+.offline-node.locked:hover{transform:none}
+.milo-grade-xp-card{display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:center;border:1px solid #c9e3f3;background:linear-gradient(135deg,#fff,#eff9ff);border-radius:16px;padding:10px 13px;margin:8px 0}
+.milo-grade-xp-card strong{font-size:16px}.milo-grade-xp-card small{display:block;color:#5e7180}.milo-grade-xp-card progress{width:100%;height:9px;accent-color:var(--milo-progress-blue)}
+.lesson-grade-progress{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:12px;font-weight:800}
+.lesson-grade-progress .xp-pill{border-radius:999px;padding:6px 10px;background:#eaf7ff;color:#116c9f}
+.accounts-table .grade-progress-cell{min-width:210px}
+.admin-grade-progress{display:grid;gap:5px}.admin-grade-progress b{font-size:12px}.admin-grade-progress small{display:block}.admin-grade-progress progress{width:100%;height:7px;accent-color:var(--milo-progress-indigo)}
+@media(max-width:1279px){.journey-unit-grid{grid-template-columns:repeat(4,minmax(0,1fr))!important}.offline-unit-levels{grid-template-columns:repeat(4,minmax(0,1fr))!important}}
+@media(max-width:999px){.journey-unit-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important}.offline-unit-levels{grid-template-columns:repeat(3,minmax(0,1fr))!important}}
+@media(max-width:719px){.journey-unit-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}.offline-unit-levels{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+@media(max-width:479px){.journey-unit-grid{grid-template-columns:1fr!important}.offline-unit-levels{grid-template-columns:1fr!important}.journey-unit-grid .unit-card{min-height:96px}}

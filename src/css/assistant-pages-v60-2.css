@@ -1,0 +1,142 @@
+/* V60.2 — tách Trung tâm Trợ lý AI khỏi trang Trò chuyện. */
+.assistant-center-view .section-top {
+  margin-bottom: 14px;
+}
+
+.assistant-center-view .section-top h2 {
+  margin-top: 3px;
+}
+
+.assistant-center-badge {
+  flex: 0 0 auto;
+  padding: 9px 13px;
+  border: 1px solid #d7cdf9;
+  border-radius: 999px;
+  background: #f2edff;
+  color: #674db9;
+  font-size: 11px;
+  font-weight: 950;
+}
+
+.assistant-center-view .ai-config-card {
+  margin: 0 0 14px;
+}
+
+.assistant-center-view .tutor-intro,
+.assistant-center-view .assistant-safety,
+.assistant-center-view .v60-assistant-hub {
+  margin-bottom: 14px;
+}
+
+.assistant-center-view .v60-assistant-hub {
+  margin-top: 0;
+}
+
+.assistant-center-view .v60-assistant-active {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.v60-assistant-open-chat,
+.chat-assistant-link {
+  border: 0;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #7459d5, #4caed3);
+  box-shadow: 0 8px 18px #6752bd31;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 950;
+  cursor: pointer;
+}
+
+.v60-assistant-open-chat {
+  margin-left: auto;
+  padding: 9px 12px;
+}
+
+.chat-assistant-link {
+  padding: 10px 13px;
+}
+
+#view-chat .section-top {
+  margin-bottom: 12px;
+}
+
+#view-chat .ai-live-console {
+  margin-top: 0;
+}
+
+/* Biểu tượng vector có hộp hình học cân bằng, không phụ thuộc font emoji. */
+.ai-live-orb > .ai-live-symbol {
+  position: relative;
+  z-index: 2;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  transform: none;
+}
+
+.ai-live-orb > .ai-live-symbol svg {
+  width: 38px;
+  height: 38px;
+  display: block;
+  overflow: visible;
+  filter: drop-shadow(0 4px 5px #44328b33);
+}
+
+@media (max-width: 760px) {
+  .assistant-center-view .section-top {
+    align-items: flex-start;
+  }
+
+  .assistant-center-badge {
+    font-size: 9px;
+  }
+
+  .chat-assistant-link {
+    padding: 9px 10px;
+    font-size: 10px;
+  }
+
+  .ai-live-orb > .ai-live-symbol {
+    width: 36px;
+    height: 36px;
+  }
+
+  .ai-live-orb > .ai-live-symbol svg {
+    width: 34px;
+    height: 34px;
+  }
+}
+
+
+/* V60.13.10 — nhãn chế độ ngay trong màn trò chuyện */
+.chat-mode-actions { display: flex; align-items: center; justify-content: flex-end; gap: 9px; flex-wrap: wrap; }
+.chat-access-badge {
+  padding: 8px 11px;
+  border-radius: 999px;
+  font-size: 9px;
+  font-weight: 1000;
+}
+.chat-access-badge.plus { border: 1px solid #9edfc9; background: #e9faf3; color: #13704e; }
+.chat-access-badge.pro { border: 1px solid #d4c4ff; background: #f0ebff; color: #6749bd; }
+.chat-mode-notice {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 12px;
+  padding: 10px 12px;
+  border-radius: 14px;
+  font-size: 10px;
+  line-height: 1.45;
+}
+.chat-mode-notice b { flex: 0 0 auto; }
+.chat-mode-notice.plus { border: 1px solid #b5e7d5; background: #f1fcf7; color: #246653; }
+.chat-mode-notice.pro { border: 1px solid #d9ccff; background: #f7f3ff; color: #5f4a9a; }
+@media (max-width: 760px) {
+  .chat-mode-actions { justify-content: flex-start; }
+  .chat-mode-notice { align-items: flex-start; flex-direction: column; }
+}

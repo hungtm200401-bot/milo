@@ -1,0 +1,446 @@
+/* V60.3 — phòng học phát âm rõ, cân đối và hướng dẫn theo khẩu hình. */
+.sound-focus-v603 {
+  grid-template-columns: minmax(280px, .82fr) minmax(0, 1.35fr);
+  gap: 26px;
+  padding: 28px;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 8% 8%, #fff 0 5%, transparent 5.5%),
+    radial-gradient(circle at 96% 5%, #dff8ff 0 13%, transparent 13.5%),
+    linear-gradient(135deg, #fff6dc, #eefaff 58%, #f2edff);
+}
+
+.sound-visual-v603 {
+  min-width: 0;
+  min-height: 260px;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  gap: 13px;
+  padding: 24px 18px;
+  border: 2px solid #ffffffd9;
+  border-radius: 28px;
+  background: #ffffffd9;
+  box-shadow: 0 16px 34px #485d7e1c;
+  text-align: center;
+}
+
+.sound-visual-v603 > small {
+  color: #6b5bbe;
+  font-size: 10px;
+  font-weight: 950;
+  letter-spacing: .1em;
+}
+
+.sound-token-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.sound-token {
+  min-width: 92px;
+  min-height: 76px;
+  display: grid;
+  place-items: center;
+  padding: 10px 13px;
+  border-radius: 22px;
+  background: linear-gradient(145deg, #8065e3, #614ac0);
+  box-shadow: 0 12px 22px #644ec03b;
+  color: #fff;
+  font-size: clamp(29px, 4vw, 43px);
+  font-weight: 1000;
+  line-height: 1;
+}
+
+.sound-token.stress {
+  min-width: 112px;
+  background: linear-gradient(145deg, #ffb65c, #f2874e);
+  font-size: 18px;
+  letter-spacing: .04em;
+}
+
+.sound-example-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 7px;
+}
+
+.sound-example-list span {
+  padding: 7px 10px;
+  border-radius: 999px;
+  background: #eef6ff;
+  color: #425d82;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.sound-focus-copy-v603 {
+  min-width: 0;
+}
+
+.sound-focus-copy-v603 h2 {
+  max-width: 760px;
+  font-size: clamp(25px, 3vw, 36px);
+  line-height: 1.2;
+}
+
+.sound-focus-copy-v603 > p {
+  max-width: 780px;
+  font-size: 15px;
+}
+
+.sound-goal-v603 {
+  margin-top: 14px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.sound-goal-v603 span {
+  min-height: 54px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 10px;
+  border: 1px solid #dce4ee;
+  border-radius: 14px;
+  background: #ffffffbd;
+  color: #53657c;
+  font-size: 11px;
+  font-weight: 900;
+}
+
+.articulation-guide {
+  margin: 18px 0;
+  padding: 23px;
+  border: 1px solid #d8dff0;
+  border-radius: 25px;
+  background: linear-gradient(145deg, #fbfdff, #f8f4ff);
+}
+
+.articulation-guide-head {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  margin-bottom: 15px;
+}
+
+.articulation-guide-head > span {
+  width: 48px;
+  height: 48px;
+  flex: 0 0 auto;
+  display: grid;
+  place-items: center;
+  border-radius: 16px;
+  background: #fff0dc;
+  font-size: 26px;
+}
+
+.articulation-guide-head small,
+.articulation-guide-head h2 {
+  display: block;
+}
+
+.articulation-guide-head small {
+  color: #7259c8;
+  font-size: 9px;
+  font-weight: 950;
+  letter-spacing: .1em;
+}
+
+.articulation-guide-head h2 {
+  margin: 3px 0 0;
+  font-size: 24px;
+}
+
+.articulation-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.articulation-card {
+  min-width: 0;
+  padding: 17px;
+  border: 1px solid #dfe4ee;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 9px 22px #46546f0d;
+}
+
+.articulation-card-head {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #edf0f5;
+}
+
+.articulation-card-head > span {
+  min-width: 58px;
+  min-height: 54px;
+  display: grid;
+  place-items: center;
+  padding: 8px;
+  border-radius: 17px;
+  background: linear-gradient(145deg, #8065e3, #6049be);
+  color: #fff;
+  font-size: 23px;
+  font-weight: 1000;
+}
+
+.articulation-card.stress-card .articulation-card-head > span {
+  background: linear-gradient(145deg, #ffb65c, #ed8650);
+  font-size: 12px;
+}
+
+.articulation-card-head small,
+.articulation-card-head b {
+  display: block;
+}
+
+.articulation-card-head small {
+  color: #79869a;
+  font-size: 9px;
+  font-weight: 950;
+  letter-spacing: .08em;
+}
+
+.articulation-card-head b {
+  margin-top: 2px;
+  overflow-wrap: anywhere;
+  color: #24324a;
+  font-size: 20px;
+}
+
+.articulation-card-head button {
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  border: 0;
+  border-radius: 13px;
+  background: #eee9ff;
+  color: #6651b0;
+  cursor: pointer;
+}
+
+.articulation-checklist {
+  display: grid;
+  gap: 7px;
+  margin: 12px 0;
+}
+
+.articulation-checklist p {
+  display: grid;
+  grid-template-columns: 86px minmax(0, 1fr);
+  gap: 7px;
+  margin: 0;
+  padding: 8px 10px;
+  border-radius: 12px;
+  background: #f7fafc;
+  color: #56677d;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.articulation-checklist b {
+  color: #33445d;
+}
+
+.sound-drill {
+  padding: 11px 12px;
+  border: 1px solid #f0d39f;
+  border-radius: 14px;
+  background: #fff9e9;
+}
+
+.sound-drill small,
+.sound-drill strong {
+  display: block;
+}
+
+.sound-drill small {
+  color: #9b6c25;
+  font-size: 8px;
+  font-weight: 950;
+  letter-spacing: .1em;
+}
+
+.sound-drill strong {
+  margin-top: 4px;
+  overflow-wrap: anywhere;
+  color: #6d5122;
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.guided-practice-v603 {
+  margin-top: 17px;
+  padding: 20px;
+  border: 1px solid #dfe6ed;
+  border-radius: 22px;
+  background: #fff;
+}
+
+.guided-practice-v603 > h3 {
+  margin: 0 0 5px;
+  font-size: 20px;
+}
+
+.guided-practice-v603 > p {
+  margin: 0;
+  color: #69778a;
+  font-size: 13px;
+}
+
+.guided-step-row {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 8px;
+  margin: 15px 0;
+}
+
+.guided-step-row article {
+  min-height: 118px;
+  padding: 12px;
+  border-radius: 15px;
+  background: #f5f8fb;
+}
+
+.guided-step-row article > span {
+  width: 27px;
+  height: 27px;
+  display: grid;
+  place-items: center;
+  border-radius: 9px;
+  background: linear-gradient(145deg, #f2a250, #e9824a);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 950;
+}
+
+.guided-step-row b,
+.guided-step-row small {
+  display: block;
+}
+
+.guided-step-row b {
+  margin: 8px 0 4px;
+  color: #304057;
+  font-size: 12px;
+}
+
+.guided-step-row small {
+  color: #6e7b8d;
+  font-size: 10px;
+  line-height: 1.45;
+}
+
+.phonics-word-bank-v603 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-top: 12px;
+}
+
+.phonics-word-bank-v603 button {
+  min-width: 0;
+  min-height: 94px;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 7px;
+  padding: 12px;
+  overflow: hidden;
+  font-size: 14px;
+  text-align: left;
+}
+
+.phonics-word-bank-v603 button > strong {
+  font-size: 29px;
+}
+
+.phonics-word-bank-v603 button > b {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.phonics-word-bank-v603 button > span {
+  float: none;
+}
+
+.phonics-check-v603 {
+  min-height: 50px;
+  padding: 13px 18px;
+  font-size: 14px;
+}
+
+@media (max-width: 1050px) {
+  .sound-focus-v603 {
+    grid-template-columns: 1fr;
+  }
+
+  .sound-visual-v603 {
+    min-height: 210px;
+  }
+
+  .guided-step-row {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .phonics-word-bank-v603 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 700px) {
+  .sound-focus-v603,
+  .articulation-guide,
+  .guided-practice-v603 {
+    padding: 16px;
+  }
+
+  .sound-goal-v603,
+  .articulation-grid,
+  .guided-step-row {
+    grid-template-columns: 1fr;
+  }
+
+  .sound-visual-v603 {
+    min-height: 185px;
+    padding: 18px 12px;
+  }
+
+  .sound-token {
+    min-width: 78px;
+    min-height: 66px;
+    font-size: 30px;
+  }
+
+  .articulation-card-head {
+    grid-template-columns: auto minmax(0, 1fr) auto;
+  }
+
+  .articulation-checklist p {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+
+  .phonics-word-bank-v603 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .phonics-word-bank-v603 button {
+    grid-template-columns: 1fr auto;
+    min-height: 105px;
+    text-align: center;
+  }
+
+  .phonics-word-bank-v603 button > strong {
+    grid-column: 1 / -1;
+  }
+}

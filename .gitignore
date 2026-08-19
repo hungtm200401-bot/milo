@@ -1,0 +1,16 @@
+# Milo English Adventure - Git Ignore File
+.env
+*.log
+node_modules/
+dist/
+tmp/
+.DS_Store
+*.tmp
+*.download
+server-exe-state.json
+.codex/
+bin/*.exe
+windows-launcher-src/**/bin/
+windows-launcher-src/**/obj/
+RUNTIME_NOI_BO/
+MILO_KET_QUA_KIEM_TRA.txt

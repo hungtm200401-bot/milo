@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#168bf2">
+<title>Bài học · Milo English Adventure</title>
+<meta name="theme-color" content="#168bf2">
+<link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="milo-student-app.svg">
+  <link rel="stylesheet" href="milo-tokens-v60-12.css?v=60.12.0">
+  <link rel="stylesheet" href="lesson.css?v=60.12.3-textfix">
+  <link rel="stylesheet" href="vip-pro-max.css?v=60.12.0">
+  <link rel="stylesheet" href="app-v37.css?v=60.12.0">
+  <link rel="stylesheet" href="app-v38.css?v=60.12.0">
+  <link rel="stylesheet" href="app-v39.css?v=60.12.0">
+  <link rel="stylesheet" href="ai-pro-max-v58.css?v=60.12.0">
+<link rel="stylesheet" href="pronunciation-vip-v60-15.css?v=60.15.0">
+  <link rel="stylesheet" href="vip-learning-v60.css?v=60.12.0">
+  <link rel="stylesheet" href="quick-learn-v60-1.css?v=60.12.0">
+  <link rel="stylesheet" href="phonics-ui-v60-3.css?v=60.12.0">
+  <link rel="stylesheet" href="alignment-v60-12.css?v=60.12.0-g2full2">
+  <link rel="stylesheet" href="grade2-sourcebook.css?v=60.13.1-slim181">
+  <link rel="stylesheet" href="student-ui-sync-v60-16.css?v=60.25.0-learning-focus">
+  <link rel="stylesheet" href="student-ui-single-v60-17.css?v=60.12.0-g2full2">
+  <link rel="stylesheet" href="text-layout-fix-v60-1.css?v=60.12.4">
+  <script src="auth-guard-v60-1.js?v=60.12.8"></script>
+  <link rel="stylesheet" href="ai-journey-v60-13-14.css?v=60.13.14">
+  <link rel="stylesheet" href="ai-feedback-v60-14.css?v=60.14.0">
+  <link rel="stylesheet" href="ai-conversation-polish-v60-14.css?v=60.14.0">
+  <link rel="stylesheet" href="cute-voice-v60-16.css?v=60.16.0">
+  <link rel="stylesheet" href="source-sections-v60-17.css?v=60.25.1-source-exact">
+  <link rel="stylesheet" href="lesson-studio-v60-18.css?v=60.18.0">
+  <link rel="stylesheet" href="micro-lesson-v60-19.css?v=60.23.0">
+  <link rel="stylesheet" href="learning-session.css?v=60.25.5-ai-corner-toggle">
+  <link rel="stylesheet" href="vocab-repeat-v60-23.css?v=60.23.0">
+  <link rel="stylesheet" href="unit-progression-v60-20.css?v=60.20.0">
+  <link rel="stylesheet" href="voice-reply-v60-21.css?v=60.21.0">
+  <link rel="stylesheet" href="payment-readable-v58.css?v=60.25.2">
+  <link rel="stylesheet" href="vip-plan-choice-v60-13-11.css?v=60.13.11">
+  <link rel="stylesheet" href="update-client.css">
+  <link rel="stylesheet" href="interaction-performance-v60-22.css?v=60.22.0">
+  <link rel="stylesheet" href="chat-ui-v60-21.css?v=60.21.0">
+  <link rel="stylesheet" href="grade2-grade3-visual-tutor.css?v=60.25.0">
+</head>
+<body class="unified-student-ui lesson-app has-visual-tutor">
+  <main class="lesson-page">
+    <header class="lesson-topbar">
+      <a class="back-link" id="lessonBackLink" href="index.html?view=journey" aria-label="Quay lại Hành trình">
+        <span class="lesson-back-arrow">←</span>
+        <span class="lesson-back-logo"><img src="milo-student-app.svg" alt=""></span>
+        <span class="lesson-back-copy"><small>TRỞ VỀ HÀNH TRÌNH</small><b>Milo English Adventure</b></span>
+      </a>
+      <div class="lesson-brand">
+        <span>📘</span>
+        <div><small>BÀI HỌC ĐANG MỞ</small><b id="topTitle">Lớp 3 · Unit 1</b></div>
+      </div>
+      <div class="lesson-reward-hud" aria-label="Phần thưởng học tập">
+        <span>❤️ 5</span>
+        <span>🔥 <b id="lessonStreak">0</b> ngày</span>
+        <span>⭐ +<b id="lessonDailyPoints">0</b> hôm nay</span>
+        <span>🌟 <b id="lessonMiloCoins">0</b> nuôi <b id="lessonPetRewardName">Milo</b></span>
+      </div>
+      <div class="lesson-grade-progress" id="lessonGradeProgress" aria-label="Cấp độ lớp">
+        <span class="xp-pill" id="lessonLevelXp">Lv.1 · 0 XP</span>
+        <span id="lessonNextMilestone">Unit 1 → Lv.4</span>
+      </div>
+      <div class="lesson-selectors">
+        <select id="gradeSelect" aria-label="Chọn lớp">
+          <option value="2">Lớp 2</option><option value="3">Lớp 3</option>
+          <option value="4">Lớp 4</option><option value="5">Lớp 5</option>
+        </select>
+        <select id="unitSelect" aria-label="Chọn Unit"></select>
+      </div>
+    </header>
+
+    <div class="lesson-app-layout">
+      <nav class="lesson-main-nav nav card" aria-label="Điều hướng chính">
+        <a class="nav-btn" data-shell-view="quick" href="index.html?view=quick"><span>▶</span><span>Học ngay</span></a>
+        <a class="nav-btn active" data-shell-view="journey" href="index.html?view=journey"><span>🗺</span><span>Hành trình</span></a>
+        <a class="nav-btn" data-shell-view="chat" href="index.html?view=chat"><span>💬</span><span>Trò chuyện</span></a>
+        <a class="nav-btn" data-shell-view="pets" href="index.html?view=pets"><span>🐾</span><span>Thú cưng</span></a>
+        <a class="nav-btn" data-shell-view="badges" href="index.html?view=badges"><span>🏆</span><span>Thành tích</span></a>
+      </nav>
+      <div class="lesson-shell">
+      <aside class="lesson-nav">
+        <div class="unit-nav-title">
+          <span id="unitIcon">👋</span>
+          <div><small id="unitNumber">UNIT 1</small><h2 id="unitTitle">Hello</h2><p id="unitVi">Xin chào</p></div>
+        </div>
+        <div class="course-progress">
+          <div><b>Tiến độ bài học</b><span id="progressPercent">0%</span></div>
+          <div class="course-progress-track"><i id="progressBar"></i></div>
+          <small id="progressText">0/11 phần đã học</small>
+        </div>
+        <nav id="lessonNav"></nav>
+      </aside>
+
+      <article class="lesson-content">
+        <div class="lesson-mission-ribbon">
+          <span id="lessonRouteBadge">🎯 NHIỆM VỤ CHẶNG</span>
+          <b id="missionPartName">Hoàn thành bài học cùng Milo</b>
+          <div>+25 XP · +5 ⭐ · mở khóa chặng tiếp</div>
+        </div>
+        <div id="lessonContent"></div>
+      </article>
+
+      <aside class="milo-coach" id="lessonCoachRail">
+        <div class="coach-card">
+          <div class="coach-rail-head">
+            <span class="coach-label" id="coachCompanionLabel">MILO ĐỒNG HÀNH</span>
+            <button class="coach-rail-toggle" id="lessonCoachRailToggle" type="button" aria-controls="lessonCoachRail" aria-expanded="true" title="Thu gọn trợ lý AI"><span aria-hidden="true">⇥</span><b>Thu gọn</b></button>
+          </div>
+          <div class="coach-image"><img id="lessonCoachImage" src="pet-assets/levels/milo/lv-01-idle.webp" alt="Milo"><span class="milo-wave-sprite" id="lessonCoachWave" aria-hidden="true"></span></div>
+          <div class="coach-level-activity">
+            <span id="coachLevelIcon">👋</span>
+            <div><small id="coachLevelBadge">LEVEL 1 · BÉ CON</small><b id="coachLevelActivityName">Chào bạn đầu tiên</b></div>
+            <button type="button" id="coachLevelActivity">▶ Chơi</button>
+          </div>
+          <div class="coach-bubble">
+            <p id="miloMessage">Mình sẽ hướng dẫn từng bước. Em không cần học hết trong một lần đâu!</p>
+            <button id="miloRead">🔊 Milo đọc</button>
+          </div>
+          <div class="coach-reward">
+            <span id="coachMood">🦊</span>
+            <div>
+              <b id="coachHappy">Milo vui 0%</b>
+              <small id="coachProgressText">0/11 chặng đã chinh phục</small>
+              <i><em id="coachProgressBar"></em></i>
+            </div>
+          </div>
+          <div class="coach-next-gift" id="coachNextGift">🎁 Còn 3 chặng để nhận quà bí mật</div>
+          <div class="coach-tips"><b>Mẹo học phần này</b><p id="coachTip">Học từng bước và làm bài luyện ngay bên dưới.</p></div>
+          <button class="lesson-tutor-toggle" id="lessonTutorToggle" type="button" aria-expanded="false">💬 AI Plus · hỏi đúng chặng đang học</button>
+          <section class="lesson-tutor-panel hidden" id="lessonTutorPanel">
+            <p><b>Pet sẽ làm 3 việc:</b> nhận ra phần con chưa hiểu → giải thích bằng ví dụ → cho con thử ngay.</p>
+            <div class="lesson-help-quick">
+              <button type="button" data-lesson-help="Con không hiểu bài này">Chưa hiểu bài</button>
+              <button type="button" data-lesson-help="Con không nhớ từ mới">Quên từ mới</button>
+              <button type="button" data-lesson-help="Con nghe không kịp">Nghe không kịp</button>
+              <button type="button" data-lesson-help="Con sợ làm sai">Sợ làm sai</button>
+            </div>
+            <form id="lessonTutorForm">
+              <input id="lessonTutorInput" placeholder="Nói điều đang làm con khó…" autocomplete="off">
+              <button type="submit">Gửi</button>
+            </form>
+            <div class="lesson-tutor-answer hidden" id="lessonTutorAnswer" aria-live="polite"></div>
+          </section>
+        </div>
+      </aside>
+      </div>
+    </div>
+  </main>
+  <div id="premiumPaymentModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="premiumPaymentTitle" onclick="if(event.target===this)this.classList.add('hidden');">
+    <div class="modal-card premium-pay-card">
+      <div class="premium-pay-hero">
+        <button class="close" id="closePremiumPayment" type="button" aria-label="Đóng" onclick="document.querySelector('#premiumPaymentModal')?.classList.add('hidden');">✕</button>
+        <span>👑</span>
+        <h2 id="premiumPaymentTitle">Nâng cấp Trợ lý AI VIP PRO MAX</h2>
+        <p>AI Plus luôn sẵn sàng miễn phí. Dùng thử 24 giờ hoặc chọn gói để mở cá nhân hóa chuyên sâu, ghi nhớ điểm yếu và toàn bộ trợ lý AI.</p>
+      </div>
+      <div class="premium-pay-body">
+        <div class="premium-pay-benefits">
+          <div><b>🧭 Chẩn đoán chuyên sâu</b><small>Nhận ra đúng kỹ năng, nguyên nhân và lỗi lặp lại của bé</small></div>
+          <div><b>💬 Trò chuyện hai chiều</b><small>Nghe, trả lời và hỏi tiếp bằng giọng nói trực tiếp</small></div>
+          <div><b>⚡ Buổi học tự dẫn dắt</b><small>Milo chuẩn bị 6 bước học ngắn theo đúng điểm yếu</small></div>
+          <div><b>📊 Báo cáo phụ huynh</b><small>Theo dõi nhịp học, phát âm và mục tiêu tuần tới</small></div>
+          <div><b>🧠 Bộ nhớ dài hạn</b><small>Đồng bộ tiến bộ và lỗi lặp lại theo tài khoản của bé</small></div>
+          <div><b>🏦 Chuyển thẳng ngân hàng</b><small>Không qua cổng thanh toán trung gian; quản trị viên tự đối chiếu</small></div>
+        </div>
+        <div id="commerceAccountSummary" class="commerce-account-summary" aria-live="polite"></div>
+        <div id="paymentConfigStatus" class="payment-config-status status-loading" aria-live="polite"><b>Đang kiểm tra kênh thanh toán…</b><small>Kênh thanh toán dành cho phụ huynh đang được chuẩn bị.</small></div>
+        <section class="ai-common-capabilities" aria-labelledby="aiCommonTitle">
+          <div><h3 id="aiCommonTitle">Ba gói mua đều mở đầy đủ VIP PRO MAX</h3><small>Cá nhân hóa chuyên sâu · chỉ khác thời hạn sử dụng</small></div>
+          <div id="aiCommonBenefitsList" class="ai-common-capability-list"></div>
+        </section>
+        <div id="purchaseOrderStatus" class="purchase-order-status hidden" aria-live="polite"></div>
+        <div id="premiumPaymentQr" class="premium-modal-qr hidden">
+          <span>QUÉT BẰNG ỨNG DỤNG NGÂN HÀNG</span>
+          <a id="premiumPaymentQrLink" aria-label="Mở kênh thanh toán Milo"><img id="premiumPaymentQrImage" alt="Mã QR thanh toán Milo"></a>
+          <div id="commerceTransferDetails" class="commerce-transfer-details"></div>
+          <small>Quét QR ngân hàng, sau đó nhập đúng số tiền và nội dung riêng của đơn hiển thị bên dưới.</small>
+        </div>
+        <div class="plan-section-head">
+          <div><span>CHỌN THỜI HẠN VIP PRO MAX</span><b>Ba gói cùng đầy đủ chức năng</b></div>
+          <small id="premiumPriceLabel">AI Plus miễn phí · Chỉ thanh toán khi muốn nâng cấp VIP</small>
+        </div>
+        <div id="premiumPlanGrid" class="premium-plan-grid" aria-label="Các gói Milo"></div>
+        <button id="continuePremiumPayment" class="premium-pay-button" type="button">Chọn gói và tạo đơn thanh toán</button>
+        <p class="premium-pay-safe">🔒 Gói mua chỉ được kích hoạt sau khi người quản lý đối chiếu đúng giao dịch. AI Plus miễn phí vẫn dùng bình thường trong lúc chờ.</p>
+        <p id="premiumPaymentError" class="premium-pay-error" role="status"></p>
+        <section id="aiTrialOffer" class="ai-trial-offer" aria-live="polite"></section>
+      </div>
+    </div>
+  </div>
+  <div id="toast" class="toast">Đã lưu tiến độ</div>
+  <script src="grade2-source-content.js?v=60.12.0-g2full2"></script>
+  <script src="grade2-sourcebook-data.js?v=60.13.1-slim181"></script>
+  <script src="grade3-sourcebook-data.js?v=60.13.1-slim190"></script>
+  <script src="curriculum.js"></script>
+  <script src="vocab-expansion.js"></script>
+  <script src="power-words.js"></script>
+  <script src="now-i-know-readings.js"></script>
+  <script src="now-i-know-alignment.js?v=60.12.0-g2full2"></script>
+  <script src="grade2-full-knowledge.js?v=60.12.0-g2full2"></script>
+  <script src="grade2-strict-source.js?v=60.12.2-zip-strict-196"></script>
+  <script src="grade3-strict-source.js?v=60.13.0-zip-strict-240"></script>
+  <script src="grade2-sourcebook.js?v=60.25.1-source-exact"></script>
+  <script src="grade3-sourcebook.js?v=60.25.1-source-exact"></script>
+  <script src="source-sections-v60-17.js?v=60.18.0"></script>
+  <script src="source-exact-transcriptions.js"></script>
+  <script src="expert-program.js"></script>
+  <script src="grade-roadmap.js?v=60.12.5"></script>
+  <script src="interaction-performance-v60-22.js?v=60.22.0"></script>
+  <script src="unit-progression-v60-20.js?v=60.21.0"></script>
+  <script src="vip-pro-max.js?v=60.12.0"></script>
+  <script src="pet-level-system.js"></script>
+  <script src="pet-tutor.js?v=60.14.0"></script>
+  <script src="https://code.responsivevoice.org/responsivevoice.js"></script>
+<script src="pronunciation-lexicon-v60-16.js?v=60.16.0"></script>
+<script src="cute-voice-v60-16.js?v=60.16.0"></script>
+<script src="ai-language-v60-14.js?v=60.14.0"></script>
+<script src="ai-feedback-v60-14.js?v=60.14.0"></script>
+  <script src="pricing-utils.js"></script>
+  <script src="subscription-ui.js"></script>
+  <script src="student-assistant-status.js"></script>
+  <script src="unit-task-mapping.js"></script>
+  <script src="commerce-lesson-v54.js?v=60.12.0"></script>
+  <script src="learning-review.js?v=60.25.0"></script>
+  <script src="book-exercises-v60-23.js?v=60.23.0"></script>
+  <script src="vocab-repeat-v60-23.js?v=60.23.0"></script>
+  <script src="learning-session-flow.js?v=60.25.5-ai-corner-toggle"></script>
+  <script src="micro-lesson-v60-19.js?v=60.25.5-ai-corner-toggle"></script>
+  <script src="lesson.js?v=60.25.5-ai-corner-toggle"></script>
+  <script src="lesson-v37.js?v=60.25.5-ai-corner-toggle"></script>
+  <script src="pronunciation-coach.js?v=60.21.0"></script>
+  <script src="vip-learning-v60.js?v=60.13.12-tier-rules"></script>
+  <script src="app-v38.js?v=60.12.0"></script>
+  <script src="app-v39.js?v=60.14.0"></script>
+  <script src="commerce-v54.js?v=60.13.14-confirm-before-bill"></script>
+  <script src="ai-journey-v60-13-14.js?v=60.25.5-ai-corner-toggle"></script>
+  <script src="voice-reply-v60-21.js?v=60.21.0"></script>
+  <script src="grade2-grade3-curriculum-bundle.js"></script>
+  <script src="grade2-grade3-visual-tutor.js?v=60.25.0"></script>
+  <script src="update-client.js"></script>
+</body>
+<script>
+  if('serviceWorker' in navigator && /^https?:$/.test(location.protocol)){
+    addEventListener('load',()=>navigator.serviceWorker.register('sw.js?v=60.25.5-ai-corner-toggle',{updateViaCache:'none'}).then(reg=>reg.update()).catch(()=>{}));
+  }
+</script>
+</html>

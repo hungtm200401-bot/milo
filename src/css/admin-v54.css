@@ -1,0 +1,42 @@
+/* V54 — trạng thái đối chiếu chuyển khoản trực tiếp. */
+.status-pending,
+.status-processing {
+  color: #85651a;
+  background: #fff1b8;
+}
+
+.status-underpaid {
+  color: #98601f;
+  background: #ffebca;
+}
+
+.status-cancelled,
+.status-expired,
+.status-failed,
+.status-rejected {
+  color: #a33c45;
+  background: #ffe3e5;
+}
+
+.admin-checkout {
+  display: inline-flex;
+  padding: 7px 9px;
+  border-radius: 10px;
+  color: #5842af;
+  background: #eeeaff;
+  font-size: 10px;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.admin-checkout:hover {
+  text-decoration: underline;
+}
+
+.admin-notice #providerStatus {
+  margin-left: 4px;
+}
+
+.admin-notice .provider-error {
+  color: #b33d46;
+}

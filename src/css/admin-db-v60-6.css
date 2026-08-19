@@ -1,0 +1,271 @@
+/* V60.6 — cơ sở dữ liệu tài khoản và duyệt đơn trên trang quản trị. */
+.summary-grid-db {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.database-overview {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+  padding: 18px 20px;
+  border: 1px solid #d8e3ef;
+  border-radius: 21px;
+  background: linear-gradient(135deg, #f0edff, #effaff 62%, #fff9e9);
+  box-shadow: 0 12px 30px #3445640d;
+}
+
+.database-icon {
+  width: 54px;
+  height: 54px;
+  display: grid;
+  place-items: center;
+  border-radius: 17px;
+  background: #fff;
+  box-shadow: 0 9px 22px #4f55901c;
+  font-size: 27px;
+}
+
+.database-overview h2 {
+  margin: 4px 0 3px;
+  font-size: 21px;
+}
+
+.database-overview p:not(.eyebrow) {
+  margin: 0;
+  color: #687489;
+  font-size: 13px;
+}
+
+.database-health {
+  min-width: 190px;
+  padding: 12px 14px;
+  border: 1px solid #d9e6e4;
+  border-radius: 15px;
+  background: #ffffffc9;
+}
+
+.database-health span,
+.database-health b,
+.database-health small {
+  display: block;
+}
+
+.database-health span {
+  color: #28734d;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.database-health i {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 4px;
+  border-radius: 50%;
+  background: #32b86a;
+  box-shadow: 0 0 0 5px #32b86a18;
+}
+
+.database-health b {
+  margin-top: 6px;
+  color: #302755;
+  font-size: 17px;
+}
+
+.database-health small {
+  margin-top: 3px;
+  color: #7a8496;
+}
+
+.admin-data-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 11px;
+  overflow-x: auto;
+}
+
+.admin-data-tabs button {
+  flex: 0 0 auto;
+  min-height: 44px;
+  padding: 10px 14px;
+  border: 1px solid #d9e1ec;
+  border-radius: 13px;
+  background: #fff;
+  color: #59657b;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.admin-data-tabs button.active {
+  border-color: #7058d3;
+  background: linear-gradient(135deg, #7058d3, #4da9ce);
+  color: #fff;
+  box-shadow: 0 9px 20px #6652aa2d;
+}
+
+.admin-data-tabs button span {
+  display: inline-grid;
+  min-width: 22px;
+  height: 22px;
+  margin-left: 5px;
+  place-items: center;
+  border-radius: 999px;
+  background: #edf1f7;
+  color: #566279;
+  font-size: 11px;
+}
+
+.admin-data-tabs button.active span {
+  background: #ffffff30;
+  color: #fff;
+}
+
+.admin-data-toolbar {
+  display: grid;
+  grid-template-columns: minmax(280px, 1fr) auto;
+  gap: 10px;
+  margin-bottom: 13px;
+  padding: 12px;
+  border: 1px solid #dfe5ef;
+  border-radius: 16px;
+  background: #fff;
+}
+
+.admin-search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+  padding: 0 12px;
+  border: 1px solid #d6deea;
+  border-radius: 12px;
+  background: #f9fbfd;
+}
+
+.admin-search input {
+  width: 100%;
+  min-height: 42px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  font: inherit;
+}
+
+.admin-filter {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #69758a;
+  font-size: 12px;
+  font-weight: 850;
+}
+
+.admin-filter select {
+  min-height: 42px;
+  padding: 0 34px 0 12px;
+  border: 1px solid #d6deea;
+  border-radius: 12px;
+  background: #fff;
+  color: #344057;
+  font: inherit;
+  font-weight: 800;
+}
+
+.accounts-table {
+  min-width: 1050px;
+}
+
+.account-access {
+  display: inline-flex;
+  padding: 6px 9px;
+  border-radius: 999px;
+  font-size: 10px;
+  font-weight: 950;
+}
+
+.access-vip-pro-max {
+  color: #5840a8;
+  background: #ebe5ff;
+}
+
+.access-vip-pro-max-trial {
+  color: #9a5d17;
+  background: #fff0cc;
+}
+
+.access-plus {
+  color: #25704a;
+  background: #dcf7e6;
+}
+
+.status-active {
+  color: #247349;
+  background: #dff8e8;
+}
+
+.status-free {
+  color: #3d6881;
+  background: #e4f4fb;
+}
+
+.account-order-summary {
+  display: grid;
+  gap: 3px;
+}
+
+.order-buttons.compact {
+  flex-wrap: wrap;
+}
+
+.order-buttons.compact button {
+  min-width: 86px;
+}
+
+@media (max-width: 1180px) {
+  .summary-grid-db {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 760px) {
+  .database-overview {
+    grid-template-columns: auto 1fr;
+  }
+
+  .database-health {
+    grid-column: 1 / -1;
+    width: 100%;
+  }
+
+  .admin-data-toolbar {
+    grid-template-columns: 1fr;
+  }
+
+  .admin-filter {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 520px) {
+  .summary-grid-db {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .database-overview {
+    padding: 15px;
+  }
+}
+
+
+/* V60.12.6 · Quản lý lịch sử đăng nhập tài khoản */
+.account-login-history { display:grid; gap:4px; min-width:150px; }
+.login-history-badge { width:max-content; padding:5px 8px; border-radius:999px; font-size:9px; font-weight:950; letter-spacing:.06em; }
+.login-history-badge.logged { color:#0b7547; background:#ddf7e9; }
+.login-history-badge.never { color:#7d6470; background:#f1e9ed; }
+.account-manage-actions { display:grid; gap:6px; min-width:122px; }
+.account-manage-actions .order-buttons { display:grid; gap:5px; }
+.account-manage-actions button { border:0; border-radius:9px; padding:8px 9px; color:#fff; background:#6552c7; font-size:10px; font-weight:900; cursor:pointer; }
+.account-manage-actions button.reject { background:#c44f5b; }
+.status-locked { color:#9a2937 !important; background:#ffe3e7 !important; }

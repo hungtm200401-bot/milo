@@ -1,0 +1,406 @@
+/* Milo Direct In-App Updater & Splash Screen Styles */
+
+/* Splash Screen Initializer */
+.milo-splash-screen {
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle at center, #1e293b, #0f172a);
+  z-index: 999999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #ffffff;
+  transition: opacity 0.4s ease;
+}
+
+.milo-splash-screen.fade-out {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.milo-splash-card {
+  background: rgba(30, 41, 59, 0.7);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 28px;
+  padding: 36px 40px;
+  max-width: 480px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.5);
+  animation: miloPopIn 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes miloPopIn {
+  from {
+    transform: scale(0.92);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.milo-splash-avatar-wrap {
+  width: 110px;
+  height: 110px;
+  margin: 0 auto 18px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #fef08a, #f59e0b);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 25px rgba(245, 158, 11, 0.35);
+}
+
+.milo-splash-avatar {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+  animation: miloWaveAnim 2s ease-in-out infinite;
+}
+
+@keyframes miloWaveAnim {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-8px) rotate(4deg); }
+}
+
+.milo-splash-card h2 {
+  margin: 0 0 8px 0;
+  font-size: 22px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.milo-splash-sub {
+  margin: 0 0 24px 0;
+  font-size: 13px;
+  color: #cbd5e1;
+  line-height: 1.5;
+}
+
+.milo-splash-progress-track {
+  height: 10px;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 999px;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.milo-splash-progress-fill {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #3b82f6, #10b981, #f59e0b);
+  border-radius: inherit;
+  transition: width 0.25s ease-out;
+}
+
+.milo-splash-status {
+  font-size: 12px;
+  color: #94a3b8;
+  font-weight: 600;
+}
+
+/* Banner */
+.milo-update-banner {
+  position: fixed;
+  top: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999999;
+  background: linear-gradient(135deg, #0f172a, #1e1b4b);
+  color: #f8fafc;
+  padding: 12px 24px;
+  border-radius: 999px;
+  border: 2px solid #818cf8;
+  box-shadow: 0 10px 35px rgba(99, 102, 241, 0.45), 0 0 0 4px rgba(99, 102, 241, 0.2);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  animation: miloSlideDown 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes miloSlideDown {
+  from {
+    transform: translate(-50%, -70px);
+    opacity: 0;
+  }
+  to {
+    transform: translate(-50%, 0);
+    opacity: 1;
+  }
+}
+
+.milo-update-content {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.milo-update-badge {
+  background: linear-gradient(135deg, #3b82f6, #6366f1);
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 8px;
+  border-radius: 8px;
+  letter-spacing: 0.5px;
+}
+
+.milo-update-text {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+}
+
+.milo-update-text strong {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.milo-update-text span {
+  color: #94a3b8;
+  font-size: 12px;
+}
+
+.milo-update-btn {
+  background: linear-gradient(135deg, #10b981, #059669);
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+}
+
+.milo-update-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(16, 185, 129, 0.4);
+}
+
+.milo-update-close {
+  background: none;
+  border: none;
+  color: #94a3b8;
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 6px;
+}
+
+.milo-update-close:hover {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Modal */
+.milo-update-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100000;
+  padding: 20px;
+}
+
+.milo-update-modal-card {
+  background: #ffffff;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 520px;
+  overflow: hidden;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #1e293b;
+}
+
+.milo-modal-header {
+  padding: 18px 24px;
+  background: linear-gradient(135deg, #eff6ff, #dbeafe);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #bfdbfe;
+}
+
+.milo-modal-header h3 {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 700;
+  color: #1e40af;
+}
+
+.milo-modal-close {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #64748b;
+  line-height: 1;
+}
+
+.milo-modal-body {
+  padding: 24px;
+}
+
+.milo-version-compare {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.ver-box {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  padding: 12px 18px;
+  border-radius: 12px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.ver-box .lbl {
+  font-size: 11px;
+  color: #64748b;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.ver-box strong {
+  font-size: 16px;
+  color: #0f172a;
+}
+
+.ver-box.new {
+  background: #ecfdf5;
+  border-color: #a7f3d0;
+}
+
+.ver-box.new strong {
+  color: #059669;
+}
+
+.ver-arrow {
+  font-size: 20px;
+  color: #94a3b8;
+}
+
+.milo-changelog-box {
+  background: #f8fafc;
+  border-radius: 12px;
+  padding: 14px 18px;
+  margin-bottom: 20px;
+  border: 1px solid #e2e8f0;
+}
+
+.milo-changelog-box h4 {
+  margin: 0 0 8px 0;
+  font-size: 13px;
+  color: #334155;
+}
+
+.milo-changelog-box ul {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 13px;
+  color: #475569;
+}
+
+.milo-dropzone {
+  border: 2px dashed #cbd5e1;
+  background: #f8fafc;
+  border-radius: 12px;
+  padding: 18px;
+  text-align: center;
+  font-size: 13px;
+  color: #64748b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.2s ease;
+}
+
+.milo-dropzone.dragover {
+  border-color: #3b82f6;
+  background: #eff6ff;
+}
+
+.milo-choose-btn {
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  padding: 6px 14px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #334155;
+  cursor: pointer;
+}
+
+.milo-choose-btn:hover {
+  background: #f1f5f9;
+}
+
+.milo-progress-container {
+  margin-top: 16px;
+}
+
+.milo-progress-bar {
+  height: 8px;
+  background: #e2e8f0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.milo-progress-fill {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #3b82f6, #10b981);
+  transition: width 0.3s ease;
+}
+
+.milo-progress-text {
+  margin-top: 6px;
+  font-size: 12px;
+  color: #64748b;
+  text-align: center;
+}
+
+.milo-modal-footer {
+  padding: 16px 24px;
+  background: #f8fafc;
+  border-top: 1px solid #e2e8f0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.milo-primary-btn {
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25);
+}
+
+.milo-primary-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(37, 99, 235, 0.35);
+}

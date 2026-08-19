@@ -1,0 +1,307 @@
+/* Giao diện dễ đọc; dùng token App Shell V60.12.0. */
+
+html {
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  color: var(--v38-ink);
+  font-size: 16px;
+}
+
+button,
+input,
+select,
+textarea {
+  min-width: 0;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+p,
+small,
+span,
+b,
+strong,
+button,
+label,
+input,
+select,
+textarea {
+  overflow-wrap: anywhere;
+}
+
+.subtle,
+.unit-card small,
+.curriculum-chip span,
+.lesson-step-head p,
+.context-example,
+.module-note,
+.lesson-footer span,
+.badge-card p {
+  color: var(--v38-muted) !important;
+}
+
+/* JavaScript applies these only to real text leaves that were below 14 px. */
+.main .readable-upgrade,
+.milo.card .readable-upgrade,
+.lesson-page .readable-upgrade {
+  font-size: 14px !important;
+  line-height: 1.48 !important;
+  letter-spacing: normal !important;
+}
+
+.text-unclipped {
+  width: auto !important;
+  min-width: 0 !important;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  overflow: visible !important;
+  white-space: normal !important;
+  text-overflow: clip !important;
+  line-clamp: unset !important;
+  -webkit-line-clamp: unset !important;
+}
+
+/* Chat: status sits below the explanation and never collides with messages. */
+.tutor-intro {
+  grid-template-columns: 48px minmax(0, 1fr) !important;
+  align-items: start;
+  min-height: 0;
+  overflow: visible;
+  padding: 16px 18px;
+}
+
+.tutor-intro > span:first-child {
+  width: 44px;
+  height: 44px;
+}
+
+.tutor-intro > .tutor-mode {
+  grid-column: 2;
+  width: auto !important;
+  height: auto !important;
+  min-height: 32px;
+  margin: 8px 0 0 !important;
+  padding: 6px 11px;
+  display: inline-flex !important;
+  align-items: center;
+  justify-self: start;
+  border: 1px solid #cce4d5;
+  border-radius: 999px;
+  color: #35654f;
+  background: #f1fbf5;
+  font-size: 14px !important;
+  line-height: 1.35 !important;
+  white-space: nowrap !important;
+}
+
+.tutor-intro b {
+  color: #1f2c43;
+  font-size: 16px !important;
+  line-height: 1.4;
+}
+
+.tutor-intro small {
+  color: #53667f;
+  font-size: 14px !important;
+  line-height: 1.55;
+}
+
+.chat-large {
+  height: clamp(510px, 62vh, 650px);
+  min-height: 510px;
+}
+
+.messages {
+  align-items: stretch;
+  min-height: 0;
+  padding: 18px;
+}
+
+/* The old global .milo selector belongs only to the right pet card. It must
+   never turn a one-line pet reply into a 780 px column. */
+.messages > .bubble,
+.messages > .bubble.milo,
+.messages > .bubble.pet-reply {
+  width: fit-content !important;
+  max-width: min(88%, 720px) !important;
+  height: auto !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 13px 16px !important;
+  display: block !important;
+  flex: 0 0 auto !important;
+  border-radius: 17px;
+  font-size: 15px !important;
+  line-height: 1.6 !important;
+  white-space: pre-line;
+}
+
+.messages > .bubble.milo,
+.messages > .bubble.pet-reply {
+  align-self: flex-start;
+  color: #2b2456;
+  background: #eee8ff;
+}
+
+.messages > .bubble.user {
+  align-self: flex-end;
+  color: #17364a;
+  background: #d9f3fb;
+}
+
+.tutor-quick {
+  padding: 10px 14px 12px;
+  border-top: 1px solid #e4edf2;
+}
+
+.tutor-quick button,
+.prompt,
+.ask label,
+.pet-meter,
+.pet-care button,
+.milo-image .touch-milo,
+.level-activity-card small,
+.growth-progress span,
+.growth-progress > small {
+  font-size: 14px !important;
+  line-height: 1.4 !important;
+}
+
+.chat-input {
+  align-items: center;
+}
+
+.chat-input input,
+.ask-row input {
+  min-height: 46px;
+  color: #1c2b43;
+  font-size: 15px;
+}
+
+.chat-input input::placeholder,
+.ask-row input::placeholder {
+  color: #6a7a8d;
+  opacity: 1;
+}
+
+/* Compact legacy labels now stay readable and their cards may grow. */
+.mission-mini,
+.motivation-card,
+.treasure-stop,
+.offline-grade-route,
+.offline-route-stats > div,
+.offline-level-card,
+.level-activity-card,
+.growth-progress,
+.pet-benefits > div,
+.curriculum-chip,
+.unit-card,
+.module-btn {
+  height: auto !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
+
+.mission-mini {
+  grid-template-columns: 36px minmax(0, 1fr) auto;
+  padding: 10px;
+}
+
+.mission-mini b,
+.mission-mini small,
+.mission-mini > strong,
+.chest small,
+.treasure-stop b,
+.treasure-stop small,
+.badge-row span,
+.offline-route-head > span,
+.offline-route-stats small,
+.offline-route-stats b,
+.offline-unit-levels small,
+.offline-unit-levels span,
+.offline-unit-levels b,
+.offline-level-card span,
+.offline-level-card small,
+.offline-motion-lab .level-special-motion > small {
+  font-size: 14px !important;
+  line-height: 1.4 !important;
+}
+
+.eyebrow {
+  font-size: 14px !important;
+  line-height: 1.4 !important;
+}
+
+#petSavedBadge {
+  font-size: 14px !important;
+  line-height: 1.4 !important;
+}
+
+.offline-motion-lab button,
+.level-activity-card button {
+  min-height: 48px;
+  font-size: 14px !important;
+  line-height: 1.35 !important;
+}
+
+.pet-choice-card p,
+.pet-benefits span,
+.offline-evolution-feature section p,
+.growth-note {
+  font-size: 15px !important;
+  line-height: 1.55 !important;
+}
+
+.module-btn {
+  min-height: 58px;
+  padding: 11px;
+  font-size: 14px !important;
+  line-height: 1.4;
+}
+
+.unit-card {
+  min-height: 82px;
+}
+
+.unit-card small,
+.curriculum-chip span,
+.context-example,
+.module-note,
+.lesson-footer span {
+  font-size: 14px !important;
+  line-height: 1.48 !important;
+}
+
+.focus-chip,
+.practice-feedback,
+.writing-status {
+  font-size: 14px !important;
+}
+
+@media (max-width: 720px) {
+  .tutor-intro {
+    grid-template-columns: 42px minmax(0, 1fr) !important;
+    padding: 14px;
+  }
+
+  .tutor-intro > span:first-child {
+    width: 40px;
+    height: 40px;
+  }
+
+  .chat-large {
+    height: 66vh;
+    min-height: 480px;
+  }
+
+  .messages > .bubble,
+  .messages > .bubble.milo,
+  .messages > .bubble.pet-reply {
+    max-width: 94% !important;
+  }
+}

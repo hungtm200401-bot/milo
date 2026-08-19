@@ -1,0 +1,3058 @@
+{
+  "version": "60.23.0",
+  "generatedAt": "2026-08-05T10:34:00+07:00",
+  "policy": {
+    "bookExercise": "Only tasks directly transcribed from a visible source image or a verified vocabulary image map.",
+    "miloPractice": "Supplementary practice generated from verified unit knowledge and never labeled as a book exercise.",
+    "ocr": "Rows marked ocr_extracted_needs_review remain mapping-only and are not activated automatically."
+  },
+  "tasks": [
+    {
+      "id": "book-g2-u1-book-vocabulary-1-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “math” and repeat it.",
+      "answer": "math",
+      "target": "math",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 2,
+        "unit": 1,
+        "section": "book-vocabulary-1",
+        "sectionType": "Vocabulary 1",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "frame_0015.png",
+        "sourceAsset": "grade2-source/original/book1/frame_0015.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": "book-exercise-assets/g2-u1-vocab-grid.webp"
+      }
+    },
+    {
+      "id": "book-g2-u1-book-vocabulary-2-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “tired” and repeat it.",
+      "answer": "tired",
+      "target": "tired",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 2,
+        "unit": 1,
+        "section": "book-vocabulary-2",
+        "sectionType": "Vocabulary 2",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "frame_0019.png",
+        "sourceAsset": "grade2-source/original/book1/frame_0019.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g2-u2-book-vocabulary-1-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “crocodile” and repeat it.",
+      "answer": "crocodile",
+      "target": "crocodile",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 2,
+        "unit": 2,
+        "section": "book-vocabulary-1",
+        "sectionType": "Vocabulary 1",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "frame_0027.png",
+        "sourceAsset": "grade2-source/original/book1/frame_0027.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g2-u2-book-vocabulary-2-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “angry” and repeat it.",
+      "answer": "angry",
+      "target": "angry",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 2,
+        "unit": 2,
+        "section": "book-vocabulary-2",
+        "sectionType": "Vocabulary 2",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "frame_0031.png",
+        "sourceAsset": "grade2-source/original/book1/frame_0031.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g2-u3-book-vocabulary-1-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “windy” and repeat it.",
+      "answer": "windy",
+      "target": "windy",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 2,
+        "unit": 3,
+        "section": "book-vocabulary-1",
+        "sectionType": "Vocabulary 1",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "frame_0039.png",
+        "sourceAsset": "grade2-source/original/book1/frame_0039.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g2-u3-book-vocabulary-2-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “scarf” and repeat it.",
+      "answer": "scarf",
+      "target": "scarf",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 2,
+        "unit": 3,
+        "section": "book-vocabulary-2",
+        "sectionType": "Vocabulary 2",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "frame_0043.png",
+        "sourceAsset": "grade2-source/original/book1/frame_0043.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g2-u4-book-vocabulary-1-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “bookstore” and repeat it.",
+      "answer": "bookstore",
+      "target": "bookstore",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 2,
+        "unit": 4,
+        "section": "book-vocabulary-1",
+        "sectionType": "Vocabulary 1",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "frame_0051.png",
+        "sourceAsset": "grade2-source/original/book1/frame_0051.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g2-u4-book-vocabulary-2-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “factory” and repeat it.",
+      "answer": "factory",
+      "target": "factory",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 2,
+        "unit": 4,
+        "section": "book-vocabulary-2",
+        "sectionType": "Vocabulary 2",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "frame_0055.png",
+        "sourceAsset": "grade2-source/original/book1/frame_0055.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g2-u5-book-vocabulary-1-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “balloon” and repeat it.",
+      "answer": "balloon",
+      "target": "balloon",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 2,
+        "unit": 5,
+        "section": "book-vocabulary-1",
+        "sectionType": "Vocabulary 1",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "frame_0063.png",
+        "sourceAsset": "grade2-source/original/book1/frame_0063.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g2-u5-book-vocabulary-2-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “ice rink” and repeat it.",
+      "answer": "ice rink",
+      "target": "ice rink",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 2,
+        "unit": 5,
+        "section": "book-vocabulary-2",
+        "sectionType": "Vocabulary 2",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "frame_0067.png",
+        "sourceAsset": "grade2-source/original/book1/frame_0067.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g2-u6-book-vocabulary-1-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “police officer” and repeat it.",
+      "answer": "police officer",
+      "target": "police officer",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 2,
+        "unit": 6,
+        "section": "book-vocabulary-1",
+        "sectionType": "Vocabulary 1",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "frame_0075.png",
+        "sourceAsset": "grade2-source/original/book1/frame_0075.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": "book-exercise-assets/g2-u6-vocab-grid.webp"
+      }
+    },
+    {
+      "id": "book-g2-u6-book-vocabulary-2-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “check” and repeat it.",
+      "answer": "check",
+      "target": "check",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 2,
+        "unit": 6,
+        "section": "book-vocabulary-2",
+        "sectionType": "Vocabulary 2",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "frame_0079.png",
+        "sourceAsset": "grade2-source/original/book1/frame_0079.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g2-u7-book-vocabulary-1-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “badminton” and repeat it.",
+      "answer": "badminton",
+      "target": "badminton",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 2,
+        "unit": 7,
+        "section": "book-vocabulary-1",
+        "sectionType": "Vocabulary 1",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "frame_0087.png",
+        "sourceAsset": "grade2-source/original/book1/frame_0087.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g2-u7-book-vocabulary-2-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “bounce” and repeat it.",
+      "answer": "bounce",
+      "target": "bounce",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 2,
+        "unit": 7,
+        "section": "book-vocabulary-2",
+        "sectionType": "Vocabulary 2",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "frame_0091.png",
+        "sourceAsset": "grade2-source/original/book1/frame_0091.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g2-u8-book-vocabulary-1-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “toothpaste” and repeat it.",
+      "answer": "toothpaste",
+      "target": "toothpaste",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 2,
+        "unit": 8,
+        "section": "book-vocabulary-1",
+        "sectionType": "Vocabulary 1",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "019.png",
+        "sourceAsset": "grade2-source/original/book2/019.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g2-u8-book-vocabulary-2-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “hear” and repeat it.",
+      "answer": "hear",
+      "target": "hear",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 2,
+        "unit": 8,
+        "section": "book-vocabulary-2",
+        "sectionType": "Vocabulary 2",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "023.png",
+        "sourceAsset": "grade2-source/original/book2/023.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g2-u9-book-vocabulary-1-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “January” and repeat it.",
+      "answer": "January",
+      "target": "January",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 2,
+        "unit": 9,
+        "section": "book-vocabulary-1",
+        "sectionType": "Vocabulary 1",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "031.png",
+        "sourceAsset": "grade2-source/original/book2/031.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g2-u9-book-vocabulary-2-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “spring” and repeat it.",
+      "answer": "spring",
+      "target": "spring",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 2,
+        "unit": 9,
+        "section": "book-vocabulary-2",
+        "sectionType": "Vocabulary 2",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "035.png",
+        "sourceAsset": "grade2-source/original/book2/035.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g2-u10-book-vocabulary-1-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “hardworking” and repeat it.",
+      "answer": "hardworking",
+      "target": "hardworking",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 2,
+        "unit": 10,
+        "section": "book-vocabulary-1",
+        "sectionType": "Vocabulary 1",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "043.png",
+        "sourceAsset": "grade2-source/original/book2/043.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g2-u10-book-vocabulary-2-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “beard” and repeat it.",
+      "answer": "beard",
+      "target": "beard",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 2,
+        "unit": 10,
+        "section": "book-vocabulary-2",
+        "sectionType": "Vocabulary 2",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "047.png",
+        "sourceAsset": "grade2-source/original/book2/047.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g2-u11-book-vocabulary-1-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “add” and repeat it.",
+      "answer": "add",
+      "target": "add",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 2,
+        "unit": 11,
+        "section": "book-vocabulary-1",
+        "sectionType": "Vocabulary 1",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "055.png",
+        "sourceAsset": "grade2-source/original/book2/055.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g2-u11-book-vocabulary-2-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “hide” and repeat it.",
+      "answer": "hide",
+      "target": "hide",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 2,
+        "unit": 11,
+        "section": "book-vocabulary-2",
+        "sectionType": "Vocabulary 2",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "059.png",
+        "sourceAsset": "grade2-source/original/book2/059.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g2-u12-book-vocabulary-1-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “grass” and repeat it.",
+      "answer": "grass",
+      "target": "grass",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 2,
+        "unit": 12,
+        "section": "book-vocabulary-1",
+        "sectionType": "Vocabulary 1",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "067.png",
+        "sourceAsset": "grade2-source/original/book2/067.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": "book-exercise-assets/g2-u12-vocab-grid.webp"
+      }
+    },
+    {
+      "id": "book-g2-u12-book-vocabulary-2-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “fins” and repeat it.",
+      "answer": "fins",
+      "target": "fins",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 2,
+        "unit": 12,
+        "section": "book-vocabulary-2",
+        "sectionType": "Vocabulary 2",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "071.png",
+        "sourceAsset": "grade2-source/original/book2/071.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g3-u1-book-vocabulary-1-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “below” and repeat it.",
+      "answer": "below",
+      "target": "below",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 3,
+        "unit": 1,
+        "section": "book-vocabulary-1",
+        "sectionType": "Vocabulary 1",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "021.png",
+        "sourceAsset": "grade3-source/original/021.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": "book-exercise-assets/g3-u1-vocab-grid.webp"
+      }
+    },
+    {
+      "id": "book-g3-u1-book-vocabulary-2-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “recreation center” and repeat it.",
+      "answer": "recreation center",
+      "target": "recreation center",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 3,
+        "unit": 1,
+        "section": "book-vocabulary-2",
+        "sectionType": "Vocabulary 2",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "027.png",
+        "sourceAsset": "grade3-source/original/027.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g3-u2-book-vocabulary-1-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “herbivore” and repeat it.",
+      "answer": "herbivore",
+      "target": "herbivore",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 3,
+        "unit": 2,
+        "section": "book-vocabulary-1",
+        "sectionType": "Vocabulary 1",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "035.png",
+        "sourceAsset": "grade3-source/original/035.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g3-u2-book-vocabulary-2-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “pharaoh” and repeat it.",
+      "answer": "pharaoh",
+      "target": "pharaoh",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 3,
+        "unit": 2,
+        "section": "book-vocabulary-2",
+        "sectionType": "Vocabulary 2",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "041.png",
+        "sourceAsset": "grade3-source/original/041.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g3-u3-book-vocabulary-1-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “campsite” and repeat it.",
+      "answer": "campsite",
+      "target": "campsite",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 3,
+        "unit": 3,
+        "section": "book-vocabulary-1",
+        "sectionType": "Vocabulary 1",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "050.png",
+        "sourceAsset": "grade3-source/original/050.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g3-u3-book-vocabulary-2-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “meet new people” and repeat it.",
+      "answer": "meet new people",
+      "target": "meet new people",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 3,
+        "unit": 3,
+        "section": "book-vocabulary-2",
+        "sectionType": "Vocabulary 2",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "055.png",
+        "sourceAsset": "grade3-source/original/055.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g3-u4-book-vocabulary-1-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “giant” and repeat it.",
+      "answer": "giant",
+      "target": "giant",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 3,
+        "unit": 4,
+        "section": "book-vocabulary-1",
+        "sectionType": "Vocabulary 1",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "064.png",
+        "sourceAsset": "grade3-source/original/064.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g3-u4-book-vocabulary-2-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “king” and repeat it.",
+      "answer": "king",
+      "target": "king",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 3,
+        "unit": 4,
+        "section": "book-vocabulary-2",
+        "sectionType": "Vocabulary 2",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "070.png",
+        "sourceAsset": "grade3-source/original/070.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g3-u5-book-vocabulary-1-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “country” and repeat it.",
+      "answer": "country",
+      "target": "country",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 3,
+        "unit": 5,
+        "section": "book-vocabulary-1",
+        "sectionType": "Vocabulary 1",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "079.png",
+        "sourceAsset": "grade3-source/original/079.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g3-u5-book-vocabulary-2-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “breathe” and repeat it.",
+      "answer": "breathe",
+      "target": "breathe",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 3,
+        "unit": 5,
+        "section": "book-vocabulary-2",
+        "sectionType": "Vocabulary 2",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "085.png",
+        "sourceAsset": "grade3-source/original/085.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g3-u6-book-vocabulary-1-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “go shopping” and repeat it.",
+      "answer": "go shopping",
+      "target": "go shopping",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 3,
+        "unit": 6,
+        "section": "book-vocabulary-1",
+        "sectionType": "Vocabulary 1",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "093.png",
+        "sourceAsset": "grade3-source/original/093.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": "book-exercise-assets/g3-u6-vocab-grid.webp"
+      }
+    },
+    {
+      "id": "book-g3-u6-book-vocabulary-2-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “quarter” and repeat it.",
+      "answer": "quarter",
+      "target": "quarter",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 3,
+        "unit": 6,
+        "section": "book-vocabulary-2",
+        "sectionType": "Vocabulary 2",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "098.png",
+        "sourceAsset": "grade3-source/original/098.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g3-u7-book-vocabulary-1-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “chess” and repeat it.",
+      "answer": "chess",
+      "target": "chess",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 3,
+        "unit": 7,
+        "section": "book-vocabulary-1",
+        "sectionType": "Vocabulary 1",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "107.png",
+        "sourceAsset": "grade3-source/original/107.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g3-u7-book-vocabulary-2-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “orchestra” and repeat it.",
+      "answer": "orchestra",
+      "target": "orchestra",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 3,
+        "unit": 7,
+        "section": "book-vocabulary-2",
+        "sectionType": "Vocabulary 2",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "113.png",
+        "sourceAsset": "grade3-source/original/113.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g3-u8-book-vocabulary-1-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “Moon” and repeat it.",
+      "answer": "Moon",
+      "target": "Moon",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 3,
+        "unit": 8,
+        "section": "book-vocabulary-1",
+        "sectionType": "Vocabulary 1",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "121.png",
+        "sourceAsset": "grade3-source/original/121.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g3-u8-book-vocabulary-2-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “space station” and repeat it.",
+      "answer": "space station",
+      "target": "space station",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 3,
+        "unit": 8,
+        "section": "book-vocabulary-2",
+        "sectionType": "Vocabulary 2",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "127.png",
+        "sourceAsset": "grade3-source/original/127.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g3-u9-book-vocabulary-1-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “roof” and repeat it.",
+      "answer": "roof",
+      "target": "roof",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 3,
+        "unit": 9,
+        "section": "book-vocabulary-1",
+        "sectionType": "Vocabulary 1",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "136.png",
+        "sourceAsset": "grade3-source/original/136.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g3-u9-book-vocabulary-2-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “narrow” and repeat it.",
+      "answer": "narrow",
+      "target": "narrow",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 3,
+        "unit": 9,
+        "section": "book-vocabulary-2",
+        "sectionType": "Vocabulary 2",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "141.png",
+        "sourceAsset": "grade3-source/original/141.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g3-u10-book-vocabulary-1-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “stomach” and repeat it.",
+      "answer": "stomach",
+      "target": "stomach",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 3,
+        "unit": 10,
+        "section": "book-vocabulary-1",
+        "sectionType": "Vocabulary 1",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "150.png",
+        "sourceAsset": "grade3-source/original/150.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g3-u10-book-vocabulary-2-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “muscles” and repeat it.",
+      "answer": "muscles",
+      "target": "muscles",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 3,
+        "unit": 10,
+        "section": "book-vocabulary-2",
+        "sectionType": "Vocabulary 2",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "155.png",
+        "sourceAsset": "grade3-source/original/155.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g3-u11-book-vocabulary-1-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “South Pole” and repeat it.",
+      "answer": "South Pole",
+      "target": "South Pole",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 3,
+        "unit": 11,
+        "section": "book-vocabulary-1",
+        "sectionType": "Vocabulary 1",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "164.png",
+        "sourceAsset": "grade3-source/original/164.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g3-u11-book-vocabulary-2-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “fur” and repeat it.",
+      "answer": "fur",
+      "target": "fur",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 3,
+        "unit": 11,
+        "section": "book-vocabulary-2",
+        "sectionType": "Vocabulary 2",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "170.png",
+        "sourceAsset": "grade3-source/original/170.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g3-u12-book-vocabulary-1-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “lantern” and repeat it.",
+      "answer": "lantern",
+      "target": "lantern",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 3,
+        "unit": 12,
+        "section": "book-vocabulary-1",
+        "sectionType": "Vocabulary 1",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "179.png",
+        "sourceAsset": "grade3-source/original/179.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": "book-exercise-assets/g3-u12-vocab-grid.webp"
+      }
+    },
+    {
+      "id": "book-g3-u12-book-vocabulary-2-listen-repeat",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Listen to “eel” and repeat it.",
+      "answer": "eel",
+      "target": "eel",
+      "options": [],
+      "instruction": "Bấm Nghe, sau đó bấm Con đọc lại và nói đúng từ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Nghe chậm và chú ý âm đầu.",
+        "Tách từ thành từng âm tiết rồi ghép lại."
+      ],
+      "teachingExample": {
+        "prompt": "Listen to “school” and repeat it.",
+        "answer": "school",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: school."
+        ]
+      },
+      "source": {
+        "grade": 3,
+        "unit": 12,
+        "section": "book-vocabulary-2",
+        "sectionType": "Vocabulary 2",
+        "exerciseNumber": "Vocabulary word set",
+        "sourceImage": "185.png",
+        "sourceAsset": "grade3-source/original/185.webp",
+        "sourceRegion": "vocabulary image grid / verified word labels",
+        "verificationStatus": "verified_from_image_map",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g2-u1-vocab-a4",
+      "origin": "bookExercise",
+      "kind": "choice",
+      "prompt": "Which class do children learn when they do experiments?",
+      "answer": "science",
+      "options": [
+        "science",
+        "music",
+        "art",
+        "P.E."
+      ],
+      "instruction": "Đọc tình huống và chọn môn học đúng.",
+      "explanation": "Doing experiments is part of science class.",
+      "hintLevels": [
+        "Tìm từ khóa “experiments”.",
+        "Loại các môn liên quan đến nhạc, thể thao và vẽ."
+      ],
+      "teachingExample": {
+        "prompt": "Children paint pictures. Which class is it?",
+        "answer": "art",
+        "steps": [
+          "Đọc kỹ yêu cầu.",
+          "Gạch chân từ khóa.",
+          "Loại lựa chọn không phù hợp.",
+          "Kết luận: art."
+        ]
+      },
+      "source": {
+        "grade": 2,
+        "unit": 1,
+        "section": "book-vocabulary-1",
+        "sectionType": "Vocabulary 1",
+        "exerciseNumber": "4",
+        "sourceImage": "frame_0015.png",
+        "sourceAsset": "grade2-source/original/book1/frame_0015.webp",
+        "sourceRegion": "Activity 4, vocabulary practice area",
+        "verificationStatus": "direct_visual_verified_2026_08_05",
+        "sourceStatus": "mapped",
+        "preview": "book-exercise-assets/g2-u1-vocab-grid.webp"
+      }
+    },
+    {
+      "id": "book-g2-u1-reading-a3",
+      "origin": "bookExercise",
+      "kind": "choice",
+      "prompt": "Billy doesn’t want to go to school.",
+      "answer": "False",
+      "options": [
+        "True",
+        "False"
+      ],
+      "instruction": "Đọc truyện Billy the Dragon rồi chọn True hoặc False.",
+      "explanation": "Billy says he wants to go to school.",
+      "hintLevels": [
+        "Tìm câu Billy nói về school.",
+        "Câu “I want to go to school tomorrow” cho biết mong muốn của Billy."
+      ],
+      "teachingExample": {
+        "prompt": "Mia says “I love school.” Statement: Mia likes school.",
+        "answer": "True",
+        "steps": [
+          "Đọc kỹ yêu cầu.",
+          "Gạch chân từ khóa.",
+          "Loại lựa chọn không phù hợp.",
+          "Kết luận: True."
+        ]
+      },
+      "source": {
+        "grade": 2,
+        "unit": 1,
+        "section": "book-reading-1",
+        "sectionType": "Reading 1",
+        "exerciseNumber": "3",
+        "sourceImage": "frame_0016.png",
+        "sourceAsset": "grade2-source/original/book1/frame_0016.webp",
+        "sourceRegion": "Activity 3, true/false list",
+        "verificationStatus": "direct_visual_verified_2026_08_05",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g2-u1-grammar-a5",
+      "origin": "bookExercise",
+      "kind": "choice",
+      "prompt": "Santiago ___ English and art. He ___ math or music.",
+      "answer": "likes / doesn’t like",
+      "options": [
+        "likes / doesn’t like",
+        "like / don’t like",
+        "likes / don’t like",
+        "like / doesn’t like"
+      ],
+      "instruction": "Chọn hai dạng đúng để hoàn thành câu.",
+      "explanation": "Santiago is one person, so use likes and doesn’t like.",
+      "hintLevels": [
+        "Santiago là một người: động từ khẳng định thêm -s.",
+        "Phủ định với he dùng doesn’t + động từ nguyên mẫu."
+      ],
+      "teachingExample": {
+        "prompt": "Lina ___ storybooks. She ___ comic books.",
+        "answer": "reads / doesn’t read",
+        "steps": [
+          "Xác định chủ ngữ Lina = she.",
+          "Câu khẳng định thêm -s vào read.",
+          "Câu phủ định dùng doesn’t + read.",
+          "Kết luận ví dụ khác: reads / doesn’t read."
+        ]
+      },
+      "source": {
+        "grade": 2,
+        "unit": 1,
+        "section": "book-grammar-1",
+        "sectionType": "Grammar 1",
+        "exerciseNumber": "5",
+        "sourceImage": "frame_0018.png",
+        "sourceAsset": "grade2-source/original/book1/frame_0018.webp",
+        "sourceRegion": "Activity 5, likes/doesn’t like table",
+        "verificationStatus": "direct_visual_verified_2026_08_05",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g2-u1-speaking-a6",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Say the sentence from the school-day activity.",
+      "answer": "I go to school by bus.",
+      "target": "I go to school by bus.",
+      "options": [],
+      "instruction": "Nghe câu mẫu rồi nói cả câu.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Bắt đầu bằng “I go to school…”.",
+        "Kết thúc bằng phương tiện “by bus”."
+      ],
+      "teachingExample": {
+        "prompt": "How do you go to the library?",
+        "answer": "I go to the library by bike.",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: I go to the library by bike.."
+        ]
+      },
+      "source": {
+        "grade": 2,
+        "unit": 1,
+        "section": "book-speaking-communication",
+        "sectionType": "Speaking/Communication",
+        "exerciseNumber": "6",
+        "sourceImage": "frame_0018.png",
+        "sourceAsset": "grade2-source/original/book1/frame_0018.webp",
+        "sourceRegion": "Activity 6, speech bubbles",
+        "verificationStatus": "direct_visual_verified_2026_08_05",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g2-u1-writing-nowiknow",
+      "origin": "bookExercise",
+      "kind": "write",
+      "prompt": "Write one thing you do at school and one thing you do after school.",
+      "answer": "Bài viết có ít nhất 8 từ và đúng yêu cầu.",
+      "target": "school",
+      "minWords": 8,
+      "options": [],
+      "instruction": "Viết hai câu ngắn, mỗi câu nói một hoạt động.",
+      "explanation": "Bài viết cần đủ ý, dùng từ của Unit và có câu hoàn chỉnh.",
+      "hintLevels": [
+        "Câu 1 bắt đầu bằng “At school, I…”.",
+        "Câu 2 bắt đầu bằng “After school, I…”."
+      ],
+      "teachingExample": {
+        "prompt": "Write about your weekend.",
+        "answer": "On Saturday, I play outside. In the evening, I read.",
+        "steps": [
+          "Chọn một ý khác.",
+          "Viết câu có chủ ngữ và động từ.",
+          "Kiểm tra chữ hoa và dấu chấm.",
+          "Mẫu khác: On Saturday, I play outside. In the evening, I read.."
+        ]
+      },
+      "source": {
+        "grade": 2,
+        "unit": 1,
+        "section": "book-writing",
+        "sectionType": "Writing",
+        "exerciseNumber": "Now I Know 1",
+        "sourceImage": "frame_0024.png",
+        "sourceAsset": "grade2-source/original/book1/frame_0024.webp",
+        "sourceRegion": "Now I Know 1, add your own ideas",
+        "verificationStatus": "direct_visual_verified_2026_08_05",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g2-u6-vocab-a6",
+      "origin": "bookExercise",
+      "kind": "choice",
+      "prompt": "Who takes care of teeth?",
+      "answer": "dentist",
+      "options": [
+        "dentist",
+        "vet",
+        "chef",
+        "photographer"
+      ],
+      "instruction": "Chọn nghề phù hợp với công việc.",
+      "explanation": "A dentist takes care of teeth.",
+      "hintLevels": [
+        "Từ khóa là “teeth”.",
+        "Nghề này làm việc với răng, không phải động vật hay thức ăn."
+      ],
+      "teachingExample": {
+        "prompt": "Who takes care of animals?",
+        "answer": "vet",
+        "steps": [
+          "Đọc kỹ yêu cầu.",
+          "Gạch chân từ khóa.",
+          "Loại lựa chọn không phù hợp.",
+          "Kết luận: vet."
+        ]
+      },
+      "source": {
+        "grade": 2,
+        "unit": 6,
+        "section": "book-vocabulary-1",
+        "sectionType": "Vocabulary 1",
+        "exerciseNumber": "6",
+        "sourceImage": "frame_0075.png",
+        "sourceAsset": "grade2-source/original/book1/frame_0075.webp",
+        "sourceRegion": "Activity 6, job/action chart",
+        "verificationStatus": "direct_visual_verified_2026_08_05",
+        "sourceStatus": "mapped",
+        "preview": "book-exercise-assets/g2-u6-vocab-grid.webp"
+      }
+    },
+    {
+      "id": "book-g2-u6-reading-a3",
+      "origin": "bookExercise",
+      "kind": "choice",
+      "prompt": "Sam wants to be a ___.",
+      "answer": "dog walker",
+      "options": [
+        "dog walker",
+        "photographer",
+        "chef",
+        "doctor"
+      ],
+      "instruction": "Đọc Sam’s Job rồi chọn từ trong word bank.",
+      "explanation": "Sam gets a job walking dogs in the park.",
+      "hintLevels": [
+        "Tìm đoạn Sam nói chuyện với Mr. Clark.",
+        "Công việc của Sam liên quan đến đưa chó đi dạo."
+      ],
+      "teachingExample": {
+        "prompt": "Lily works with cats and dogs. She wants to be a ___.",
+        "answer": "vet",
+        "steps": [
+          "Đọc kỹ yêu cầu.",
+          "Gạch chân từ khóa.",
+          "Loại lựa chọn không phù hợp.",
+          "Kết luận: vet."
+        ]
+      },
+      "source": {
+        "grade": 2,
+        "unit": 6,
+        "section": "book-reading-1",
+        "sectionType": "Reading 1",
+        "exerciseNumber": "3",
+        "sourceImage": "frame_0076.png",
+        "sourceAsset": "grade2-source/original/book1/frame_0076.webp",
+        "sourceRegion": "Activity 3, choose and write",
+        "verificationStatus": "direct_visual_verified_2026_08_05",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g2-u6-grammar-box",
+      "origin": "bookExercise",
+      "kind": "choice",
+      "prompt": "She ___ be an astronaut.",
+      "answer": "wants to",
+      "options": [
+        "wants to",
+        "want to",
+        "doesn’t wants to",
+        "want"
+      ],
+      "instruction": "Chọn cụm đúng theo chủ ngữ “She”.",
+      "explanation": "With she, use wants to + job.",
+      "hintLevels": [
+        "Chủ ngữ là “She”.",
+        "Sau wants cần có “to” trước động từ be."
+      ],
+      "teachingExample": {
+        "prompt": "They ___ be doctors.",
+        "answer": "want to",
+        "steps": [
+          "Đọc kỹ yêu cầu.",
+          "Gạch chân từ khóa.",
+          "Loại lựa chọn không phù hợp.",
+          "Kết luận: want to."
+        ]
+      },
+      "source": {
+        "grade": 2,
+        "unit": 6,
+        "section": "book-grammar-1",
+        "sectionType": "Grammar 1",
+        "exerciseNumber": "Grammar box",
+        "sourceImage": "frame_0078.png",
+        "sourceAsset": "grade2-source/original/book1/frame_0078.webp",
+        "sourceRegion": "Grammar box, want/don’t want to",
+        "verificationStatus": "direct_visual_verified_2026_08_05",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g2-u6-speaking-a6",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Answer: What do you want to be?",
+      "answer": "I want to be a vet.",
+      "target": "I want to be a vet.",
+      "options": [],
+      "instruction": "Nói một câu đầy đủ theo mẫu trong sách.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Bắt đầu bằng “I want to be…”.",
+        "Chọn một nghề và nói cả câu."
+      ],
+      "teachingExample": {
+        "prompt": "What does Mia want to be?",
+        "answer": "She wants to be a doctor.",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: She wants to be a doctor.."
+        ]
+      },
+      "source": {
+        "grade": 2,
+        "unit": 6,
+        "section": "book-speaking-communication",
+        "sectionType": "Speaking/Communication",
+        "exerciseNumber": "6",
+        "sourceImage": "frame_0078.png",
+        "sourceAsset": "grade2-source/original/book1/frame_0078.webp",
+        "sourceRegion": "Activity 6, question and answer",
+        "verificationStatus": "direct_visual_verified_2026_08_05",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g2-u6-writing-a4",
+      "origin": "bookExercise",
+      "kind": "write",
+      "prompt": "Write about a job you love and what you love doing.",
+      "answer": "Bài viết có ít nhất 10 từ và đúng yêu cầu.",
+      "target": "job",
+      "minWords": 10,
+      "options": [],
+      "instruction": "Viết ít nhất hai ý: nghề và hoạt động con thích.",
+      "explanation": "Bài viết cần đủ ý, dùng từ của Unit và có câu hoàn chỉnh.",
+      "hintLevels": [
+        "Dùng “I want to be…” cho nghề.",
+        "Dùng “I love…” hoặc “I like…” cho hoạt động."
+      ],
+      "teachingExample": {
+        "prompt": "Write about a sport you love.",
+        "answer": "I love swimming. I like practicing with my friends.",
+        "steps": [
+          "Chọn một ý khác.",
+          "Viết câu có chủ ngữ và động từ.",
+          "Kiểm tra chữ hoa và dấu chấm.",
+          "Mẫu khác: I love swimming. I like practicing with my friends.."
+        ]
+      },
+      "source": {
+        "grade": 2,
+        "unit": 6,
+        "section": "book-writing",
+        "sectionType": "Writing",
+        "exerciseNumber": "4",
+        "sourceImage": "frame_0084.png",
+        "sourceAsset": "grade2-source/original/book1/frame_0084.webp",
+        "sourceRegion": "Writing page, Workbook extension",
+        "verificationStatus": "direct_visual_verified_2026_08_05",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g2-u12-vocab-a4",
+      "origin": "bookExercise",
+      "kind": "choice",
+      "prompt": "Which place is a good place for fishing?",
+      "answer": "lake",
+      "options": [
+        "lake",
+        "grass",
+        "rocks",
+        "meadow"
+      ],
+      "instruction": "Chọn địa điểm phù hợp với hoạt động.",
+      "explanation": "Fishing is an activity you can do at a lake.",
+      "hintLevels": [
+        "Tìm nơi có nước rộng.",
+        "Loại grass, rocks và meadow."
+      ],
+      "teachingExample": {
+        "prompt": "Where can you build a sandcastle?",
+        "answer": "sand",
+        "steps": [
+          "Đọc kỹ yêu cầu.",
+          "Gạch chân từ khóa.",
+          "Loại lựa chọn không phù hợp.",
+          "Kết luận: sand."
+        ]
+      },
+      "source": {
+        "grade": 2,
+        "unit": 12,
+        "section": "book-vocabulary-1",
+        "sectionType": "Vocabulary 1",
+        "exerciseNumber": "4",
+        "sourceImage": "067.png",
+        "sourceAsset": "grade2-source/original/book2/067.webp",
+        "sourceRegion": "Activity 4, day-out table",
+        "verificationStatus": "direct_visual_verified_2026_08_05",
+        "sourceStatus": "mapped",
+        "preview": "book-exercise-assets/g2-u12-vocab-grid.webp"
+      }
+    },
+    {
+      "id": "book-g2-u12-reading-a3",
+      "origin": "bookExercise",
+      "kind": "choice",
+      "prompt": "Where is Lake Chapala?",
+      "answer": "Mexico",
+      "options": [
+        "Mexico",
+        "Australia",
+        "Canada",
+        "Brazil"
+      ],
+      "instruction": "Đọc Great Outings rồi chọn địa điểm.",
+      "explanation": "The text says Lake Chapala is a big lake in Mexico.",
+      "hintLevels": [
+        "Tìm câu đầu dưới tiêu đề Lake Chapala.",
+        "Tên nước xuất hiện ngay sau “a big lake in…”."
+      ],
+      "teachingExample": {
+        "prompt": "Where is Daintree Forest?",
+        "answer": "Australia",
+        "steps": [
+          "Đọc kỹ yêu cầu.",
+          "Gạch chân từ khóa.",
+          "Loại lựa chọn không phù hợp.",
+          "Kết luận: Australia."
+        ]
+      },
+      "source": {
+        "grade": 2,
+        "unit": 12,
+        "section": "book-reading-1",
+        "sectionType": "Reading 1",
+        "exerciseNumber": "3",
+        "sourceImage": "068.png",
+        "sourceAsset": "grade2-source/original/book2/068.webp",
+        "sourceRegion": "Activity 3, comprehension questions",
+        "verificationStatus": "direct_visual_verified_2026_08_05",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g2-u12-grammar-a4",
+      "origin": "bookExercise",
+      "kind": "choice",
+      "prompt": "Yesterday I ___ to my friends.",
+      "answer": "talked",
+      "options": [
+        "talked",
+        "talk",
+        "talks",
+        "talking"
+      ],
+      "instruction": "Chọn dạng quá khứ đúng.",
+      "explanation": "Yesterday signals the past, so talk becomes talked.",
+      "hintLevels": [
+        "Từ “Yesterday” cho biết hành động đã xảy ra.",
+        "Động từ có quy tắc thêm -ed."
+      ],
+      "teachingExample": {
+        "prompt": "Yesterday I ___ my hands.",
+        "answer": "washed",
+        "steps": [
+          "Đọc kỹ yêu cầu.",
+          "Gạch chân từ khóa.",
+          "Loại lựa chọn không phù hợp.",
+          "Kết luận: washed."
+        ]
+      },
+      "source": {
+        "grade": 2,
+        "unit": 12,
+        "section": "book-grammar-1",
+        "sectionType": "Grammar 1",
+        "exerciseNumber": "4",
+        "sourceImage": "070.png",
+        "sourceAsset": "grade2-source/original/book2/070.webp",
+        "sourceRegion": "Activity 4, choose and write",
+        "verificationStatus": "direct_visual_verified_2026_08_05",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g2-u12-speaking-a7",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Say one sentence about yesterday.",
+      "answer": "I watched a movie yesterday.",
+      "target": "I watched a movie yesterday.",
+      "options": [],
+      "instruction": "Nói một câu về việc đã làm hôm qua.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Bắt đầu bằng “I…”.",
+        "Dùng một động từ quá khứ có -ed và thêm “yesterday”."
+      ],
+      "teachingExample": {
+        "prompt": "What did you do last Sunday?",
+        "answer": "I walked by the lake last Sunday.",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: I walked by the lake last Sunday.."
+        ]
+      },
+      "source": {
+        "grade": 2,
+        "unit": 12,
+        "section": "book-speaking-communication",
+        "sectionType": "Speaking/Communication",
+        "exerciseNumber": "7",
+        "sourceImage": "070.png",
+        "sourceAsset": "grade2-source/original/book2/070.webp",
+        "sourceRegion": "Activity 7, talk about your day",
+        "verificationStatus": "direct_visual_verified_2026_08_05",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g2-u12-writing",
+      "origin": "bookExercise",
+      "kind": "write",
+      "prompt": "Write about a place outdoors that you know.",
+      "answer": "Bài viết có ít nhất 12 từ và đúng yêu cầu.",
+      "target": "outdoors",
+      "minWords": 12,
+      "options": [],
+      "instruction": "Nêu tên nơi, hoạt động và một điều con nhìn thấy.",
+      "explanation": "Bài viết cần đủ ý, dùng từ của Unit và có câu hoàn chỉnh.",
+      "hintLevels": [
+        "Câu đầu giới thiệu nơi.",
+        "Câu sau dùng một từ như lake, hills, wildlife hoặc sand."
+      ],
+      "teachingExample": {
+        "prompt": "Write about a park near your home.",
+        "answer": "The park is near my home. I walk there and see trees.",
+        "steps": [
+          "Chọn một ý khác.",
+          "Viết câu có chủ ngữ và động từ.",
+          "Kiểm tra chữ hoa và dấu chấm.",
+          "Mẫu khác: The park is near my home. I walk there and see trees.."
+        ]
+      },
+      "source": {
+        "grade": 2,
+        "unit": 12,
+        "section": "book-writing",
+        "sectionType": "Writing",
+        "exerciseNumber": "Writing",
+        "sourceImage": "076.png",
+        "sourceAsset": "grade2-source/original/book2/076.webp",
+        "sourceRegion": "Writing page, outdoor place task",
+        "verificationStatus": "direct_visual_verified_2026_08_05",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g3-u1-vocab-a4",
+      "origin": "bookExercise",
+      "kind": "choice",
+      "prompt": "We live in the apartment ___ Mrs. Garcia.",
+      "answer": "above",
+      "options": [
+        "above",
+        "cross",
+        "beside",
+        "downtown"
+      ],
+      "instruction": "Chọn từ chỉ vị trí đúng.",
+      "explanation": "Above means in a higher position than.",
+      "hintLevels": [
+        "Cần một từ chỉ vị trí.",
+        "“Cross” là động từ; “downtown” là khu trung tâm."
+      ],
+      "teachingExample": {
+        "prompt": "The library is ___ the bank.",
+        "answer": "beside",
+        "steps": [
+          "Đọc kỹ yêu cầu.",
+          "Gạch chân từ khóa.",
+          "Loại lựa chọn không phù hợp.",
+          "Kết luận: beside."
+        ]
+      },
+      "source": {
+        "grade": 3,
+        "unit": 1,
+        "section": "book-vocabulary-1",
+        "sectionType": "Vocabulary 1",
+        "exerciseNumber": "4",
+        "sourceImage": "021.png",
+        "sourceAsset": "grade3-source/original/021.webp",
+        "sourceRegion": "Activity 4, read and circle",
+        "verificationStatus": "direct_visual_verified_2026_08_05",
+        "sourceStatus": "mapped",
+        "preview": "book-exercise-assets/g3-u1-vocab-grid.webp"
+      }
+    },
+    {
+      "id": "book-g3-u1-reading-pre",
+      "origin": "bookExercise",
+      "kind": "choice",
+      "prompt": "Where is the big man walking?",
+      "answer": "into the train station",
+      "options": [
+        "into the train station",
+        "across a bridge",
+        "to a museum",
+        "around a park"
+      ],
+      "instruction": "Đọc đoạn ngắn trong khung vàng rồi chọn nơi.",
+      "explanation": "The text says the big man is walking into the train station.",
+      "hintLevels": [
+        "Tìm câu đầu tiên.",
+        "Cụm cần tìm đứng sau “is walking”."
+      ],
+      "teachingExample": {
+        "prompt": "Where is Ana running?",
+        "answer": "into the classroom",
+        "steps": [
+          "Đọc kỹ yêu cầu.",
+          "Gạch chân từ khóa.",
+          "Loại lựa chọn không phù hợp.",
+          "Kết luận: into the classroom."
+        ]
+      },
+      "source": {
+        "grade": 3,
+        "unit": 1,
+        "section": "book-reading-1",
+        "sectionType": "Reading 1",
+        "exerciseNumber": "Pre-reading 1",
+        "sourceImage": "022.png",
+        "sourceAsset": "grade3-source/original/022.webp",
+        "sourceRegion": "Pre-reading text box",
+        "verificationStatus": "direct_visual_verified_2026_08_05",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g3-u1-grammar-a2",
+      "origin": "bookExercise",
+      "kind": "choice",
+      "prompt": "The sentences “Cross the street here” and “Don’t cross the street here” are ___.",
+      "answer": "instructions",
+      "options": [
+        "instructions",
+        "questions",
+        "descriptions",
+        "stories"
+      ],
+      "instruction": "Đọc grammar box và chọn loại câu.",
+      "explanation": "These sentences tell someone what to do or not to do.",
+      "hintLevels": [
+        "Câu bắt đầu bằng động từ.",
+        "Chúng không hỏi thông tin; chúng hướng dẫn hành động."
+      ],
+      "teachingExample": {
+        "prompt": "“Please open your book” is an ___.",
+        "answer": "instruction",
+        "steps": [
+          "Đọc kỹ yêu cầu.",
+          "Gạch chân từ khóa.",
+          "Loại lựa chọn không phù hợp.",
+          "Kết luận: instruction."
+        ]
+      },
+      "source": {
+        "grade": 3,
+        "unit": 1,
+        "section": "book-grammar-1",
+        "sectionType": "Grammar 1",
+        "exerciseNumber": "2",
+        "sourceImage": "026.png",
+        "sourceAsset": "grade3-source/original/026.webp",
+        "sourceRegion": "Activity 2, grammar box",
+        "verificationStatus": "direct_visual_verified_2026_08_05",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g3-u1-speaking-a6",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Ask for directions to the bus station.",
+      "answer": "Excuse me. How can I get to the bus station from here?",
+      "target": "Excuse me. How can I get to the bus station from here?",
+      "options": [],
+      "instruction": "Nói câu hỏi lịch sự đầy đủ.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Bắt đầu bằng “Excuse me.”",
+        "Dùng “How can I get to… from here?”"
+      ],
+      "teachingExample": {
+        "prompt": "Ask for directions to the library.",
+        "answer": "Excuse me. How can I get to the library from here?",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: Excuse me. How can I get to the library from here?."
+        ]
+      },
+      "source": {
+        "grade": 3,
+        "unit": 1,
+        "section": "book-speaking-communication",
+        "sectionType": "Speaking/Communication",
+        "exerciseNumber": "6",
+        "sourceImage": "026.png",
+        "sourceAsset": "grade3-source/original/026.webp",
+        "sourceRegion": "Activity 6, speech bubbles",
+        "verificationStatus": "direct_visual_verified_2026_08_05",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g3-u1-writing",
+      "origin": "bookExercise",
+      "kind": "write",
+      "prompt": "Write directions from a starting place to a building.",
+      "answer": "Bài viết có ít nhất 16 từ và đúng yêu cầu.",
+      "target": "turn",
+      "minWords": 16,
+      "options": [],
+      "instruction": "Dùng ít nhất ba bước chỉ đường.",
+      "explanation": "Bài viết cần đủ ý, dùng từ của Unit và có câu hoàn chỉnh.",
+      "hintLevels": [
+        "Bắt đầu bằng First.",
+        "Dùng Next/Then/Finally và một từ turn, cross hoặc go along."
+      ],
+      "teachingExample": {
+        "prompt": "Write directions to a park.",
+        "answer": "First, cross the street. Then turn left. Finally, the park is beside the bank.",
+        "steps": [
+          "Chọn một ý khác.",
+          "Viết câu có chủ ngữ và động từ.",
+          "Kiểm tra chữ hoa và dấu chấm.",
+          "Mẫu khác: First, cross the street. Then turn left. Finally, the park is beside the bank.."
+        ]
+      },
+      "source": {
+        "grade": 3,
+        "unit": 1,
+        "section": "book-writing",
+        "sectionType": "Writing",
+        "exerciseNumber": "Writing",
+        "sourceImage": "032.png",
+        "sourceAsset": "grade3-source/original/032.webp",
+        "sourceRegion": "Writing page, directions task",
+        "verificationStatus": "direct_visual_verified_2026_08_05",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g3-u6-vocab-a3",
+      "origin": "bookExercise",
+      "kind": "choice",
+      "prompt": "Which word belongs in the Descriptions group?",
+      "answer": "expensive",
+      "options": [
+        "expensive",
+        "gift",
+        "choose",
+        "pay"
+      ],
+      "instruction": "Phân loại từ theo Things, Actions và Descriptions.",
+      "explanation": "Expensive describes the price of something.",
+      "hintLevels": [
+        "Description là từ mô tả đặc điểm.",
+        "Gift là vật; choose và pay là hành động."
+      ],
+      "teachingExample": {
+        "prompt": "Which word belongs in the Actions group?",
+        "answer": "choose",
+        "steps": [
+          "Đọc kỹ yêu cầu.",
+          "Gạch chân từ khóa.",
+          "Loại lựa chọn không phù hợp.",
+          "Kết luận: choose."
+        ]
+      },
+      "source": {
+        "grade": 3,
+        "unit": 6,
+        "section": "book-vocabulary-1",
+        "sectionType": "Vocabulary 1",
+        "exerciseNumber": "3",
+        "sourceImage": "093.png",
+        "sourceAsset": "grade3-source/original/093.webp",
+        "sourceRegion": "Activity 3, sort table",
+        "verificationStatus": "direct_visual_verified_2026_08_05",
+        "sourceStatus": "mapped",
+        "preview": "book-exercise-assets/g3-u6-vocab-grid.webp"
+      }
+    },
+    {
+      "id": "book-g3-u6-reading-pre",
+      "origin": "bookExercise",
+      "kind": "choice",
+      "prompt": "How often does Ethan’s family go shopping?",
+      "answer": "every Saturday",
+      "options": [
+        "every Saturday",
+        "once a month",
+        "every morning",
+        "only on holidays"
+      ],
+      "instruction": "Đọc phần đầu câu chuyện rồi chọn tần suất.",
+      "explanation": "Ethan asks why they have to go shopping every Saturday.",
+      "hintLevels": [
+        "Tìm câu Ethan nói.",
+        "Cụm thời gian nằm ở cuối câu hỏi đầu tiên."
+      ],
+      "teachingExample": {
+        "prompt": "How often does Kim visit the library?",
+        "answer": "every Friday",
+        "steps": [
+          "Đọc kỹ yêu cầu.",
+          "Gạch chân từ khóa.",
+          "Loại lựa chọn không phù hợp.",
+          "Kết luận: every Friday."
+        ]
+      },
+      "source": {
+        "grade": 3,
+        "unit": 6,
+        "section": "book-reading-1",
+        "sectionType": "Reading 1",
+        "exerciseNumber": "Pre-reading 1",
+        "sourceImage": "094.png",
+        "sourceAsset": "grade3-source/original/094.webp",
+        "sourceRegion": "Pre-reading story opening",
+        "verificationStatus": "direct_visual_verified_2026_08_05",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g3-u6-grammar-a2",
+      "origin": "bookExercise",
+      "kind": "choice",
+      "prompt": "Can I have ___ cake?",
+      "answer": "a piece of",
+      "options": [
+        "a piece of",
+        "a pair of",
+        "a bar of",
+        "a pack of"
+      ],
+      "instruction": "Chọn cụm đơn vị đúng.",
+      "explanation": "Cake is counted with a piece of.",
+      "hintLevels": [
+        "Hãy nghĩ đến một lát bánh.",
+        "Pair dùng cho đồ có đôi; bar thường dùng với chocolate."
+      ],
+      "teachingExample": {
+        "prompt": "Can I have ___ chocolate?",
+        "answer": "a bar of",
+        "steps": [
+          "Đọc kỹ yêu cầu.",
+          "Gạch chân từ khóa.",
+          "Loại lựa chọn không phù hợp.",
+          "Kết luận: a bar of."
+        ]
+      },
+      "source": {
+        "grade": 3,
+        "unit": 6,
+        "section": "book-grammar-1",
+        "sectionType": "Grammar 1",
+        "exerciseNumber": "2",
+        "sourceImage": "098.png",
+        "sourceAsset": "grade3-source/original/098.webp",
+        "sourceRegion": "Activity 2, grammar matching",
+        "verificationStatus": "direct_visual_verified_2026_08_05",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g3-u6-speaking-roleplay",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Ask the store clerk about the price of a gift.",
+      "answer": "How much is this gift?",
+      "target": "How much is this gift?",
+      "options": [],
+      "instruction": "Đóng vai người mua và hỏi giá.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Bắt đầu bằng “How much…”.",
+        "Dùng “this” trước món đồ số ít."
+      ],
+      "teachingExample": {
+        "prompt": "Ask the price of a pack of cookies.",
+        "answer": "How much is this pack of cookies?",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: How much is this pack of cookies?."
+        ]
+      },
+      "source": {
+        "grade": 3,
+        "unit": 6,
+        "section": "book-speaking-communication",
+        "sectionType": "Speaking/Communication",
+        "exerciseNumber": "6",
+        "sourceImage": "098.png",
+        "sourceAsset": "grade3-source/original/098.webp",
+        "sourceRegion": "Activity 6, shopping role play",
+        "verificationStatus": "direct_visual_verified_2026_08_05",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g3-u6-writing",
+      "origin": "bookExercise",
+      "kind": "write",
+      "prompt": "Write 40–60 words about a shopping trip.",
+      "answer": "Bài viết có ít nhất 25 từ và đúng yêu cầu.",
+      "target": "shopping",
+      "minWords": 25,
+      "options": [],
+      "instruction": "Nêu thời gian, nơi mua sắm, món đồ và giá.",
+      "explanation": "Bài viết cần đủ ý, dùng từ của Unit và có câu hoàn chỉnh.",
+      "hintLevels": [
+        "Mở đầu bằng một cụm thời gian.",
+        "Dùng ít nhất một cụm như a pack of, a pair of hoặc a piece of."
+      ],
+      "teachingExample": {
+        "prompt": "Write about a visit to a market.",
+        "answer": "Last Sunday, I went to a market. I bought a bag of fruit and paid ten dollars.",
+        "steps": [
+          "Chọn một ý khác.",
+          "Viết câu có chủ ngữ và động từ.",
+          "Kiểm tra chữ hoa và dấu chấm.",
+          "Mẫu khác: Last Sunday, I went to a market. I bought a bag of fruit and paid ten dollars.."
+        ]
+      },
+      "source": {
+        "grade": 3,
+        "unit": 6,
+        "section": "book-writing",
+        "sectionType": "Writing",
+        "exerciseNumber": "Writing",
+        "sourceImage": "104.png",
+        "sourceAsset": "grade3-source/original/104.webp",
+        "sourceRegion": "Writing page, shopping task",
+        "verificationStatus": "direct_visual_verified_2026_08_05",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g3-u12-vocab-a3",
+      "origin": "bookExercise",
+      "kind": "choice",
+      "prompt": "Which word means “walking on sticks”?",
+      "answer": "stilt walker",
+      "options": [
+        "stilt walker",
+        "emperor",
+        "lantern",
+        "fireworks"
+      ],
+      "instruction": "Đọc định nghĩa rồi chọn từ trong Activity 1.",
+      "explanation": "A stilt walker is a person who walks on tall sticks.",
+      "hintLevels": [
+        "Từ cần chọn là một người.",
+        "Loại emperor vì đó là hoàng đế."
+      ],
+      "teachingExample": {
+        "prompt": "Which word means “hairy”?",
+        "answer": "furry",
+        "steps": [
+          "Đọc kỹ yêu cầu.",
+          "Gạch chân từ khóa.",
+          "Loại lựa chọn không phù hợp.",
+          "Kết luận: furry."
+        ]
+      },
+      "source": {
+        "grade": 3,
+        "unit": 12,
+        "section": "book-vocabulary-1",
+        "sectionType": "Vocabulary 1",
+        "exerciseNumber": "3",
+        "sourceImage": "179.png",
+        "sourceAsset": "grade3-source/original/179.webp",
+        "sourceRegion": "Activity 3, think and write",
+        "verificationStatus": "direct_visual_verified_2026_08_05",
+        "sourceStatus": "mapped",
+        "preview": "book-exercise-assets/g3-u12-vocab-grid.webp"
+      }
+    },
+    {
+      "id": "book-g3-u12-reading-pre",
+      "origin": "bookExercise",
+      "kind": "choice",
+      "prompt": "What date is the family preparing to celebrate New Year?",
+      "answer": "December 31st",
+      "options": [
+        "December 31st",
+        "January 2nd",
+        "February 14th",
+        "July 4th"
+      ],
+      "instruction": "Đọc phần đầu The Suitcase rồi chọn ngày.",
+      "explanation": "The first sentence says it was December 31st.",
+      "hintLevels": [
+        "Xem câu mở đầu.",
+        "Ngày nằm trước cụm “ready to celebrate New Year”."
+      ],
+      "teachingExample": {
+        "prompt": "What date is Valentine’s Day?",
+        "answer": "February 14th",
+        "steps": [
+          "Đọc kỹ yêu cầu.",
+          "Gạch chân từ khóa.",
+          "Loại lựa chọn không phù hợp.",
+          "Kết luận: February 14th."
+        ]
+      },
+      "source": {
+        "grade": 3,
+        "unit": 12,
+        "section": "book-reading-1",
+        "sectionType": "Reading 1",
+        "exerciseNumber": "Pre-reading 1",
+        "sourceImage": "180.png",
+        "sourceAsset": "grade3-source/original/180.webp",
+        "sourceRegion": "Pre-reading 1, The Suitcase opening",
+        "verificationStatus": "direct_visual_verified_2026_08_05",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g3-u12-grammar-source",
+      "origin": "bookExercise",
+      "kind": "choice",
+      "prompt": "Choose the correct prediction: We ___ see a lot of fireworks.",
+      "answer": "will",
+      "options": [
+        "will",
+        "do",
+        "are",
+        "did"
+      ],
+      "instruction": "Chọn trợ động từ dùng để dự đoán tương lai.",
+      "explanation": "Use will + base verb for a positive prediction.",
+      "hintLevels": [
+        "Đây là dự đoán về tương lai.",
+        "Sau will dùng động từ nguyên mẫu “see”."
+      ],
+      "teachingExample": {
+        "prompt": "They ___ miss the bus because they leave early.",
+        "answer": "won’t",
+        "steps": [
+          "Đây là dự đoán phủ định về tương lai.",
+          "Dùng won’t trước động từ nguyên mẫu.",
+          "Động từ miss giữ nguyên.",
+          "Kết luận ví dụ khác: won’t."
+        ]
+      },
+      "source": {
+        "grade": 3,
+        "unit": 12,
+        "section": "book-grammar-1",
+        "sectionType": "Grammar 1",
+        "exerciseNumber": "Grammar",
+        "sourceImage": "184.png",
+        "sourceAsset": "grade3-source/original/184.webp",
+        "sourceRegion": "Grammar page, will/won’t",
+        "verificationStatus": "direct_visual_verified_2026_08_05",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g3-u12-speaking",
+      "origin": "bookExercise",
+      "kind": "speak",
+      "prompt": "Answer: Why do people celebrate this festival?",
+      "answer": "They celebrate to remember a tradition.",
+      "target": "They celebrate to remember a tradition.",
+      "options": [],
+      "instruction": "Nói một câu có “to + verb” để nêu mục đích.",
+      "explanation": "Câu nói dùng đúng mẫu giao tiếp của trang sách.",
+      "hintLevels": [
+        "Bắt đầu bằng “They celebrate to…”.",
+        "Chọn một mục đích như remember, share hoặc bring people together."
+      ],
+      "teachingExample": {
+        "prompt": "Why do people have a parade?",
+        "answer": "They have a parade to celebrate together.",
+        "steps": [
+          "Nghe câu hỏi.",
+          "Chọn thông tin khác với bài đang làm.",
+          "Nói cả câu, không chỉ nói một từ.",
+          "Mẫu khác: They have a parade to celebrate together.."
+        ]
+      },
+      "source": {
+        "grade": 3,
+        "unit": 12,
+        "section": "book-speaking-communication",
+        "sectionType": "Speaking/Communication",
+        "exerciseNumber": "Speaking",
+        "sourceImage": "184.png",
+        "sourceAsset": "grade3-source/original/184.webp",
+        "sourceRegion": "Speaking page, purpose question",
+        "verificationStatus": "direct_visual_verified_2026_08_05",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    },
+    {
+      "id": "book-g3-u12-writing",
+      "origin": "bookExercise",
+      "kind": "write",
+      "prompt": "Write about a Vietnamese festival for an international friend.",
+      "answer": "Bài viết có ít nhất 24 từ và đúng yêu cầu.",
+      "target": "festival",
+      "minWords": 24,
+      "options": [],
+      "instruction": "Nêu tên lễ hội, thời gian, hoạt động và lý do tổ chức.",
+      "explanation": "Bài viết cần đủ ý, dùng từ của Unit và có câu hoàn chỉnh.",
+      "hintLevels": [
+        "Câu đầu giới thiệu tên và thời gian.",
+        "Dùng “People…” và “They celebrate to…”."
+      ],
+      "teachingExample": {
+        "prompt": "Write about a school celebration.",
+        "answer": "Our school festival is in May. People wear costumes and play music. We celebrate to have fun together.",
+        "steps": [
+          "Chọn một ý khác.",
+          "Viết câu có chủ ngữ và động từ.",
+          "Kiểm tra chữ hoa và dấu chấm.",
+          "Mẫu khác: Our school festival is in May. People wear costumes and play music. We celebrate to have fun together.."
+        ]
+      },
+      "source": {
+        "grade": 3,
+        "unit": 12,
+        "section": "book-writing",
+        "sectionType": "Writing",
+        "exerciseNumber": "Writing",
+        "sourceImage": "190.png",
+        "sourceAsset": "grade3-source/original/190.webp",
+        "sourceRegion": "Writing page, festival task",
+        "verificationStatus": "direct_visual_verified_2026_08_05",
+        "sourceStatus": "mapped",
+        "preview": ""
+      }
+    }
+  ],
+  "mappingSummary": {
+    "activeBookExercises": 78,
+    "mappedBookSections": 467,
+    "directVisualTaskCount": 30,
+    "verifiedMapTaskCount": 48,
+    "blockedRows": 335
+  }
+}

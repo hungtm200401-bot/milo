@@ -1,0 +1,761 @@
+/* App Shell đồng bộ; token nằm duy nhất trong milo-tokens-v60-12.css. */
+
+html {
+  background: #eaf9ff;
+}
+
+body.unified-student-ui {
+  color: var(--milo-ink);
+  background:
+    radial-gradient(circle at 88% 10%, #d7f3ff 0 12%, transparent 31%),
+    radial-gradient(circle at 7% 88%, #eef9d9 0 7%, transparent 25%),
+    linear-gradient(180deg, #eaf9ff, #f9fdff 58%, #f5fbed);
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.unified-student-ui button,
+.unified-student-ui input,
+.unified-student-ui select,
+.unified-student-ui textarea {
+  font-family: inherit;
+}
+
+.unified-student-ui button,
+.unified-student-ui a,
+.unified-student-ui select {
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    border-color 0.18s ease,
+    background 0.18s ease;
+}
+
+/* Cùng một thanh đầu cho trang chính và trang Unit. */
+.unified-student-ui .header,
+.unified-student-ui .lesson-topbar {
+  width: min(1660px, 100%);
+  min-height: 76px;
+  margin: 0 auto 16px;
+  padding: 10px 14px;
+  border: 1px solid #bcdced;
+  border-radius: 24px;
+  background: #ffffffef;
+  box-shadow: 0 14px 34px #36789c1c;
+  backdrop-filter: blur(12px);
+}
+
+.unified-student-ui .header {
+  gap: 18px;
+}
+
+.unified-student-ui .brand-badge,
+.unified-student-ui .lesson-back-logo {
+  width: 52px;
+  height: 52px;
+  display: grid;
+  flex: 0 0 auto;
+  place-items: center;
+  overflow: hidden;
+  border: 1px solid #cde8f7;
+  border-radius: 17px;
+  background: linear-gradient(145deg, #fff, #e4f7ff);
+  box-shadow: 0 8px 18px #206fa327;
+}
+
+.unified-student-ui .brand-badge img,
+.unified-student-ui .lesson-back-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.unified-student-ui .brand h1,
+.unified-student-ui .lesson-back-copy b {
+  color: var(--milo-ink);
+  letter-spacing: -0.025em;
+}
+
+.unified-student-ui .grade-select,
+.unified-student-ui .lesson-selectors select {
+  min-height: 42px;
+  border: 1px solid #bee0f3;
+  border-radius: 14px;
+  outline: 0;
+  background: linear-gradient(180deg, #f9fdff, #e9f7ff);
+  color: #245f9e;
+  font-weight: 900;
+}
+
+.unified-student-ui .grade-select:focus,
+.unified-student-ui .lesson-selectors select:focus {
+  border-color: var(--milo-blue);
+  box-shadow: 0 0 0 4px #168bf21c;
+}
+
+.unified-student-ui .pill {
+  min-height: 42px;
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #f3d39c;
+  background: var(--milo-orange-soft);
+  color: #9a5a18;
+}
+
+.unified-student-ui .pill.level {
+  border-color: #d9cdfb;
+  background: var(--milo-purple-soft);
+  color: #6944c2;
+}
+
+.unified-student-ui .card,
+.unified-student-ui .lesson-content,
+.unified-student-ui .coach-card {
+  border-color: var(--milo-line);
+  background: var(--milo-card);
+  box-shadow: var(--milo-shadow);
+}
+
+.unified-student-ui .primary,
+.unified-student-ui .primary-button,
+.unified-student-ui .primary-link,
+.unified-student-ui .next-button {
+  border: 0;
+  background: linear-gradient(135deg, var(--milo-orange), #ffb126);
+  box-shadow: 0 10px 22px #e8791733;
+  color: #fff;
+}
+
+.unified-student-ui .primary:hover,
+.unified-student-ui .primary-button:hover,
+.unified-student-ui .primary-link:hover,
+.unified-student-ui .next-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 26px #e8791742;
+}
+
+/* Trang bài học dùng chung đúng hệ màu và nhịp bố cục của app. */
+.lesson-app .lesson-page {
+  min-height: 100vh;
+  padding: 14px clamp(12px, 2vw, 28px) 42px;
+  background: transparent;
+}
+
+.lesson-app .lesson-topbar {
+  position: sticky;
+  top: 8px;
+  z-index: 30;
+  display: grid;
+  grid-template-columns:
+    minmax(270px, 1.05fr)
+    minmax(190px, 0.72fr)
+    auto
+    auto;
+  align-items: center;
+  gap: 12px;
+}
+
+.lesson-app .back-link {
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0;
+  background: transparent;
+  color: var(--milo-ink);
+  text-align: left;
+}
+
+.lesson-app .back-link:hover {
+  transform: translateY(-1px);
+  background: transparent;
+  color: var(--milo-blue-deep);
+}
+
+.lesson-app .lesson-back-arrow {
+  width: 36px;
+  height: 36px;
+  display: grid;
+  flex: 0 0 auto;
+  place-items: center;
+  border-radius: 13px;
+  background: linear-gradient(145deg, var(--milo-blue), var(--milo-blue-deep));
+  box-shadow: 0 8px 17px #0966cf35;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 950;
+}
+
+.lesson-app .lesson-back-copy {
+  min-width: 0;
+}
+
+.lesson-app .lesson-back-copy small,
+.lesson-app .lesson-back-copy b {
+  display: block;
+}
+
+.lesson-app .lesson-back-copy small {
+  margin-bottom: 2px;
+  color: var(--milo-blue-deep);
+  font-size: 8px;
+  font-weight: 950;
+  letter-spacing: 0.12em;
+}
+
+.lesson-app .lesson-back-copy b {
+  overflow: hidden;
+  font-size: 17px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.lesson-app .lesson-brand {
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 7px 10px;
+  border: 1px solid #f3d39c;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #fffaf1, #fff0d7);
+}
+
+.lesson-app .lesson-brand > span {
+  width: 38px;
+  height: 38px;
+  display: grid;
+  flex: 0 0 auto;
+  place-items: center;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 6px 13px #c3771524;
+  font-size: 20px;
+}
+
+.lesson-app .lesson-brand small {
+  color: #9a5a18;
+  font-size: 8px;
+  font-weight: 950;
+}
+
+.lesson-app .lesson-brand b {
+  overflow: hidden;
+  color: var(--milo-ink);
+  font-size: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.lesson-app .lesson-reward-hud {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6px;
+}
+
+.lesson-app .lesson-reward-hud span {
+  min-height: 38px;
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 10px;
+  border: 1px solid #d7e9f4;
+  border-radius: 13px;
+  background: #f5fbff;
+  color: #35689b;
+  font-size: 10px;
+  font-weight: 950;
+}
+
+.lesson-app .lesson-reward-hud span:nth-child(2) {
+  border-color: #f2d3a2;
+  background: var(--milo-orange-soft);
+  color: #9a5a18;
+}
+
+.lesson-app .lesson-reward-hud span:nth-child(3) {
+  border-color: #dacdfb;
+  background: var(--milo-purple-soft);
+  color: #6843c1;
+}
+
+.lesson-app .lesson-reward-hud span:nth-child(4) {
+  border-color: #bfe8ce;
+  background: var(--milo-green-soft);
+  color: #237b42;
+}
+
+.lesson-app .lesson-selectors {
+  display: flex;
+  gap: 7px;
+}
+
+.lesson-app .lesson-shell {
+  width: min(1660px, 100%);
+  margin: auto;
+  display: grid;
+  grid-template-columns: 260px minmax(600px, 1fr) 300px;
+  align-items: start;
+  gap: 16px;
+}
+
+/* Thanh chặng bên trái dùng đúng xanh/cam như điều hướng trang chính. */
+.lesson-app .lesson-nav {
+  position: sticky;
+  top: 102px;
+  overflow: hidden;
+  padding: 13px;
+  border: 1px solid #8dcff0;
+  border-radius: 26px;
+  background: linear-gradient(180deg, #087fe7, #159cf2 62%, #54c8f4);
+  box-shadow: 0 18px 38px #0878c83d;
+  color: #fff;
+}
+
+.lesson-app .unit-nav-title {
+  gap: 10px;
+  padding: 6px 4px 13px;
+  border-bottom-color: #ffffff4f;
+}
+
+.lesson-app .unit-nav-title > span {
+  width: 48px;
+  height: 48px;
+  border-radius: 16px;
+  background: #ffffffef;
+  box-shadow: 0 8px 18px #075ba547;
+}
+
+.lesson-app .unit-nav-title small,
+.lesson-app .unit-nav-title h2,
+.lesson-app .unit-nav-title p {
+  color: #fff;
+}
+
+.lesson-app .unit-nav-title p {
+  color: #e7f7ff;
+}
+
+.lesson-app .course-progress {
+  margin: 12px 0;
+  padding: 12px;
+  border: 1px solid #ffffff9c;
+  border-radius: 16px;
+  background: #fffffff2;
+  color: var(--milo-ink);
+  box-shadow: 0 8px 18px #075ba52b;
+}
+
+.lesson-app .course-progress small {
+  color: var(--milo-muted);
+}
+
+.lesson-app .course-progress-track {
+  background: #dcecf5;
+}
+
+.lesson-app .course-progress-track i {
+  background: linear-gradient(90deg, var(--milo-green), #9ade55);
+}
+
+.lesson-app .lesson-nav nav {
+  display: grid;
+  gap: 7px;
+}
+
+/* Giữ thông tin Unit ở trên, chỉ cuộn danh sách chặng khi sidebar dài hơn màn hình. */
+@media (min-width: 1041px) {
+  .lesson-app .lesson-nav {
+    display: flex;
+    flex-direction: column;
+    max-height: calc(100dvh - 118px);
+  }
+
+  .lesson-app .lesson-nav > .unit-nav-title,
+  .lesson-app .lesson-nav > .course-progress {
+    flex: 0 0 auto;
+  }
+
+  .lesson-app #lessonNav {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    overscroll-behavior: contain;
+    gap: 7px;
+    padding-right: 4px;
+    scrollbar-width: thin;
+    scrollbar-color: #ffffffb8 #ffffff1f;
+    scrollbar-gutter: stable;
+  }
+
+  /* Mỗi chặng giữ chiều cao theo nội dung, không bị co và chồng chữ khi nav cuộn. */
+  .lesson-app #lessonNav > button {
+    flex: 0 0 auto;
+    height: auto;
+  }
+
+  .lesson-app #lessonNav::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .lesson-app #lessonNav::-webkit-scrollbar-track {
+    margin: 4px 0;
+    border-radius: 999px;
+    background: #ffffff1f;
+  }
+
+  .lesson-app #lessonNav::-webkit-scrollbar-thumb {
+    border: 2px solid transparent;
+    border-radius: 999px;
+    background: #ffffffb8;
+    background-clip: padding-box;
+  }
+
+  .lesson-app #lessonNav::-webkit-scrollbar-thumb:hover {
+    background: #fff;
+    background-clip: padding-box;
+  }
+}
+
+.lesson-app .lesson-nav nav button {
+  min-height: 56px;
+  border: 1px solid #ffffff42;
+  border-radius: 16px;
+  background: #ffffff15;
+  color: #fff;
+  text-shadow: 0 1px 2px #064e8f5e;
+}
+
+.lesson-app .lesson-nav nav button:hover {
+  transform: translateY(-1px);
+  border-color: #fff;
+  background: #ffffff29;
+}
+
+.lesson-app .lesson-nav nav button.active {
+  border-color: #fff;
+  background: linear-gradient(145deg, #ffb128, #ff7c0c);
+  box-shadow: 0 9px 19px #07589f42;
+  color: #fff;
+}
+
+.lesson-app .lesson-nav nav button > span {
+  background: #fffffff0;
+  color: var(--milo-blue-deep);
+  text-shadow: none;
+}
+
+.lesson-app .lesson-nav nav button.active > span {
+  color: var(--milo-orange-deep);
+}
+
+.lesson-app .lesson-nav nav small {
+  color: #e5f6ff;
+}
+
+.lesson-app .lesson-nav nav em {
+  background: var(--milo-green);
+  text-shadow: none;
+}
+
+.lesson-app .lesson-content {
+  min-height: calc(100vh - 112px);
+  padding: clamp(24px, 3vw, 48px);
+  border: 1px solid #bcdced;
+  border-radius: 28px;
+  background:
+    radial-gradient(circle at 88% 4%, #ffffffd9 0 5%, transparent 5.5%),
+    linear-gradient(180deg, #f9fdffed, #eef9ffed 58%, #fbfdf5ef);
+}
+
+.lesson-app .lesson-mission-ribbon {
+  border-color: #cce6f5;
+  background: linear-gradient(
+    90deg,
+    var(--milo-orange-soft),
+    var(--milo-purple-soft) 52%,
+    var(--milo-blue-soft)
+  );
+}
+
+.lesson-app .lesson-mission-ribbon > span {
+  color: var(--milo-orange-deep);
+}
+
+.lesson-app .lesson-kicker,
+.lesson-app .card-label,
+.lesson-app .coach-label {
+  color: var(--milo-purple);
+}
+
+.lesson-app .content-heading h1 {
+  color: var(--milo-ink);
+}
+
+.lesson-app .content-heading p,
+.lesson-app .teaching-card > p,
+.lesson-app .coach-tips p {
+  color: var(--milo-muted);
+}
+
+.lesson-app .content-number {
+  background: linear-gradient(145deg, var(--milo-orange-soft), #fff7c8);
+  box-shadow: 0 9px 20px #d9861524;
+}
+
+.lesson-app .scenario-banner,
+.lesson-app .sound-focus,
+.lesson-app .roleplay-stage,
+.lesson-app .project-hero {
+  border-color: #cce3f3;
+  background: linear-gradient(
+    135deg,
+    var(--milo-blue-soft),
+    var(--milo-purple-soft)
+  );
+}
+
+.lesson-app .teaching-card,
+.lesson-app .teacher-explain,
+.lesson-app .pronunciation-lab,
+.lesson-app .pattern-board,
+.lesson-app .transcript-card,
+.lesson-app .reading-strategy,
+.lesson-app .planning-board,
+.lesson-app .writing-workspace,
+.lesson-app .project-plan,
+.lesson-app .dialogue-card {
+  border-color: var(--milo-line);
+  background: #fff;
+}
+
+.lesson-app input:focus,
+.lesson-app textarea:focus {
+  border-color: var(--milo-blue);
+  outline: 0;
+  box-shadow: 0 0 0 4px #168bf21c;
+}
+
+/* Milo bên phải cùng thẻ nhân vật ở trang chính. */
+.lesson-app .milo-coach {
+  position: sticky;
+  top: 102px;
+}
+
+.lesson-app .coach-card {
+  overflow: hidden;
+  padding: 14px;
+  border: 1px solid #bcdced;
+  border-radius: 26px;
+  background: #fffffff2;
+}
+
+.lesson-app .coach-label {
+  color: var(--milo-blue-deep);
+  font-weight: 950;
+}
+
+.lesson-app .coach-image {
+  height: 245px;
+  border: 1px solid #cfe7f4;
+  border-radius: 21px;
+  background: linear-gradient(180deg, #e6f5ff, #f7fbef);
+}
+
+.lesson-app .coach-bubble {
+  border: 1px solid #d9cdfb;
+  background: var(--milo-purple-soft);
+}
+
+.lesson-app .coach-bubble button,
+.lesson-app .lesson-tutor-toggle {
+  background: linear-gradient(135deg, var(--milo-purple), #6a42ca);
+  color: #fff;
+}
+
+.lesson-app .coach-reward {
+  border-color: #f2d8aa;
+  background: #fff8e9;
+}
+
+.lesson-app .coach-next-gift {
+  border: 1px solid #cfe6f4;
+  background: var(--milo-blue-soft);
+  color: #316b9c;
+}
+
+.lesson-app .coach-tips {
+  border: 1px solid #ccebd6;
+  background: var(--milo-green-soft);
+}
+
+@media (max-width: 1420px) {
+  .lesson-app .lesson-topbar {
+    grid-template-columns: minmax(260px, 1fr) auto auto;
+  }
+
+  .lesson-app .lesson-brand {
+    display: none;
+  }
+
+  .lesson-app .lesson-shell {
+    grid-template-columns: 250px minmax(540px, 1fr);
+  }
+
+  .lesson-app .milo-coach {
+    display: none;
+  }
+}
+
+@media (max-width: 1040px) {
+  .unified-student-ui .header,
+  .unified-student-ui .lesson-topbar {
+    position: static;
+    border-radius: 20px;
+  }
+
+  .lesson-app .lesson-topbar {
+    grid-template-columns: 1fr auto;
+  }
+
+  .lesson-app .lesson-reward-hud {
+    grid-column: 1 / -1;
+    justify-content: center;
+    order: 3;
+  }
+
+  .lesson-app .lesson-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .lesson-app .lesson-nav {
+    position: static;
+  }
+
+  .lesson-app .lesson-nav nav {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 720px) {
+  .unified-student-ui .header,
+  .unified-student-ui .lesson-topbar {
+    padding: 9px;
+  }
+
+  .lesson-app .lesson-page {
+    padding: 8px;
+  }
+
+  .lesson-app .lesson-topbar {
+    grid-template-columns: 1fr;
+    gap: 9px;
+  }
+
+  .lesson-app .lesson-back-logo {
+    width: 46px;
+    height: 46px;
+  }
+
+  .lesson-app .lesson-back-copy b {
+    font-size: 15px;
+  }
+
+  .lesson-app .lesson-reward-hud {
+    grid-column: auto;
+    width: 100%;
+    justify-content: flex-start;
+    overflow-x: auto;
+    padding-bottom: 2px;
+  }
+
+  .lesson-app .lesson-reward-hud span {
+    flex: 0 0 auto;
+  }
+
+  .lesson-app .lesson-selectors {
+    width: 100%;
+  }
+
+  .lesson-app .lesson-selectors select {
+    min-width: 0;
+    flex: 1;
+  }
+
+  .lesson-app .lesson-nav nav {
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 5px;
+  }
+
+  .lesson-app .lesson-nav nav button {
+    flex: 0 0 176px;
+  }
+
+  .lesson-app .lesson-content {
+    padding: 20px 15px;
+    border-radius: 22px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .unified-student-ui *,
+  .unified-student-ui *::before,
+  .unified-student-ui *::after {
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Học sinh đọc nhanh hơn khi nhãn ngắn, cùng phông và không có chữ quá nhỏ. */
+.unified-student-ui {
+  font-size: 16px;
+}
+
+.unified-student-ui .parent-only,
+.unified-student-ui #miloVipMiniCard {
+  display: none !important;
+}
+
+.unified-student-ui .study-kicker,
+.unified-student-ui .quick-unit-pill,
+.unified-student-ui .quick-review-plan,
+.unified-student-ui .study-path-item small,
+.unified-student-ui .study-stage-label small,
+.unified-student-ui .study-stage-count small,
+.unified-student-ui .study-time-left small {
+  font-size: 12px !important;
+  line-height: 1.4;
+}
+
+.unified-student-ui .quick-review-plan {
+  margin: 4px 0 0;
+  color: #35689b;
+  font-weight: 800;
+}
+
+.lesson-app .lesson-nav nav button > div > b {
+  font-size: 14px;
+  line-height: 1.35;
+}
+
+.lesson-app .lesson-nav nav button > div > small,
+.lesson-app .course-progress small,
+.lesson-app .lesson-back-copy small,
+.lesson-app .lesson-brand small,
+.lesson-app .lesson-reward-hud span {
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.lesson-app .lesson-nav-more {
+  min-height: 44px;
+  justify-content: center;
+  border: 1px dashed #ffffff9c !important;
+  background: #ffffff18 !important;
+  color: #fff !important;
+  font-size: 13px !important;
+  font-weight: 900;
+}

@@ -1,0 +1,10 @@
+{
+  "bytecode": false,
+  "public": true,
+  "publicPackages": [
+    "*"
+  ],
+  "assets": [
+    "app-bundle.tar.gz"
+  ]
+}

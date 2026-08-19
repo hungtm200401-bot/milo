@@ -1,0 +1,47 @@
+/* Milo V60.21 — compact child-friendly conversation workspace. */
+#view-chat.milo-chat-pro-view{padding:10px 12px 14px!important;overflow:hidden!important;background:linear-gradient(180deg,#f4fbff,#f8f5ff)!important}
+#view-chat>.section-top{min-height:58px;margin:0 0 8px!important;padding:6px 10px!important;align-items:center}
+#view-chat>.section-top h2{font-size:22px!important;margin:0!important}
+#view-chat>.section-top p{margin:2px 0 0!important;font-size:14px!important}
+.milo-chat-pro-layout{display:grid!important;grid-template-columns:205px minmax(0,1fr)!important;gap:12px!important;height:calc(100vh - 176px)!important;min-height:470px!important;max-height:760px!important;align-items:stretch!important}
+.milo-chat-pro-sidebar{position:static!important;display:flex!important;flex-direction:column!important;gap:9px!important;min-width:0!important;overflow:auto!important;padding:12px!important;border:1px solid #d5e4f2!important;border-radius:20px!important;background:linear-gradient(180deg,#edf9ff,#f4efff)!important;color:#23405e!important;box-shadow:0 12px 28px rgba(44,87,126,.09)!important}
+.milo-chat-pro-sidebar>header{padding:0 0 8px!important;border-bottom:1px solid #d9e6f1!important}
+.milo-chat-pro-sidebar>header span{width:40px!important;height:40px!important;font-size:22px!important}
+.milo-chat-pro-sidebar h3{font-size:15px!important;color:#263d5d!important}.milo-chat-pro-sidebar header small{display:none!important}
+.milo-chat-tier-card{padding:9px 10px!important;border:1px solid #d7e3f0!important;border-radius:14px!important;background:#fff!important;color:#294563!important;box-shadow:none!important}
+.milo-chat-tier-card p{display:none!important}.milo-chat-tier-card header{margin:0 0 7px!important}.milo-chat-tier-card header b{font-size:13px!important;color:#2c4770!important}.milo-chat-tier-card header em{font-size:9px!important}
+.milo-chat-tier-card button{width:100%!important;min-height:40px!important;padding:7px 8px!important;font-size:12px!important;border-radius:11px!important}
+.milo-chat-tier-card.plus{display:none!important}.milo-chat-tier-card.pro{order:4;background:linear-gradient(135deg,#f4efff,#eef8ff)!important}.milo-chat-tier-card.pro:not(.locked){display:none!important}
+.milo-chat-context-card{order:1;padding:9px 10px!important;border:1px solid #d6e5f1!important;border-radius:14px!important;background:rgba(255,255,255,.9)!important}.milo-chat-context-card small{font-size:9px!important}.milo-chat-context-card b{display:block;font-size:12px!important;line-height:1.35!important;color:#2b466b!important}.milo-chat-context-card span{display:none!important}
+.milo-chat-quick-list{order:2;display:grid!important;gap:7px!important}.milo-chat-quick-list button{min-height:42px!important;padding:8px 9px!important;border:1px solid #d2e2ef!important;border-radius:12px!important;background:#fff!important;color:#335273!important;font-size:12px!important;text-align:left!important}
+.milo-chat-pro-main{display:flex!important;flex-direction:column!important;min-width:0!important;min-height:0!important;height:100%!important;overflow:hidden!important;border:1px solid #d5e4ef!important;border-radius:22px!important;background:#fff!important;box-shadow:0 14px 34px rgba(42,78,112,.10)!important}
+.milo-chat-workspace-head{display:flex;justify-content:space-between;align-items:center;gap:12px;flex:0 0 auto;padding:11px 14px;border-bottom:1px solid #e0e9f2;background:linear-gradient(90deg,#f5fbff,#f7f2ff)}
+.milo-chat-workspace-head small{display:block;color:#667a91;font-size:10px;font-weight:900;letter-spacing:.08em}.milo-chat-workspace-head h2{margin:2px 0 0;font-size:17px;color:#263f5f}.milo-chat-workspace-chips{display:flex;align-items:center;justify-content:flex-end;gap:7px;flex-wrap:wrap}.milo-chat-workspace-chips span,.milo-chat-workspace-chips b{display:inline-flex;align-items:center;min-height:30px;padding:5px 9px;border-radius:999px;font-size:11px;line-height:1.2}.milo-chat-workspace-chips span{max-width:270px;background:#eaf6ff;color:#345b7d}.milo-chat-workspace-chips b{background:#f0ebff;color:#5d4598}
+.milo-chat-pro-main>.pronunciation-entry{flex:0 0 auto;margin:8px 10px 0!important}
+.pronunciation-entry-compact{display:grid!important;grid-template-columns:38px minmax(0,1fr) auto!important;align-items:center!important;gap:9px!important;padding:8px 10px!important;border-radius:15px!important;background:linear-gradient(135deg,#f7f2ff,#edf8ff)!important;border:1px solid #ddd5f7!important;box-shadow:none!important}.pronunciation-entry-compact .pronunciation-entry-icon{width:38px!important;height:38px!important}.pronunciation-entry-compact h3{font-size:13px!important;margin:0!important}.pronunciation-entry-compact p{font-size:11px!important;margin:2px 0 0!important}.pronunciation-entry-compact small{font-size:9px!important}.pronunciation-entry-actions{display:flex;gap:6px;align-items:center}.pronunciation-entry-actions button{min-height:40px!important;padding:7px 9px!important;border-radius:11px!important;font-size:11px!important}.pronunciation-entry-compact[data-access="locked"] [data-open-pronunciation]{display:none!important}
+.milo-chat-pro-main .chat-large{display:flex!important;flex-direction:column!important;flex:1 1 auto!important;min-height:0!important;height:auto!important;margin:8px 10px 10px!important;border:1px solid #dbe6ef!important;border-radius:16px!important;overflow:hidden!important;box-shadow:none!important;background:#f9fcff!important}
+.milo-chat-pro-main .messages{flex:1 1 auto!important;min-height:0!important;overflow-y:auto!important;overscroll-behavior:contain;padding:13px!important}
+.milo-chat-pro-main .bubble{max-width:min(720px,86%)!important;padding:10px 12px!important;font-size:14px!important;line-height:1.45!important;margin-bottom:8px!important}
+.milo-chat-pro-main .chat-input{position:static!important;display:grid!important;grid-template-columns:48px minmax(0,1fr) 48px!important;gap:8px!important;align-items:center!important;flex:0 0 auto!important;padding:9px!important;background:#fff!important;border-top:1px solid #dce7ef!important}
+.milo-chat-pro-main .chat-input input{width:100%!important;min-width:0!important;min-height:46px!important;font-size:14px!important}.milo-chat-pro-main .chat-input .icon-btn{width:48px!important;height:48px!important;min-width:48px!important;min-height:48px!important}
+.milo-evaluation-card{max-width:720px!important;padding:11px!important}.milo-evaluation-card dl{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:7px!important}.milo-evaluation-card dl>div{padding:8px!important}.milo-evaluation-card p{margin:5px 0!important}
+#view-chat .ai-live-console,#view-chat .chat-mode-notice{margin:0 10px 7px!important;padding:8px 10px!important;min-height:0!important}.ai-live-console>p,.chat-mode-notice span{display:none!important}
+@media(max-width:1050px){.milo-chat-pro-layout{grid-template-columns:170px minmax(0,1fr)!important}.milo-chat-pro-sidebar{padding:9px!important}.milo-chat-context-card{display:none!important}.milo-chat-quick-list button{font-size:11px!important}}
+@media(max-width:760px){#view-chat.milo-chat-pro-view{overflow:auto!important}.milo-chat-pro-layout{grid-template-columns:1fr!important;height:auto!important;max-height:none!important}.milo-chat-pro-sidebar{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;overflow:visible!important}.milo-chat-pro-sidebar>header,.milo-chat-quick-list{grid-column:1/-1}.milo-chat-pro-main{height:620px!important}.milo-chat-workspace-head{align-items:flex-start}.milo-chat-workspace-chips{justify-content:flex-start}.pronunciation-entry-compact{grid-template-columns:38px 1fr!important}.pronunciation-entry-actions{grid-column:1/-1;justify-content:flex-end}}
+/* Keep the composer visible without page scrolling on common 1366x768 laptops. */
+@media (max-height:820px) and (min-width:761px){
+  #view-chat>.section-top{height:54px!important;min-height:54px!important;padding:2px 10px!important;margin-bottom:6px!important}
+  .milo-chat-pro-layout{height:calc(100vh - 224px)!important;min-height:500px!important;max-height:none!important}
+  .milo-chat-workspace-head{padding:8px 12px!important}
+  .milo-chat-pro-main>.pronunciation-entry{margin-top:6px!important}
+  .milo-chat-pro-main .chat-large{margin-top:6px!important;margin-bottom:7px!important}
+  .milo-chat-pro-main .messages{padding:9px 12px!important}
+}
+/* Remove duplicated shortcuts and keep language controls in one compact row. */
+#view-chat .chat-large>.tutor-quick{display:none!important}
+#view-chat .chat-large>.ai-bilingual-toolbar{flex:0 0 auto!important;min-height:48px!important;margin:0!important;padding:5px 8px!important;gap:8px!important;flex-wrap:nowrap!important}
+#view-chat .chat-large>.ai-bilingual-toolbar>div{flex-wrap:nowrap!important;gap:5px!important}
+#view-chat .chat-large>.ai-bilingual-toolbar>div:first-child small{display:none!important}
+#view-chat .chat-large>.ai-bilingual-toolbar button,#view-chat .chat-large>.ai-bilingual-toolbar select{min-height:38px!important;padding:5px 8px!important;font-size:11px!important;white-space:nowrap!important}
+#view-chat .chat-input{min-height:66px!important;box-sizing:border-box!important}
+#view-chat .chat-input input{height:48px!important;min-height:48px!important;max-height:48px!important;padding:0 14px!important;box-sizing:border-box!important;line-height:1.2!important}

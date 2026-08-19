@@ -1,0 +1,373 @@
+/* V56 · Readable registration, login and learner profile */
+
+.child-login-card.pro-auth-shell {
+  width: min(1160px, calc(100vw - 32px));
+  grid-template-columns: minmax(380px, .92fr) minmax(560px, 1.28fr);
+}
+
+.account-login-card.pro-login-shell {
+  width: min(1020px, calc(100vw - 32px));
+  grid-template-columns: minmax(350px, .92fr) minmax(500px, 1.18fr);
+}
+
+.auth-brand-line {
+  font-size: 13px;
+}
+
+.auth-showcase-kicker {
+  font-size: 12px;
+}
+
+.auth-showcase > p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.profile-card-skeleton b {
+  font-size: 15px;
+}
+
+.profile-card-skeleton small {
+  font-size: 13px;
+}
+
+.membership-head > div > small {
+  font-size: 10px;
+}
+
+.membership-head > div > b {
+  font-size: 16px;
+}
+
+.membership-head > div > i {
+  font-size: 13px;
+}
+
+.membership-head > em {
+  padding: 7px 10px;
+  font-size: 10px;
+}
+
+.membership-grid small {
+  font-size: 10px;
+  line-height: 1.35;
+}
+
+.membership-grid b {
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.membership-status b {
+  font-size: 13px;
+}
+
+.membership-status small {
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.membership-footer code,
+.membership-number {
+  font-size: 11px;
+}
+
+.premium-profile-card .membership-footer button {
+  min-height: 34px;
+  padding: 8px 10px;
+  font-size: 11px;
+  font-weight: 850;
+}
+
+.membership-empty strong {
+  font-size: 15px;
+}
+
+.membership-empty small {
+  font-size: 12px;
+}
+
+.auth-trust-list > span {
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.auth-trust-list i {
+  width: 24px;
+  height: 24px;
+  font-size: 12px;
+}
+
+.auth-mode-badge {
+  padding: 8px 12px;
+  font-size: 11px;
+}
+
+.auth-form-intro,
+.login-intro {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.auth-stepper > span {
+  font-size: 12px;
+  font-weight: 850;
+}
+
+.auth-stepper > span > i {
+  width: 28px;
+  height: 28px;
+  font-size: 12px;
+}
+
+.pro-auth-shell .profile-field,
+.pro-login-shell .profile-field {
+  gap: 9px;
+  margin-top: 18px;
+}
+
+.pro-auth-shell .profile-field > span,
+.pro-auth-shell .gender-group legend,
+.pro-login-shell .profile-field > span {
+  font-size: 15px;
+}
+
+.pro-auth-shell .profile-field > span > i,
+.pro-login-shell .profile-field > span > i {
+  font-size: 12px;
+}
+
+.auth-input-wrap {
+  min-height: 58px;
+  grid-template-columns: 50px minmax(0, 1fr);
+  border-radius: 16px;
+}
+
+.auth-input-icon {
+  height: 34px;
+  font-size: 15px;
+}
+
+.pro-auth-shell .profile-field .auth-input-wrap input,
+.pro-login-shell .profile-field .auth-input-wrap input {
+  height: 56px;
+  padding: 0 16px;
+  font-size: 17px;
+}
+
+.pin-input-wrap {
+  grid-template-columns: 50px minmax(0, 1fr) 48px;
+}
+
+.pin-input-wrap > button {
+  width: 38px;
+  height: 38px;
+  font-size: 16px;
+}
+
+.pro-auth-shell .profile-field > small,
+.pro-login-shell .profile-field > small {
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.pro-auth-shell .gender-options label {
+  min-height: 102px;
+  padding: 13px 8px 12px;
+}
+
+.pro-auth-shell .gender-options i {
+  font-size: 30px;
+}
+
+.pro-auth-shell .gender-options b {
+  font-size: 14px;
+}
+
+.pro-auth-shell .gender-options small {
+  font-size: 11px;
+}
+
+.pin-quality > span {
+  height: 6px;
+}
+
+.pin-quality > b,
+.login-pin-dots > b {
+  min-width: 78px;
+  font-size: 11px;
+}
+
+.pro-auth-shell .profile-error,
+.pro-login-shell .profile-error {
+  min-height: 23px;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.pro-auth-shell .profile-submit,
+.pro-login-shell .profile-submit {
+  min-height: 58px;
+  padding: 0 19px;
+  font-size: 15px;
+}
+
+.pro-auth-shell .profile-login-existing,
+.login-create-account {
+  min-height: 56px;
+  padding: 0 16px;
+  font-size: 13px;
+}
+
+.pro-auth-shell .profile-login-existing b,
+.login-create-account b {
+  font-size: 13px;
+}
+
+.pro-auth-shell .profile-privacy {
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.login-showcase > p {
+  font-size: 12px;
+}
+
+.login-showcase > h3 {
+  font-size: 33px;
+}
+
+.login-showcase > small {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.login-security-card {
+  grid-template-columns: 42px minmax(0, 1fr);
+  padding: 14px;
+}
+
+.login-security-card > span {
+  width: 42px;
+  height: 42px;
+}
+
+.login-security-card b {
+  font-size: 13px;
+}
+
+.login-security-card small {
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.login-pin-dots {
+  grid-template-columns: repeat(6, 12px) auto;
+}
+
+.login-pin-dots > i {
+  width: 11px;
+  height: 11px;
+}
+
+.login-safe-note {
+  padding: 12px 13px;
+}
+
+.login-safe-note small,
+.account-login-notice {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.login-divider > b {
+  font-size: 11px;
+}
+
+.login-support {
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.commerce-account-summary > div > em {
+  font-size: 10px;
+}
+
+.commerce-account-summary > div > b {
+  font-size: 15px;
+}
+
+.commerce-account-summary > div > b > small,
+.commerce-account-summary > div > strong {
+  font-size: 12px;
+}
+
+.summary-status {
+  font-size: 10px;
+}
+
+@media (max-width: 850px) {
+  .child-login-card.pro-auth-shell,
+  .account-login-card.pro-login-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .auth-showcase > p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 560px) {
+  .auth-showcase-kicker,
+  .login-showcase > p {
+    font-size: 11px;
+  }
+
+  .auth-showcase h3,
+  .login-showcase > h3 {
+    font-size: 24px;
+  }
+
+  .auth-showcase > p,
+  .auth-form-intro,
+  .login-intro {
+    font-size: 14px;
+  }
+
+  .auth-stepper > span > b {
+    display: block;
+    font-size: 11px;
+  }
+
+  .pro-auth-shell .gender-options small {
+    display: block;
+  }
+
+  .pro-auth-shell .profile-field > span,
+  .pro-auth-shell .gender-group legend,
+  .pro-login-shell .profile-field > span {
+    font-size: 14px;
+  }
+
+  .pro-auth-shell .profile-field .auth-input-wrap input,
+  .pro-login-shell .profile-field .auth-input-wrap input {
+    font-size: 16px;
+  }
+
+  .login-showcase > small {
+    display: block;
+    font-size: 12px;
+  }
+
+  .login-security-card {
+    display: grid;
+  }
+}
+
+
+/* V60.13.1 - hồ sơ và khôi phục PIN */
+.profile-session-actions{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:9px}
+.profile-session-actions button{min-height:42px;border:1px solid #d8e0f0;border-radius:12px;background:#f7f9fd;color:#30415f;font-weight:850;cursor:pointer}
+.profile-session-actions button:last-child{background:#fff3f3;color:#a43743;border-color:#efc8cc}
+.profile-pin-recovery{margin:9px 0 0;padding:10px 12px;border:1px solid #eadfb4;border-radius:12px;background:#fff9df;color:#725d22;font-size:11px;line-height:1.45}
+@media(max-width:720px){.profile-session-actions{grid-template-columns:1fr}}

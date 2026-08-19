@@ -1,0 +1,28 @@
+{
+  "name": "milo-english-adventure",
+  "version": "60.25.7",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node tests/run-all.mjs",
+    "validate:unique": "node tools/validate-task-uniqueness-v60-21.mjs --fail --output=reports/TASK_UNIQUENESS_V60_24.json",
+    "measure:click": "node tools/measure-click-performance-v60-22.mjs --output=reports/CLICK_PERFORMANCE_V60_24.json",
+    "validate:answers": "node tools/validate-answer-leakage-v60-23.mjs --fail --output=reports/ANSWER_LEAKAGE_V60_24.json",
+    "audit:source-exact": "node tools/audit-source-exactness-v60-25.mjs",
+    "audit:source-regions": "node tools/audit-source-page-regions.mjs",
+    "ocr:source-consensus": "node tools/source-ocr-consensus.mjs",
+    "ocr:build-review-queue": "node tools/build-source-ocr-review-queue.mjs",
+    "build:source-transcriptions": "node tools/build-source-exact-transcriptions.mjs",
+    "build:installer": "node tools/build-single-installer.mjs",
+    "build:lite": "node tools/build-lite-installer.mjs",
+    "build:slim": "node tools/build-slim-installer.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@tesseract.js-data/eng": "^1.0.0",
+    "sharp": "^0.35.3",
+    "tesseract.js": "^7.0.0"
+  }
+}

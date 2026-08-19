@@ -1,0 +1,1324 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#168bf2" />
+<title>Milo English Adventure · App học</title>
+<meta name="theme-color" content="#168bf2">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/svg+xml" href="milo-student-app.svg">
+<link rel="stylesheet" href="milo-tokens-v60-12.css?v=60.12.0">
+<link rel="stylesheet" href="ai-pro-max-v58.css?v=60.12.0">
+<link rel="stylesheet" href="pronunciation-vip-v60-15.css?v=60.15.0">
+<link rel="stylesheet" href="ai-journey-v60-13-14.css?v=60.13.14">
+<link rel="stylesheet" href="ai-feedback-v60-14.css?v=60.14.0">
+<link rel="stylesheet" href="ai-conversation-polish-v60-14.css?v=60.14.0">
+<link rel="stylesheet" href="interaction-performance-v60-22.css?v=60.22.0">
+<link rel="stylesheet" href="cute-voice-v60-16.css?v=60.16.0">
+<link rel="stylesheet" href="chat-ui-v60-21.css?v=60.21.0">
+<link rel="stylesheet" href="update-client.css">
+  <style>
+    *{box-sizing:border-box}html{background:var(--sky)}body{margin:0;color:var(--ink);background:linear-gradient(180deg,#e8f8ff,#f9fdff);font-family:"Segoe UI",Arial,sans-serif;min-height:100vh}button,input,select{font:inherit}button{color:inherit}.hidden{display:none!important}
+    .app{min-height:100vh;padding:16px clamp(12px,3vw,38px) 22px;overflow:hidden;position:relative}.app:before,.app:after{content:"";position:fixed;border-radius:50%;background:#fff8;filter:blur(2px);z-index:0}.app:before{width:280px;height:90px;right:-80px;top:100px}.app:after{width:200px;height:65px;left:-60px;bottom:100px}
+    .header{max-width:1480px;margin:0 auto 16px;display:flex;align-items:center;justify-content:space-between;position:relative;z-index:2}.brand{display:flex;align-items:center;gap:11px}.brand-badge{width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:var(--orange2);border:2px solid #f29a4855;font-size:25px}.eyebrow{margin:0 0 2px;font-weight:800;letter-spacing:.12em;color:var(--muted);font-size:11px}.brand h1{font-size:clamp(19px,2vw,25px);margin:0}.header-actions{display:flex;gap:9px;align-items:center}.pill{border:0;border-radius:999px;padding:9px 13px;font-weight:800;background:var(--orange2);color:#965424}.pill.level{background:var(--purple2);color:#6652aa}.grade-select{border:1px solid var(--line);background:#fff;padding:9px 12px;border-radius:999px;font-weight:800;color:var(--ink)}.avatar{width:41px;height:41px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(145deg,var(--purple),#6b56bd);color:#fff;font-weight:900;box-shadow:0 8px 20px #705bc455}
+    .layout{max-width:1480px;margin:auto;display:grid;grid-template-columns:176px minmax(460px,1fr) minmax(320px,390px);gap:18px;position:relative;z-index:1}.card{background:#fffdf8ee;border:1px solid #96b6c655;border-radius:28px;box-shadow:var(--shadow);backdrop-filter:blur(10px)}
+    .nav{padding:14px;align-self:start;display:grid;gap:7px}.nav-btn{border:0;background:transparent;border-radius:15px;padding:11px 12px;text-align:left;display:flex;align-items:center;gap:10px;color:var(--muted);font-weight:750;cursor:pointer}.nav-btn:hover,.nav-btn.active{background:var(--orange2);color:#765d25}.nav-btn span:first-child{width:24px;text-align:center;font-size:20px}.ai-config-card{position:relative;margin-bottom:16px;padding:20px;overflow:hidden;border:1px solid #c7b9ff;border-radius:23px;background:linear-gradient(135deg,#5d46b8 0%,#765ed2 48%,#4aa8cf 100%);box-shadow:0 18px 38px #6652aa38;color:#fff}.ai-config-card:before,.ai-config-card:after{content:"";position:absolute;border-radius:50%;background:#ffffff14}.ai-config-card:before{width:210px;height:210px;right:-74px;top:-116px}.ai-config-card:after{width:125px;height:125px;left:-70px;bottom:-72px}.ai-config-head{position:relative;z-index:1;display:flex;align-items:center;gap:11px}.ai-config-icon{width:43px;height:43px;display:grid;place-items:center;border-radius:14px;background:linear-gradient(145deg,#fff7cd,#ffd76b);box-shadow:0 8px 20px #2d216044;font-size:23px}.ai-config-head b,.ai-config-head small{display:block}.ai-config-head b{font-size:15px}.ai-config-head small{margin-top:3px;color:#f0edff;font-size:11px}.ai-config-close{margin-left:auto;border:1px solid #ffffff44;background:#ffffff17;color:#fff;border-radius:10px;width:30px;height:30px;cursor:pointer}.premium-badge{position:relative;z-index:1;display:inline-flex;align-items:center;gap:5px;margin:16px 0 8px;padding:6px 9px;border-radius:999px;background:#fff2b9;color:#715310;font-size:9px;font-weight:950;letter-spacing:.08em}.premium-title{position:relative;z-index:1;margin:0;max-width:570px;font-size:clamp(21px,2.5vw,29px);line-height:1.16}.premium-copy{position:relative;z-index:1;margin:8px 0 13px;max-width:630px;color:#f4f2ff;font-size:12px;line-height:1.55}.premium-benefits{position:relative;z-index:1;display:flex;flex-wrap:wrap;gap:7px;margin-bottom:15px}.premium-benefits span{padding:7px 10px;border:1px solid #ffffff38;border-radius:999px;background:#ffffff17;font-size:10px;font-weight:800}.premium-action-row{position:relative;z-index:1;display:flex;align-items:center;flex-wrap:wrap;gap:11px}.premium-cta{position:relative;overflow:hidden;border:0;border-radius:15px;padding:13px 18px;background:linear-gradient(135deg,#ffd768,#ffad42);box-shadow:0 10px 24px #32225b55;color:#5e3c09;font-size:13px;font-weight:950;cursor:pointer;transition:.2s}.premium-cta:after{content:"";position:absolute;width:70px;height:180%;left:-90px;top:-35%;transform:rotate(18deg);background:#ffffff66;transition:.55s}.premium-cta:hover{transform:translateY(-2px);box-shadow:0 14px 28px #32225b66}.premium-cta:hover:after{left:125%}.premium-reassure{color:#ebe7ff;font-size:9px;font-weight:750}.ai-config-card.unlocked{background:linear-gradient(135deg,#2f8a68,#52b889)}.ai-config-card.unlocked .premium-cta{display:none}.ai-config-card.is-hidden{display:none}.premium-pay-card{position:relative;width:min(560px,100%);overflow:hidden;padding:0}.premium-pay-hero{padding:25px;background:linear-gradient(135deg,#5d46b8,#4ca9cf);color:#fff;text-align:center}.premium-pay-hero span{display:grid;place-items:center;width:60px;height:60px;margin:0 auto 10px;border-radius:20px;background:linear-gradient(145deg,#fff4ba,#ffc95a);box-shadow:0 10px 25px #31245d44;font-size:31px}.premium-pay-hero h2{margin:0;font-size:27px}.premium-pay-hero p{margin:7px auto 0;max-width:400px;color:#eeebff;font-size:12px;line-height:1.5}.premium-pay-body{padding:21px}.premium-pay-benefits{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}.premium-pay-benefits div{padding:12px 8px;border:1px solid var(--line);border-radius:14px;background:#f8fbff;text-align:center}.premium-pay-benefits b,.premium-pay-benefits small{display:block}.premium-pay-benefits b{font-size:12px}.premium-pay-benefits small{margin-top:4px;color:var(--muted);font-size:9px;line-height:1.4}.premium-price{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:16px 0;padding:14px;border:1px solid #efd59a;border-radius:15px;background:#fff8e7}.premium-price span,.premium-price b{display:block}.premium-price span{color:#8a7753;font-size:10px}.premium-price b{margin-top:3px;color:#765510;font-size:17px}.premium-price em{font-style:normal;font-size:29px}.premium-pay-button{width:100%;border:0;border-radius:15px;padding:14px;background:linear-gradient(135deg,#755fd0,#4ca9cf);box-shadow:0 10px 22px #6652aa33;color:#fff;font-weight:950;cursor:pointer}.premium-pay-safe{margin:10px 0 0;color:var(--muted);font-size:9px;line-height:1.45;text-align:center}.premium-pay-error{min-height:18px;margin:8px 0 0;color:#b24848;font-size:10px;font-weight:800;text-align:center}@media(max-width:650px){.ai-config-card{padding:16px}.premium-pay-benefits{grid-template-columns:1fr}.premium-action-row{align-items:stretch}.premium-cta{width:100%}}
+    .main{padding:clamp(18px,2.5vw,29px);min-height:780px}.view{animation:fade .25s ease}@keyframes fade{from{opacity:.35;transform:translateY(5px)}to{opacity:1;transform:none}}.section-top{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:18px}.section-top h2{font-size:clamp(25px,3vw,35px);margin:2px 0 0}.progress{padding:9px 13px;border-radius:999px;background:var(--green2);color:#3e7541;font-weight:850;font-size:13px}.subtle{color:var(--muted);line-height:1.55}.primary,.secondary{border:0;border-radius:16px;padding:12px 17px;font-weight:850;cursor:pointer;transition:.18s}.primary{background:linear-gradient(135deg,var(--orange),#f5b15e);color:#fff;box-shadow:0 8px 18px #f29a4855}.primary:hover{transform:translateY(-2px)}.secondary{background:var(--purple2);color:#6552aa}.wide{width:100%}
+    .hero{display:grid;grid-template-columns:1.1fr .9fr;gap:18px;background:linear-gradient(140deg,#d9f3fb,#f8fbdb);padding:24px;border-radius:25px;min-height:260px;align-items:center}.hero h3{font-size:31px;margin:6px 0 9px}.hero-side{display:flex;justify-content:center}.hero-avatar-card{width:100%;max-width:340px;background:linear-gradient(180deg,#ffffffdd,#f8fbff);border:1px solid #d8e6f6;border-radius:28px;padding:16px;box-shadow:0 14px 28px #7ea4cc1f}.hero-avatar-top{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:10px}.hero-chip{display:inline-flex;align-items:center;gap:6px;padding:6px 11px;border-radius:999px;background:#eef6ff;color:#3c5c8a;font-size:12px;font-weight:800}.hero-level-chip{padding:8px 12px;border-radius:16px;background:#eaf8dd;color:#4d7f2a;font-size:12px;font-weight:900;text-align:center;min-width:88px}.hero-avatar-frame{height:240px;border-radius:22px;background:linear-gradient(180deg,#e6f5ff,#f7fbef);display:grid;place-items:center;overflow:hidden;padding:12px}.hero-fox{display:block;margin:auto;width:100%;max-width:250px;max-height:220px;object-fit:contain;object-position:center bottom;filter:drop-shadow(0 12px 12px #476c7d2b)}.hero-avatar-meta{padding-top:10px;text-align:center}.hero-avatar-meta h4{margin:0;font-size:28px;color:#24324d}.hero-avatar-meta p{margin:4px 0 0;color:#6c7b95;font-weight:700}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:15px}.stat{padding:17px;border:1px solid var(--line);border-radius:18px;background:#fff}.stat strong{display:block;font-size:25px;margin-bottom:4px}.stat span{color:var(--muted);font-size:13px;font-weight:700}
+    .map{min-height:510px;position:relative;border-radius:27px;overflow:hidden;background:radial-gradient(circle at 18% 16%,#fff9 0 7%,transparent 7.5%),radial-gradient(circle at 78% 12%,#fff8 0 6%,transparent 6.5%),linear-gradient(145deg,#cceefa,#e8f9fc 50%,#bee7f4);border:1px solid #5eb2ce33}.route{position:absolute;width:62%;height:64%;left:18%;top:17%;border:5px dotted #465e6f66;border-left-color:transparent;border-bottom-color:transparent;border-radius:48% 58% 48% 52%;transform:rotate(-12deg)}.island{position:absolute;width:clamp(145px,27%,220px);min-height:98px;padding:12px;display:flex;align-items:center;gap:10px;border:2px solid #447c6f38;border-radius:46% 54% 45% 55%/54% 48% 52% 46%;background:var(--green2);box-shadow:0 13px 24px #355b7424;cursor:pointer;text-align:left;transition:.18s}.island:hover,.island.active{transform:translateY(-5px) scale(1.02);border-color:var(--orange)}.island:nth-of-type(2){left:6%;bottom:10%}.island:nth-of-type(3){left:27%;top:24%}.island:nth-of-type(4){right:9%;bottom:19%;background:var(--orange2)}.island:nth-of-type(5){right:5%;top:8%;background:var(--purple2)}.island .ico{width:45px;height:45px;border-radius:50%;background:#fff9;display:grid;place-items:center;font-size:24px;flex:0 0 auto}.island strong{display:block}.island small{display:block;color:var(--muted);margin-top:3px;line-height:1.35}
+    .mission-bar{margin-top:14px;border-radius:20px;padding:14px 17px;background:#fff6e7;border:1px solid #f1d8aa;display:flex;align-items:center;justify-content:space-between}.mission-bar h3{margin:2px 0 3px}.reward{background:#ffe6a9;border-radius:999px;padding:8px 12px;color:#8a6221;font-weight:900}
+    .journey-motivation{display:grid;grid-template-columns:1fr 1.1fr;gap:12px;margin:0 0 15px}.motivation-card{padding:16px;border:1px solid var(--line);border-radius:20px;background:linear-gradient(145deg,#fffaf0,#fff)}.motivation-card.treasure{background:linear-gradient(145deg,#f2eeff,#edf9ff)}.motivation-head{display:flex;align-items:center;justify-content:space-between;gap:12px}.motivation-head h3{margin:3px 0 11px}.mission-mini{display:grid;grid-template-columns:32px 1fr auto;gap:8px;align-items:center;margin-top:6px;padding:8px;border-radius:13px;background:#f8fbfc}.mission-mini>span{font-size:20px}.mission-mini b,.mission-mini small{display:block}.mission-mini b{font-size:11px}.mission-mini small{color:var(--muted);font-size:9px}.mission-mini>strong{font-size:10px}.mini-track{height:6px;margin-top:5px;border-radius:99px;background:#dfe8ec;overflow:hidden}.mini-track i{display:block;height:100%;border-radius:inherit;background:linear-gradient(90deg,var(--orange),#ffd46a)}.chest{width:52px;height:52px;display:grid;place-content:center;justify-items:center;border-radius:17px;background:var(--orange2);font-size:24px;animation:bob 2s ease-in-out infinite}.chest small{font-size:9px}.treasure-line{position:relative;display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin:16px 0}.treasure-line:before{content:"";position:absolute;left:10%;right:10%;top:21px;height:6px;border-radius:99px;background:repeating-linear-gradient(90deg,#d2c5f1 0 10px,#fff 10px 15px)}.treasure-stop{position:relative;z-index:1;text-align:center}.treasure-stop span{width:46px;height:46px;margin:auto;display:grid;place-items:center;border:4px solid #fff;border-radius:15px;background:#e6def8;filter:grayscale(.8)}.treasure-stop.done span{filter:none;background:#fff1c7;animation:bob 1.8s ease-in-out infinite}.treasure-stop b,.treasure-stop small{display:block}.treasure-stop b{margin-top:4px;font-size:10px}.treasure-stop small{font-size:8px;color:var(--muted)}.badge-row{display:grid;grid-template-columns:repeat(4,1fr);gap:5px;border-top:1px solid #dcd3f2;padding-top:10px}.badge-row span{display:grid;justify-items:center;gap:3px;opacity:.45;font-size:9px;font-weight:800}.badge-row span.earned{opacity:1}.badge-row i{width:34px;height:34px;display:grid;place-items:center;border-radius:50%;background:#fff;font-size:18px;font-style:normal}
+    .lesson-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.lesson-card{border:1px solid var(--line);background:#fff;border-radius:20px;padding:17px;cursor:pointer;text-align:left}.lesson-card:hover{border-color:var(--orange);box-shadow:0 8px 20px #355b7417}.lesson-card .emoji{font-size:34px}.lesson-card h3{margin:8px 0 4px}.lesson-card p{margin:0;color:var(--muted)}
+    .curriculum-info{display:grid;grid-template-columns:1.2fr repeat(3,.75fr);gap:10px;margin-bottom:15px}.curriculum-chip{padding:13px;border:1px solid var(--line);border-radius:17px;background:#fff}.curriculum-chip strong{display:block;margin-bottom:4px}.curriculum-chip span{font-size:12px;color:var(--muted);line-height:1.35}.unit-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}.unit-card{border:2px solid transparent;background:#fff;border-radius:19px;padding:14px;display:flex;align-items:center;gap:12px;text-align:left;cursor:pointer;box-shadow:0 5px 15px #355b7411;transition:.18s}.unit-card:hover,.unit-card.selected{border-color:var(--orange);transform:translateY(-2px)}.unit-card.done{background:var(--green2)}.unit-number{width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:var(--orange2);font-weight:900;font-size:16px;flex:0 0 auto}.unit-card.done .unit-number{background:var(--green);color:#fff}.unit-card strong{display:block;margin-bottom:3px}.unit-card small{color:var(--muted);line-height:1.35}.review-card{grid-column:1/-1;padding:10px 14px;border-radius:16px;background:linear-gradient(90deg,var(--purple2),#e3f5ff);display:flex;align-items:center;justify-content:space-between;color:#6454a3;font-weight:850}.unit-summary{margin-top:15px;border:1px solid #f1d8aa;background:#fff6e7;border-radius:20px;padding:14px 17px;display:flex;align-items:center;justify-content:space-between;gap:12px}.unit-summary h3{margin:2px 0}.unit-summary p{margin:0}
+    .unit-modal-card{width:min(980px,100%)}.unit-focus{display:flex;flex-wrap:wrap;gap:7px;margin:12px 0}.focus-chip{padding:7px 10px;border-radius:999px;background:#eef7fb;color:#436777;font-size:12px;font-weight:800}.lesson-progress{display:flex;align-items:center;gap:12px;margin:12px 0 15px}.lesson-progress-track{height:10px;flex:1;background:#e7eef2;border-radius:999px;overflow:hidden}.lesson-progress-track span{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--green),#a8d96f);transition:.25s}.lesson-progress small{font-weight:850;color:#4f7350}.module-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}.module-btn{position:relative;border:1px solid var(--line);border-radius:14px;background:#fff;padding:9px;text-align:left;cursor:pointer;font-weight:750;font-size:12px;min-height:48px}.module-btn:hover,.module-btn.active{border-color:var(--purple);background:var(--purple2)}.module-btn.done:after{content:"✓";position:absolute;right:7px;top:6px;width:18px;height:18px;border-radius:50%;display:grid;place-items:center;background:var(--green);color:#fff;font-size:11px}.module-content{margin-top:14px;padding:20px;border-radius:20px;background:#f8fcff;border:1px solid var(--line);min-height:360px}.module-content h3{margin:0}.lesson-step-head{display:flex;align-items:flex-start;gap:13px;margin-bottom:15px}.step-number{width:48px;height:48px;border-radius:16px;display:grid;place-items:center;background:var(--orange2);font-size:23px;flex:0 0 auto}.lesson-step-head p{margin:5px 0 0;color:var(--muted);line-height:1.45}.teach-card{padding:16px;border-radius:17px;background:#fff;border:1px solid var(--line);margin:11px 0}.teach-card h4{margin:0 0 8px}.teach-card p{line-height:1.65;margin:7px 0}.teacher-note{border-left:4px solid var(--purple);background:var(--purple2)}.practice-card{padding:16px;border-radius:17px;background:#fffaf0;border:1px solid #efd9b1;margin:14px 0}.practice-card h4{margin:0 0 10px}.practice-options{display:grid;gap:8px}.practice-option{border:2px solid var(--line);background:#fff;border-radius:13px;padding:10px 12px;text-align:left;cursor:pointer;font-weight:750}.practice-option:hover{border-color:var(--orange)}.practice-option.correct{border-color:var(--green);background:var(--green2)}.practice-option.wrong{border-color:#df6f6f;background:#ffe7e7}.practice-feedback{min-height:22px;margin:8px 0 0;font-size:13px;font-weight:800}.practice-feedback.ok{color:#39813d}.practice-feedback.no{color:#b24848}.objective-list{padding-left:20px;line-height:1.65}.vocab-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.vocab-item{border:1px solid var(--line);background:#fff;border-radius:16px;padding:13px;display:flex;align-items:center;gap:10px;text-align:left}.vocab-item button{margin-left:auto;border:0;background:var(--purple2);border-radius:11px;width:38px;height:38px;cursor:pointer}.vocab-item b{display:block;font-size:17px}.vocab-item small{display:block;color:var(--muted);margin-top:2px}.vocab-item .word-icon{font-size:31px}.context-example{grid-column:1/-1;color:#596777;font-size:12px;padding-top:5px;border-top:1px dashed var(--line)}.pattern-box,.reading-box{padding:14px;border-left:4px solid var(--orange);border-radius:12px;background:#fff;margin:11px 0;line-height:1.7}.dialogue-line{display:grid;grid-template-columns:72px 1fr;gap:8px;margin:7px 0}.dialogue-line b{color:#6854b3}.word-bank{display:flex;flex-wrap:wrap;gap:7px;margin:10px 0}.word-bank span{padding:7px 10px;border-radius:999px;background:#e8f6fb;font-weight:800;color:#477383}.listen-panel{text-align:center;padding:18px;border-radius:17px;background:linear-gradient(135deg,#e9f8ff,#f4ecff);margin:12px 0}.listen-panel .sound-wave{font-size:35px;letter-spacing:5px}.transcript-hidden{filter:blur(5px);user-select:none}.speaking-input{display:flex;gap:8px;margin-top:10px}.speaking-input input{flex:1;min-width:0;border:1px solid var(--line);border-radius:14px;padding:11px}.writing-area{width:100%;min-height:135px;border:1px solid var(--line);border-radius:14px;padding:12px;resize:vertical}.writing-status{padding:9px 12px;border-radius:12px;background:#eef5f8;margin-top:9px;font-size:13px;line-height:1.5}.project-checks{display:grid;gap:9px;margin:13px 0}.project-checks label{display:flex;gap:9px;align-items:flex-start;padding:11px;border-radius:13px;background:#fff;border:1px solid var(--line)}.module-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.module-note{font-size:12px;color:var(--muted)}.lesson-footer{border-top:1px solid var(--line);margin-top:18px;padding-top:14px;display:flex;align-items:center;justify-content:space-between;gap:10px}.lesson-footer span{font-size:12px;color:var(--muted);font-weight:750}.complete-part.done{background:var(--green);box-shadow:none}.big-topic{display:grid;place-items:center;text-align:center;padding:20px;border-radius:20px;background:linear-gradient(135deg,#fff0d8,#e9f7ff);margin:10px 0}.big-topic span{font-size:65px}.big-topic h4{font-size:24px;margin:7px 0 2px}.word-count-good{color:#39813d;font-weight:850}
+    .chat-large{height:555px;display:flex;flex-direction:column;border:1px solid var(--line);border-radius:22px;background:#f8fcff;overflow:hidden}.messages{flex:1;overflow:auto;padding:17px;display:flex;flex-direction:column;gap:10px}.bubble{max-width:82%;padding:11px 14px;border-radius:17px;line-height:1.45}.bubble.milo{background:var(--purple2);align-self:flex-start}.bubble.user{background:#d9f3fb;align-self:flex-end}.chat-input{display:flex;gap:8px;padding:12px;background:#fff;border-top:1px solid var(--line)}.chat-input input{flex:1;border:1px solid var(--line);border-radius:14px;padding:11px 12px;outline:none}.chat-input input:focus{border-color:var(--purple)}.icon-btn{width:44px;border:0;border-radius:14px;background:var(--purple2);cursor:pointer;font-size:19px}
+    .quiz-box{padding:20px;border-radius:22px;background:#fff;border:1px solid var(--line)}.quiz-progress{height:10px;background:#edf2f5;border-radius:999px;overflow:hidden;margin:12px 0 22px}.quiz-progress span{height:100%;display:block;background:linear-gradient(90deg,var(--orange),#ffd36b);transition:.25s}.question{font-size:25px;font-weight:850;margin:10px 0 18px}.options{display:grid;gap:10px}.option{border:2px solid var(--line);background:#fff;border-radius:16px;padding:13px;text-align:left;cursor:pointer;font-weight:750}.option:hover{border-color:var(--purple)}.option.correct{border-color:var(--green);background:var(--green2)}.option.wrong{border-color:#df6f6f;background:#ffe7e7}.score{text-align:center;padding:35px}.score strong{font-size:64px;color:var(--orange)}
+    .badges{display:grid;grid-template-columns:repeat(2,1fr);gap:13px}.badge-card{padding:20px;border-radius:20px;background:#fff;border:1px solid var(--line);display:flex;gap:13px;align-items:center}.badge-icon{width:58px;height:58px;border-radius:50%;display:grid;place-items:center;background:var(--orange2);font-size:29px}.badge-card h3{margin:0 0 4px}.badge-card p{margin:0;color:var(--muted);font-size:13px}
+    .milo{padding:16px;display:flex;flex-direction:column;min-height:780px}.milo-image{position:relative;height:305px;border-radius:22px;background:linear-gradient(145deg,#e5f8fc,#fff7df);display:grid;place-items:center;overflow:hidden;cursor:pointer}.milo-image img{display:block;margin:auto;width:100%;height:100%;padding:16px;object-fit:contain;object-position:center bottom;animation:miloAlive 3.2s ease-in-out infinite;transform-origin:center bottom;filter:drop-shadow(0 13px 13px #36506324)}.milo-image .touch-milo{position:absolute;right:12px;top:12px;z-index:5;padding:5px 9px;border-radius:999px;background:#fffffff0;color:#6853aa;font-size:8px;font-weight:950;box-shadow:0 6px 13px #3952621c;animation:touchMilo 1.8s ease-in-out infinite}.milo-image .milo-fx{position:absolute;z-index:6;opacity:0;pointer-events:none;font-size:24px}.milo-image .milo-fx.a{left:25%;top:55%;--x:-22px;--y:-105px}.milo-image .milo-fx.b{right:24%;top:48%;--x:25px;--y:-92px;animation-delay:.16s!important}.milo-image .milo-fx.c{left:52%;top:42%;--x:38px;--y:-82px;animation-delay:.3s!important}.milo-image:not(.motion-idle) .milo-fx{animation:miloFx 1.1s ease-out infinite}.milo-image.motion-wave img,.milo-image.motion-talk img{animation:miloWave 1.65s cubic-bezier(.22,.8,.28,1) both}.milo-image.motion-eat img{animation:miloEat 1.55s ease-in-out both}.milo-image.motion-play img{animation:miloPlay 1.85s cubic-bezier(.18,.78,.25,1) both}.milo-image.motion-groom img{animation:miloGroom 1.55s ease-in-out both}.milo-image.motion-sad img{animation:miloSadLive 1.65s ease-in-out both;filter:saturate(.66) drop-shadow(0 13px 13px #36506324)}.milo-image.mood-hungry img,.milo-image.mood-sad img{filter:saturate(.68) drop-shadow(0 13px 13px #36506324)}@keyframes bob{50%{transform:translateY(-7px) rotate(1deg)}}@keyframes miloAlive{0%,100%{transform:translateY(2px) rotate(-1deg) scale(1)}38%{transform:translateY(-8px) rotate(1.5deg) scale(1.025)}72%{transform:translateY(-3px) rotate(-.8deg) scale(1.012)}}@keyframes miloWave{0%,100%{transform:translateY(0) rotate(0) scale(1)}18%{transform:translateY(-5px) rotate(-7deg) scale(1.025)}36%{transform:translateY(-11px) rotate(8deg) scale(1.04)}54%{transform:translateY(-6px) rotate(-6deg) scale(1.025)}72%{transform:translateY(-12px) rotate(6deg) scale(1.045)}}@keyframes miloEat{0%,100%{transform:translateY(0) scale(1)}16%,48%,82%{transform:translateY(3px) scaleX(1.06) scaleY(.96)}32%,64%{transform:translateY(-8px) rotate(-3deg) scale(1.045)}}@keyframes miloPlay{0%,100%{transform:translateY(0) rotate(0) scale(1)}18%{transform:translateY(5px) rotate(-5deg) scaleX(1.05) scaleY(.96)}42%{transform:translateY(-29px) rotate(9deg) scale(1.045)}60%{transform:translateY(-17px) rotate(-8deg) scale(1.03)}80%{transform:translateY(4px) rotate(3deg) scaleX(1.06) scaleY(.96)}}@keyframes miloGroom{0%,100%{transform:translateY(0) scale(1);filter:drop-shadow(0 13px 13px #36506324)}50%{transform:translateY(-9px) rotate(4deg) scale(1.05);filter:drop-shadow(0 0 16px #ffe76e) drop-shadow(0 13px 14px #7a5dce55)}}@keyframes miloSadLive{0%,100%{transform:translateY(7px) rotate(-4deg) scale(1)}45%{transform:translateY(12px) rotate(-7deg) scale(.965)}}@keyframes miloFx{0%{opacity:0;transform:translate(0,12px) scale(.25)}22%,75%{opacity:1}100%{opacity:0;transform:translate(var(--x),var(--y)) scale(1.25) rotate(24deg)}}@keyframes touchMilo{0%,100%{opacity:.72;transform:translateY(0)}50%{opacity:1;transform:translateY(-4px)}}.milo-say{position:relative;z-index:1;padding:16px;margin-top:12px;border-radius:20px;background:var(--purple2);border:1px solid #d8cff8;min-height:138px}.milo-say p{font-weight:750;line-height:1.5;margin:7px 0 12px}.speak{border:0;background:#fff;border-radius:12px;padding:9px 11px;color:#6956ae;font-weight:850;cursor:pointer}.prompts{display:flex;flex-wrap:wrap;gap:7px;margin:12px 0}.prompt{border:1px solid var(--line);background:#fff;border-radius:999px;padding:8px 10px;font-size:12px;cursor:pointer}.ask{margin-top:auto}.ask label{font-size:12px;font-weight:800;color:var(--muted)}.ask-row{display:flex;gap:7px;margin-top:7px}.ask-row input{min-width:0;flex:1;border:1px solid var(--line);border-radius:14px;padding:11px;outline:none}.ask-row input:focus{border-color:var(--purple)}
+    .modal{position:fixed;inset:0;background:#20304699;z-index:20;display:grid;place-items:center;padding:15px}.modal-card{width:min(650px,100%);max-height:90vh;overflow:auto;background:var(--paper);border-radius:28px;padding:24px;box-shadow:0 30px 90px #12203366}.modal-head{display:flex;justify-content:space-between;align-items:center}.close{border:0;background:#eef2f4;width:39px;height:39px;border-radius:50%;cursor:pointer;font-size:20px}.word{font-size:47px;margin:25px 0 3px}.meaning{font-size:20px;color:var(--muted)}.word-emoji{font-size:90px;text-align:center}.word-nav{display:flex;justify-content:space-between;gap:10px;margin-top:22px}.toast{position:fixed;left:50%;bottom:25px;transform:translateX(-50%);background:#263548;color:#fff;border-radius:999px;padding:11px 17px;z-index:30;opacity:0;pointer-events:none;transition:.2s}.toast.show{opacity:1;bottom:35px}
+    .offline-grade-route{margin-bottom:15px;padding:17px;border:1px solid #ded7f1;border-radius:22px;background:linear-gradient(145deg,#fff,#f3efff)}
+    .offline-route-head{display:flex;align-items:end;justify-content:space-between;gap:12px}.offline-route-head h3{margin:3px 0;font-size:22px}.offline-route-head>span{padding:7px 9px;border-radius:10px;background:var(--purple2);color:#6652aa;font-size:9px;font-weight:900}
+    .offline-route-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin-top:11px}.offline-route-stats div{padding:10px;border:1px solid var(--line);border-radius:13px;background:#fff}.offline-route-stats small,.offline-route-stats b{display:block}.offline-route-stats small{color:var(--purple);font-size:7px;font-weight:900;letter-spacing:.07em}.offline-route-stats b{margin-top:4px;font-size:10px;line-height:1.35}
+    .offline-phase-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin-top:9px}.offline-phase-grid article{padding:11px;border-radius:14px;background:#fff;border:1px solid var(--line)}.offline-phase-grid article>span{font-size:22px}.offline-phase-grid small,.offline-phase-grid b{display:block}.offline-phase-grid small{margin-top:5px;color:var(--purple);font-size:7px;font-weight:900}.offline-phase-grid b{margin:3px 0 5px;font-size:11px}.offline-phase-grid p{margin:0;color:var(--muted);font-size:8px;line-height:1.45}.offline-phase-grid em{display:block;margin-top:7px;padding:6px;border-radius:8px;background:var(--orange2);color:#8f5d28;font-size:7px;font-style:normal;font-weight:900;line-height:1.4}
+    .offline-route-flow{display:flex;gap:5px;overflow:auto;margin-top:9px;padding-bottom:3px}.offline-route-flow span{min-width:84px;padding:8px;border-radius:11px;background:#eef7fb;text-align:center;font-size:8px;font-weight:850}.offline-route-flow i{display:block;margin-bottom:3px;font-size:18px;font-style:normal}
+    @media(max-width:1080px){.layout{grid-template-columns:92px minmax(430px,1fr) 330px}.nav-btn{justify-content:center}.nav-btn span:last-child{display:none}.nav{padding:10px}.hero{grid-template-columns:1fr}.hero-side{order:-1}.hero-avatar-card{max-width:100%}}
+    @media(max-width:850px){.layout{grid-template-columns:1fr}.nav{position:fixed;z-index:10;left:10px;right:10px;bottom:10px;grid-template-columns:repeat(6,1fr);border-radius:20px}.nav-btn{padding:9px}.main{min-height:auto;margin-bottom:82px}.milo{min-height:auto;margin-bottom:82px}.milo-image{height:285px}.header{align-items:flex-start}.pill{display:none}.map{min-height:560px}.curriculum-info{grid-template-columns:repeat(2,1fr)}.module-grid{grid-template-columns:repeat(2,1fr)}.journey-motivation{grid-template-columns:1fr}.offline-route-stats,.offline-phase-grid{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:560px){.app{padding:10px}.brand-badge{width:42px;height:42px}.brand h1{font-size:17px}.eyebrow{font-size:9px}.grade-select{padding:8px}.avatar{display:none}.main{padding:15px}.section-top{align-items:flex-start}.section-top h2{font-size:27px}.progress{font-size:11px}.stats,.lesson-grid,.badges,.unit-grid,.vocab-grid,.curriculum-info,.offline-route-stats,.offline-phase-grid{grid-template-columns:1fr}.offline-route-head{display:block}.offline-route-head>span{display:inline-block;margin-top:7px}.module-grid{grid-template-columns:repeat(2,1fr)}.unit-card{padding:11px}.review-card{grid-column:auto}.treasure-line,.badge-row{grid-template-columns:repeat(2,1fr);row-gap:12px}.treasure-line:before{display:none}.island{width:155px;min-height:88px}.island:nth-of-type(2){left:2%}.island:nth-of-type(3){left:5%;top:28%}.island:nth-of-type(4){right:2%;bottom:23%}.island:nth-of-type(5){right:2%;top:7%}.island .ico{width:38px;height:38px}.island strong{font-size:13px}.island small{font-size:11px}.modal-card{padding:16px}.module-content{padding:14px}.lesson-footer,.speaking-input{align-items:stretch;flex-direction:column}.unit-summary{align-items:flex-start;flex-direction:column}.milo-image{height:270px}}
+    .quiz-picture-world{position:relative;width:150px;height:115px;display:grid;place-items:center;overflow:hidden;margin:0 auto 15px;border-radius:25px;background:radial-gradient(circle at 32% 25%,#fff,#e1f8ff 50%,#bee7a5 51%);box-shadow:inset 0 0 0 5px #fff9}.quiz-picture-world strong{font-size:62px;animation:quizBob 1.8s ease-in-out infinite}.quiz-picture-world span{position:absolute;left:18px;top:17px;color:#fff;animation:quizTwinkle 1.2s ease-in-out infinite}.quiz-picture-world em{position:absolute;right:8px;bottom:7px;font-size:25px;font-style:normal;animation:quizFly 3.4s ease-in-out infinite}@keyframes quizBob{50%{transform:translateY(-9px) rotate(3deg) scale(1.08)}}@keyframes quizTwinkle{50%{opacity:.35;transform:scale(.7)}}@keyframes quizFly{50%{transform:translate(26px,-18px) rotate(11deg)}}
+    .offline-world{margin-bottom:15px;padding:16px;border-radius:22px;background:linear-gradient(180deg,#8cddf3,#35aacb);overflow:hidden;position:relative}.offline-world:after{content:"";position:absolute;inset:48% 0 0;background:repeating-radial-gradient(ellipse at 50% 110%,transparent 0 25px,#ffffff4d 26px 29px,transparent 30px 55px);animation:offlineWater 7s linear infinite}.offline-world-head{position:relative;z-index:2;display:flex;justify-content:space-between;align-items:center;color:#154963}.offline-world-head h3{margin:3px 0 12px;font-size:22px}.offline-live{padding:6px 9px;border-radius:999px;background:#fff;color:#438158;font-size:9px;font-weight:900}.offline-islands{position:relative;z-index:2;display:grid;grid-template-columns:repeat(2,1fr);gap:13px}.offline-island{padding:13px;border:4px solid #ffffffbb;border-radius:48% 52% 43% 57%;background:linear-gradient(145deg,#cdec8b,#68b66b 70%,#9d714b 71%);box-shadow:0 12px 0 #167f9840;color:#253b32}.offline-island-head{display:flex;align-items:center;gap:7px;justify-content:center}.offline-island-head>span{font-size:25px}.offline-island small,.offline-island b{display:block}.offline-island small{font-size:8px}.offline-path{display:flex;justify-content:center;gap:7px;margin-top:9px}.offline-node{position:relative;width:34px;height:34px;display:grid;place-items:center;border:3px solid #fff;border-radius:50%;background:#eef3f4;font-size:15px;cursor:pointer}.offline-node.active{background:#fff4bf;border-color:#ffb564;animation:offlineGlow 1.4s ease-in-out infinite}.offline-node.done{background:#fff1a4}.offline-node em{position:absolute;left:50%;top:-24px;transform:translateX(-50%);font-style:normal;font-size:20px;animation:bob 1.2s ease-in-out infinite}.offline-quest{position:relative;z-index:2;margin-top:14px;padding:14px;display:grid;grid-template-columns:auto 1fr auto;gap:11px;align-items:center;border-radius:16px;background:#fff}.offline-quest>span{font-size:38px}.offline-quest h4{margin:2px 0 4px}.offline-quest p{margin:0;color:var(--muted);font-size:11px;line-height:1.45}.offline-quest button{border:0;border-radius:12px;padding:9px 11px;background:var(--orange);color:#fff;font-weight:850;cursor:pointer}.pet-status{margin-top:11px;padding:12px;border:1px solid #f1d59e;border-radius:16px;background:#fff8e9}.pet-status h3{margin:0 0 8px;font-size:14px}.pet-meter{display:grid;grid-template-columns:1fr auto;gap:3px 7px;margin-top:6px;font-size:9px;font-weight:800}.pet-meter i{grid-column:1/-1;height:6px;overflow:hidden;border-radius:999px;background:#e1e8eb}.pet-meter em{display:block;height:100%;border-radius:inherit;background:linear-gradient(90deg,#f3a04a,#ffd568)}.pet-care{display:grid;grid-template-columns:repeat(3,1fr);gap:5px;margin-top:9px}.pet-care button{padding:7px 2px;border:1px solid var(--line);border-radius:10px;background:#fff;font-size:9px;font-weight:800;cursor:pointer}@keyframes offlineWater{to{transform:translateX(35px)}}@keyframes offlineGlow{50%{box-shadow:0 0 0 8px #ffb56400}}
+    .offline-evolution{margin:0 0 15px;padding:16px;border:1px solid #ded7f1;border-radius:22px;background:linear-gradient(145deg,#f6fbff,#fff8e7)}.offline-evolution-head{display:flex;justify-content:space-between;gap:14px;align-items:center}.offline-evolution-head h3{margin:3px 0}.offline-evolution-head p{margin:0;color:var(--muted);font-size:11px}.offline-evolution-head>b{padding:8px 10px;border-radius:10px;background:#fff;color:#6652aa;font-size:11px;white-space:nowrap}.offline-evolution-feature{display:grid;grid-template-columns:180px 1fr;gap:15px;align-items:center;margin-top:12px;padding:12px;border-radius:18px;background:#fff}.offline-evolution-feature>div{position:relative;height:210px;display:grid;place-items:center;overflow:hidden;border-radius:15px;background:linear-gradient(180deg,#c7f0ff 0 66%,#d6e9a5 67%)}.offline-evolution-feature img{width:100%;height:100%;object-fit:contain;animation:bob 2.4s ease-in-out infinite}.offline-evolution-feature>div span{position:absolute;left:8px;top:8px;padding:5px 7px;border-radius:8px;background:#6956ae;color:#fff;font-size:9px;font-weight:900}.offline-evolution-feature section small{color:#6956ae;font-weight:900}.offline-evolution-feature section h3{font-size:22px;margin:5px 0}.offline-evolution-feature section p{color:var(--muted);font-size:11px;line-height:1.5}.offline-evolution-feature section strong{display:block;padding:9px;border-radius:11px;background:var(--purple2);color:#6552aa;font-size:11px}.offline-unit-levels{display:grid;grid-template-columns:repeat(12,minmax(48px,1fr));gap:5px;overflow:auto;margin-top:10px;padding-bottom:5px}.offline-unit-levels div{min-width:50px;padding:6px 2px;border-radius:10px;background:#eef2f4;text-align:center}.offline-unit-levels div.done{background:#fff1bf}.offline-unit-levels span,.offline-unit-levels small,.offline-unit-levels b{display:block}.offline-unit-levels span{font-size:9px}.offline-unit-levels small{font-size:7px;color:var(--muted)}.offline-unit-levels b{font-size:9px;color:#6652aa}.offline-level-gallery{display:grid;grid-template-columns:repeat(10,1fr);gap:6px;margin-top:8px}.offline-level-card{position:relative;height:108px;padding:19px 3px 4px;overflow:hidden;border:1px solid var(--line);border-radius:11px;background:#fff;cursor:pointer}.offline-level-card.locked{background:#fff;border-style:dashed}.offline-level-card.selected{border:2px solid var(--purple);transform:translateY(-2px)}.offline-level-card.current{border-color:var(--orange);background:#fff5d8}.offline-level-card img{width:100%;height:74px;object-fit:contain}.offline-level-card.locked img{filter:none;opacity:1}.offline-level-card span{position:absolute;left:4px;top:4px;padding:2px 4px;border-radius:5px;background:#6956ae;color:#fff;font-size:6px;font-weight:900}.offline-level-card small{display:block;font-size:6px;font-weight:800}.offline-level-card i{position:absolute;right:4px;top:4px;font-style:normal;font-size:8px}@media(max-width:560px){.offline-evolution-feature{grid-template-columns:1fr}.offline-level-gallery{grid-template-columns:repeat(5,1fr)}}
+    .milo-image .milo-wave-sprite{display:none;height:100%;aspect-ratio:.9;background-repeat:no-repeat;background-size:300% 100%;background-position:0 0;transform-origin:center bottom;filter:drop-shadow(0 13px 13px #36506324)}
+    .milo-image.motion-wave>img{display:block}
+    .milo-image.motion-wave .milo-wave-sprite{display:none;animation:none}
+    @keyframes miloRealWave{0%,10%,92%,100%{background-position:0 0;transform:translateY(0)}18%,34%,50%,66%,82%{background-position:50% 0;transform:translateY(-3px)}26%,42%,58%,74%{background-position:100% 0;transform:translateY(-6px)}}
+    .milo-image{height:350px;padding:10px 34px 0}
+    .milo-image>img{width:100%;height:100%;max-width:275px;max-height:320px}
+    .milo-image.motion-talk>img{display:block;animation:miloTalkCurrent 3.1s ease-in-out both}
+    .milo-image.motion-talk .milo-wave-sprite{display:none;animation:none}
+    .milo-image.motion-dance>img{animation:miloDance 2.5s cubic-bezier(.2,.8,.2,1) both}
+    .milo-image.motion-celebrate>img{animation:miloCelebrate 2.3s cubic-bezier(.2,.8,.2,1) both}
+    @keyframes miloTalkCurrent{0%,100%{transform:translateY(0) rotate(0) scale(1)}18%,46%,74%{transform:translateY(-5px) rotate(-2deg) scale(1.025)}32%,60%,88%{transform:translateY(-8px) rotate(2deg) scale(1.04)}}@keyframes miloRealTalk{0%,18%,100%{background-position:0 0;transform:translateY(0) rotate(-1deg)}24%,44%,64%,84%{background-position:50% 0;transform:translateY(-3px) rotate(-3deg)}34%,54%,74%,92%{background-position:100% 0;transform:translateY(-5px) rotate(3deg)}}
+    @keyframes miloDance{0%,100%{transform:translateY(0) rotate(0)}12%{transform:translateY(4px) rotate(-5deg) scaleX(1.05) scaleY(.965)}28%{transform:translate(-13px,-23px) rotate(-12deg) scale(1.035)}45%{transform:translateY(1px) rotate(4deg)}62%{transform:translate(13px,-25px) rotate(13deg) scale(1.045)}80%{transform:translateY(-8px) rotate(-5deg) scale(1.02)}}
+    @keyframes miloCelebrate{0%,100%{transform:translateY(0) rotate(0)}15%{transform:translateY(5px) scaleX(1.07) scaleY(.95)}34%{transform:translateY(-30px) rotate(-9deg) scale(1.06)}52%{transform:translateY(0) rotate(5deg)}70%{transform:translateY(-20px) rotate(9deg) scale(1.045)}}
+    .offline-motion-lab{margin-top:10px;padding:10px;display:grid;grid-template-columns:repeat(4,1fr);gap:6px;border:1px solid #d7ccfa;border-radius:15px;background:linear-gradient(135deg,#f4efff,#fff7df)}
+    .offline-motion-lab>div{grid-column:1/-1;display:flex;justify-content:space-between;align-items:center;padding:2px 4px;color:#7b64c5;font-size:8px;font-weight:950;letter-spacing:.06em}.offline-motion-lab>div b{color:#ef8a3f}
+    .offline-motion-lab button{padding:7px 3px;border:1px solid #ddd5f5;border-radius:10px;background:#fff;color:var(--ink);font-size:8px;font-weight:900;cursor:pointer}.offline-motion-lab button span{display:block;margin-bottom:2px;font-size:18px}.offline-motion-lab button:hover{border-color:#8b72d4;transform:translateY(-2px)}
+    @media(max-width:850px){.milo-image{height:315px;padding:16px 54px 8px}}
+    @media(max-width:560px){.milo-image{height:300px;padding:14px 44px 8px}}
+  
+    .pet-hub-view{padding-bottom:20px}.pet-hub-hero{min-height:210px;padding:26px 30px;border-radius:25px;background:linear-gradient(105deg,#eef8ff,#fff 45%,#dff4ff);display:flex;align-items:center;justify-content:space-between;overflow:hidden}.pet-hub-hero h2{font-size:36px;margin:5px 0;color:#25314d}.pet-hub-hero p{max-width:650px;color:var(--muted);line-height:1.6}.pet-hub-hero img{display:block;margin:auto;width:230px;height:190px;object-fit:contain;object-position:center center;filter:drop-shadow(0 15px 18px #263d6d2c);animation:bob 2.8s ease-in-out infinite}.pet-grade-tabs{display:flex;gap:10px;margin:18px 0 12px;flex-wrap:wrap}.pet-grade-tab{border:1px solid #d8dff0;background:#fff;border-radius:14px;padding:11px 20px;font-weight:900;color:#596681;cursor:pointer}.pet-grade-tab.active{background:linear-gradient(135deg,#7047dc,#4b72ea);color:#fff;box-shadow:0 8px 20px #5a4fdc38}.pet-choice-head{display:flex;align-items:center;justify-content:space-between;margin:8px 0 12px}.pet-choice-head h3{margin:0;font-size:23px}.pet-choice-head p{margin:4px 0;color:var(--muted)}#petSavedBadge{padding:8px 11px;background:#e9fff0;color:#268b4a;border-radius:12px;font-size:11px;font-weight:900}.pet-choice-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.pet-choice-card{position:relative;border:1px solid #dfe4ef;border-radius:20px;background:linear-gradient(180deg,#fff,#f7f9ff);padding:10px;text-align:center;overflow:hidden;transition:.25s;cursor:pointer}.pet-choice-card:hover{transform:translateY(-5px);box-shadow:0 14px 28px #344a7d20}.pet-choice-card.selected{border:3px solid #6b4bdd;background:linear-gradient(180deg,#f2edff,#fff);box-shadow:0 13px 28px #6046c933}.pet-choice-card img{width:100%;height:190px;object-fit:contain;border-radius:15px;background:#fff}.pet-choice-card h4{font-size:20px;margin:9px 0 3px}.pet-choice-card p{height:34px;margin:0;color:var(--muted);font-size:10px;line-height:1.45}.pet-choice-card button{width:100%;margin-top:10px;border:0;border-radius:12px;padding:10px;background:#6850d9;color:#fff;font-weight:900;cursor:pointer}.pet-choice-card.selected button{background:#2caf58}.pet-choice-card .chosen-mark{position:absolute;right:15px;top:15px;width:28px;height:28px;border-radius:50%;background:#28b95b;color:#fff;display:grid;place-items:center;font-weight:950}.pet-benefits{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:18px 0}.pet-benefits div{padding:14px;border-radius:16px;background:#fff;border:1px solid #e1e5ef}.pet-benefits b,.pet-benefits span{display:block}.pet-benefits span{font-size:10px;color:var(--muted);margin-top:5px;line-height:1.5}@media(max-width:1050px){.pet-choice-grid{grid-template-columns:repeat(3,1fr)}}@media(max-width:700px){.pet-hub-hero img{display:none}.pet-choice-grid{grid-template-columns:repeat(2,1fr)}.pet-benefits{grid-template-columns:repeat(2,1fr)}}
+</style>
+
+<style id="pet-evolution-v17">
+.pet-choice-grid{gap:18px}.pet-choice-card{padding:14px;border-radius:24px;min-height:430px;display:flex;flex-direction:column}.pet-choice-card .pet-portrait{height:265px;border-radius:20px;overflow:hidden;background:radial-gradient(circle at 50% 38%,#fff 0 35%,#eef5ff 75%);display:flex;align-items:center;justify-content:center;padding:12px}.pet-choice-card img{width:100%;height:100%;object-fit:contain;object-position:center bottom;border-radius:0;background:transparent;transition:transform .3s ease}.pet-choice-card:hover img{transform:scale(1.04)}.pet-choice-card h4{font-size:23px;margin-top:14px}.pet-choice-card p{font-size:12px;height:auto;min-height:38px}.pet-choice-card button{margin-top:auto;font-size:14px;padding:12px}.offline-evolution{padding:24px;border-radius:28px;background:linear-gradient(145deg,#f4f8ff,#fff9ec);box-shadow:0 18px 42px #344a7d14}.offline-evolution-head h3{font-size:28px}.offline-evolution-feature{grid-template-columns:minmax(280px,380px) 1fr;padding:20px;gap:28px}.offline-evolution-feature>div{height:360px;border-radius:24px;background:radial-gradient(circle at 50% 35%,#fff 0 25%,#d8f4ff 58%,#d9efa9 100%);box-shadow:inset 0 0 0 1px #ffffff,0 14px 30px #31547b1f}.offline-evolution-feature img{width:100%;height:100%;object-fit:contain;object-position:center bottom;padding:18px;animation:none;transition:transform .45s cubic-bezier(.2,.8,.2,1),filter .35s}.offline-evolution-feature section h3{font-size:30px}.offline-level-gallery{grid-template-columns:repeat(5,minmax(120px,1fr));gap:14px;margin-top:18px}.offline-level-card{height:190px;padding:32px 8px 10px;border-radius:18px;background:linear-gradient(180deg,#fff,#f4f8ff);box-shadow:0 8px 18px #3d578117;transition:.25s}.offline-level-card:hover{transform:translateY(-5px);box-shadow:0 14px 25px #3d578124}.offline-level-card.selected{transform:translateY(-5px);box-shadow:0 0 0 4px #6e4ee322,0 16px 30px #5a4fdc2b}.offline-level-card img{width:100%;height:125px;object-fit:contain;object-position:center center;transition:transform .35s ease,filter .35s}.offline-level-card small{font-size:9px;margin-top:5px}.offline-level-card span{font-size:9px;padding:5px 7px}.offline-level-card .stage-badge{position:absolute;right:7px;bottom:7px;font-style:normal;font-size:17px}.offline-level-card.locked img{filter:none;opacity:1}.growth-note{margin-top:10px;padding:10px 14px;border-radius:12px;background:#eef7ff;color:#4b6682;font-size:11px;font-weight:800}.pet-stage-chip{display:inline-flex;gap:7px;align-items:center;margin-bottom:8px;padding:7px 11px;border-radius:999px;background:#f1ecff;color:#684ed2;font-size:11px;font-weight:900}@media(max-width:1100px){.offline-level-gallery{grid-template-columns:repeat(4,1fr)}.pet-choice-card{min-height:400px}.pet-choice-card .pet-portrait{height:230px}}@media(max-width:760px){.offline-evolution-feature{grid-template-columns:1fr}.offline-evolution-feature>div{height:300px}.offline-level-gallery{grid-template-columns:repeat(2,1fr)}.pet-choice-grid{grid-template-columns:1fr 1fr}.pet-choice-card .pet-portrait{height:210px}}
+</style>
+
+<style id="level-lock-sharp-v25">
+.offline-level-card{isolation:isolate}
+.offline-level-card.locked{cursor:not-allowed;border:1px solid #cfd6e5;background:linear-gradient(180deg,#f8faff,#eef2f7);box-shadow:none;transform:none!important}
+.offline-level-card.locked:hover{transform:none;box-shadow:none}
+.offline-level-card.locked img{filter:none!important;opacity:.82!important}
+.offline-level-card.locked::after{content:"";position:absolute;inset:0;z-index:3;background:linear-gradient(180deg,rgba(244,247,252,.12),rgba(224,230,240,.28));pointer-events:none}
+.offline-level-card .level-lock-overlay{position:absolute;inset:0;z-index:5;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;background:rgba(34,44,67,.18);color:#fff;text-shadow:0 1px 3px #1d2947;font-weight:950;pointer-events:none}
+.offline-level-card .level-lock-overlay b{display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:rgba(61,48,129,.88);font-size:20px;box-shadow:0 7px 16px rgba(40,35,95,.28)}
+.offline-level-card .level-lock-overlay small{margin:0;padding:4px 7px;border-radius:999px;background:rgba(39,47,68,.78);color:#fff;font-size:8px}
+.offline-level-card img,.offline-evolution-feature img,.pet-choice-card img,.milo-image img,.pet-hub-hero img,.hero-fox{image-rendering:auto;backface-visibility:hidden;transform:translateZ(0);-webkit-font-smoothing:antialiased}
+.milo-image img{max-width:245px!important;max-height:300px!important;padding:10px!important}
+.pet-choice-card .pet-portrait img{max-width:220px;max-height:235px}
+</style>
+
+<style id="crisp-motion-v25">
+@keyframes miloAlive{0%,100%{transform:translate3d(0,2px,0) rotate(-.5deg)}40%{transform:translate3d(0,-7px,0) rotate(.8deg)}75%{transform:translate3d(0,-2px,0) rotate(-.4deg)}}
+@keyframes miloWave{0%,100%{transform:translate3d(0,0,0) rotate(0)}22%{transform:translate3d(0,-6px,0) rotate(-5deg)}45%{transform:translate3d(0,-10px,0) rotate(6deg)}68%{transform:translate3d(0,-5px,0) rotate(-4deg)}84%{transform:translate3d(0,-9px,0) rotate(4deg)}}
+.milo-image img,.offline-evolution-feature img,.offline-level-card img,.pet-choice-card img{transform-origin:center bottom}
+</style>
+
+<style id="character-quality-v31">
+/* One crop-safe stage for every mascot: square source, bottom anchor, safe padding. */
+.hero-avatar-frame,.milo-image,.pet-choice-card .pet-portrait,.offline-evolution-feature>div{isolation:isolate}
+.hero-fox,.milo-image>img,.pet-choice-card .pet-portrait img,.offline-evolution-feature img,.offline-level-card img,.pet-hub-hero img{
+  display:block;
+  object-fit:contain!important;
+  object-position:center bottom!important;
+  image-rendering:auto;
+  backface-visibility:visible;
+  transform-origin:50% 94%!important;
+  will-change:auto;
+}
+.hero-fox{width:100%;height:100%;max-width:220px;max-height:205px}
+.milo-image{place-items:end center;padding:18px 28px 12px}
+.milo-image>img{width:100%;height:100%;max-width:235px!important;max-height:300px!important;padding:0!important}
+.pet-choice-card .pet-portrait{align-items:flex-end;padding:16px 18px 12px}
+.pet-choice-card .pet-portrait img{width:100%;height:100%;max-width:210px;max-height:225px}
+.pet-choice-card:hover .pet-portrait img{transform:translateY(-4px)}
+.offline-evolution-feature>div{place-items:end center;padding:18px}
+.offline-evolution-feature img{width:100%;height:100%;max-width:300px;max-height:315px;padding:0}
+.offline-level-card img{object-position:center bottom!important}
+.pet-hub-hero img{width:205px;height:185px}
+
+/* Motion stays lively without enlarging a raster frame and making it soft. */
+@keyframes miloAlive{0%,100%{transform:translateY(1px) rotate(0)}40%{transform:translateY(-6px) rotate(1deg)}75%{transform:translateY(-2px) rotate(-1deg)}}
+@keyframes miloTalkCurrent{0%,100%{transform:translateY(0) rotate(0)}18%,46%,74%{transform:translateY(-5px) rotate(-2deg)}32%,60%,88%{transform:translateY(-8px) rotate(2deg)}}
+@keyframes miloDance{0%,100%{transform:translate(0,0) rotate(0)}12%{transform:translate(0,3px) rotate(-4deg)}28%{transform:translate(-11px,-20px) rotate(-10deg)}45%{transform:translate(0,1px) rotate(4deg)}62%{transform:translate(11px,-22px) rotate(11deg)}80%{transform:translate(0,-7px) rotate(-4deg)}}
+@keyframes miloCelebrate{0%,100%{transform:translateY(0) rotate(0)}15%{transform:translateY(4px)}34%{transform:translateY(-27px) rotate(-8deg)}52%{transform:translateY(0) rotate(4deg)}70%{transform:translateY(-18px) rotate(8deg)}}
+@media(max-width:850px){.milo-image{padding:16px 48px 12px}.milo-image>img{max-width:225px!important;max-height:280px!important}}
+@media(max-width:560px){.hero-avatar-frame{height:220px}.hero-fox{max-width:205px;max-height:190px}.milo-image{height:285px;padding:14px 42px 10px}.milo-image>img{max-width:215px!important;max-height:265px!important}.pet-choice-card .pet-portrait{height:205px!important;padding:14px 12px 10px}.pet-choice-card .pet-portrait img{max-width:185px;max-height:185px}}
+@media(prefers-reduced-motion:reduce){.hero-fox,.milo-image>img,.pet-choice-card img,.offline-evolution-feature img,.offline-level-card img,.pet-hub-hero img{animation:none!important;transition:none!important}}
+</style>
+<style id="milo-only-v32">
+/* V32 — Milo is the single visual standard: 640×640 poses, fixed foot anchor, no raster enlargement. */
+.milo-image::after{content:"";position:absolute;z-index:1;left:25%;right:25%;bottom:12px;height:18px;border-radius:50%;background:radial-gradient(ellipse,#36506335 0 42%,transparent 72%);filter:blur(2px);transform-origin:center}
+.milo-image>img{position:relative;z-index:2;animation:miloVipIdle 3.1s ease-in-out infinite!important}
+.milo-image.motion-wave>img{animation:miloVipWave .68s ease-in-out infinite!important}
+.milo-image.motion-talk>img{animation:miloVipTalk .42s ease-in-out infinite!important}
+.milo-image.motion-dance>img{animation:miloVipDance .72s cubic-bezier(.22,.78,.28,1) infinite!important}
+.milo-image.motion-celebrate>img{animation:miloVipCelebrate .82s cubic-bezier(.18,.82,.24,1) infinite!important}
+.milo-image.motion-eat>img{animation:miloVipEat .55s ease-in-out infinite!important}
+.milo-image.motion-play>img{animation:miloVipPlay .7s cubic-bezier(.2,.8,.25,1) infinite!important}
+.milo-image.motion-groom>img{animation:miloVipGroom .72s ease-in-out infinite!important}
+.milo-image.motion-sad>img{animation:miloVipSad 1.2s ease-in-out infinite!important;filter:saturate(.72) drop-shadow(0 13px 13px #36506324)}
+.milo-image:not(.motion-idle)::after{animation:miloVipShadow .72s ease-in-out infinite}
+@keyframes miloVipIdle{0%,100%{transform:translateY(1px) rotate(0)}42%{transform:translateY(-6px) rotate(1deg)}74%{transform:translateY(-2px) rotate(-1deg)}}
+@keyframes miloVipWave{0%,100%{transform:translate(0,0) rotate(-2deg)}25%{transform:translate(-4px,-7px) rotate(-7deg)}52%{transform:translate(3px,-11px) rotate(7deg)}76%{transform:translate(-2px,-5px) rotate(-5deg)}}
+@keyframes miloVipTalk{0%,100%{transform:translateY(0) rotate(-1deg)}50%{transform:translateY(-6px) rotate(2deg)}}
+@keyframes miloVipDance{0%,100%{transform:translate(0,0) rotate(0)}25%{transform:translate(-11px,-13px) rotate(-8deg)}50%{transform:translate(0,-5px) rotate(2deg)}75%{transform:translate(11px,-15px) rotate(9deg)}}
+@keyframes miloVipCelebrate{0%,100%{transform:translateY(0) rotate(0)}34%{transform:translateY(-25px) rotate(-7deg)}60%{transform:translateY(-4px) rotate(5deg)}78%{transform:translateY(-16px) rotate(7deg)}}
+@keyframes miloVipEat{0%,100%{transform:translateY(0) rotate(0)}45%{transform:translateY(5px) rotate(-3deg)}72%{transform:translateY(-5px) rotate(2deg)}}
+@keyframes miloVipPlay{0%,100%{transform:translate(0,0) rotate(0)}38%{transform:translate(-8px,-20px) rotate(-7deg)}68%{transform:translate(9px,-10px) rotate(8deg)}}
+@keyframes miloVipGroom{0%,100%{transform:translateY(0) rotate(-2deg);filter:drop-shadow(0 13px 13px #36506324)}50%{transform:translateY(-8px) rotate(4deg);filter:drop-shadow(0 0 15px #ffe76e) drop-shadow(0 13px 13px #36506324)}}
+@keyframes miloVipSad{0%,100%{transform:translateY(6px) rotate(-3deg)}50%{transform:translateY(10px) rotate(-6deg)}}
+@keyframes miloVipShadow{0%,100%{transform:scaleX(1);opacity:.78}50%{transform:scaleX(.76);opacity:.42}}
+#petChoiceGrid{grid-template-columns:minmax(260px,390px);max-width:390px;margin:0 auto}
+#petChoiceGrid .pet-choice-card{cursor:default;min-height:430px}
+#petChoiceGrid .pet-choice-card:hover{transform:none}
+#petChoiceGrid .pet-choice-card:hover .pet-portrait img{transform:translateY(-4px)}
+#petChoiceGrid .pet-choice-card button{font-size:13px}
+.pet-hub-hero img,.offline-evolution-feature img{animation:miloVipIdle 3.1s ease-in-out infinite}
+@media(max-width:700px){#petChoiceGrid{grid-template-columns:1fr;width:100%}.pet-hub-hero img{display:block;width:150px;height:155px}.pet-hub-hero{padding:20px;gap:12px}.pet-hub-hero h2{font-size:28px}}
+@media(max-width:520px){.pet-hub-hero{display:block}.pet-hub-hero img{margin-top:12px}}
+@media(prefers-reduced-motion:reduce){.milo-image::after{animation:none!important}.milo-image>img,.pet-hub-hero img,.offline-evolution-feature img{animation:none!important}}
+</style>
+<style id="four-pets-per-grade-v33">
+/* V33 — exactly four production-quality companions per grade. */
+#petChoiceGrid{grid-template-columns:repeat(4,minmax(0,1fr));max-width:none;width:100%;gap:14px}
+#petChoiceGrid .pet-choice-card{min-height:390px;cursor:pointer}
+#petChoiceGrid .pet-choice-card:hover{transform:translateY(-5px)}
+#petChoiceGrid .pet-choice-card .pet-portrait{height:235px}
+#petChoiceGrid .pet-choice-card .pet-portrait img{max-width:205px;max-height:215px}
+#petChoiceGrid .pet-choice-card:not(.selected) .pet-portrait img{animation:miloVipIdle 3.1s ease-in-out infinite}
+#petChoiceGrid .pet-choice-card.selected .pet-portrait{background:radial-gradient(circle at 50% 38%,#fff 0 30%,#e8ddff 72%)}
+@media(max-width:1080px){#petChoiceGrid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:620px){#petChoiceGrid{grid-template-columns:1fr}#petChoiceGrid .pet-choice-card{min-height:360px}}
+</style>
+<style id="fifty-level-evolution-v34">
+/* V34 — 50 rendered appearances and 50 motion recipes for every companion. */
+.level-activity-card{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:12px;margin-top:14px;padding:13px;border:1px solid #ded4ff;border-radius:16px;background:linear-gradient(135deg,#f5efff,#fff8e8)}
+.level-activity-card>span{display:grid;place-items:center;width:46px;height:46px;border-radius:14px;background:#fff;font-size:25px;box-shadow:0 8px 18px #513f8f1a}
+.level-activity-card small,.level-activity-card b,.level-activity-card p{display:block}.level-activity-card small{color:#8068c4;font-size:8px;font-weight:950;letter-spacing:.08em}.level-activity-card b{margin-top:3px;font-size:13px}.level-activity-card p{margin:3px 0 0!important;color:#64738a!important;font-size:10px!important}.level-activity-card button{border:0;border-radius:12px;padding:10px 12px;background:linear-gradient(135deg,#755fd0,#9b7ee9);color:#fff;font-size:10px;font-weight:950;cursor:pointer;box-shadow:0 8px 18px #6f55cb36}
+.growth-progress{margin-top:12px;padding:11px 12px;border:1px solid #d5e6ed;border-radius:14px;background:#f6fbfd}.growth-progress>div{display:flex;align-items:center;justify-content:space-between;gap:10px}.growth-progress span{color:#60798a;font-size:8px;font-weight:950;letter-spacing:.06em}.growth-progress b{color:#ef8a3f;font-size:17px}.growth-progress>i{display:block;height:10px;margin-top:7px;overflow:hidden;border-radius:999px;background:#dfe9ee}.growth-progress>i>em{display:block;height:100%;border-radius:inherit;background:linear-gradient(90deg,#79c8df,#7d66ce,#f19a43);transition:width .45s ease}.growth-progress>small{display:block;margin-top:5px;color:#7b8997;font-size:8px;font-weight:800}
+.offline-motion-lab .level-special-motion{grid-column:1/-1;display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:8px;text-align:left;padding:10px 12px;border-color:#cbbdf5;background:linear-gradient(135deg,#ede5ff,#fff3d9)}
+.offline-motion-lab .level-special-motion>span{margin:0;font-size:22px}.offline-motion-lab .level-special-motion>b{font-size:9px}.offline-motion-lab .level-special-motion>small{color:#75649e;font-size:7px}
+.offline-level-card .level-activity-mini{position:absolute;right:6px;top:6px;display:grid;place-items:center;width:25px;height:25px;border-radius:9px;background:#fff;color:#5c479f;font-size:13px;box-shadow:0 5px 10px #49556f21}
+.offline-level-card .stage-badge{right:8px;bottom:7px}
+.milo-image.motion-level{box-shadow:inset 0 0 0 2px color-mix(in srgb,var(--level-accent,#8b72d4) 36%,transparent),0 14px 30px color-mix(in srgb,var(--level-accent,#8b72d4) 22%,transparent)}
+.milo-image.motion-level .milo-fx{animation:miloFx .9s ease-out infinite!important}
+.milo-image.motion-level[data-motion-family="wave"]>img{animation:levelWave var(--activity-duration,1600ms) ease-in-out infinite!important}
+.milo-image.motion-level[data-motion-family="sway"]>img{animation:levelSway var(--activity-duration,1600ms) ease-in-out infinite!important}
+.milo-image.motion-level[data-motion-family="talk"]>img{animation:levelTalk var(--activity-duration,1600ms) ease-in-out infinite!important}
+.milo-image.motion-level[data-motion-family="hop"]>img{animation:levelHop var(--activity-duration,1600ms) cubic-bezier(.2,.75,.25,1) infinite!important}
+.milo-image.motion-level[data-motion-family="march"]>img{animation:levelMarch var(--activity-duration,1600ms) ease-in-out infinite!important}
+.milo-image.motion-level[data-motion-family="dash"]>img{animation:levelDash var(--activity-duration,1600ms) cubic-bezier(.2,.75,.25,1) infinite!important}
+.milo-image.motion-level[data-motion-family="spin"]>img{animation:levelSpin var(--activity-duration,1600ms) ease-in-out infinite!important}
+.milo-image.motion-level[data-motion-family="think"]>img,.milo-image.motion-level[data-motion-family="read"]>img{animation:levelThink var(--activity-duration,1600ms) ease-in-out infinite!important}
+.milo-image.motion-level[data-motion-family="float"]>img{animation:levelFloat var(--activity-duration,1600ms) ease-in-out infinite!important}
+.milo-image.motion-level[data-motion-family="dance"]>img{animation:levelDance var(--activity-duration,1600ms) ease-in-out infinite!important}
+.milo-image.motion-level[data-motion-family="celebrate"]>img{animation:levelCelebrate var(--activity-duration,1600ms) cubic-bezier(.2,.78,.25,1) infinite!important}
+.milo-image.motion-level[data-motion-family="hero"]>img{animation:levelHero var(--activity-duration,1600ms) ease-in-out infinite!important}
+.milo-image.motion-level[data-motion-family="dodge"]>img{animation:levelDodge var(--activity-duration,1600ms) ease-in-out infinite!important}
+.milo-image.motion-level[data-motion-family="power"]>img{animation:levelPower var(--activity-duration,1600ms) ease-in-out infinite!important}
+@keyframes levelWave{0%,100%{transform:translate(0,0) rotate(0) scale(var(--activity-scale,1))}32%{transform:translate(calc(var(--activity-shift)*-1),calc(var(--activity-lift)*-.65)) rotate(calc(var(--activity-tilt)*-1)) scale(var(--activity-scale,1))}68%{transform:translate(var(--activity-shift),calc(var(--activity-lift)*-1)) rotate(var(--activity-tilt)) scale(var(--activity-scale,1))}}
+@keyframes levelSway{0%,100%{transform:translateX(calc(var(--activity-shift)*-.6)) rotate(calc(var(--activity-tilt)*-.5)) scale(var(--activity-scale,1))}50%{transform:translateX(calc(var(--activity-shift)*.6)) rotate(calc(var(--activity-tilt)*.5)) scale(var(--activity-scale,1))}}
+@keyframes levelTalk{0%,100%{transform:translateY(0) rotate(0) scale(var(--activity-scale,1))}35%{transform:translateY(calc(var(--activity-lift)*-.45)) rotate(calc(var(--activity-tilt)*-.25)) scale(var(--activity-scale,1))}70%{transform:translateY(calc(var(--activity-lift)*-.2)) rotate(calc(var(--activity-tilt)*.25)) scale(var(--activity-scale,1))}}
+@keyframes levelHop{0%,100%{transform:translateY(0) scale(var(--activity-scale,1))}45%{transform:translateY(calc(var(--activity-lift)*-1.45)) rotate(var(--activity-tilt)) scale(var(--activity-scale,1))}72%{transform:translateY(calc(var(--activity-lift)*-.25)) rotate(calc(var(--activity-tilt)*-.35)) scale(var(--activity-scale,1))}}
+@keyframes levelMarch{0%,100%{transform:translate(0,0) rotate(0) scale(var(--activity-scale,1))}25%{transform:translate(calc(var(--activity-shift)*-.55),calc(var(--activity-lift)*-.55)) rotate(calc(var(--activity-tilt)*-.65)) scale(var(--activity-scale,1))}75%{transform:translate(calc(var(--activity-shift)*.55),calc(var(--activity-lift)*-.55)) rotate(calc(var(--activity-tilt)*.65)) scale(var(--activity-scale,1))}}
+@keyframes levelDash{0%,100%{transform:translateX(0) scale(var(--activity-scale,1))}28%{transform:translateX(calc(var(--activity-shift)*-1.35)) rotate(calc(var(--activity-tilt)*-.7)) scale(var(--activity-scale,1))}62%{transform:translateX(calc(var(--activity-shift)*1.35)) rotate(calc(var(--activity-tilt)*.7)) scale(var(--activity-scale,1))}}
+@keyframes levelSpin{0%,100%{transform:translateY(0) rotate(0) scale(var(--activity-scale,1))}35%{transform:translateY(calc(var(--activity-lift)*-.8)) rotate(calc(var(--activity-tilt)*-1.6)) scale(var(--activity-scale,1))}70%{transform:translateY(calc(var(--activity-lift)*-.35)) rotate(calc(var(--activity-tilt)*1.6)) scale(var(--activity-scale,1))}}
+@keyframes levelThink{0%,100%{transform:translateY(0) rotate(calc(var(--activity-tilt)*-.25)) scale(var(--activity-scale,1))}55%{transform:translateY(calc(var(--activity-lift)*-.4)) rotate(calc(var(--activity-tilt)*.45)) scale(var(--activity-scale,1))}}
+@keyframes levelFloat{0%,100%{transform:translate(0,calc(var(--activity-lift)*-.18)) rotate(calc(var(--activity-tilt)*-.2)) scale(var(--activity-scale,1))}50%{transform:translate(var(--activity-shift),calc(var(--activity-lift)*-1.15)) rotate(calc(var(--activity-tilt)*.5)) scale(var(--activity-scale,1))}}
+@keyframes levelDance{0%,100%{transform:translate(0,0) rotate(0) scale(var(--activity-scale,1))}25%{transform:translate(calc(var(--activity-shift)*-1),calc(var(--activity-lift)*-.8)) rotate(calc(var(--activity-tilt)*-1)) scale(var(--activity-scale,1))}50%{transform:translateY(calc(var(--activity-lift)*-.3)) scale(var(--activity-scale,1))}75%{transform:translate(var(--activity-shift),calc(var(--activity-lift)*-.9)) rotate(var(--activity-tilt)) scale(var(--activity-scale,1))}}
+@keyframes levelCelebrate{0%,100%{transform:translateY(0) scale(var(--activity-scale,1))}38%{transform:translateY(calc(var(--activity-lift)*-1.65)) rotate(calc(var(--activity-tilt)*-.8)) scale(var(--activity-scale,1))}70%{transform:translateY(calc(var(--activity-lift)*-.4)) rotate(calc(var(--activity-tilt)*.8)) scale(var(--activity-scale,1))}}
+@keyframes levelHero{0%,100%{transform:translateY(0) rotate(0) scale(var(--activity-scale,1));filter:drop-shadow(0 13px 13px #36506324)}50%{transform:translateY(calc(var(--activity-lift)*-.75)) rotate(var(--activity-tilt)) scale(var(--activity-scale,1));filter:drop-shadow(0 0 16px var(--level-accent,#ffe76e)) drop-shadow(0 13px 13px #36506324)}}
+@keyframes levelDodge{0%,100%{transform:translateX(0) rotate(0) scale(var(--activity-scale,1))}24%{transform:translateX(calc(var(--activity-shift)*-1.5)) rotate(calc(var(--activity-tilt)*-1)) scale(var(--activity-scale,1))}60%{transform:translateX(calc(var(--activity-shift)*1.5)) rotate(var(--activity-tilt)) scale(var(--activity-scale,1))}}
+@keyframes levelPower{0%,100%{transform:translateY(0) rotate(0) scale(var(--activity-scale,1));filter:drop-shadow(0 13px 13px #36506324)}35%{transform:translateY(calc(var(--activity-lift)*-.45)) rotate(calc(var(--activity-tilt)*-.5)) scale(var(--activity-scale,1));filter:drop-shadow(0 0 12px var(--level-accent,#ffe76e))}70%{transform:translateY(calc(var(--activity-lift)*-.7)) rotate(calc(var(--activity-tilt)*.5)) scale(var(--activity-scale,1));filter:drop-shadow(0 0 20px var(--level-accent,#ffe76e))}}
+@media(max-width:700px){.level-activity-card{grid-template-columns:auto 1fr}.level-activity-card button{grid-column:1/-1}.offline-motion-lab .level-special-motion{grid-template-columns:auto 1fr}.offline-motion-lab .level-special-motion>small{grid-column:1/-1}}
+@media(prefers-reduced-motion:reduce){.milo-image.motion-level>img{animation:none!important}}
+</style>
+<style>
+  /* V36 — five real body milestones plus continuous LV1–50 interface growth. */
+  .hero-avatar-card{
+    max-width:clamp(304px,var(--pet-card-width,340px),390px);
+    transition:max-width .45s ease,border-radius .45s ease;
+  }
+  .hero-avatar-frame{
+    height:clamp(248px,var(--pet-frame-height,300px),360px);
+    padding:var(--pet-padding,16px);
+    border-radius:var(--pet-scene-radius,24px);
+    transition:height .45s ease,padding .45s ease,border-radius .45s ease;
+  }
+  .hero-avatar-frame .hero-fox{
+    max-width:calc(var(--pet-body-scale,.82) * 310px);
+    max-height:calc(var(--pet-body-scale,.82) * 330px);
+  }
+  .milo-image{
+    height:clamp(248px,var(--pet-frame-height,320px),360px)!important;
+    padding:var(--pet-padding,16px)!important;
+    border-radius:var(--pet-scene-radius,24px);
+    transition:height .45s ease,padding .45s ease,border-radius .45s ease;
+  }
+  .milo-image>img{
+    max-width:calc(var(--pet-body-scale,.82) * 285px)!important;
+    max-height:calc(var(--pet-body-scale,.82) * 335px)!important;
+  }
+  .pet-hub-hero img{
+    width:calc(var(--pet-body-scale,.82) * 260px);
+    height:calc(var(--pet-body-scale,.82) * 225px);
+  }
+  #petChoiceGrid .pet-choice-card .pet-portrait{
+    height:clamp(220px,calc(var(--pet-frame-height,280px) * .78),285px);
+    padding:var(--pet-padding,14px);
+    transition:height .4s ease,padding .4s ease;
+  }
+  #petChoiceGrid .pet-choice-card .pet-portrait img{
+    max-width:calc(var(--pet-body-scale,.82) * 255px);
+    max-height:calc(var(--pet-body-scale,.82) * 265px);
+  }
+  .offline-evolution-feature>div{
+    height:clamp(260px,var(--pet-frame-height,320px),380px);
+    padding:var(--pet-padding,18px);
+    border-radius:var(--pet-scene-radius,24px);
+    transition:height .45s ease,padding .45s ease;
+  }
+  .offline-evolution-feature img{
+    max-width:calc(var(--pet-body-scale,.82) * 340px);
+    max-height:calc(var(--pet-body-scale,.82) * 350px);
+  }
+  .offline-level-card img{
+    transform:scale(var(--pet-body-scale,.82));
+    transform-origin:center bottom;
+  }
+  .offline-level-card[data-growth-stage="1"]{background:linear-gradient(180deg,#fbfdff,#eef8ff)}
+  .offline-level-card[data-growth-stage="2"]{background:linear-gradient(180deg,#fff,#f1fbf4)}
+  .offline-level-card[data-growth-stage="3"]{background:linear-gradient(180deg,#fff,#fff9e8)}
+  .offline-level-card[data-growth-stage="4"]{background:linear-gradient(180deg,#fff,#f7efff)}
+  .offline-level-card[data-growth-stage="5"]{background:linear-gradient(180deg,#fffdf3,#efe7ff)}
+  @media(max-width:560px){
+    .milo-image{height:clamp(250px,var(--pet-frame-height,285px),320px)!important}
+    .hero-avatar-frame{height:clamp(235px,var(--pet-frame-height,265px),315px)}
+  }
+</style>
+<link rel="stylesheet" href="app-v37.css?v=60.12.0">
+<link rel="stylesheet" href="app-v38.css?v=60.12.0">
+<link rel="stylesheet" href="app-v39.css?v=60.12.0">
+<link rel="stylesheet" href="account-v54.css?v=60.12.0">
+<link rel="stylesheet" href="account-v56-readable.css?v=60.13.1">
+<link rel="stylesheet" href="auth-required-v60-1.css?v=60.12.8">
+<link rel="stylesheet" href="profile-ui-v60-13-3.css?v=60.13.5-profile-stable">
+<link rel="stylesheet" href="payment-readable-v58.css?v=60.12.0">
+<link rel="stylesheet" href="vip-learning-v60.css?v=60.13.10-ai-split">
+<link rel="stylesheet" href="quick-learn-v60-1.css?v=60.12.0">
+<link rel="stylesheet" href="assistant-pages-v60-2.css?v=60.13.10-ai-split">
+<link rel="stylesheet" href="ui-fixes-v60-4.css?v=60.12.0">
+<link rel="stylesheet" href="evolution-ui-v60-5.css?v=60.12.0">
+<link rel="stylesheet" href="study-pro-v60-13.css?v=60.12.0">
+<link rel="stylesheet" href="student-ui-sync-v60-16.css?v=60.25.0-learning-focus">
+<link rel="stylesheet" href="student-ui-single-v60-17.css?v=60.12.0-g2full2">
+<link rel="stylesheet" href="auth-profile-fullscreen-v60-13-8.css?v=60.13.8">
+  <link rel="stylesheet" href="payment-readable-v58.css?v=60.25.2">
+  <link rel="stylesheet" href="vip-plan-choice-v60-13-11.css?v=60.13.11">
+  <link rel="stylesheet" href="ai-journey-v60-13-14.css?v=60.13.14">
+  <link rel="stylesheet" href="ai-feedback-v60-14.css?v=60.14.0">
+  <link rel="stylesheet" href="ai-conversation-polish-v60-14.css?v=60.14.0">
+  <link rel="stylesheet" href="cute-voice-v60-16.css?v=60.16.0">
+  <link rel="stylesheet" href="unit-progression-v60-20.css?v=60.20.0">
+  <link rel="stylesheet" href="voice-reply-v60-21.css?v=60.21.0">
+  <link rel="stylesheet" href="interaction-performance-v60-22.css?v=60.22.0">
+  <link rel="stylesheet" href="chat-ui-v60-21.css?v=60.24.0">
+  <link rel="stylesheet" href="student-chat-v60-24.css?v=60.24.0">
+  <link rel="stylesheet" href="update-client.css?v=60.25.3">
+</head>
+<body class="unified-student-ui">
+<div class="app">
+  <header class="header">
+    <div class="brand"><div class="brand-badge"><img src="milo-student-app.svg" alt=""></div><div><p class="eyebrow" id="gradeLabel">LỚP 3 · CHẶNG 2</p><h1>Milo English Adventure</h1></div></div>
+    <div class="header-actions">
+      <select id="gradeSelect" class="grade-select" aria-label="Chọn lớp"><option value="2">Lớp 2</option><option value="3" selected>Lớp 3</option><option value="4">Lớp 4</option><option value="5">Lớp 5</option></select>
+      <button id="topUpdateAppButton" class="study-update-button" type="button" title="Xem và nạp bản cập nhật mới nhất" aria-label="Cập nhật ứng dụng" style="background: linear-gradient(135deg, #10b981, #059669); color: #ffffff; border: none; padding: 7px 14px; border-radius: 12px; font-weight: 800; font-size: 13px; cursor: pointer; display: none; align-items: center; gap: 6px; box-shadow: 0 4px 12px rgba(16,185,129,0.35);" onclick="if(window.MiloUpdater){window.MiloUpdater.openModal();}"><span>🔔</span><b>Cập nhật (V60.25.0)</b></button>
+      <button id="openVipPlansTop" class="study-vip-button parent-only" type="button" data-open-vip-plans data-action="open-vip-plans" aria-label="Xem ba gói VIP PRO MAX"><span>👑</span><span><small>DÀNH CHO PHỤ HUYNH</small><b id="topVipPlanLabel">Xem 3 gói VIP</b></span></button>
+      <button id="studyDurationButton" class="study-duration-chip" type="button" title="Phụ huynh thay đổi nhịp học"><span>◷</span> Hôm nay · <b id="studyDurationTop">15 phút</b></button>
+      <span class="pill">🔥 <span id="streak">0</span> ngày</span>
+      <span class="pill level">⭐ <span id="studyTopStars">125</span></span>
+      <button class="avatar" id="parentSettingsButton" type="button" title="Mở hồ sơ học viên" aria-label="Mở hồ sơ học viên">B</button>
+    </div>
+  </header>
+  <div class="layout">
+    <nav class="nav card" aria-label="Điều hướng">
+      <button class="nav-btn active" data-view="quick"><span>▶</span><span>Học hôm nay</span></button>
+      <button class="nav-btn" data-view="journey"><span>🗺</span><span>Hành trình</span></button>
+      <button class="nav-btn" data-view="chat"><span>💬</span><span>Trò chuyện</span></button>
+      <button class="nav-btn" data-view="pets"><span>🐾</span><span>Thú cưng</span></button>
+      <button class="nav-btn" data-view="badges"><span>🏆</span><span>Thành tích</span></button>
+    </nav>
+    <main class="main card">
+      <section id="view-quick" class="view quick-view">
+        <div class="study-session-head">
+          <div><p class="study-kicker">✦ BUỔI HỌC HÔM NAY</p><h2 id="studyGreeting">Sẵn sàng học cùng Milo!</h2></div>
+          <p class="quick-unit-pill" id="quickUnit">Lớp 3 · Unit 1</p>
+          <p class="quick-review-plan" id="quickReviewPlan" aria-live="polite">Hôm nay làm quen 5 từ mới</p>
+        </div>
+
+        <div class="study-path" id="studyPath" aria-label="Tám chặng học hôm nay">
+          <button class="study-path-item active" data-study-stage="0" type="button"><span>📖</span><b>Ôn bài</b><small>2 phút</small><i>1</i></button>
+          <button class="study-path-item" data-study-stage="1" type="button"><span>Aa</span><b>Từ mới</b><small>3 phút</small><i>2</i></button>
+          <button class="study-path-item" data-study-stage="2" type="button"><span>🎤</span><b>Phát âm</b><small>3 phút</small><i>3</i></button>
+          <button class="study-path-item break" data-study-stage="3" type="button"><span>☕</span><b>Nghỉ</b><small>1 phút</small><i>4</i></button>
+          <button class="study-path-item" data-study-stage="4" type="button"><span>💬</span><b>Mẫu câu</b><small>2 phút</small><i>5</i></button>
+          <button class="study-path-item" data-study-stage="5" type="button"><span>👥</span><b>Trò chuyện</b><small>2 phút</small><i>6</i></button>
+          <button class="study-path-item" data-study-stage="6" type="button"><span>🎮</span><b>Game</b><small>1 phút</small><i>7</i></button>
+          <button class="study-path-item reward" data-study-stage="7" type="button"><span>🎁</span><b>Nhận thưởng</b><small>1 phút</small><i>8</i></button>
+        </div>
+
+        <div class="study-workspace">
+          <aside class="study-milo-panel">
+            <span class="study-milo-bubble" id="studyMiloBubble">Mình bắt đầu bằng 5 từ nhé!</span>
+            <img id="studyMiloImage" src="pet-assets/levels/milo/lv-01-idle.webp" alt="Milo hướng dẫn học">
+            <strong id="studyPetName">Milo</strong>
+            <small>Người bạn dẫn đường của con</small>
+          </aside>
+
+          <div class="quick-stage study-lesson-card">
+            <div class="study-stage-label"><span id="studyStageIcon">📖</span><div><small id="studyStageKicker">CHẶNG 1/8</small><b id="studyStageTitle">Ôn bài hôm qua</b></div></div>
+            <div id="quickStageCore">
+              <section id="quickLearn">
+                <div class="quick-card">
+                  <span class="quick-count" id="quickCount">1/5</span>
+                  <div class="quick-visual" id="quickVisual" aria-hidden="true">🤖</div>
+                  <div class="quick-word-copy"><h2 class="quick-word" id="quickWord">robot</h2><p class="quick-meaning" id="quickMeaning">rô-bốt</p></div>
+                </div>
+                <div class="quick-actions">
+                  <button class="quick-action" id="quickHear" type="button">🔊 Nghe từ</button>
+                  <button class="quick-action speak" id="quickSpeak" type="button">🎤 Con nói</button>
+                </div>
+              </section>
+              <section id="quickQuiz" class="quick-quiz hidden">
+                <span class="quick-count" id="quickQuizCount">1/3</span>
+                <h2 class="quick-prompt" id="quickPrompt">robot</h2>
+                <button class="quick-replay" id="quickReplay" type="button" aria-label="Nghe lại">🔊</button>
+                <div class="quick-choices" id="quickChoices"></div>
+              </section>
+              <section id="quickFinish" class="quick-finish hidden">
+                <div class="quick-stars" id="quickStars">⭐⭐⭐</div>
+                <h2>Giỏi lắm!</h2>
+                <p id="quickFinishText">3/3 hình đúng · 5 từ đã nói</p>
+                <button class="quick-restart" id="quickRestart" type="button">Học tiếp 5 từ</button>
+              </section>
+              <p class="quick-feedback" id="quickFeedback" aria-live="polite"></p>
+              <button class="quick-detail hidden" id="quickDetail" type="button">🎯 Sửa kỹ chỗ phát âm</button>
+              <div class="quick-path quick-micro-path" aria-hidden="true">
+                <span class="active" data-quick-path="look">👀</span>
+                <span data-quick-path="hear">🔊</span>
+                <span data-quick-path="speak">🎤</span>
+                <span data-quick-path="pick">🖼️</span>
+                <span data-quick-path="done">✓</span>
+              </div>
+            </div>
+            <section id="studySpecialStage" class="study-special-stage hidden" aria-live="polite">
+              <span id="studySpecialVisual">🎤</span>
+              <h3 id="studySpecialTitle">Luyện phát âm</h3>
+              <p id="studySpecialText">Milo sẽ nghe và sửa từng từ cho con.</p>
+              <div id="studySpecialContent"></div>
+              <button id="studySpecialAction" class="study-special-action" type="button">Bắt đầu</button>
+            </section>
+            <button class="quick-action next study-continue" id="quickNext" type="button">Tiếp tục học →</button>
+          </div>
+
+          <aside class="study-progress-panel">
+            <div class="study-progress-ring" id="studyProgressRing"><div><strong id="studyMinutesDone">0/15</strong><span>phút</span></div></div>
+            <div class="study-stage-count"><strong id="studyStagesDone">0/8 chặng</strong><small>Tiến độ hôm nay</small></div>
+            <div class="study-reward-preview"><span>🎁</span><b>Rương ánh sáng</b><small>Hoàn thành đủ buổi để mở</small></div>
+            <div class="study-time-left"><span>◷</span><div><small>CÒN LẠI</small><b id="studyMinutesLeft">15 phút</b></div></div>
+            <p id="studyIdleNotice" class="study-idle-notice">Đang tính thời gian học</p>
+          </aside>
+        </div>
+      </section>
+      <section id="view-home" class="view hidden">
+        <div class="section-top"><div><p class="eyebrow">HỌC THEO UNIT</p><h2>Tranh · game · bài học</h2></div><span class="progress"><span id="homeProgress">64</span>%</span></div>
+        <div class="free-course-banner"><span>✓</span><div><b>KHÓA HỌC LỚP 2–5 MIỄN PHÍ</b><small>48 Unit · game · bài kiểm tra</small></div><button id="openFreeAi" type="button">Hỏi Milo →</button></div>
+        <div class="hero"><div><p class="eyebrow">HỌC TIẾP</p><h3 id="heroTitle">Food Mission</h3><p class="subtle" id="heroDesc">Từ mới và game của Unit.</p><button class="primary" id="continueBtn">Học ngay →</button></div><div class="hero-side"><div class="hero-avatar-card"><div class="hero-avatar-top"><span class="hero-chip" id="heroPetBadge">⭐ Đại diện lớp</span><span class="hero-level-chip" id="heroPetLevelCard">Lv.1</span></div><div class="hero-avatar-frame"><img class="hero-fox" id="heroMiloImage" src="pet-assets/compact/milo/stage-01-idle.webp" alt="Milo, chú cáo hướng dẫn học tiếng Anh"></div><div class="hero-avatar-meta"><h4 id="heroPetName">Milo</h4><p id="heroPetSub">Bạn học của con</p></div></div></div></div>
+        <section id="homePaymentQr" class="home-payment-qr hidden" aria-labelledby="homePaymentQrTitle">
+          <div class="home-payment-qr-copy"><span class="home-payment-qr-badge">DÀNH CHO PHỤ HUYNH</span><h3 id="homePaymentQrTitle">Quét mã QR để kích hoạt Trợ lý AI</h3><p id="homePaymentQrPrice">Khóa học miễn phí · Gói chỉ dành cho AI</p></div>
+          <a id="homePaymentQrLink" class="home-payment-qr-frame" aria-label="Mã QR thanh toán gói Trợ lý AI"><img id="homePaymentQrImage" alt="Mã QR thanh toán gói Trợ lý AI"></a>
+          <small>🔒 Trợ lý AI chỉ mở sau khi người quản lý đối chiếu tiền vào ngân hàng và xác nhận đúng đơn.</small>
+        </section>
+        <div class="stats"><div class="stat"><strong id="stars">125</strong><span>⭐ Ngôi sao</span></div><div class="stat"><strong id="wordsLearned">24</strong><span>📚 Từ đã học</span></div><div class="stat"><strong id="testsDone">3</strong><span>✅ Bài kiểm tra</span></div></div>
+      </section>
+      <section id="view-journey" class="view hidden">
+        <div class="section-top journey-head"><div><p class="eyebrow">12 UNIT · HỌC THEO NHỊP THÔNG MINH</p><h2>Hành trình hôm nay</h2></div><span class="progress">Lv.<span id="journeyLevel">1</span> · <span id="mapProgress">0</span>%<small id="journeyXpDetails">0 XP</small></span></div>
+        <div class="journey-science-strip" aria-label="Ba nhịp học hiệu quả">
+          <div><span>⏱️</span><p><b>15 phút tập trung</b><small>Bắt đầu ngay</small></p></div>
+          <div><span>🧠</span><p><b>Ôn ngắt quãng</b><small>Nhớ lâu hơn</small></p></div>
+          <div><span>🎯</span><p><b>Làm · sửa liền</b><small>Tiến bộ nhanh</small></p></div>
+        </div>
+        <div class="journey-dashboard">
+          <div class="offline-world">
+            <div class="offline-world-head"><div><p class="eyebrow">4 VÙNG · 12 UNIT</p><h3>Chọn một Unit để học</h3></div><span class="offline-live">● SẴN SÀNG</span></div>
+            <div class="offline-islands" id="offlineIslands"></div>
+            <div class="offline-quest"><span id="offlineQuestIcon">🌈</span><div><small class="eyebrow">HỌC TIẾP</small><h4 id="offlineQuestTitle">Unit 1</h4><p id="offlineQuestText">15 phút · học một chặng · nhận XP</p></div><button id="offlineQuestStart">Học ngay →</button></div>
+          </div>
+          <div class="journey-motivation">
+            <div class="motivation-card">
+              <div class="motivation-head"><div><p class="eyebrow">HÔM NAY</p><h3>3 việc nhỏ</h3></div><div class="chest">🎁<small id="dailyDone">0/3</small></div></div>
+              <div class="mission-mini"><span>📚</span><div><b>5 từ</b><small>+15 sao</small><div class="mini-track"><i id="dailyWordsBar"></i></div></div><strong id="dailyWords">0/5</strong></div>
+              <div class="mission-mini"><span>🎮</span><div><b>3 câu</b><small>+20 sao</small><div class="mini-track"><i id="dailyGamesBar"></i></div></div><strong id="dailyGames">0/3</strong></div>
+              <div class="mission-mini"><span>✅</span><div><b>1 chặng</b><small>+25 sao</small><div class="mini-track"><i id="dailyPartsBar"></i></div></div><strong id="dailyParts">0/1</strong></div>
+            </div>
+            <div class="motivation-card treasure">
+              <p class="eyebrow">MỐC THƯỞNG</p><h3>Unit 3 · 6 · 9 · 12</h3>
+              <div class="treasure-line" id="treasureLine"></div>
+              <div class="badge-row" id="badgeRow"></div>
+            </div>
+          </div>
+        </div>
+        <div class="journey-unit-head"><div><p class="eyebrow">CHỌN NHANH</p><h3>12 Unit</h3></div><small>Chạm Unit để vào học</small></div>
+        <div id="unitGrid" class="unit-grid journey-unit-grid" aria-label="Danh sách 12 Unit"></div>
+        <div class="unit-summary"><div><p class="eyebrow">ĐANG CHỌN</p><h3 id="missionTitle">Unit 1</h3><p class="subtle" id="missionSub">15 phút · nghe · nói · luyện tập</p></div><button class="primary" id="openUnitBtn">Học Unit này →</button></div>
+        <details class="journey-details">
+          <summary><span>📘</span><div><b>Lộ trình chuyên sâu</b><small>Mục tiêu đọc, viết và từng giai đoạn</small></div><i>⌄</i></summary>
+          <section class="offline-grade-route">
+            <div class="offline-route-head">
+              <div><p class="eyebrow">LỘ TRÌNH LỚP 2–5</p><h3 id="offlineRouteTitle">Lớp 3 · Kiến trúc sư câu</h3></div>
+              <span id="offlineRouteBenchmark">A1 Starter · 4 skills</span>
+            </div>
+            <div class="offline-route-stats">
+              <div><small>THỜI LƯỢNG</small><b id="offlineRoutePeriods">11 tiết/tuần · 3 tiết bản ngữ</b></div>
+              <div><small>TỪ MỖI UNIT</small><b id="offlineRouteWords">18 từ theo cụm</b></div>
+              <div><small>ĐỌC</small><b id="offlineRouteReading">35–60 từ · tìm chi tiết</b></div>
+              <div><small>VIẾT</small><b id="offlineRouteWriting">20–35 từ · có khung</b></div>
+            </div>
+            <div class="offline-phase-grid" id="offlinePhaseGrid"></div>
+            <div class="offline-route-flow" id="offlineRouteFlow"></div>
+          </section>
+          <div class="curriculum-info">
+            <div class="curriculum-chip"><strong id="curriculumMode">Chương trình lớp 3</strong><span id="curriculumFocus">Phát triển đủ bốn kỹ năng.</span><span id="periods" hidden>0</span></div>
+            <div class="curriculum-chip"><strong>Grammar Level 1–5</strong><span>Tăng dần từ nền tảng đến nâng cao</span></div>
+            <div class="curriculum-chip"><strong>Đọc</strong><span id="readingTarget">30–40 từ</span></div>
+            <div class="curriculum-chip"><strong>Viết</strong><span id="writingTarget">10–20 từ</span></div>
+          </div>
+        </details>
+      </section>
+
+      <section id="view-pets" class="view hidden pet-hub-view">
+        <div class="pet-hub-hero"><div><p class="eyebrow">4 NHÂN VẬT RIÊNG MỖI LỚP</p><h2>Chọn bạn đồng hành của em</h2><p>Mỗi lớp có đúng 4 nhân vật đạt chuẩn Milo. Mỗi bạn lớn dần liên tục từ Level 1–50, đổi cơ thể thật ở 5 cột mốc và mở 50 hoạt động riêng.</p></div><img id="petHubHero" src="pet-assets/levels/milo/lv-01-idle.webp" alt="Nhân vật đang chọn"></div>
+        <div class="pet-grade-tabs" id="petGradeTabs"></div>
+        <div class="pet-choice-head"><div><h3 id="petChoiceTitle">Lớp 2 · Chọn 1 trong 4 bạn</h3><p id="petChoiceHint">Tất cả đều có chuyển động như Milo.</p></div><span id="petSavedBadge">✓ Đã lưu lựa chọn</span></div>
+        <div class="pet-choice-grid" id="petChoiceGrid"></div>
+        <div class="pet-benefits"><div><b>📚 4 bạn mỗi lớp</b><span>Milo và 3 nhân vật riêng phù hợp từng độ tuổi.</span></div><div><b>🖼️ 5 cơ thể phát triển</b><span>Bé con, Hiếu kỳ, Học viên, Đội trưởng và Huyền thoại.</span></div><div><b>📐 Giao diện lớn dần</b><span>Mỗi Level tăng tỉ lệ cơ thể, khung cảnh và không gian hiển thị.</span></div><div><b>⚡ 50 hoạt động riêng</b><span>Mỗi Level mở một tên, câu nói và chuyển động khác nhau.</span></div></div>
+
+        <section class="offline-evolution">
+          <div class="offline-evolution-head"><div><p class="eyebrow">THÚ CƯNG LEVEL 1–50</p><h3>50 Level — 5 mốc cơ thể — 50 hoạt động</h3><p>Cơ thể và kích thước giao diện lớn dần ở từng Level; năm cột mốc thay đổi hoàn toàn vóc dáng, trang phục và phụ kiện.</p></div><b id="evolutionSummary">0/12 Unit · Lv.1</b></div>
+          <div class="offline-evolution-feature"><div><img id="evolutionPreviewImage" src="pet-assets/levels/milo/lv-01-idle.webp" alt="Hình tiến hóa Milo"><span id="evolutionPreviewLevel">LV.1</span></div><section><small id="evolutionPreviewRange">GIAI ĐOẠN LEVEL 1–5</small><h3 id="evolutionPreviewName">Milo Bé Con</h3><p id="evolutionPreviewSkill">Bắt đầu nghe và làm quen tiếng Anh.</p><strong id="evolutionPreviewUnlock">✅ Đã mở khóa</strong><div class="growth-progress"><div><span>MỨC TRƯỞNG THÀNH</span><b id="growthPercent">55%</b></div><i><em id="growthBar" style="width:55%"></em></i><small>Lv.1: 55% · Lv.50: 100%</small></div><div class="level-activity-card"><span id="levelActivityIcon">👋</span><div><small>THỬ THÁCH LEVEL</small><b id="levelActivityName">Chào bạn đầu tiên</b><p id="levelActivityPhrase">Hello, friend!</p></div><button type="button" id="previewLevelActivity">▶ Chơi Level 1</button></div></section></div>
+          <div class="offline-unit-levels" id="offlineUnitLevels"></div>
+          <div class="offline-level-gallery" id="offlineLevelGallery"></div>
+        </section>      </section>
+      <section id="view-chat" class="view hidden" aria-labelledby="chatPageTitle">
+        <div class="section-top milo-chat-page-title">
+          <div><p class="eyebrow">LUYỆN GIAO TIẾP</p><h2 id="chatPageTitle">Trò chuyện cùng Milo</h2></div>
+          <div class="milo-chat-page-chips"><span id="miloChatPageUnit">Lớp 3 · Unit 1</span><b id="chatAccessBadge" class="chat-access-badge plus">AI Plus</b></div>
+        </div>
+        <div class="chat-large" aria-label="Khu vực trò chuyện">
+          <div id="messages" class="messages" aria-live="polite"><div class="bubble milo">Hello! Mình là Milo. Con gửi từ, câu hoặc bài đang khó nhé.</div></div>
+          <form id="chatForm" class="chat-input">
+            <button type="button" class="icon-btn" id="micLarge" title="Nói với Milo" aria-label="Nói với Milo">🎤</button>
+            <input id="chatText" placeholder="Hỏi Milo bằng tiếng Việt hoặc tiếng Anh…" autocomplete="off">
+            <button class="icon-btn" title="Gửi" aria-label="Gửi câu hỏi">➤</button>
+          </form>
+        </div>
+        <aside id="miloVipMiniCard" class="milo-vip-mini-card" aria-label="Luyện chuyên sâu cùng Milo">
+          <div><span aria-hidden="true">🌟</span><div><b>Luyện chuyên sâu cùng Milo</b><small>Phát âm chi tiết · bài luyện cá nhân · theo dõi tiến bộ</small></div></div>
+          <div class="milo-vip-mini-actions"><button type="button" data-open-vip-plans data-action="open-vip-plans">Dùng thử 24 giờ</button><button type="button" class="link" data-open-vip-plans data-action="open-vip-plans">Xem gói</button></div>
+        </aside>
+      </section>
+      <section id="view-daily" class="view hidden v60-daily-view">
+        <div class="v60-view-head">
+          <div><p class="eyebrow">BUỔI HỌC TỰ ĐỘNG 10–15 PHÚT</p><h2>Buổi học hôm nay cùng Milo</h2><p>Milo tự chọn đúng phần cần ôn, dẫn dắt từng bước và ghi lại tiến bộ của con.</p></div>
+          <span id="dailyAccessBadge">Đang kiểm tra gói</span>
+        </div>
+        <div class="v60-daily-layout">
+          <section class="v60-daily-steps">
+            <div class="v60-section-title"><span>6</span><div><b>6 bước học ngắn</b><small>Ôn cũ → phát âm → từ vựng → ngữ pháp → hội thoại → kiểm tra</small></div></div>
+            <div id="dailyStepList"></div>
+          </section>
+          <section class="v60-daily-coach">
+            <div class="v60-coach-head"><span id="dailyCoachIcon">⚡</span><div><small id="dailyCoachStage">SẴN SÀNG</small><h3 id="dailyCoachTitle">Milo sẽ chuẩn bị buổi học phù hợp</h3></div></div>
+            <div id="dailyCoachOutput" class="v60-coach-output">Bấm bắt đầu để Milo dẫn con học từng bước. Mỗi bước chỉ kéo dài khoảng 2 phút.</div>
+            <button id="dailyPronunciationAction" class="v60-secondary hidden" type="button">🎯 Mở huấn luyện phát âm</button>
+            <div class="v60-daily-actions">
+              <button id="dailyPrimary" class="v60-primary" type="button">Bắt đầu buổi học</button>
+              <button id="dailyComplete" class="v60-secondary hidden" type="button">Hoàn thành bước này →</button>
+            </div>
+            <div id="dailyVipLock" class="v60-vip-lock hidden">
+              <span>👑</span><div><b>Mở buổi học tự dẫn dắt bằng VIP PRO MAX</b><p>Milo ghi nhớ điểm yếu, tự chọn nội dung và báo cáo lại tiến bộ sau mỗi buổi.</p></div><button type="button" data-v60-upgrade>Thử toàn bộ 24 giờ</button>
+            </div>
+          </section>
+        </div>
+      </section>
+      <section id="view-parent" class="view hidden v60-parent-view">
+        <div class="v60-view-head">
+          <div><p class="eyebrow">TRUNG TÂM DÀNH CHO PHỤ HUYNH</p><h2>Nhìn thấy con tiến bộ qua từng tuần</h2><p>Dữ liệu cơ bản được lưu trên thiết bị; VIP PRO MAX đồng bộ dài hạn theo tài khoản.</p></div>
+          <button id="parentRefresh" class="v60-secondary" type="button">↻ Cập nhật báo cáo</button>
+        </div>
+        <div class="v60-parent-stats">
+          <article><span>📅</span><small>NGÀY ĐÃ HỌC</small><strong id="parentLearningDays">0</strong><p id="parentStreak">Chuỗi hiện tại: 0 ngày</p></article>
+          <article><span>⏱️</span><small>PHÚT LUYỆN AI</small><strong id="parentMinutes">0</strong><p>Ước tính từ các hoạt động đã ghi nhận</p></article>
+          <article><span>🎯</span><small>ĐIỂM PHÁT ÂM TB</small><strong id="parentPronunciation">—</strong><p id="parentPronunciationBest">Tốt nhất: —</p></article>
+          <article><span>📚</span><small>UNIT HOÀN THÀNH</small><strong id="parentUnits">0</strong><p id="parentGradeLabel">Theo lớp đang học</p></article>
+        </div>
+        <div class="v60-parent-grid">
+          <section class="v60-report-card">
+            <div class="v60-report-head"><div><small>7 NGÀY GẦN NHẤT</small><h3>Nhịp học trong tuần</h3></div><span id="parentPlanBadge">AI Plus</span></div>
+            <div id="parentWeekChart" class="v60-week-chart"></div>
+          </section>
+          <section class="v60-report-card">
+            <div class="v60-report-head"><div><small>ĐIỂM CẦN TẬP TRUNG</small><h3>Milo đang nhận ra</h3></div><span>🧭</span></div>
+            <div id="parentWeaknesses" class="v60-weaknesses"></div>
+            <p id="parentTrend" class="v60-trend"></p>
+          </section>
+          <section class="v60-report-card v60-next-plan">
+            <div class="v60-report-head"><div><small>ĐỀ XUẤT TIẾP THEO</small><h3>Kế hoạch cho tuần tới</h3></div><span>🗓️</span></div>
+            <div id="parentRecommendation"></div>
+          </section>
+          <section id="parentVipPanel" class="v60-report-card v60-memory-card">
+            <div class="v60-report-head"><div><small>BỘ NHỚ HỌC TẬP</small><h3 id="parentMemoryTitle">Đang kiểm tra dữ liệu dài hạn</h3></div><span>🧠</span></div>
+            <p id="parentMemoryCopy">Milo đang kiểm tra quyền đồng bộ của tài khoản.</p>
+            <button type="button" data-v60-upgrade>👑 Mở cá nhân hóa dài hạn</button>
+          </section>
+        </div>
+      </section>
+      <section id="view-test" class="view hidden">
+        <div class="section-top"><div><p class="eyebrow">BÀI KIỂM TRA TỰ TẠO</p><h2>Treasure Test</h2></div></div>
+        <div id="quizStart" class="quiz-box"><h3 id="quizUnitTitle">Kiểm tra sau Unit</h3><p class="subtle">Milo tạo 24–48 câu theo đúng cấp lớp: hình–từ, nghe, dùng từ trong ngữ cảnh, ngữ pháp, đọc hiểu, mẫu câu và phát âm. Mỗi lần làm, thứ tự đáp án sẽ thay đổi.</p><button class="primary" id="startQuiz">Tạo bài kiểm tra</button></div>
+        <div id="quizPlay" class="quiz-box hidden"><div><span id="questionCount">Câu 1/12</span><div class="quiz-progress"><span id="quizBar" style="width:8%"></span></div></div><div class="question" id="questionText"></div><div class="options" id="options"></div></div>
+        <div id="quizResult" class="quiz-box score hidden"><p class="eyebrow">KẾT QUẢ</p><strong id="score">0/20</strong><h3 id="scoreMessage">Excellent!</h3><p class="subtle">Đạt từ 70%, Unit sẽ được đánh dấu hoàn thành và lưu trên máy.</p><div class="module-actions" style="justify-content:center"><button class="secondary" id="retryQuiz">Làm bài mới</button><button class="primary" id="nextUnitBtn">Sang Unit tiếp theo</button></div></div>
+      </section>
+      <section id="view-badges" class="view hidden">
+        <div class="section-top"><div><p class="eyebrow">BỘ SƯU TẬP</p><h2>Thành tích của em</h2></div></div>
+        <div class="badges"><div class="badge-card"><div class="badge-icon">🔥</div><div><h3>Học đều 5 ngày</h3><p>Giữ chuỗi học tập tuyệt vời!</p></div></div><div class="badge-card"><div class="badge-icon">🎧</div><div><h3>Đôi tai tinh anh</h3><p>Hoàn thành Listening Lagoon.</p></div></div><div class="badge-card"><div class="badge-icon">💬</div><div><h3>Tự tin nói tiếng Anh</h3><p>Hoàn thành Speaking Forest.</p></div></div><div class="badge-card"><div class="badge-icon">⭐</div><div><h3>Nhà thám hiểm</h3><p>Thu thập hơn 100 ngôi sao.</p></div></div></div>
+      </section>
+    </main>
+    <aside class="milo card">
+      <div class="milo-image motion-idle" id="offlineMiloStage" role="button" tabindex="0" aria-label="Chạm để Milo vẫy tay chào"><img id="petImage" src="pet-assets/levels/milo/lv-01-idle.webp" alt="Milo, chú cáo đáng yêu"><span class="milo-wave-sprite" id="offlineMiloWave" aria-hidden="true"></span><span class="milo-fx a">✨</span><span class="milo-fx b">💛</span><span class="milo-fx c" id="offlineMiloFx">⭐</span><span class="touch-milo">👆 Chạm thú cưng</span></div>
+      <div class="offline-motion-lab"><div><span id="motionLabTitle">⚡ PET MOTION LAB</span><b>LV.MAX · VIP PRO</b></div><button data-milo-show="wave"><span>👋</span>Vẫy tay</button><button data-milo-show="dance"><span>🕺</span>Nhảy vui</button><button data-milo-show="celebrate"><span>🎉</span>Ăn mừng</button><button data-milo-show="talk"><span>🔊</span>Nói chuyện</button><button class="level-special-motion" id="levelSpecialMotion" data-milo-show="level"><span id="levelSpecialIcon">⚡</span><b id="levelSpecialName">Hoạt động Level 1</b><small id="levelSpecialHint">Mỗi Level có một hoạt động riêng</small></button></div>
+      <div class="milo-say"><p class="eyebrow" id="petSpeechLabel">MILO SAYS</p><p id="miloMessage">A new mission is waiting for us!</p><button class="speak" id="speakBtn">🎀 Nghe giọng bạn</button></div>
+      <div class="pet-status">
+        <h3>💛 <span id="petStatusName">Milo</span> của em · <span id="petLevel">Level 1/50</span></h3>
+        <div class="pet-meter"><span>😊 Vui vẻ</span><b id="petJoy">72%</b><i><em id="petJoyBar" style="width:72%"></em></i></div>
+        <div class="pet-meter"><span>⚡ Năng lượng</span><b id="petEnergy">68%</b><i><em id="petEnergyBar" style="width:68%"></em></i></div>
+        <div class="pet-meter"><span>🍎 No bụng</span><b id="petSatiety">58%</b><i><em id="petSatietyBar" style="width:58%"></em></i></div>
+        <div class="pet-meter"><span>💛 Tình bạn</span><b id="petFriend">12%</b><i><em id="petFriendBar" style="width:12%"></em></i></div>
+        <div class="pattern-box" style="margin:9px 0;padding:9px;text-align:center"><b>🌟 <span id="petCoins">0</span> Hạt Ánh Sáng</b><br><small>Chỉ kiếm khi học và thắng game</small></div>
+        <div class="pet-care"><button data-pet-care="feed">🥕 Ăn · 12 🌟</button><button data-pet-care="play">⚽ Chơi · 8 🌟</button><button data-pet-care="brush">✨ Chải · 5 🌟</button></div>
+      </div>
+      <div class="prompts" aria-label="Câu hỏi gợi ý"><button class="prompt">Hello, Milo!</button><button class="prompt">How do I say quả táo?</button><button class="prompt">Teach me about family</button></div>
+      <form id="askForm" class="ask"><label for="askText">Hỏi Milo bằng tiếng Việt hoặc tiếng Anh</label><div class="ask-row"><button type="button" class="icon-btn" id="micSmall" title="Nói với Milo">🎤</button><input id="askText" placeholder="Ví dụ: How do I say quả táo?" autocomplete="off"><button class="icon-btn" title="Gửi">➤</button></div></form>
+    </aside>
+  </div>
+</div>
+<div id="lessonModal" class="modal hidden"><div class="modal-card unit-modal-card"><div class="modal-head"><div><p class="eyebrow" id="unitTheme">EM VÀ BẠN BÈ</p><h2 id="lessonHeading">Unit 1</h2><p class="subtle" id="unitVietnamese"></p></div><button class="close" id="closeModal">×</button></div><div class="unit-focus"><span class="focus-chip">🎧 Nghe</span><span class="focus-chip">💬 Nói</span><span class="focus-chip">📖 Đọc</span><span class="focus-chip">✍️ Viết</span><span class="focus-chip">🔤 Ngữ âm</span><span class="focus-chip">🧠 Mẫu câu</span><span class="focus-chip">🎨 Vận dụng</span><span class="focus-chip">✅ Kiểm tra</span></div><div class="lesson-progress"><div class="lesson-progress-track"><span id="lessonProgressBar"></span></div><small id="lessonProgressText">0/9 phần học</small></div><div id="moduleGrid" class="module-grid"></div><div id="moduleContent" class="module-content"></div></div></div>
+<div id="premiumPaymentModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="premiumPaymentTitle" onclick="if(event.target===this)this.classList.add('hidden');">
+  <div class="modal-card premium-pay-card">
+    <div class="premium-pay-hero">
+      <button class="close" id="closePremiumPayment" type="button" aria-label="Đóng" onclick="document.querySelector('#premiumPaymentModal')?.classList.add('hidden');">✕</button>
+      <span>👑</span>
+      <h2 id="premiumPaymentTitle">Nâng cấp Trợ lý AI VIP PRO MAX</h2>
+      <p>AI Plus luôn sẵn sàng miễn phí. Dùng thử 24 giờ hoặc chọn gói để mở cá nhân hóa chuyên sâu, ghi nhớ điểm yếu và toàn bộ trợ lý AI.</p>
+    </div>
+    <div class="premium-pay-body">
+      <div class="premium-pay-benefits">
+        <div><b>🧭 Chẩn đoán chuyên sâu</b><small>Nhận ra đúng kỹ năng, nguyên nhân và lỗi lặp lại của bé</small></div>
+        <div><b>💬 Trò chuyện hai chiều</b><small>Nghe, trả lời và hỏi tiếp bằng giọng nói trực tiếp</small></div>
+        <div><b>⚡ Buổi học tự dẫn dắt</b><small>Milo chuẩn bị 6 bước học ngắn theo đúng điểm yếu</small></div>
+        <div><b>📊 Báo cáo phụ huynh</b><small>Theo dõi nhịp học, phát âm và mục tiêu tuần tới</small></div>
+        <div><b>🧠 Bộ nhớ dài hạn</b><small>Đồng bộ tiến bộ và lỗi lặp lại theo tài khoản của bé</small></div>
+        <div><b>🏦 Chuyển thẳng ngân hàng</b><small>Không qua cổng thanh toán trung gian; quản trị viên tự đối chiếu</small></div>
+      </div>
+      <div id="commerceAccountSummary" class="commerce-account-summary" aria-live="polite"></div>
+      <div id="paymentConfigStatus" class="payment-config-status status-loading" aria-live="polite"><b>Đang kiểm tra kênh thanh toán…</b><small>Kênh thanh toán dành cho phụ huynh đang được chuẩn bị.</small></div>
+      <section class="ai-common-capabilities" aria-labelledby="aiCommonTitle">
+        <div><h3 id="aiCommonTitle">Ba gói mua đều mở đầy đủ VIP PRO MAX</h3><small>Cá nhân hóa chuyên sâu · chỉ khác thời hạn sử dụng</small></div>
+        <div id="aiCommonBenefitsList" class="ai-common-capability-list"></div>
+      </section>
+      <div id="purchaseOrderStatus" class="purchase-order-status hidden" aria-live="polite"></div>
+      <div id="premiumPaymentQr" class="premium-modal-qr hidden">
+        <span>QUÉT BẰNG ỨNG DỤNG NGÂN HÀNG</span>
+        <a id="premiumPaymentQrLink" aria-label="Mở kênh thanh toán Milo"><img id="premiumPaymentQrImage" alt="Mã QR thanh toán Milo"></a>
+        <div id="commerceTransferDetails" class="commerce-transfer-details"></div>
+        <small>Quét QR ngân hàng, sau đó nhập đúng số tiền và nội dung riêng của đơn hiển thị bên dưới.</small>
+      </div>
+      <div class="plan-section-head">
+        <div><span>CHỌN THỜI HẠN VIP PRO MAX</span><b>Ba gói cùng đầy đủ chức năng</b></div>
+        <small id="premiumPriceLabel">AI Plus miễn phí · Chỉ thanh toán khi muốn nâng cấp VIP</small>
+      </div>
+      <div id="premiumPlanGrid" class="premium-plan-grid" aria-label="Các gói Milo"></div>
+      <button id="continuePremiumPayment" class="premium-pay-button" type="button">Chọn gói và tạo đơn thanh toán</button>
+      <p class="premium-pay-safe">🔒 Gói mua chỉ được kích hoạt sau khi người quản lý đối chiếu đúng giao dịch. AI Plus miễn phí vẫn dùng bình thường trong lúc chờ.</p>
+      <p id="premiumPaymentError" class="premium-pay-error" role="status"></p>
+      <section id="aiTrialOffer" class="ai-trial-offer" aria-live="polite"></section>
+    </div>
+  </div>
+</div>
+<div id="toast" class="toast">Đã lưu tiến độ</div>
+<script src="grade2-source-content.js?v=60.12.0-g2full2"></script>
+<script src="curriculum.js"></script>
+<script src="vocab-expansion.js"></script>
+<script src="power-words.js"></script>
+<script src="now-i-know-readings.js"></script>
+<script src="now-i-know-alignment.js?v=60.12.0-g2full2"></script>
+<script src="grade2-full-knowledge.js?v=60.12.0-g2full2"></script>
+  <script src="grade2-strict-source.js?v=60.12.2-zip-strict-196"></script>
+<script src="grade3-strict-source.js?v=60.13.0-zip-strict-240"></script>
+<script src="expert-program.js"></script>
+<script src="grade-roadmap.js?v=60.12.5"></script>
+  <script src="interaction-performance-v60-22.js?v=60.22.0"></script>
+<script src="unit-progression-v60-20.js?v=60.21.0"></script>
+<script src="learning-session-flow.js?v=60.25.5-ai-corner-toggle"></script>
+<script src="vip-pro-max.js?v=60.12.0"></script>
+<script src="pet-level-system.js"></script>
+<script src="pet-tutor.js?v=60.14.0"></script>
+<script src="pronunciation-lexicon-v60-16.js?v=60.16.0"></script>
+<script src="cute-voice-v60-16.js?v=60.16.0"></script>
+<script src="ai-language-v60-14.js?v=60.14.0"></script>
+<script src="ai-feedback-v60-14.js?v=60.14.0"></script>
+<script src="student-assistant-status-v60-24.js?v=60.24.0"></script>
+<script src="pricing-utils.js"></script>
+<script src="subscription-ui.js"></script>
+<script src="student-assistant-status.js"></script>
+<script src="unit-task-mapping.js"></script>
+<script>
+  const gradeData=window.MILO_CURRICULUM;
+  const startupParams=new URLSearchParams(location.search);
+  const startupGrade=[2,3,4,5].includes(Number(startupParams.get('grade')))?Number(startupParams.get('grade')):Number(localStorage.getItem('milo-grade')||3);
+  const startupUnit=startupParams.has('unit')?Number(startupParams.get('unit')):Number(localStorage.getItem(`milo-unit-${startupGrade}`)||0);
+  const state={grade:startupGrade,unit:Math.max(0,Math.min(11,startupUnit||0)),module:'overview',question:0,score:0,quiz:[],previewLevel:0};
+  const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+  const currentGrade=()=>gradeData[state.grade];
+  const currentUnit=()=>currentGrade().units[state.unit];
+  const resumeLearningInfo=(unitIndex=state.unit)=>{
+    const flow=window.MILO_LEARNING_SESSION_FLOW;
+    const part=flow?.recommendedPart?.(localStorage,state.grade,unitIndex)||([2,3].includes(state.grade)?'book-big-question':'warmup');
+    let saved={};
+    try{saved=JSON.parse(localStorage.getItem(`milo-micro-v60-19-${state.grade}-${unitIndex}-${part}`)||'{}')}catch{saved={}}
+    const step=Math.min(7,Math.max(1,Number(saved.step)||1));
+    return{part,step,session:flow?.describePart?.(part)||{number:1,title:'Khởi động'},phase:flow?.phaseForStep?.(step)||{label:'Học',shortLabel:'Học'}};
+  };
+  const completed=()=>window.MILO_UNIT_PROGRESSION.summary(state.grade).completedUnits.map(unit=>unit-1);
+  const saveCompleted=list=>{const api=window.MILO_UNIT_PROGRESSION;const progress=api.load(state.grade);progress.completedUnits=[...new Set(list.map(value=>Number(value)+1).filter(value=>value>=1&&value<=api.UNIT_COUNT))].sort((a,b)=>a-b);api.save(state.grade,progress);};
+  const gradeRegions={
+    2:[['🌈','Bạn bè'],['🌳','Trường học'],['🏙️','Gia đình'],['🏰','Quanh em']],
+    3:[['🌈','Bạn bè'],['🌳','Trường học'],['🏙️','Gia đình'],['🏰','Khám phá']],
+    4:[['🌈','Thói quen'],['🌳','Kiến thức'],['🏙️','Chuyện kể'],['🏰','Việt Nam']],
+    5:[['🌈','Ký ức'],['🌳','Tương lai'],['🏙️','Thử thách'],['🏰','Tốt nghiệp']]
+  };
+
+  const classPets={
+    2:[
+      ['milo','Milo','Cáo nhỏ phiêu lưu'],
+      ['luna','Luna','Thỏ trắng thông minh'],
+      ['bingo','Bingo','Cún vàng vui vẻ'],
+      ['hapi','Hapi','Nhím nhỏ ham học']
+    ],
+    3:[
+      ['milo','Milo','Cáo nhỏ phiêu lưu'],
+      ['piko','Piko','Chim cánh cụt thân thiện'],
+      ['nami','Nami','Sóc đỏ nhanh nhẹn'],
+      ['koby','Koby','Koala hiền hòa']
+    ],
+    4:[
+      ['milo','Milo','Cáo nhỏ phiêu lưu'],
+      ['rocky','Rocky','Gấu nâu dũng cảm'],
+      ['deerly','Deerly','Hươu nhỏ tinh tế'],
+      ['leo','Leo','Sư tử tự tin']
+    ],
+    5:[
+      ['milo','Milo','Cáo nhỏ phiêu lưu'],
+      ['sunny','Sunny','Mèo cam sáng tạo'],
+      ['wolfy','Wolfy','Sói xám khám phá'],
+      ['ollie','Ollie','Cú mèo thông thái']
+    ]
+  };
+  const selectedPetId=grade=>localStorage.getItem(`milo-selected-pet-${grade}`)||'milo';
+  const selectedPet=grade=>classPets[grade].find(pet=>pet[0]===selectedPetId(grade))||classPets[grade][0];
+  const petStageNumberForLevel=level=>Math.max(1,evolutionStages.findIndex(stage=>level>=stage.min&&level<=stage.max)+1||1);
+  const petPoseImage=(id,level,pose='idle')=>window.MILO_PET_LEVELS.poseImage(id,level,pose);
+  function renderPetHub(){
+    const grade=state.grade,journey=miloJourney(),displayLevel=Math.min(state.previewLevel||journey.level,journey.level),pet=selectedPet(grade);
+    $('#petGradeTabs').innerHTML=[2,3,4,5].map(g=>`<button class="pet-grade-tab ${g===grade?'active':''}" data-pet-grade="${g}">Lớp ${g}</button>`).join('');
+    $('#petChoiceTitle').textContent=`Lớp ${grade} · Chọn 1 trong 4 bạn`;
+    $('#petChoiceHint').textContent=`Cả 4 bạn đều lớn dần theo Level, đổi cơ thể ở 5 cột mốc và có hoạt động riêng tại Level ${displayLevel}.`;
+    $('#petSavedBadge').textContent=`✓ Đang chọn ${pet[1]}`;
+    $('#petHubHero').src=petPoseImage(pet[0],displayLevel,'idle');
+    $('#petChoiceGrid').innerHTML=classPets[grade].map(item=>{const spec=window.MILO_PET_LEVELS.getLevelData(item[0],displayLevel);return`<article class="pet-choice-card ${item[0]===pet[0]?'selected':''}" data-pet-id="${item[0]}">${item[0]===pet[0]?'<span class="chosen-mark">✓</span>':''}<div class="pet-portrait"><img src="${petPoseImage(item[0],displayLevel,'idle')}" alt="${item[1]} toàn thân Level ${displayLevel}"></div><h4>${item[1]}</h4><p>${item[2]} · Cơ thể ${spec.growthPercent}% · Hoạt động Lv.${displayLevel}</p><button type="button">${item[0]===pet[0]?'⚡ Chơi hoạt động Level':'Chọn bạn này'}</button></article>`}).join('');
+    const heroSpec=window.MILO_PET_LEVELS.getLevelData(pet[0],displayLevel);
+    window.MILO_PET_LEVELS.applyMotionStyle($('#petHubHero')?.closest('.pet-hub-hero')||$('#petHubHero'),heroSpec);
+    $$('[data-pet-id]').forEach(card=>{
+      const item=classPets[grade].find(candidate=>candidate[0]===card.dataset.petId);
+      if(item)window.MILO_PET_LEVELS.applyMotionStyle(card,item&&window.MILO_PET_LEVELS.getLevelData(item[0],displayLevel));
+    });
+    $$('[data-pet-grade]').forEach(button=>button.onclick=()=>{state.grade=Number(button.dataset.petGrade);state.previewLevel=0;updateGrade()});
+    $$('[data-pet-id]').forEach(card=>card.onclick=()=>{const id=card.dataset.petId,wasSelected=id===selectedPet(state.grade)[0];localStorage.setItem(`milo-selected-pet-${state.grade}`,id);renderPetHub();renderPet();triggerMiloMotion('wave',2200);const chosen=selectedPet(state.grade);$('#miloMessage').textContent=`👋 Hello! Mình là ${chosen[1]}. Cùng học tiếng Anh nhé!`;if(!wasSelected)showToast(`Đã chọn ${chosen[1]} cho lớp ${state.grade}`)});
+    renderEvolution();
+  }
+  const evolutionStages=[
+    {id:'baby',name:'Bé Con',min:1,max:5,image:'stage-01',skill:'Bắt đầu nghe và làm quen tiếng Anh.'},
+    {id:'toddler',name:'Chập Chững',min:6,max:10,image:'stage-02',skill:'Nói những từ và câu đầu tiên.'},
+    {id:'curious',name:'Hiếu Kỳ',min:11,max:15,image:'stage-03',skill:'Khám phá từ mới trong mỗi Unit.'},
+    {id:'student',name:'Học Viên',min:16,max:20,image:'stage-04',skill:'Ghép từ và sử dụng mẫu câu.'},
+    {id:'explorer',name:'Nhà Thám Hiểm',min:21,max:25,image:'stage-05',skill:'Vượt thử thách nghe, nói, đọc, viết.'},
+    {id:'brave',name:'Dũng Cảm',min:26,max:30,image:'stage-06',skill:'Chinh phục game và Boss ngữ pháp.'},
+    {id:'scholar',name:'Thông Thái',min:31,max:35,image:'stage-07',skill:'Tự đọc hiểu và diễn đạt trọn ý.'},
+    {id:'leader',name:'Thủ Lĩnh',min:36,max:40,image:'stage-08',skill:'Dẫn đường qua những nhiệm vụ khó.'},
+    {id:'hero',name:'Anh Hùng',min:41,max:45,image:'stage-09',skill:'Giao tiếp tự tin và giải quyết thử thách.'},
+    {id:'legend',name:'Huyền Thoại',min:46,max:50,image:'stage-10',skill:'Hoàn thành 12 Unit và tốt nghiệp hành trình.'}
+  ];
+  const unitLevelTargets=window.MILO_UNIT_PROGRESSION.LEVEL_TARGETS.slice();
+  const evolutionForLevel=level=>evolutionStages.find(stage=>level>=stage.min&&level<=stage.max)||evolutionStages[0];
+  const requiredUnitForLevel=level=>window.MILO_UNIT_PROGRESSION.requiredUnitForLevel(level);
+  const bossNames=['Mây Quên Lãng','Quái Vật Lộn Số','Bóng Ma Thời Gian','Mây Mù Tinh Nghịch','Cú Đêm Giấu Ảnh','Bụi Gai Cáu Kỉnh','Yêu Tinh Bừa Bộn','Vua Bóng Tối','Robot Lỗi','Đầu Bếp Hỗn Loạn','Lốc Xoáy Tím','Rồng Ngữ Pháp'];
+  function renderOfflineWorld(){
+    const api=window.MILO_UNIT_PROGRESSION,done=completed(),units=currentGrade().units.slice(0,api.UNIT_COUNT);
+    const next=units.findIndex((_,index)=>!done.includes(index)),active=next<0?api.UNIT_COUNT-1:next;
+    $('#offlineIslands').innerHTML=gradeRegions[state.grade].map((region,group)=>`<article class="offline-island"><div class="offline-island-head"><span>${region[0]}</span><div><small>VÙNG ${group+1}</small><b>${region[1]}</b></div></div><div class="offline-path">${units.slice(group*3,group*3+3).map((unit,local)=>{const index=group*3+local;return`<button class="offline-node ${done.includes(index)?'done':''} ${index===active?'active':''}" data-offline-unit="${index}" aria-label="Học Unit ${index+1}: ${unit.title}">${done.includes(index)?'⭐':unit.icon}${index===active?'<em>🦊</em>':''}</button>`}).join('')}</div></article>`).join('');
+    const unit=units[active],resume=resumeLearningInfo(active);$('#offlineQuestIcon').textContent=unit.icon;$('#offlineQuestTitle').textContent=`Học tiếp · Unit ${active+1} · Buổi ${resume.session.number}/6`;$('#offlineQuestText').textContent=`${resume.session.title} · ${resume.phase.label} · bước ${resume.step}/7`;$('#offlineQuestStart').textContent=`Tiếp tục: ${resume.phase.shortLabel} →`;
+    document.querySelectorAll('[data-offline-unit]').forEach(button=>button.onclick=()=>selectUnit(Number(button.dataset.offlineUnit),true));$('#offlineQuestStart').onclick=()=>selectUnit(active,true)
+  }
+  let petState={joy:72,energy:68,satiety:58,friendship:12,...JSON.parse(localStorage.getItem('milo-pet-state')||'{}')};
+  let miloMotionTimer=0;
+  let miloPoseTimer=0;
+  let currentPetMotion='idle';
+  function currentLevelSpec(){const pet=selectedPet(state.grade);return window.MILO_PET_LEVELS.getLevelData(pet[0],currentMiloLevel())}
+  function poseForMotion(motion='idle'){return motion==='level'?currentLevelSpec().poses[0]:motion==='talk'?'talk':['wave','dance','celebrate','play','groom','eat'].includes(motion)?'wave':motion==='sad'?'talk':'idle'}
+  const motionPoseFrames={idle:['idle'],wave:['wave','idle','wave','idle'],talk:['talk','idle','talk','talk','idle'],dance:['wave','idle','wave','idle','wave'],celebrate:['wave','idle','wave','wave','idle'],eat:['talk','idle','talk'],play:['wave','idle','wave','idle'],groom:['talk','idle','talk'],sad:['talk','idle']};
+  function currentMiloLevel(){const journey=miloJourney();return Math.min(state.previewLevel||journey.level,journey.level)}
+  function preloadMiloPoses(level=currentMiloLevel()){const pet=selectedPet(state.grade);['idle','talk','wave'].forEach(pose=>{const image=new Image();image.src=petPoseImage(pet[0],level,pose)})}
+  function miloPoseTargets(){return [...new Set(['#petImage','#petHubHero','#petChoiceGrid .pet-choice-card.selected .pet-portrait img'].flatMap(selector=>[...document.querySelectorAll(selector)]))]}
+  function showMiloPose(pose='idle',level=currentMiloLevel()){const pet=selectedPet(state.grade),next=petPoseImage(pet[0],level,pose);miloPoseTargets().forEach(img=>{if(img.getAttribute('src')!==next)img.src=next;img.alt=`${pet[1]} toàn thân Level ${level} · pose ${pose}`})}
+  function applyPetPose(motion='idle'){showMiloPose(poseForMotion(motion))}
+  function startMiloPoseSequence(motion='idle'){clearInterval(miloPoseTimer);const level=currentMiloLevel(),spec=currentLevelSpec(),frames=motion==='level'?spec.poses:(motionPoseFrames[motion]||motionPoseFrames.idle);if(!miloPoseTargets().length)return;let index=0;const show=()=>{showMiloPose(frames[index%frames.length],level);index++};show();if(frames.length>1)miloPoseTimer=setInterval(show,motion==='level'?Math.max(170,Math.round(spec.duration/frames.length)):motion==='talk'?180:motion==='celebrate'?260:220)}
+  function triggerMiloMotion(motion='wave',duration=1600){
+    const stage=$('#offlineMiloStage');
+    if(!stage)return;
+    clearTimeout(miloMotionTimer);
+    clearInterval(miloPoseTimer);
+    currentPetMotion=motion;
+    preloadMiloPoses();
+    const levelSpec=currentLevelSpec();
+    if(motion==='level')window.MILO_PET_LEVELS.applyMotionStyle(stage,levelSpec);
+    startMiloPoseSequence(motion);
+    ['motion-idle','motion-wave','motion-talk','motion-dance','motion-celebrate','motion-eat','motion-play','motion-groom','motion-sad','motion-level'].forEach(name=>stage.classList.remove(name));
+    void stage.offsetWidth;
+    stage.classList.add(`motion-${motion}`);
+    const fx=$('#offlineMiloFx');
+    if(fx)fx.textContent=motion==='level'?levelSpec.fx:motion==='eat'?'🥕':motion==='play'?'⚽':motion==='groom'?'💫':'⭐';
+    miloMotionTimer=setTimeout(()=>{clearInterval(miloPoseTimer);currentPetMotion='idle';stage.classList.remove(`motion-${motion}`);stage.classList.add('motion-idle');applyPetPose('idle')},duration);
+  }
+  const clampPet=value=>Math.max(0,Math.min(100,value));
+  function miloJourney(){const progress=window.MILO_UNIT_PROGRESSION.summary(state.grade);return{...progress,coins:Number(localStorage.getItem('milo-care-coins')||0),completedUnits:progress.completedUnits.length,steps:Object.values(progress.units).reduce((sum,item)=>sum+Object.keys(item.sections||{}).length,0)}}
+  function renderEvolution(){
+    const journey=miloJourney();
+    if(state.previewLevel>journey.level)state.previewLevel=0;
+    const selected=Math.min(state.previewLevel||journey.level,journey.level);
+    const stage=evolutionForLevel(selected),pet=selectedPet(state.grade),stageIndex=evolutionStages.indexOf(stage);
+    const levelSpec=window.MILO_PET_LEVELS.getLevelData(pet[0],selected);
+    const icons=['🍼','🌱','🔎','🎒','🧭','🛡️','📚','👑','🏆','✨'];
+    $('#evolutionSummary').textContent=`${journey.completedUnits}/12 Unit · Lv.${journey.level} · ${journey.xp}/${journey.maxXp} XP`;
+    const preview=$('#evolutionPreviewImage');
+    preview.src=petPoseImage(pet[0],selected,'idle');
+    preview.alt=`${pet[1]} toàn thân Level ${selected} · ${levelSpec.appearanceName}`;
+    preview.style.filter=`drop-shadow(0 ${10+stageIndex}px ${14+stageIndex}px rgba(45,63,91,.20))`;
+    window.MILO_PET_LEVELS.applyMotionStyle(preview.closest('.offline-evolution-feature')||preview,levelSpec);
+    $('#evolutionPreviewLevel').textContent=`LV.${selected}`;
+    $('#evolutionPreviewRange').textContent=`GIAI ĐOẠN LEVEL ${stage.min}–${stage.max}`;
+    $('#evolutionPreviewName').textContent=`${levelSpec.stage.icon} ${pet[1]} · ${levelSpec.appearanceName}`;
+    $('#evolutionPreviewSkill').innerHTML=`${levelSpec.skill}<div class="growth-note">Milo đang ở ${levelSpec.growthPercent}% trưởng thành và sẽ lớn thêm sau mỗi Level.</div>`;
+    $('#evolutionPreviewUnlock').textContent='✅ Diện mạo và hoạt động đã mở khóa';
+    $('#growthPercent').textContent=`${levelSpec.growthPercent}%`;
+    $('#growthBar').style.width=`${levelSpec.growthPercent}%`;
+    $('#levelActivityIcon').textContent=levelSpec.icon;
+    $('#levelActivityName').textContent=levelSpec.activityName;
+    $('#levelActivityPhrase').textContent=levelSpec.phrase;
+    $('#previewLevelActivity').textContent=`▶ Chơi Level ${selected}`;
+    $('#previewLevelActivity').onclick=()=>{$('#miloMessage').textContent=`${levelSpec.icon} ${pet[1]} · ${levelSpec.activityShort}: “${levelSpec.phrase}”`;triggerMiloMotion('level',levelSpec.duration);miloVoice(levelSpec.phrase,.78)};
+    $('#offlineUnitLevels').innerHTML=unitLevelTargets.map((target,index)=>`<div class="${completed().includes(index)?'done':''}"><span>${completed().includes(index)?'⭐':index+1}</span><small>Unit ${index+1}</small><b>${index===11?'Hoàn thành lớp · ':''}Lv.${target}</b></div>`).join('');
+    $('#offlineLevelGallery').innerHTML=Array.from({length:50},(_,index)=>index+1).map(level=>{
+      const unlocked=level<=journey.level,st=evolutionForLevel(level),si=evolutionStages.indexOf(st),needUnit=requiredUnitForLevel(level),spec=window.MILO_PET_LEVELS.getLevelData(pet[0],level);
+      return`<button type="button" class="offline-level-card ${unlocked?'':'locked'} ${level===journey.level?'current':''} ${level===selected?'selected':''}" data-evolution-level="${level}" ${unlocked?'':`disabled aria-disabled="true"`}><span>LV.${level}</span><i class="level-activity-mini" title="${spec.activityShort}">${spec.icon}</i><img src="${petPoseImage(pet[0],level,'idle')}" alt="${pet[1]} Level ${level} · ${spec.appearanceName}" loading="lazy" decoding="async"><small>${unlocked?`${spec.growthPercent}% · ${spec.activityShort}`:`${spec.growthPercent}% · Cần Unit ${needUnit}`}</small><em class="stage-badge">${icons[si]}</em>${unlocked?'':`<div class="level-lock-overlay"><b>🔒</b><small>Chưa đạt Lv.${level}</small></div>`}</button>`;
+    }).join('');
+    $$('[data-evolution-level]').forEach(card=>{
+      const spec=window.MILO_PET_LEVELS.getLevelData(pet[0],Number(card.dataset.evolutionLevel));
+      window.MILO_PET_LEVELS.applyMotionStyle(card,spec);
+    });
+    $$('[data-evolution-level]').forEach(button=>{if(button.disabled)return;button.onclick=()=>{state.previewLevel=Number(button.dataset.evolutionLevel);renderEvolution();renderPetHub();renderPet()}});
+  }
+  function renderPet(){[['petJoy','petJoyBar',petState.joy],['petEnergy','petEnergyBar',petState.energy],['petSatiety','petSatietyBar',petState.satiety],['petFriend','petFriendBar',petState.friendship]].forEach(([text,bar,value])=>{$(`#${text}`).textContent=`${Math.round(value)}%`;$(`#${bar}`).style.width=`${value}%`});const journey=miloJourney(),displayLevel=Math.min(state.previewLevel||journey.level,journey.level),pet=selectedPet(state.grade),room=$('#offlineMiloStage'),petImage=petPoseImage(pet[0],displayLevel,'idle'),previewing=displayLevel!==journey.level,levelSpec=window.MILO_PET_LEVELS.getLevelData(pet[0],displayLevel);$('#petLevel').textContent=previewing?`Đang xem Lv.${displayLevel} · Hiện tại Lv.${journey.level}`:`Level ${journey.level}/50`;$('#petCoins').textContent=journey.coins;preloadMiloPoses(displayLevel);currentPetMotion='idle';applyPetPose('idle');$('#offlineMiloWave').style.backgroundImage='none';$('#heroMiloImage').src=petImage;$('#heroPetBadge').textContent=`⭐ ${pet[1]} · Lớp ${state.grade}`;$('#heroPetLevelCard').textContent=`Lv.${displayLevel}`;$('#heroPetName').textContent=pet[1];$('#heroPetSub').textContent=previewing?`${levelSpec.appearanceName} · Cơ thể ${levelSpec.growthPercent}% · Đang xem Level ${displayLevel}`:`${pet[2]} · ${levelSpec.appearanceName} · Cơ thể ${levelSpec.growthPercent}%`;window.MILO_PET_LEVELS.applyMotionStyle($('#heroMiloImage').closest('.hero-avatar-card'),levelSpec);if($('#petHubHero'))$('#petHubHero').src=petImage;if(room){room.dataset.petId=pet[0];room.setAttribute('aria-label',`Chạm để ${pet[1]} chơi hoạt động Level ${displayLevel}`);window.MILO_PET_LEVELS.applyMotionStyle(room,levelSpec);room.classList.remove('mood-hungry','mood-sad','mood-happy','mood-full');room.classList.add(petState.satiety<25?'mood-hungry':petState.joy<30?'mood-sad':petState.satiety>84?'mood-full':petState.joy>79?'mood-happy':'mood-ready')}let message=previewing?`${levelSpec.icon} ${pet[1]} Level ${displayLevel} có cơ thể ${levelSpec.growthPercent}% và mở hoạt động “${levelSpec.activityShort}”.`:`😊 ${pet[1]} đang ở Level ${journey.level}, cơ thể ${levelSpec.growthPercent}% và sẵn sàng phiêu lưu!`;if(!previewing&&petState.satiety<25)message=`🥺 ${pet[1]} Level ${journey.level} đang đói. Học bài để kiếm Hạt Ánh Sáng nhé!`;else if(!previewing&&petState.joy<30)message=`😢 ${pet[1]} Level ${journey.level} đang buồn. Chơi cùng bạn ấy nhé!`;else if(!previewing&&petState.satiety>84)message=`😋 ${pet[1]} Level ${journey.level} đã no và rất khỏe!`;else if(!previewing&&petState.joy>79)message=`😍 ${pet[1]} Level ${journey.level} đang rất vui!`;$('#miloMessage').textContent=message;$('#petStatusName').textContent=pet[1];$('#petSpeechLabel').textContent=`${pet[1].toUpperCase()} SAYS`;$('#motionLabTitle').textContent=`⚡ ${pet[1].toUpperCase()} MOTION LAB`;$('#levelSpecialIcon').textContent=levelSpec.icon;$('#levelSpecialName').textContent=`Lv.${displayLevel} · ${levelSpec.activityShort}`;$('#levelSpecialHint').textContent=levelSpec.phrase;const firstPrompt=$('.prompt');if(firstPrompt)firstPrompt.textContent=`Hello, ${pet[1]}!`;renderEvolution()}
+  function carePet(action){const pet=selectedPet(state.grade),cost=action==='feed'?12:action==='play'?8:5,coins=Number(localStorage.getItem('milo-care-coins')||0);if(coins<cost){showToast('Chưa đủ Hạt Ánh Sáng. Em hãy học và thắng game!');triggerMiloMotion('sad',1700);return}localStorage.setItem('milo-care-coins',String(coins-cost));petState={...petState,joy:clampPet(petState.joy+(action==='play'?18:action==='brush'?12:6)),energy:clampPet(petState.energy+(action==='feed'?18:action==='play'?-5:4)),satiety:clampPet(petState.satiety+(action==='feed'?24:action==='play'?-4:2)),friendship:clampPet(petState.friendship+(action==='brush'?7:5))};localStorage.setItem('milo-pet-state',JSON.stringify(petState));renderPet();triggerMiloMotion(action==='feed'?'eat':action==='play'?'play':'groom',action==='play'?1900:1600);speak(action==='feed'?`Yummy! ${pet[1]} is healthy and full!`:action==='play'?'Let us play together!':'I feel great!',false)}
+  function showToast(text='Đã lưu tiến độ'){const t=$('#toast');t.textContent=text;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),1500)}
+  function miloVoice(text,rate=.84){
+    if(window.MILO_PET_VOICE?.speak){return window.MILO_PET_VOICE.speak(text,rate);}
+    return Promise.resolve(false);
+  }
+  function speak(text,animate=true){$('#miloMessage').textContent=text;if(animate)triggerMiloMotion('talk',Math.min(3200,Math.max(1500,String(text).length*42)));miloVoice(text)}
+  function answer(q){const pet=selectedPet(state.grade),t=q.toLowerCase().trim();if(!t)return'Ask me an English question!';if(t.includes('hello')||t==='hi')return`Hello! I am ${pet[1]}. I am happy to learn with you today!`;if(t.includes('how are you'))return'I am great, thank you! How are you?';const u=currentUnit();const hit=u.words.find(w=>t.includes(w[0].toLowerCase())||t.includes(w[1].toLowerCase()));if(hit)return`${hit[1]} is “${hit[0]}” in English. Listen and repeat: ${hit[0]}.`;if(t.includes('mẫu câu')||t.includes('grammar')||t.includes('ngữ pháp'))return`Our language pattern is: ${u.pattern[0]} ${u.pattern[1]}`;if(t.includes('học gì')||t.includes('unit'))return`In this unit, we learn about ${u.title}. ${u.pattern[0]}`;return`Good question! In ${u.title}, try this pattern: ${u.pattern[0]} ${u.pattern[1]}`}
+  function ask(q,addChat=false){q=q.trim();if(!q)return;const a=answer(q);speak(a);if(addChat){const m=$('#messages');m.insertAdjacentHTML('beforeend',`<div class="bubble user"></div><div class="bubble milo"></div>`);const bubbles=m.querySelectorAll('.bubble');bubbles[bubbles.length-2].textContent=q;bubbles[bubbles.length-1].textContent=a;m.scrollTop=m.scrollHeight}}
+  function listen(target,addChat=false){const R=window.SpeechRecognition||window.webkitSpeechRecognition;if(!R){showToast('Máy này chưa hỗ trợ nghe trực tiếp. Em có thể gõ câu trả lời.');return}const r=new R();r.lang='en-US';r.interimResults=false;r.onstart=()=>$('#miloMessage').textContent='I am listening...';r.onresult=e=>{const text=e.results[0][0].transcript;target.value=text;ask(text,addChat)};r.onerror=()=>showToast(`${selectedPet(state.grade)[1]} chưa nghe rõ, em thử lại nhé`);r.start()}
+  function progress(){return Math.round(completed().length/currentGrade().units.length*100)}
+  function updateProgress(){const p=progress(),journey=window.MILO_UNIT_PROGRESSION.summary(state.grade);$('#homeProgress').textContent=p;$('#mapProgress').textContent=p;$('#wordsLearned').textContent=completed().reduce((total,index)=>total+(currentGrade().units[index]?.words.length||0),0);const badge=$('#journeyXpDetails');if(badge)badge.textContent=`${journey.xp} XP · Lv.${journey.level} · Mốc tiếp Unit ${journey.nextUnit} → Lv.${journey.nextUnitLevel}`;}
+  function updateGrade(){const g=currentGrade(),saved=window.MILO_UNIT_PROGRESSION.summary(state.grade);state.unit=Math.min(Math.max(0,Number(saved.currentUnit||1)-1),Math.min(11,g.units.length-1));const u=currentUnit(),resume=resumeLearningInfo();$('#gradeSelect').value=state.grade;$('#gradeLabel').textContent=`LỚP ${state.grade} · ${g.mode.toUpperCase()}`;$('#heroTitle').textContent=`Học tiếp · Unit ${state.unit+1} · Buổi ${resume.session.number}/6`;$('#heroDesc').textContent=`${resume.session.title} · ${resume.phase.label} · bước ${resume.step}/7`;$('#continueBtn').textContent=`Tiếp tục: ${resume.phase.shortLabel} →`;$('#missionTitle').textContent=`Unit ${state.unit+1}: ${u.title}`;$('#missionSub').textContent=`Buổi ${resume.session.number}/6 · ${resume.session.title} · ${resume.phase.label}`;$('#quizUnitTitle').textContent=`Kiểm tra Unit ${state.unit+1}: ${u.title}`;$('#curriculumMode').textContent=g.mode;$('#curriculumFocus').textContent=g.focus;$('#periods').textContent=g.periods;$('#readingTarget').textContent=g.readingTarget;$('#writingTarget').textContent=g.writingTarget;localStorage.setItem('milo-grade',state.grade);localStorage.setItem(`milo-unit-${state.grade}`,state.unit);renderUnits();renderOfflineWorld();updateProgress();if($('#petChoiceGrid'))renderPetHub();renderPet()}
+  function renderUnits(){
+    const grid=$('#unitGrid'),done=completed(),api=window.MILO_UNIT_PROGRESSION,progress=api.summary(state.grade);grid.innerHTML='';
+    currentGrade().units.slice(0,api.UNIT_COUNT).forEach((u,i)=>{
+      const b=document.createElement('button'),sourceCount=u.fullKnowledge?.sourceTermCount||0,unitNumber=i+1,target=api.levelTargetForUnit(unitNumber);
+      const status=done.includes(i)?'Đã hoàn thành':i===state.unit?'Đang học':'Chưa học';
+      b.className=`unit-card ${i===state.unit?'selected':''} ${done.includes(i)?'done':''}`;
+      b.setAttribute('aria-label',`${status} Unit ${unitNumber}: ${u.title}`);
+      b.innerHTML=`<span class="unit-number">${done.includes(i)?'✓':unitNumber}</span><span><strong>${u.icon} Unit ${unitNumber} · ${u.title}</strong><small class="unit-status">${status} · ${unitNumber===12?'Hoàn thành lớp · ':''}Lv.${target}</small><small class="${sourceCount?'source-count':''}">${sourceCount?`✅ ${sourceCount} kiến thức từ nguồn`:u.vi}</small></span>`;
+      b.onclick=()=>selectUnit(i,true);grid.appendChild(b)
+    });
+    const xp=document.querySelector('#journeyXpDetails');if(xp)xp.textContent=`${progress.xp} XP · Còn ${progress.xpNeededForNextLevel} XP lên Lv.${Math.min(50,progress.level+1)}`;
+  }
+  function selectUnit(index,open=false){
+    const api=window.MILO_UNIT_PROGRESSION,unitCount=Math.min(api.UNIT_COUNT,currentGrade().units.length),nextIndex=Math.max(0,Math.min(Number(index)||0,unitCount-1));
+    const result=api.setCurrentUnit(state.grade,nextIndex+1);
+    if(!result.ok){showToast(result.reason);return;}
+    state.unit=nextIndex;
+    if(open){openLesson();return;}
+    updateGrade();
+  }
+  function setView(name){
+    const allowed=['quick','journey','chat','pets','badges','home','daily','parent','test'];
+    const next=allowed.includes(name)&&$(`#view-${name}`)?name:'quick';
+    $$('.view').forEach(v=>v.classList.add('hidden'));
+    $(`#view-${next}`).classList.remove('hidden');
+    $$('.nav-btn').forEach(b=>b.classList.toggle('active',b.dataset.view===next));
+    if(['quick','journey','chat','pets','badges'].includes(next))localStorage.setItem('milo-main-view',next);
+  }
+  const modules=[['overview','🎯 Mục tiêu'],['phonics','🔤 Phát âm'],['language','🧠 Từ & mẫu câu'],['listening','🎧 Nghe'],['speaking','💬 Nói với Milo'],['reading','📖 Đọc'],['writing','✍️ Viết'],['project','🎨 Dự án'],['test','✅ Kiểm tra']];
+  function renderModule(type){state.module=type;$$('.module-btn').forEach(b=>b.classList.toggle('active',b.dataset.module===type));const u=currentUnit(),g=currentGrade(),box=$('#moduleContent');const vocab=u.words.map(w=>`<div class="vocab-item"><span>${w[2]}</span><div><b>${w[0]}</b><small>${w[1]}</small></div></div>`).join('');if(type==='overview')box.innerHTML=`<h3>🎯 Sau Unit này, em có thể</h3><ul class="objective-list"><li>Giao tiếp về chủ đề <b>${u.vi}</b>.</li><li>Nghe và phản hồi mẫu: <b>${u.pattern[0]}</b></li><li>Nói/viết câu mẫu: <b>${u.pattern[1]}</b></li><li>Đọc: ${g.readingTarget}; Viết: ${g.writingTarget}.</li></ul><div class="pattern-box"><b>Không học kiến thức tách rời:</b> từ vựng, ngữ âm và ngữ pháp đều được đặt trong tình huống giao tiếp.</div>`;if(type==='phonics')box.innerHTML=`<h3>🔤 Phát âm và nhịp điệu</h3><p>Trọng tâm: <b>${u.phonics}</b></p><div class="vocab-grid">${vocab}</div><div class="module-actions"><button class="secondary" id="playPhonics">🔊 Nghe và nhắc lại</button></div>`;if(type==='language')box.innerHTML=`<h3>🧠 Ngôn ngữ trong ngữ cảnh</h3><div class="vocab-grid">${vocab}</div><div class="pattern-box"><b>A:</b> ${u.pattern[0]}<br><b>B:</b> ${u.pattern[1]}</div><div class="module-actions"><button class="secondary" id="playPattern">🔊 Nghe hội thoại mẫu</button></div>`;if(type==='listening')box.innerHTML=`<h3>🎧 Listening mission</h3><p>Nghe hai lần. Lần 1 chọn chủ đề chính; lần 2 ghi lại từ em nghe được.</p><div class="reading-box" id="transcript" style="filter:blur(5px);user-select:none">${u.sample}</div><div class="module-actions"><button class="primary" id="playListening">▶ Nghe bài</button><button class="secondary" id="showTranscript">Hiện lời nghe</button></div>`;if(type==='speaking')box.innerHTML=`<h3>💬 Role-play với Milo</h3><div class="pattern-box"><b>Milo:</b> ${u.pattern[0]}<br><b>Em:</b> ${u.pattern[1]}</div><p class="module-note">Bấm Milo hỏi, sau đó trả lời thành tiếng. Có thể dùng nút micro ở khung Milo.</p><div class="module-actions"><button class="primary" id="miloAsk">🦊 Milo hỏi em</button><button class="secondary" id="modelAnswer">🔊 Nghe câu trả lời mẫu</button></div>`;if(type==='reading')box.innerHTML=`<h3>📖 Reading mission</h3><p class="module-note">Mục tiêu lớp ${state.grade}: ${g.readingTarget}.</p><div class="reading-box">${u.sample}</div><p><b>Câu hỏi:</b> Đoạn văn nói về chủ đề gì? Em tìm được những từ nào đã học?</p><div class="module-actions"><button class="secondary" id="readAloud">🔊 Nghe đọc đoạn văn</button></div>`;if(type==='writing'){const key=`milo-writing-${state.grade}-${state.unit}`;box.innerHTML=`<h3>✍️ Writing mission</h3><p>${u.writing}</p><p class="module-note">Mục tiêu: ${g.writingTarget}. Milo lưu bài viết trên máy này.</p><textarea class="writing-area" id="writingArea" placeholder="Write here..."></textarea><div class="module-actions"><button class="primary" id="saveWriting">Lưu bài viết</button><span class="module-note" id="wordCount"></span></div>`;const area=$('#writingArea');area.value=localStorage.getItem(key)||'';const count=()=>$('#wordCount').textContent=`${area.value.trim()?area.value.trim().split(/\s+/).length:0} từ`;area.oninput=count;count();$('#saveWriting').onclick=()=>{localStorage.setItem(key,area.value);showToast('Đã lưu bài viết')}}if(type==='project')box.innerHTML=`<h3>🎨 Project & Culture</h3><div class="reading-box"><b>Nhiệm vụ:</b> ${u.project}</div><ul class="objective-list"><li>Dùng ít nhất 4 từ/cụm từ của Unit.</li><li>Dùng mẫu câu giao tiếp đã học.</li><li>Giới thiệu sản phẩm bằng tiếng Anh.</li><li>Liên hệ văn hoá Việt Nam khi phù hợp.</li></ul><button class="primary" id="finishProject">Đánh dấu đã làm dự án</button>`;if(type==='test')box.innerHTML=`<h3>✅ Unit Test tự tạo</h3><p>Bài kiểm tra gồm 5 dạng: từ–nghĩa, mẫu câu, phản hồi giao tiếp, đọc hiểu và nghe.</p><button class="primary" id="moduleTest">Bắt đầu kiểm tra Unit</button>`;bindModuleActions(type)}
+  function bindModuleActions(type){const u=currentUnit();if(type==='phonics')$('#playPhonics').onclick=()=>speak(`${u.phonics}. ${u.words.map(w=>w[0]).join('. ')}`);if(type==='language')$('#playPattern').onclick=()=>speak(`${u.pattern[0]} ${u.pattern[1]}`);if(type==='listening'){let shown=false;$('#playListening').onclick=()=>speak(u.sample);$('#showTranscript').onclick=()=>{shown=!shown;$('#transcript').style.filter=shown?'none':'blur(5px)';$('#showTranscript').textContent=shown?'Ẩn lời nghe':'Hiện lời nghe'}}if(type==='speaking'){$('#miloAsk').onclick=()=>speak(u.pattern[0]);$('#modelAnswer').onclick=()=>speak(u.pattern[1])}if(type==='reading')$('#readAloud').onclick=()=>speak(u.sample);if(type==='project')$('#finishProject').onclick=()=>showToast('Đã ghi nhận dự án');if(type==='test')$('#moduleTest').onclick=()=>{$('#lessonModal').classList.add('hidden');setView('test');buildQuiz()}}
+  function buildQuiz(){const u=currentUnit(),others=currentGrade().units.filter((_,i)=>i!==state.unit),w=u.words;state.quiz=[{q:`“${w[0][0]}” có nghĩa là gì?`,correct:w[0][1],options:w.map(x=>x[1]).sort(()=>Math.random()-.5)},{q:`Từ tiếng Anh của “${w[1][1]}” là gì?`,correct:w[1][0],options:w.map(x=>x[0]).sort(()=>Math.random()-.5)},{q:u.pattern[0],correct:u.pattern[1],options:[u.pattern[1],`This is ${w[2][0]}.`,`I like ${w[3][0]}.`,'I do not know.'].sort(()=>Math.random()-.5)},{q:'Bài đọc của Unit nói chủ yếu về chủ đề nào?',correct:u.vi,options:[u.vi,...others.slice(0,3).map(x=>x.vi)].sort(()=>Math.random()-.5)},{q:'Nghe câu và chọn đúng câu em vừa nghe.',audio:u.pattern[1],correct:u.pattern[1],options:[u.pattern[1],u.pattern[0],`This is ${w[0][0]}.`,`I can see ${w[2][0]}.`].sort(()=>Math.random()-.5)}];state.question=0;state.score=0;$('#quizStart').classList.add('hidden');$('#quizResult').classList.add('hidden');$('#quizPlay').classList.remove('hidden');renderQuestion()}
+  function renderQuestion(){const q=state.quiz[state.question];$('#questionCount').textContent=`Câu ${state.question+1}/5`;$('#quizBar').style.width=`${(state.question+1)*20}%`;$('#questionText').innerHTML=q.audio?`${q.q} <button class="secondary" id="replayAudio">🔊 Nghe</button>`:q.q;const box=$('#options');box.innerHTML='';q.options.forEach(o=>{const b=document.createElement('button');b.className='option';b.textContent=o;b.onclick=()=>chooseOption(b,o);box.appendChild(b)});if(q.audio){$('#replayAudio').onclick=()=>speak(q.audio);speak(q.audio)}}
+  function chooseOption(btn,value){const q=state.quiz[state.question];$$('.option').forEach(b=>b.disabled=true);if(value===q.correct){btn.classList.add('correct');state.score++;speak('Correct! Well done!')}else{btn.classList.add('wrong');$$('.option').find(b=>b.textContent===q.correct)?.classList.add('correct');speak(`Good try. The correct answer is ${q.correct}.`)}setTimeout(()=>{state.question++;if(state.question<5)renderQuestion();else finishQuiz()},900)}
+  function finishQuiz(){const prev=Number(localStorage.getItem('milo-tests')||0)+1;localStorage.setItem('milo-tests',String(prev));$('#testsDone').textContent=prev;if(state.score>=3){saveCompleted([...completed(),state.unit]);const stars=Number(localStorage.getItem('milo-stars')||0)+30;localStorage.setItem('milo-stars',String(stars));$('#stars').textContent=stars;updateProgress();renderPet()}$('#quizPlay').classList.add('hidden');$('#quizResult').classList.remove('hidden');$('#score').textContent=`${state.score}/5`;$('#scoreMessage').textContent=state.score===5?'Excellent!':state.score>=3?'Great job!':'Keep practising!';speak($('#scoreMessage').textContent);showToast(state.score>=3?'Đã hoàn thành Unit! +30 sao':'Em hãy ôn lại và thử lần nữa')}
+  $$('.nav-btn').forEach(b=>b.onclick=()=>setView(b.dataset.view));$('#gradeSelect').onchange=e=>{state.grade=Number(e.target.value);state.unit=Number(localStorage.getItem(`milo-unit-${state.grade}`)||0);state.previewLevel=0;updateGrade();renderPet();showToast(`Đã chọn lớp ${state.grade}`)};$('#closeModal').onclick=()=>$('#lessonModal').classList.add('hidden');$('#lessonModal').onclick=e=>{if(e.target.id==='lessonModal')e.currentTarget.classList.add('hidden')};$('#speakBtn').onclick=()=>speak($('#miloMessage').textContent);$$('.prompt').forEach(b=>b.onclick=()=>ask(b.textContent));$('#askForm').onsubmit=e=>{e.preventDefault();ask($('#askText').value);$('#askText').value=''};$('#chatForm').onsubmit=e=>{e.preventDefault();ask($('#chatText').value,true);$('#chatText').value=''};$('#micSmall').onclick=()=>listen($('#askText'));$('#micLarge').onclick=()=>listen($('#chatText'),true);$('#startQuiz').onclick=buildQuiz;$('#retryQuiz').onclick=buildQuiz;$('#nextUnitBtn').onclick=()=>{state.unit=(state.unit+1)%currentGrade().units.length;updateGrade();setView('journey');openLesson()};
+  document.querySelectorAll('[data-pet-care]').forEach(button=>button.onclick=()=>carePet(button.dataset.petCare));const offlineMiloStage=$('#offlineMiloStage');offlineMiloStage.onclick=()=>{const pet=selectedPet(state.grade),spec=currentLevelSpec();triggerMiloMotion('level',spec.duration);$('#miloMessage').textContent=`${spec.icon} ${pet[1]} · ${spec.activityShort}: “${spec.phrase}”`;miloVoice(spec.phrase,.78)};offlineMiloStage.onkeydown=event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();offlineMiloStage.click()}};document.querySelectorAll('[data-milo-show]').forEach(button=>button.onclick=()=>{const pet=selectedPet(state.grade),motion=button.dataset.miloShow;if(motion==='level'){const spec=currentLevelSpec();$('#miloMessage').textContent=`${spec.icon} ${pet[1]} · ${spec.activityShort}: “${spec.phrase}”`;triggerMiloMotion('level',spec.duration);miloVoice(spec.phrase,.78);return}const show={wave:[`Hello! ${pet[1]} đang vẫy tay chào em!`,2100],dance:[`Dance time! ${pet[1]} đang nhảy rất vui!`,2600],celebrate:[`Amazing! ${pet[1]} đang ăn mừng cùng em!`,2500],talk:['Hi, little explorer! Let us learn English together!',3200]}[motion];$('#miloMessage').textContent=show[0];triggerMiloMotion(motion,show[1]);if(motion==='talk')miloVoice(show[0],.79)});renderPet();$('#stars').textContent=localStorage.getItem('milo-stars')||'0';$('#testsDone').textContent=localStorage.getItem('milo-tests')||'0';updateGrade();
+</script>
+<script>
+  const lessonModules=['warmup','vocabulary','phonics','language','listening','speaking','reading','writing','project','test']
+    .map(id=>{const [icon,title]=window.MILO_LESSON_MODULES[id];return[id,`${icon} ${title}`]});
+  const lessonParts=lessonModules.filter(item=>item[0]!=='test').map(item=>item[0]);
+
+  function escapeHtml(value){
+    return String(value).replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[char]));
+  }
+  function encodeValue(value){return encodeURIComponent(String(value))}
+  function shuffleItems(items){
+    const copy=[...items];
+    for(let i=copy.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[copy[i],copy[j]]=[copy[j],copy[i]]}
+    return copy;
+  }
+  function uniqueOptions(correct,pool){
+    const values=[correct,...pool].filter((value,index,array)=>value&&array.indexOf(value)===index).slice(0,4);
+    while(values.length<4)values.push(`Phương án ${values.length+1}`);
+    return shuffleItems(values);
+  }
+  function lessonKey(){return`milo-lesson-parts-${state.grade}-${state.unit}`}
+  function completedLessonParts(){return JSON.parse(localStorage.getItem(lessonKey())||'[]')}
+  function saveLessonPart(type){
+    if(!lessonParts.includes(type))return;
+    const done=[...new Set([...completedLessonParts(),type])];
+    localStorage.setItem(lessonKey(),JSON.stringify(done));
+    updateLessonProgress();
+    showToast(`Đã hoàn thành ${lessonModules.find(item=>item[0]===type)?.[1]||'phần học'}`);
+  }
+  function updateLessonProgress(){
+    const done=completedLessonParts();
+    const percent=Math.round(done.length/lessonParts.length*100);
+    const bar=$('#lessonProgressBar'),text=$('#lessonProgressText');
+    if(bar)bar.style.width=`${percent}%`;
+    if(text)text.textContent=`${done.length}/${lessonParts.length} phần học`;
+    document.querySelectorAll('#moduleGrid .module-btn').forEach(button=>{
+      button.classList.toggle('done',done.includes(button.dataset.module));
+    });
+  }
+  function speakAt(text,rate=.84){
+    $('#miloMessage').textContent=text;
+    miloVoice(text,rate);
+  }
+  function contextSentence(word,unit){
+    const sentences=unit.sample.match(/[^.!?]+[.!?]?/g)||[unit.sample];
+    const found=sentences.find(sentence=>sentence.toLowerCase().includes(word.toLowerCase()));
+    return(found||`Listen, point and say: ${word}.`).trim();
+  }
+  function patternExplanation(question){
+    const text=question.toLowerCase();
+    if(text.startsWith('how many'))return'Dùng “How many ...?” để hỏi số lượng. Câu trả lời cần có số và tên đồ vật.';
+    if(text.startsWith('how old'))return'Dùng “How old ...?” để hỏi tuổi. Trả lời bằng số tuổi và “years old”.';
+    if(text.startsWith('how often'))return'Dùng “How often ...?” để hỏi mức độ thường xuyên. Trả lời với always, usually, often hoặc sometimes.';
+    if(text.startsWith('how do'))return'Dùng “How do ...?” để hỏi cách thức hoặc phương tiện. Câu trả lời nêu cách em thực hiện.';
+    if(text.startsWith('what time'))return'Dùng “What time ...?” để hỏi giờ. Trả lời với “at + giờ”.';
+    if(text.startsWith('what day')||text.startsWith('when'))return'Dùng câu này để hỏi ngày hoặc thời điểm. Chú ý dùng “on” trước thứ/ngày.';
+    if(text.startsWith('what did')||text.startsWith('where did'))return'Đây là câu hỏi về việc đã xảy ra. Khi trả lời, dùng động từ ở dạng quá khứ.';
+    if(text.startsWith('what is')||text.startsWith('what are')||text.startsWith("what's"))return'Dùng câu hỏi “What ...?” để hỏi tên, đặc điểm hoặc thông tin về người và vật.';
+    if(text.startsWith('where'))return'Dùng “Where ...?” để hỏi nơi chốn hoặc vị trí. Trả lời bằng địa điểm và giới từ phù hợp.';
+    if(text.startsWith('who'))return'Dùng “Who ...?” để hỏi về một người. Câu trả lời giới thiệu người đó.';
+    if(text.startsWith('can'))return'Dùng “Can ...?” để hỏi khả năng. Trả lời “Yes, ... can” hoặc “No, ... cannot”.';
+    if(text.startsWith('do ')||text.startsWith('does '))return'Dùng “Do/Does ...?” để hỏi sở thích hoặc thói quen. Trả lời Yes/No rồi bổ sung thông tin.';
+    if(text.startsWith('would'))return'Dùng “Would ...?” để hỏi mong muốn hoặc đưa ra lời mời một cách lịch sự.';
+    if(text.startsWith('is ')||text.startsWith('are ')||text.startsWith('was ')||text.startsWith('were '))return'Đây là câu hỏi Yes/No. Hãy trả lời ngắn trước, sau đó thêm một câu đầy đủ.';
+    return'Học cả cụm câu hỏi và câu trả lời. Sau đó thay thông tin để nói về chính em.';
+  }
+  function targetRange(text,fallback=[3,10]){
+    const numbers=(text.match(/\d+/g)||[]).map(Number);
+    return numbers.length>=2?[numbers[0],numbers[1]]:fallback;
+  }
+  function readingPassage(unit,grade){
+    if(window.MILO_EXPERT_PROGRAM)return window.MILO_EXPERT_PROGRAM.readingPassage(unit,state.grade);
+    const minimum=state.grade===2?18:targetRange(grade.readingTarget,[30,40])[0];
+    const parts=[unit.sample];
+    const additions=[
+      `This lesson is about ${unit.title.toLowerCase()}.`,
+      `${unit.pattern[0]} ${unit.pattern[1]}`,
+      `We use the words ${unit.words.map(word=>word[0]).join(', ')} in this topic.`,
+      `The children listen carefully, take turns and answer in a complete sentence.`,
+      `They ask a friend one question and share one true idea about their own life.`,
+      `Learning these words helps them speak clearly in a familiar situation at school or at home.`
+    ];
+    let index=0;
+    while(parts.join(' ').trim().split(/\s+/).length<minimum&&index<additions.length){parts.push(additions[index++])}
+    return parts.join(' ');
+  }
+  function stepHead(icon,title,lead){
+    return`<div class="lesson-step-head"><div class="step-number">${icon}</div><div><h3>${title}</h3><p>${lead}</p></div></div>`;
+  }
+  function practiceBlock(question,options,correct,audio=''){
+    return`<div class="practice-card" data-correct="${encodeValue(correct)}"><h4>🧩 Luyện ngay</h4><p>${question}${audio?` <button class="secondary play-practice-audio" data-say="${encodeValue(audio)}">🔊 Nghe</button>`:''}</p><div class="practice-options">${options.map(option=>`<button class="practice-option" data-choice="${encodeValue(option)}">${escapeHtml(option)}</button>`).join('')}</div><p class="practice-feedback"></p></div>`;
+  }
+  function lessonFooter(type){
+    const index=lessonModules.findIndex(item=>item[0]===type);
+    const next=lessonModules[Math.min(index+1,lessonModules.length-1)];
+    const done=completedLessonParts().includes(type);
+    return`<div class="lesson-footer"><span>Mỗi phần đều có kiến thức và bài luyện riêng.</span><div class="module-actions"><button class="secondary complete-part ${done?'done':''}" data-complete="${type}">${done?'✓ Đã học xong':'Đánh dấu đã học'}</button>${next&&next[0]!==type?`<button class="primary next-part" data-next="${next[0]}">Tiếp: ${next[1]} →</button>`:''}</div></div>`;
+  }
+  function wordCards(unit){
+    return unit.words.map(word=>`<div class="vocab-item"><span class="word-icon">${word[2]}</span><div><b>${escapeHtml(word[0])}</b><small>${escapeHtml(word[1])}</small></div><button data-say="${encodeValue(word[0])}" title="Nghe từ">🔊</button><div class="context-example">${escapeHtml(contextSentence(word[0],unit))}</div></div>`).join('');
+  }
+  function readJourneyDaily(){
+    const now=new Date(),key=`${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-${String(now.getDate()).padStart(2,'0')}`;
+    const saved=JSON.parse(localStorage.getItem('milo-daily-progress')||'null');
+    return saved&&saved.date===key?saved:{date:key,words:0,gameCorrect:0,parts:0,quizCorrect:0};
+  }
+  function updateMotivationZone(){
+    const daily=readJourneyDaily(),done=completed();
+    const level=miloJourney().level;
+    $('#streak').textContent=localStorage.getItem('milo-study-streak')||'0';
+    const journeyLevel=$('#journeyLevel');
+    if(journeyLevel)journeyLevel.textContent=level;
+    const missions=[[daily.words,5,'#dailyWords','#dailyWordsBar'],[daily.gameCorrect,3,'#dailyGames','#dailyGamesBar'],[daily.parts,1,'#dailyParts','#dailyPartsBar']];
+    let finished=0;
+    missions.forEach(([value,target,label,bar])=>{const current=Math.min(value,target);if(value>=target)finished++;$(label).textContent=`${current}/${target}`;$(bar).style.width=`${Math.min(100,value/target*100)}%`});
+    $('#dailyDone').textContent=`${finished}/3`;
+    const rewards=['🎁','🥚','🏆','👑'],names=['Rương sao','Trứng Milo','Cúp vàng','Vương miện'];
+    $('#treasureLine').innerHTML=[3,6,9,12].map((target,index)=>`<div class="treasure-stop ${done.length>=target?'done':''}"><span>${done.length>=target?rewards[index]:'🔒'}</span><b>${target} Unit</b><small>${names[index]}</small></div>`).join('');
+    $('#badgeRow').innerHTML=[
+      ['🦊','Bạn Milo',true],['🗺️','Khám phá',done.length>=4],['📚','Siêu từ',daily.words>=5],['🎮','Game master',daily.gameCorrect>=3]
+    ].map(item=>`<span class="${item[2]?'earned':''}"><i>${item[0]}</i>${item[1]}</span>`).join('');
+  }
+
+  function renderOfflineGradeRoadmap(){
+    const profile=window.MILO_GRADE_ROADMAP[state.grade];
+    $('#offlineRouteTitle').textContent=`Lớp ${state.grade} · ${profile.stage}`;
+    $('#offlineRouteBenchmark').textContent=profile.benchmark;
+    $('#offlineRoutePeriods').textContent=`${profile.periods} tiết/tuần · ${profile.nativePeriods} tiết bản ngữ`;
+    $('#offlineRouteWords').textContent=`${profile.words} từ theo cụm`;
+    $('#offlineRouteReading').textContent=profile.reading;
+    $('#offlineRouteWriting').textContent=profile.writing;
+    $('#offlinePhaseGrid').innerHTML=profile.phases.map(phase=>`<article><span>${phase[0]}</span><small>${phase[1].toUpperCase()}</small><b>${phase[2]}</b><p>${phase[3]}</p><em>🏅 ${phase[4]}</em></article>`).join('');
+    $('#offlineRouteFlow').innerHTML=profile.flow.map(step=>`<span><i>${step[0]}</i>${step[1]}</span>`).join('');
+  }
+
+  function updateGrade(){
+    const grade=currentGrade();
+    const target=window.MILO_GRADE_ROADMAP[state.grade];
+    state.unit=Math.min(state.unit,grade.units.length-1);
+    const unit=currentUnit();
+    $('#gradeSelect').value=state.grade;
+    const sourceTotal=grade.units.reduce((sum,item)=>sum+(item.fullKnowledge?.sourceTermCount||0),0);
+    $('#gradeLabel').textContent=sourceTotal?`LỚP ${state.grade} · ${sourceTotal} KIẾN THỨC TỪ 2 ZIP`:`LỚP ${state.grade} · ${target.stage.toUpperCase()}`;
+    $('#heroTitle').textContent=`Unit ${state.unit+1}: ${unit.title}`;
+    $('#heroDesc').textContent=unit.vi;
+    $('#missionTitle').textContent=`Unit ${state.unit+1}: ${unit.title}`;
+    $('#missionSub').textContent='15 phút · nghe · nói · luyện tập';
+    $('#quizUnitTitle').textContent=`Kiểm tra Unit ${state.unit+1}: ${unit.title}`;
+    $('#curriculumMode').textContent=grade.mode;$('#curriculumFocus').textContent=grade.focus;
+    $('#periods').textContent=target.periods;$('#readingTarget').textContent=target.reading;$('#writingTarget').textContent=target.writing;
+    localStorage.setItem('milo-grade',state.grade);localStorage.setItem(`milo-unit-${state.grade}`,state.unit);
+    renderUnits();renderOfflineWorld();updateProgress();updateMotivationZone();renderOfflineGradeRoadmap();if($('#petChoiceGrid'))renderPetHub();renderPet();
+  }
+  function renderModule(type){
+    state.module=type;
+    document.querySelectorAll('#moduleGrid .module-btn').forEach(button=>button.classList.toggle('active',button.dataset.module===type));
+    const unit=currentUnit(),grade=currentGrade(),box=$('#moduleContent'),words=unit.words;
+    const otherUnits=grade.units.filter((_,index)=>index!==state.unit);
+    const otherWords=otherUnits.flatMap(other=>other.words);
+
+    if(type==='warmup'){
+      box.innerHTML=
+        stepHead('🎈','Khởi động 5 phút',`Milo đưa em vào tình huống thật của Unit ${state.unit+1}. Hãy quan sát, nghe rồi phản hồi.`)+
+        `<div class="big-topic"><span>${unit.icon}</span><h4>${escapeHtml(unit.title)}</h4><p>${escapeHtml(unit.vi)}</p></div>`+
+        `<div class="teach-card teacher-note"><h4>👩‍🏫 Tình huống hôm nay</h4><p>Em gặp Milo và cùng nói về <b>${escapeHtml(unit.vi.toLowerCase())}</b>. Trước tiên, nghe trọn hội thoại; chưa cần dịch từng từ.</p><div class="pattern-box"><div class="dialogue-line"><b>Milo hỏi:</b><span>${escapeHtml(unit.pattern[0])}</span></div><div class="dialogue-line"><b>Em đáp:</b><span>${escapeHtml(unit.pattern[1])}</span></div></div><button class="secondary" data-say="${encodeValue(`${unit.pattern[0]} ${unit.pattern[1]}`)}">🔊 Nghe hội thoại mở đầu</button></div>`+
+        practiceBlock(`Milo hỏi: <b>${escapeHtml(unit.pattern[0])}</b><br>Em nên trả lời câu nào?`,uniqueOptions(unit.pattern[1],[otherUnits[0].pattern[1],otherUnits[1].pattern[1],`I can say ${words[0][0]}.`]),unit.pattern[1])+
+        lessonFooter(type);
+    }
+    if(type==='vocabulary'){
+      box.innerHTML=
+        stepHead('📚','Bài 1 · Học từ mới','Mỗi từ có nghĩa, hình gợi nhớ, câu trong ngữ cảnh và nút nghe riêng.')+
+        `<div class="teach-card teacher-note"><h4>👩‍🏫 Cách học</h4><p>1. Nhìn hình và đoán nghĩa. 2. Bấm 🔊, nghe hai lần. 3. Đọc theo. 4. Tìm từ đó trong câu ví dụ.</p></div>`+
+        `<div class="vocab-grid">${wordCards(unit)}</div>`+
+        practiceBlock(`“${escapeHtml(words[0][0])}” có nghĩa là gì?`,shuffleItems(words.map(word=>word[1])),words[0][1])+
+        practiceBlock(`Chọn từ tiếng Anh của “${escapeHtml(words[1][1])}”.`,shuffleItems(words.map(word=>word[0])),words[1][0])+
+        lessonFooter(type);
+    }
+    if(type==='phonics'){
+      box.innerHTML=
+        stepHead('🔤','Bài 2 · Phát âm và nhịp câu','Nghe âm trọng tâm, nhận ra âm trong từ rồi đọc cả câu giao tiếp.')+
+        `<div class="teach-card"><h4>Âm/trọng tâm của Unit</h4><p style="font-size:22px"><b>${escapeHtml(unit.phonics)}</b></p><p>Mở miệng rõ, nghe mẫu chậm và lặp lại ba lần. Không đọc theo cách đánh vần tiếng Việt.</p><div class="module-actions"><button class="primary" data-say="${encodeValue(`${unit.phonics}. ${words.map(word=>word[0]).join('. ')}`)}">🔊 Nghe chậm</button><button class="secondary" data-say="${encodeValue(unit.pattern.join(' '))}">🎵 Nghe nhịp câu</button></div></div>`+
+        `<div class="practice-card"><h4>🗣️ Vòng luyện 3 bước</h4><div class="project-checks"><label><input type="checkbox"> Em đã nghe mà chưa nhìn chữ.</label><label><input type="checkbox"> Em đã đọc từng từ: ${words.map(word=>`<b>${escapeHtml(word[0])}</b>`).join(', ')}.</label><label><input type="checkbox"> Em đã đọc trọn câu: <b>${escapeHtml(unit.pattern[1])}</b></label></div></div>`+
+        lessonFooter(type);
+    }
+    if(type==='language'){
+      box.innerHTML=
+        stepHead('🧠','Bài 3 · Mẫu câu và kiến thức ngôn ngữ','Milo giải thích cách dùng, sau đó em chọn câu đúng trong một tình huống giao tiếp.')+
+        `<div class="teach-card teacher-note"><h4>👩‍🏫 Khi nào dùng?</h4><p>${escapeHtml(patternExplanation(unit.pattern[0]))}</p></div>`+
+        `<div class="teach-card"><h4>Mẫu câu cần nhớ</h4><div class="pattern-box"><div class="dialogue-line"><b>Question</b><span>${escapeHtml(unit.pattern[0])}</span></div><div class="dialogue-line"><b>Answer</b><span>${escapeHtml(unit.pattern[1])}</span></div></div><button class="secondary" data-say="${encodeValue(unit.pattern.join(' '))}">🔊 Nghe và đọc theo</button><h4 style="margin-top:14px">Từ có thể dùng trong bài</h4><div class="word-bank">${words.map(word=>`<span>${word[2]} ${escapeHtml(word[0])}</span>`).join('')}</div></div>`+
+        practiceBlock(`Chọn phản hồi phù hợp nhất cho câu: <b>${escapeHtml(unit.pattern[0])}</b>`,uniqueOptions(unit.pattern[1],[otherUnits[2].pattern[1],otherUnits[3].pattern[1],`This is ${words[2][0]}.`]),unit.pattern[1])+
+        lessonFooter(type);
+    }
+    if(type==='listening'){
+      box.innerHTML=
+        stepHead('🎧','Bài 4 · Nghe hiểu','Nghe lấy ý chính trước, nghe chi tiết sau. Chỉ mở lời nghe khi đã trả lời.')+
+        `<div class="listen-panel"><div class="sound-wave">▂ ▅ ▇ ▃ ▆</div><p><b>Lần 1:</b> nghe toàn bài · <b>Lần 2:</b> nghe chậm</p><div class="module-actions" style="justify-content:center"><button class="primary" id="playListeningNormal">▶ Nghe bài</button><button class="secondary" id="playListeningSlow">🐢 Nghe chậm</button></div></div>`+
+        practiceBlock('Nghe câu ngắn và chọn đúng câu vừa nghe.',uniqueOptions(unit.pattern[1],[unit.pattern[0],otherUnits[0].pattern[1],otherUnits[1].pattern[1]]),unit.pattern[1],unit.pattern[1])+
+        practiceBlock('Bài nghe nói chủ yếu về nội dung nào?',uniqueOptions(unit.vi,otherUnits.slice(0,3).map(other=>other.vi)),unit.vi)+
+        `<div class="reading-box transcript-hidden" id="lessonTranscript">${escapeHtml(unit.sample)}</div><button class="secondary" id="toggleLessonTranscript">👁 Hiện lời nghe và tự kiểm tra</button>`+
+        lessonFooter(type);
+    }
+    if(type==='speaking'){
+      box.innerHTML=
+        stepHead('💬','Bài 5 · Nói với Milo','Nghe Milo hỏi, tự nói hoặc gõ câu trả lời rồi nhận phản hồi ngay.')+
+        `<div class="teach-card"><h4>Hội thoại mẫu</h4><div class="pattern-box"><div class="dialogue-line"><b>Milo</b><span>${escapeHtml(unit.pattern[0])}</span></div><div class="dialogue-line"><b>Em</b><span>${escapeHtml(unit.pattern[1])}</span></div></div><p class="module-note">Sau câu mẫu, hãy thay bằng thông tin thật của em nếu có thể.</p></div>`+
+        `<div class="practice-card"><h4>🎭 Đến lượt em</h4><button class="primary" id="lessonMiloAsk">🦊 Milo hỏi</button><div class="speaking-input"><button class="icon-btn" id="lessonSpeakingMic" title="Trả lời bằng giọng nói">🎤</button><input id="lessonSpeakingAnswer" placeholder="Gõ hoặc nói câu trả lời bằng tiếng Anh..."><button class="secondary" id="checkSpeaking">Milo kiểm tra</button></div><p class="practice-feedback" id="speakingFeedback"></p><button class="secondary" id="hearModelSpeaking">🔊 Nghe câu mẫu</button></div>`+
+        lessonFooter(type);
+    }
+    if(type==='reading'){
+      const passage=readingPassage(unit,grade);
+      box.innerHTML=
+        stepHead('📖','Bài 6 · Đọc hiểu',`Bài đọc được điều chỉnh theo mục tiêu lớp ${state.grade}: ${grade.readingTarget}.`)+
+        `<div class="teach-card teacher-note"><h4>👩‍🏫 Chiến lược đọc</h4><p>Đọc tiêu đề → gạch chân từ đã học → đọc câu hỏi → quay lại tìm bằng chứng trong bài.</p></div>`+
+        `<div class="reading-box" id="unitReadingText">${escapeHtml(passage)}</div><button class="secondary" data-say="${encodeValue(passage)}">🔊 Nghe đọc cả đoạn</button>`+
+        practiceBlock('Ý chính của bài đọc là gì?',uniqueOptions(unit.title,otherUnits.slice(0,3).map(other=>other.title)),unit.title)+
+        practiceBlock(`Trong bài, “${escapeHtml(words[0][0])}” có nghĩa là gì?`,uniqueOptions(words[0][1],otherWords.slice(0,3).map(word=>word[1])),words[0][1])+
+        lessonFooter(type);
+    }
+    if(type==='writing'){
+      const key=`milo-writing-${state.grade}-${state.unit}`;
+      const range=targetRange(grade.writingTarget,state.grade===2?[3,10]:[10,20]);
+      box.innerHTML=
+        stepHead('✍️','Bài 7 · Viết có hướng dẫn','Lập ý, viết theo khung, sau đó để Milo kiểm tra độ dài và những lỗi cơ bản.')+
+        `<div class="teach-card"><h4>Đề bài</h4><p><b>${escapeHtml(unit.writing)}</b></p><h4>3 bước lập ý</h4><ol class="objective-list"><li>Chọn 2–4 từ trong ngân hàng từ.</li><li>Viết câu mẫu trước: <b>${escapeHtml(unit.pattern[1])}</b></li><li>Thêm một thông tin thật của em và kiểm tra dấu câu.</li></ol><div class="word-bank">${words.map(word=>`<span>${word[2]} ${escapeHtml(word[0])}</span>`).join('')}</div></div>`+
+        `<textarea class="writing-area" id="writingArea" placeholder="Write here..."></textarea><div class="module-actions"><button class="primary" id="saveWriting">💾 Lưu bài</button><button class="secondary" id="checkWriting">🦊 Milo góp ý</button><span class="module-note" id="wordCount"></span></div><div class="writing-status" id="writingFeedback">Mục tiêu: khoảng ${range[0]}–${range[1]} từ. Hãy bắt đầu bằng chữ hoa và kết thúc bằng dấu câu.</div>`+
+        lessonFooter(type);
+      const area=$('#writingArea');area.value=localStorage.getItem(key)||'';
+      const updateCount=()=>{const count=area.value.trim()?area.value.trim().split(/\s+/).length:0;$('#wordCount').textContent=`${count} từ`;$('#wordCount').classList.toggle('word-count-good',count>=range[0]&&count<=range[1])};
+      area.oninput=updateCount;updateCount();
+      $('#saveWriting').onclick=()=>{localStorage.setItem(key,area.value);showToast('Đã lưu bài viết')};
+      $('#checkWriting').onclick=()=>{
+        const text=area.value.trim(),count=text?text.split(/\s+/).length:0,notes=[];
+        if(count<range[0])notes.push(`Viết thêm ${range[0]-count} từ để đủ ý.`);
+        if(count>range[1])notes.push(`Bài đang dài hơn gợi ý ${count-range[1]} từ; em có thể rút gọn.`);
+        if(text&&!/^[A-Z]/.test(text))notes.push('Câu đầu nên bắt đầu bằng chữ hoa.');
+        if(text&&!/[.!?]$/.test(text))notes.push('Thêm dấu chấm, chấm hỏi hoặc chấm than ở cuối.');
+        if(text&&!words.some(word=>text.toLowerCase().includes(word[0].toLowerCase())))notes.push('Dùng ít nhất một từ mới của Unit.');
+        $('#writingFeedback').innerHTML=notes.length?`<b>Milo góp ý:</b> ${notes.join(' ')}`:'<b>Great writing!</b> Bài đã đạt độ dài, có từ mới và hình thức câu cơ bản.';
+        if(!notes.length)speakAt('Great writing! Well done!');
+      };
+    }
+    if(type==='project'){
+      const key=`milo-project-${state.grade}-${state.unit}`;
+      const saved=JSON.parse(localStorage.getItem(key)||'[false,false,false,false]');
+      box.innerHTML=
+        stepHead('🎨','Vận dụng · Project & Culture','Dùng tiếng Anh để tạo một sản phẩm gần với đời sống và chia sẻ với người khác.')+
+        `<div class="teach-card"><h4>Nhiệm vụ của Unit</h4><p><b>${escapeHtml(unit.project)}</b></p></div>`+
+        `<div class="practice-card"><h4>📋 Các bước thực hiện</h4><div class="project-checks"><label><input type="checkbox" data-project="0" ${saved[0]?'checked':''}> 1. Chuẩn bị tranh, giấy hoặc đồ vật cần dùng.</label><label><input type="checkbox" data-project="1" ${saved[1]?'checked':''}> 2. Dùng ít nhất 6 trong ${words.length} từ: ${words.map(word=>`<b>${escapeHtml(word[0])}</b>`).join(', ')}.</label><label><input type="checkbox" data-project="2" ${saved[2]?'checked':''}> 3. Dùng mẫu câu: <b>${escapeHtml(unit.pattern[1])}</b></label><label><input type="checkbox" data-project="3" ${saved[3]?'checked':''}> 4. Giới thiệu sản phẩm bằng tiếng Anh cho một người nghe.</label></div><button class="primary" id="saveProject">Lưu tiến độ dự án</button></div>`+
+        lessonFooter(type);
+      $('#saveProject').onclick=()=>{
+        const values=[...box.querySelectorAll('[data-project]')].map(input=>input.checked);
+        localStorage.setItem(key,JSON.stringify(values));
+        if(values.every(Boolean))saveLessonPart('project');else showToast('Đã lưu tiến độ dự án');
+      };
+    }
+    if(type==='test'){
+      box.innerHTML=
+        stepHead('✅','Kiểm tra cuối Unit',`${{2:20,3:24,4:28,5:32}[state.grade]} câu có hình được lấy trực tiếp từ ${words.length} từ mới, mẫu câu, phát âm và bài nghe em vừa học.`)+
+        `<div class="teach-card"><h4>Trước khi bắt đầu</h4><ul class="objective-list"><li>Ôn lại ${words.length} từ mới và hai câu ví dụ của mỗi từ.</li><li>Đọc được câu hỏi – câu trả lời mẫu.</li><li>Nghe lại bài nghe ít nhất hai lần.</li><li>Đạt ${Math.ceil(({2:20,3:24,4:28,5:32}[state.grade])*.7)}/${{2:20,3:24,4:28,5:32}[state.grade]} để hoàn thành Unit.</li></ul><button class="primary" id="moduleTest">Bắt đầu ${{2:20,3:24,4:28,5:32}[state.grade]} câu kiểm tra →</button></div>`;
+    }
+    bindFullLessonActions(type,box);
+  }
+
+  function wirePractice(root){
+    root.querySelectorAll('.practice-card[data-correct]').forEach(card=>{
+      const correct=decodeURIComponent(card.dataset.correct);
+      card.querySelectorAll('.practice-option').forEach(button=>{
+        button.onclick=()=>{
+          const value=decodeURIComponent(button.dataset.choice);
+          card.querySelectorAll('.practice-option').forEach(item=>item.disabled=true);
+          const feedback=card.querySelector('.practice-feedback');
+          if(value===correct){
+            button.classList.add('correct');feedback.textContent='Chính xác! Em đã hiểu phần này.';feedback.className='practice-feedback ok';speakAt('Correct! Well done!');
+          }else{
+            button.classList.add('wrong');
+            [...card.querySelectorAll('.practice-option')].find(item=>decodeURIComponent(item.dataset.choice)===correct)?.classList.add('correct');
+            feedback.textContent=`Chưa đúng. Đáp án là: ${correct}`;feedback.className='practice-feedback no';speakAt(`Good try. The correct answer is ${correct}.`);
+          }
+        };
+      });
+    });
+  }
+  function recognizeInto(input,callback){
+    const Recognition=window.SpeechRecognition||window.webkitSpeechRecognition;
+    if(!Recognition){showToast('Tính năng nói cần quyền micro và máy hỗ trợ nhận giọng nói');return}
+    const recognition=new Recognition();recognition.lang='en-US';recognition.interimResults=false;
+    recognition.onstart=()=>showToast('Milo đang nghe...');
+    recognition.onresult=event=>{input.value=event.results[0][0].transcript;if(callback)callback()};
+    recognition.onerror=()=>showToast('Milo chưa nghe rõ, em thử lại nhé');
+    recognition.start();
+  }
+  function bindFullLessonActions(type,box){
+    box.querySelectorAll('[data-say]').forEach(button=>button.onclick=()=>speakAt(decodeURIComponent(button.dataset.say),button.id==='playListeningSlow'?.62:.82));
+    wirePractice(box);
+    box.querySelectorAll('[data-complete]').forEach(button=>button.onclick=()=>{saveLessonPart(button.dataset.complete);button.textContent='✓ Đã học xong';button.classList.add('done')});
+    box.querySelectorAll('[data-next]').forEach(button=>button.onclick=()=>renderModule(button.dataset.next));
+    if(type==='listening'){
+      $('#playListeningNormal').onclick=()=>speakAt(currentUnit().sample,.82);
+      $('#playListeningSlow').onclick=()=>speakAt(currentUnit().sample,.62);
+      let shown=false;
+      $('#toggleLessonTranscript').onclick=()=>{shown=!shown;$('#lessonTranscript').classList.toggle('transcript-hidden',!shown);$('#toggleLessonTranscript').textContent=shown?'🙈 Ẩn lời nghe':'👁 Hiện lời nghe và tự kiểm tra'};
+    }
+    if(type==='speaking'){
+      const input=$('#lessonSpeakingAnswer'),feedback=$('#speakingFeedback');
+      const check=()=>{
+        const answer=input.value.trim(),words=answer?answer.split(/\s+/).length:0;
+        if(words<2){feedback.textContent='Em hãy trả lời bằng một câu tiếng Anh đầy đủ hơn.';feedback.className='practice-feedback no';return}
+        const unitWords=currentUnit().words.map(word=>word[0].toLowerCase());
+        const usesLesson=unitWords.some(word=>answer.toLowerCase().includes(word))||answer.toLowerCase().split(/\s+/).some(word=>currentUnit().pattern[1].toLowerCase().includes(word));
+        feedback.textContent=usesLesson?'Great! Em đã dùng ngôn ngữ của Unit trong câu trả lời.':'Câu đã có ý. Em thử dùng thêm một từ mới của Unit nhé.';
+        feedback.className=`practice-feedback ${usesLesson?'ok':'no'}`;speakAt(usesLesson?'Great answer!':'Good try. Use one new word from the lesson.');
+      };
+      $('#lessonMiloAsk').onclick=()=>speakAt(currentUnit().pattern[0]);
+      $('#hearModelSpeaking').onclick=()=>speakAt(currentUnit().pattern[1]);
+      $('#lessonSpeakingMic').onclick=()=>recognizeInto(input,check);
+      $('#checkSpeaking').onclick=check;
+    }
+    if(type==='test')$('#moduleTest').onclick=()=>{$('#lessonModal').classList.add('hidden');setView('test');buildQuiz()};
+  }
+
+  function buildQuiz(){
+    const unit=currentUnit(),grade=currentGrade(),words=unit.words;
+    const targetQuestions=unit.expert?.standard?.testItems||({2:24,3:32,4:40,5:48}[state.grade]),appliedTarget={2:6,3:10,4:14,5:18}[state.grade];
+    const others=grade.units.filter((_,index)=>index!==state.unit);
+    const otherWords=others.flatMap(other=>other.words);
+    const examples=words.map(word=>word[3]||contextSentence(word[0],unit));
+    const vocabulary=words.map((word,index)=>({
+      q:index%3===0?`“${word[0]}” có nghĩa là gì?`:index%3===1?`Từ tiếng Anh của “${word[1]}” là gì?`:'Nghe Milo đọc và chọn đúng từ.',
+      correct:index%3===0?word[1]:word[0],
+      audio:index%3===2?word[0]:undefined,
+      icon:word[2],
+      options:index%3===0?uniqueOptions(word[1],otherWords.map(item=>item[1])):uniqueOptions(word[0],words.map(item=>item[0]))
+    }));
+    const applied=Array.from({length:Math.min(appliedTarget,words.length*2)},(_,index)=>{const wordIndex=index%words.length,word=words[wordIndex],example=examples[wordIndex];return{
+      q:example.toLowerCase().includes(word[0].toLowerCase())?example.replace(new RegExp(word[0],'i'),'_____'):`Chọn từ đúng để hoàn thành câu về ${unit.title}.`,
+      correct:word[0],icon:word[2],options:uniqueOptions(word[0],words.map(item=>item[0]))
+    }});
+    const skills=[
+      {q:unit.pattern[0],correct:unit.pattern[1],icon:'💬',options:uniqueOptions(unit.pattern[1],others.map(other=>other.pattern[1]))},
+      {q:'Đâu là câu hỏi chính đã học trong Unit?',correct:unit.pattern[0],icon:'❓',options:uniqueOptions(unit.pattern[0],others.map(other=>other.pattern[0]))},
+      {q:'Nghe và chọn đúng câu em vừa nghe.',audio:unit.pattern[1],correct:unit.pattern[1],icon:'🎧',options:uniqueOptions(unit.pattern[1],[unit.pattern[0],...others.map(other=>other.pattern[1])])},
+      {q:'Trọng tâm phát âm/ngữ âm của Unit là gì?',correct:unit.phonics,icon:'🔤',options:uniqueOptions(unit.phonics,others.map(other=>other.phonics))}
+    ];
+    const grammar=(unit.expert?.grammar||[]).map(level=>({q:level.question,correct:level.answer,icon:'🧠',options:level.options}));
+    const passage=readingPassage(unit,grade);
+    const reading=[
+      {q:'Ý chính phù hợp nhất với bài đọc là gì?',correct:unit.title,icon:'📖',options:uniqueOptions(unit.title,others.map(other=>other.title)),reading:passage},
+      {q:`Từ “${words[0][0]}” trong bài có nghĩa là gì?`,correct:words[0][1],icon:'🔎',options:uniqueOptions(words[0][1],otherWords.map(item=>item[1])),reading:passage}
+    ];
+    const pool=[...vocabulary,...applied,...skills,...grammar,...reading];let fill=0;
+    while(pool.length<targetQuestions){const word=words[fill%words.length];pool.push({q:`Chọn từ phù hợp với hình ${word[2]}.`,correct:word[0],icon:word[2],options:uniqueOptions(word[0],words.map(item=>item[0]))});fill++}
+    state.quiz=shuffleItems(pool).slice(0,targetQuestions);
+    state.question=0;state.score=0;
+    $('#quizStart').classList.add('hidden');$('#quizResult').classList.add('hidden');$('#quizPlay').classList.remove('hidden');
+    renderQuestion();
+  }
+  function renderQuestion(){
+    const question=state.quiz[state.question],total=state.quiz.length;
+    $('#questionCount').textContent=`Câu ${state.question+1}/${total}`;
+    $('#quizBar').style.width=`${(state.question+1)/total*100}%`;
+    $('#questionText').innerHTML=`<div class="quiz-picture-world"><span>✦</span><strong>${question.icon||'🧭'}</strong><em>🦋</em></div>${question.reading?`<div class="reading-box" style="font-size:15px;font-weight:500">${escapeHtml(question.reading)}</div>`:''}${escapeHtml(question.q)} ${question.audio?'<button class="secondary" id="replayAudio">🔊 Nghe</button>':''}`;
+    const options=$('#options');options.innerHTML='';
+    question.options.forEach(value=>{const button=document.createElement('button');button.className='option';button.textContent=value;button.onclick=()=>chooseOption(button,value);options.appendChild(button)});
+    if(question.audio){$('#replayAudio').onclick=()=>speakAt(question.audio);speakAt(question.audio)}
+  }
+  function chooseOption(button,value){
+    const question=state.quiz[state.question];
+    document.querySelectorAll('#options .option').forEach(option=>option.disabled=true);
+    if(value===question.correct){button.classList.add('correct');state.score++;speakAt('Correct! Well done!')}
+    else{button.classList.add('wrong');[...document.querySelectorAll('#options .option')].find(option=>option.textContent===question.correct)?.classList.add('correct');speakAt(`Good try. The correct answer is ${question.correct}.`)}
+    setTimeout(()=>{state.question++;if(state.question<state.quiz.length)renderQuestion();else finishQuiz()},850);
+  }
+  function finishQuiz(){
+    const total=state.quiz.length,pass=Math.ceil(total*(state.grade===2?.75:.8));
+    const tests=Number(localStorage.getItem('milo-tests')||0)+1;localStorage.setItem('milo-tests',String(tests));$('#testsDone').textContent=tests;
+    if(state.score>=pass){
+      saveCompleted([...completed(),state.unit]);
+      const stars=Number(localStorage.getItem('milo-stars')||0)+50;localStorage.setItem('milo-stars',String(stars));$('#stars').textContent=stars;
+      localStorage.setItem(lessonKey(),JSON.stringify(lessonParts));updateProgress();renderPet();
+    }
+    $('#quizPlay').classList.add('hidden');$('#quizResult').classList.remove('hidden');
+    $('#score').textContent=`${state.score}/${total}`;
+    $('#scoreMessage').textContent=state.score===total?'Excellent!':state.score>=pass?'Great job!':'Keep practising!';
+    speakAt($('#scoreMessage').textContent);
+    showToast(state.score>=pass?'Đã hoàn thành Unit! +50 sao':'Em hãy học lại các phần còn yếu rồi thử lại');
+  }
+
+  $('#startQuiz').onclick=buildQuiz;
+  $('#retryQuiz').onclick=buildQuiz;
+  updateGrade();
+</script>
+<script>
+  function openLesson(){
+    localStorage.setItem('milo-main-view','journey');
+    localStorage.setItem('milo-grade',String(state.grade));
+    localStorage.setItem(`milo-unit-${state.grade}`,String(state.unit));
+    const resume=resumeLearningInfo();
+    window.location.href=`lesson.html?grade=${state.grade}&unit=${state.unit}&from=journey#${encodeURIComponent(resume.part)}`;
+  }
+  addEventListener('milo:progress-updated',event=>{if(Number(event.detail?.grade)!==state.grade)return;renderUnits();renderOfflineWorld();updateProgress();if($('#petChoiceGrid'))renderPetHub();renderPet();});
+  $('#continueBtn').onclick=openLesson;
+  $('#openUnitBtn').onclick=openLesson;
+  const startupView=startupParams.get('view')||localStorage.getItem('milo-main-view')||'journey';
+  setView(startupView);
+</script>
+<script src="app-v37.js?v=60.24.0"></script>
+<script src="pronunciation-coach.js?v=60.21.0"></script>
+<script src="app-v38.js?v=60.12.0"></script>
+<script src="app-v39.js?v=60.14.0"></script>
+<script src="vip-learning-v60.js?v=60.13.12-tier-rules"></script>
+<script src="commerce-v54.js?v=60.13.14-confirm-before-bill"></script>
+<script src="learning-review.js?v=60.25.0"></script>
+<script src="quick-learn-v60-1.js?v=60.25.0"></script>
+<div id="studySettingsModal" class="study-settings-modal hidden" role="dialog" aria-modal="true" aria-labelledby="studySettingsTitle">
+  <form id="studySettingsForm" class="study-settings-card">
+    <button id="closeStudySettings" class="study-settings-close" type="button" aria-label="Đóng">×</button>
+    <span class="study-settings-shield">🛡️</span>
+    <p class="eyebrow">KHU VỰC PHỤ HUYNH</p>
+    <h2 id="studySettingsTitle">Nhịp học mỗi ngày</h2>
+    <p>Chọn một nhịp học ngắn, vừa sức. Chỉ phụ huynh mới thay đổi được bằng PIN.</p>
+    <div class="study-duration-options" role="radiogroup" aria-label="Thời lượng học">
+      <label><input type="radio" name="studyDuration" value="10"><span><b>10 phút</b><small>Khởi động</small></span></label>
+      <label><input type="radio" name="studyDuration" value="15" checked><span><b>15 phút</b><small>Khuyên dùng</small></span></label>
+      <label><input type="radio" name="studyDuration" value="20"><span><b>20 phút</b><small>Học sâu hơn</small></span></label>
+    </div>
+    <label class="study-pin-field"><span>PIN phụ huynh</span><input id="studyParentPin" type="password" inputmode="numeric" pattern="[0-9]{6}" maxlength="6" placeholder="Nhập đúng 6 số" autocomplete="current-password" required></label>
+    <p id="studySettingsError" class="study-settings-error" role="alert"></p>
+    <button class="study-settings-save" type="submit">Lưu nhịp học</button>
+    <button class="study-parent-vip-link" type="button" data-open-vip-plans data-action="open-vip-plans">👑 Xem 3 gói VIP PRO MAX →</button>
+    <button id="openParentCenter" class="study-parent-link" type="button">Xem báo cáo tiến bộ của con →</button>
+  </form>
+</div>
+<script src="study-pro-v60-13.js?v=60.25.0"></script>
+<script src="ai-journey-v60-13-14.js?v=60.25.5-ai-corner-toggle"></script>
+  <script src="voice-reply-v60-21.js?v=60.21.0"></script>
+  <script src="update-client.js"></script>
+</body>
+<script>
+  if('serviceWorker' in navigator && /^https?:$/.test(location.protocol)){
+    addEventListener('load',()=>navigator.serviceWorker.register('sw.js?v=60.25.5-ai-corner-toggle',{updateViaCache:'none'}).then(reg=>reg.update()).catch(()=>{}));
+  }
+</script>
+</html>

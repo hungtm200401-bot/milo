@@ -1,0 +1,49 @@
+*{box-sizing:border-box}
+body{margin:0;background:#f2f6f9;color:#233f57;font-family:Inter,Segoe UI,Arial,sans-serif;font-size:16px}
+header{display:flex;justify-content:space-between;gap:20px;align-items:center;padding:22px 28px;background:#173d5d;color:#fff}
+header small{font-weight:900;letter-spacing:.08em;color:#8fd7ff}
+header h1{margin:4px 0;font-size:30px}
+header p{margin:0;color:#d5e6f1}
+header a{color:#fff;text-decoration:none;font-weight:900}
+main{max-width:1500px;margin:24px auto;padding:0 20px}
+.auth{max-width:520px;margin:70px auto;padding:26px;border-radius:16px;background:#fff;box-shadow:0 15px 40px #24445c20}
+.auth form{display:flex;gap:10px}
+.auth input{flex:1;padding:12px;border:1px solid #c6d7e5;border-radius:10px;font-size:15px}
+.auth button{border:0;border-radius:10px;padding:0 16px;background:#1784ca;color:#fff;font-weight:900}
+.hidden{display:none!important}
+#reviewApp{display:grid;grid-template-columns:320px minmax(0,1fr);gap:18px}
+aside,#reviewContent{background:#fff;border-radius:16px;box-shadow:0 10px 30px #24445c14}
+aside{position:sticky;top:18px;align-self:start;padding:18px}
+aside label{display:block;margin-bottom:13px;font-weight:900}
+aside select{width:100%;margin-top:6px;padding:11px;border:1px solid #cbdbe7;border-radius:10px;font-size:15px}
+#reviewSummary{display:grid;gap:6px;margin-top:18px;padding:12px;border-radius:12px;background:#eef7fc;line-height:1.45}
+#reviewContent{padding:22px}
+.status{display:inline-flex;padding:6px 10px;border-radius:999px;background:#fff2d5;color:#79561d;font-weight:900}
+.status-verified_from_image{background:#e7f8ed;color:#136c35}
+.status-ocr_extracted_needs_review,.status-needs_review{background:#fff1d6;color:#8b5b00}
+.meta{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:15px 0}
+.meta div{padding:12px;border-radius:12px;background:#f6f9fb}
+.meta small,.meta b{display:block}
+.meta b{overflow-wrap:anywhere}
+.exact-notice,.review-ticket{margin-top:14px;padding:14px;border-radius:14px;border:1px solid}
+.exact-notice{display:grid;gap:4px}
+.exact-notice.ok{background:#eefbf2;border-color:#bbe8c8;color:#135e2c}
+.exact-notice.warn{background:#fff8e8;border-color:#f0d89a;color:#775100}
+.review-ticket{background:#f8fbff;border-color:#cfe0f5}
+.review-ticket code{display:block;margin-top:7px;white-space:normal;overflow-wrap:anywhere;font-size:13px;color:#173d5d}
+.images{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.images figure{margin:0}
+.images img{width:100%;height:240px;object-fit:contain;border:1px solid #dce7ef;border-radius:12px;background:#eef3f6}
+.images figcaption{font-size:12px;padding:5px;overflow-wrap:anywhere}
+.ocr,.cleaned{margin-top:18px}
+.ocr pre{white-space:pre-wrap;max-height:520px;overflow:auto;padding:16px;border-radius:14px;background:#182534;color:#dbe8ef;font:12px/1.6 Consolas,monospace}
+.cleaned{padding:16px;border:1px solid #cfe4d7;border-radius:14px;background:#f2fbf5}
+.exact-reviewed{border-width:2px;border-color:#45a675;background:#effcf4}
+.exact-reviewed>h3{margin:0 0 14px;color:#17653c;font-size:21px}
+.exact-reviewed article{margin-top:10px;padding:14px;border:1px solid #cce7d7;border-radius:12px;background:#fff}
+.exact-reviewed h4{margin:0 0 8px;color:#164c32;font-size:16px;line-height:1.5}
+.exact-reviewed p{margin:7px 0;color:#263f34;font-size:15px;line-height:1.65}
+.warning{padding:14px;border-radius:12px;background:#fff5dd;color:#765a24}
+.empty-review{padding:30px;border-radius:16px;background:#f7fbfe;text-align:center}
+@media(max-width:1050px){.images{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:850px){#reviewApp{grid-template-columns:1fr}aside{position:static}.meta,.images{grid-template-columns:1fr}}

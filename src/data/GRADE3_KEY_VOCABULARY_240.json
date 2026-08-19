@@ -1,0 +1,1244 @@
+{
+  "version": "V60.13.0-GRADE3-ZIP-STRICT-240",
+  "sourceZip": "anh_tam(3).zip",
+  "units": {
+    "1": [
+      {
+        "term": "below",
+        "meaning": "ở phía dưới",
+        "icon": "⬇️"
+      },
+      {
+        "term": "above",
+        "meaning": "ở phía trên",
+        "icon": "⬆️"
+      },
+      {
+        "term": "beside",
+        "meaning": "bên cạnh",
+        "icon": "↔️"
+      },
+      {
+        "term": "close to",
+        "meaning": "gần",
+        "icon": "📍"
+      },
+      {
+        "term": "square",
+        "meaning": "quảng trường",
+        "icon": "🏙️"
+      },
+      {
+        "term": "downtown",
+        "meaning": "trung tâm thành phố",
+        "icon": "🏢"
+      },
+      {
+        "term": "building",
+        "meaning": "tòa nhà",
+        "icon": "🏬"
+      },
+      {
+        "term": "map",
+        "meaning": "bản đồ",
+        "icon": "🗺️"
+      },
+      {
+        "term": "sign",
+        "meaning": "biển báo",
+        "icon": "🪧"
+      },
+      {
+        "term": "cross",
+        "meaning": "băng qua",
+        "icon": "🚶"
+      },
+      {
+        "term": "recreation center",
+        "meaning": "trung tâm giải trí",
+        "icon": "🏟️"
+      },
+      {
+        "term": "art gallery",
+        "meaning": "phòng trưng bày nghệ thuật",
+        "icon": "🖼️"
+      },
+      {
+        "term": "bridge",
+        "meaning": "cây cầu",
+        "icon": "🌉"
+      },
+      {
+        "term": "harbor",
+        "meaning": "bến cảng",
+        "icon": "⚓"
+      },
+      {
+        "term": "museum",
+        "meaning": "bảo tàng",
+        "icon": "🏛️"
+      },
+      {
+        "term": "theater",
+        "meaning": "nhà hát",
+        "icon": "🎭"
+      },
+      {
+        "term": "up",
+        "meaning": "lên trên",
+        "icon": "⬆️"
+      },
+      {
+        "term": "down",
+        "meaning": "xuống dưới",
+        "icon": "⬇️"
+      },
+      {
+        "term": "along",
+        "meaning": "dọc theo",
+        "icon": "➡️"
+      },
+      {
+        "term": "around",
+        "meaning": "xung quanh",
+        "icon": "🔄"
+      }
+    ],
+    "2": [
+      {
+        "term": "herbivore",
+        "meaning": "động vật ăn cỏ",
+        "icon": "🦕"
+      },
+      {
+        "term": "carnivore",
+        "meaning": "động vật ăn thịt",
+        "icon": "🦖"
+      },
+      {
+        "term": "dinosaur",
+        "meaning": "khủng long",
+        "icon": "🦖"
+      },
+      {
+        "term": "horn",
+        "meaning": "sừng",
+        "icon": "🦏"
+      },
+      {
+        "term": "tail",
+        "meaning": "đuôi",
+        "icon": "🐋"
+      },
+      {
+        "term": "extinct",
+        "meaning": "tuyệt chủng",
+        "icon": "⌛"
+      },
+      {
+        "term": "quick",
+        "meaning": "nhanh",
+        "icon": "⚡"
+      },
+      {
+        "term": "careful",
+        "meaning": "cẩn thận",
+        "icon": "👀"
+      },
+      {
+        "term": "loud",
+        "meaning": "ồn, to",
+        "icon": "🔊"
+      },
+      {
+        "term": "dead",
+        "meaning": "đã chết",
+        "icon": "☠️"
+      },
+      {
+        "term": "pharaoh",
+        "meaning": "pha-ra-ông",
+        "icon": "👑"
+      },
+      {
+        "term": "bury",
+        "meaning": "chôn cất",
+        "icon": "⛏️"
+      },
+      {
+        "term": "archeologist",
+        "meaning": "nhà khảo cổ học",
+        "icon": "🏺"
+      },
+      {
+        "term": "treasure",
+        "meaning": "kho báu",
+        "icon": "💎"
+      },
+      {
+        "term": "thieves",
+        "meaning": "những tên trộm",
+        "icon": "🥷"
+      },
+      {
+        "term": "dig",
+        "meaning": "đào",
+        "icon": "⛏️"
+      },
+      {
+        "term": "exhibit",
+        "meaning": "hiện vật trưng bày",
+        "icon": "🗿"
+      },
+      {
+        "term": "gold",
+        "meaning": "vàng",
+        "icon": "🪙"
+      },
+      {
+        "term": "steps",
+        "meaning": "bậc thang",
+        "icon": "🪜"
+      },
+      {
+        "term": "tomb",
+        "meaning": "lăng mộ",
+        "icon": "⚰️"
+      }
+    ],
+    "3": [
+      {
+        "term": "campsite",
+        "meaning": "khu cắm trại",
+        "icon": "🏕️"
+      },
+      {
+        "term": "blanket",
+        "meaning": "chăn",
+        "icon": "🛌"
+      },
+      {
+        "term": "sleeping bag",
+        "meaning": "túi ngủ",
+        "icon": "🛏️"
+      },
+      {
+        "term": "camping stove",
+        "meaning": "bếp dã ngoại",
+        "icon": "🔥"
+      },
+      {
+        "term": "flashlight",
+        "meaning": "đèn pin",
+        "icon": "🔦"
+      },
+      {
+        "term": "compass",
+        "meaning": "la bàn",
+        "icon": "🧭"
+      },
+      {
+        "term": "set up a tent",
+        "meaning": "dựng lều",
+        "icon": "⛺"
+      },
+      {
+        "term": "make a fire",
+        "meaning": "nhóm lửa",
+        "icon": "🔥"
+      },
+      {
+        "term": "clean up",
+        "meaning": "dọn dẹp",
+        "icon": "🧹"
+      },
+      {
+        "term": "get lost",
+        "meaning": "bị lạc",
+        "icon": "🗺️"
+      },
+      {
+        "term": "meet new people",
+        "meaning": "gặp người mới",
+        "icon": "🤝"
+      },
+      {
+        "term": "go zip lining",
+        "meaning": "trượt dây zipline",
+        "icon": "🪢"
+      },
+      {
+        "term": "go rock climbing",
+        "meaning": "leo núi đá",
+        "icon": "🧗"
+      },
+      {
+        "term": "beautiful",
+        "meaning": "đẹp",
+        "icon": "🌄"
+      },
+      {
+        "term": "go kayaking",
+        "meaning": "chèo thuyền kayak",
+        "icon": "🛶"
+      },
+      {
+        "term": "heavy",
+        "meaning": "nặng",
+        "icon": "🏋️"
+      },
+      {
+        "term": "light",
+        "meaning": "nhẹ",
+        "icon": "🪶"
+      },
+      {
+        "term": "unsafe",
+        "meaning": "không an toàn",
+        "icon": "⚠️"
+      },
+      {
+        "term": "waterfall",
+        "meaning": "thác nước",
+        "icon": "💦"
+      },
+      {
+        "term": "coast",
+        "meaning": "bờ biển",
+        "icon": "🏖️"
+      }
+    ],
+    "4": [
+      {
+        "term": "giant",
+        "meaning": "người khổng lồ",
+        "icon": "🧌"
+      },
+      {
+        "term": "castle",
+        "meaning": "lâu đài",
+        "icon": "🏰"
+      },
+      {
+        "term": "bowl",
+        "meaning": "cái bát",
+        "icon": "🥣"
+      },
+      {
+        "term": "coin",
+        "meaning": "đồng xu",
+        "icon": "🪙"
+      },
+      {
+        "term": "silver",
+        "meaning": "bạc",
+        "icon": "🥈"
+      },
+      {
+        "term": "enormous",
+        "meaning": "khổng lồ",
+        "icon": "🐘"
+      },
+      {
+        "term": "furious",
+        "meaning": "giận dữ",
+        "icon": "😡"
+      },
+      {
+        "term": "prince",
+        "meaning": "hoàng tử",
+        "icon": "🤴"
+      },
+      {
+        "term": "princess",
+        "meaning": "công chúa",
+        "icon": "👸"
+      },
+      {
+        "term": "fairy tale",
+        "meaning": "truyện cổ tích",
+        "icon": "🧚"
+      },
+      {
+        "term": "king",
+        "meaning": "vua",
+        "icon": "🤴"
+      },
+      {
+        "term": "queen",
+        "meaning": "nữ hoàng",
+        "icon": "👸"
+      },
+      {
+        "term": "fierce",
+        "meaning": "dữ tợn",
+        "icon": "🐲"
+      },
+      {
+        "term": "wife",
+        "meaning": "vợ",
+        "icon": "👩"
+      },
+      {
+        "term": "hero",
+        "meaning": "anh hùng",
+        "icon": "🦸"
+      },
+      {
+        "term": "husband",
+        "meaning": "chồng",
+        "icon": "👨"
+      },
+      {
+        "term": "myth",
+        "meaning": "thần thoại",
+        "icon": "⚡"
+      },
+      {
+        "term": "legend",
+        "meaning": "truyền thuyết",
+        "icon": "📜"
+      },
+      {
+        "term": "search",
+        "meaning": "tìm kiếm",
+        "icon": "🔎"
+      },
+      {
+        "term": "hide",
+        "meaning": "ẩn, giấu",
+        "icon": "🙈"
+      }
+    ],
+    "5": [
+      {
+        "term": "country",
+        "meaning": "nông thôn",
+        "icon": "🌄"
+      },
+      {
+        "term": "fresh air",
+        "meaning": "không khí trong lành",
+        "icon": "🌬️"
+      },
+      {
+        "term": "plant",
+        "meaning": "cây cối",
+        "icon": "🌱"
+      },
+      {
+        "term": "insect",
+        "meaning": "côn trùng",
+        "icon": "🐞"
+      },
+      {
+        "term": "habitat",
+        "meaning": "môi trường sống",
+        "icon": "🏞️"
+      },
+      {
+        "term": "wildlife",
+        "meaning": "động vật hoang dã",
+        "icon": "🦌"
+      },
+      {
+        "term": "pretty",
+        "meaning": "xinh đẹp",
+        "icon": "🌸"
+      },
+      {
+        "term": "full",
+        "meaning": "đầy",
+        "icon": "🫙"
+      },
+      {
+        "term": "rescue",
+        "meaning": "giải cứu",
+        "icon": "🛟"
+      },
+      {
+        "term": "throw away",
+        "meaning": "vứt bỏ",
+        "icon": "🚮"
+      },
+      {
+        "term": "breathe",
+        "meaning": "hít thở",
+        "icon": "🫁"
+      },
+      {
+        "term": "lungs",
+        "meaning": "phổi",
+        "icon": "🫁"
+      },
+      {
+        "term": "burn",
+        "meaning": "đốt",
+        "icon": "🔥"
+      },
+      {
+        "term": "coal",
+        "meaning": "than đá",
+        "icon": "🪨"
+      },
+      {
+        "term": "oil",
+        "meaning": "dầu mỏ",
+        "icon": "🛢️"
+      },
+      {
+        "term": "fossil fuel",
+        "meaning": "nhiên liệu hóa thạch",
+        "icon": "🏭"
+      },
+      {
+        "term": "electricity",
+        "meaning": "điện",
+        "icon": "⚡"
+      },
+      {
+        "term": "power plant",
+        "meaning": "nhà máy điện",
+        "icon": "🏭"
+      },
+      {
+        "term": "protect",
+        "meaning": "bảo vệ",
+        "icon": "🛡️"
+      },
+      {
+        "term": "gadgets",
+        "meaning": "thiết bị điện tử",
+        "icon": "📱"
+      }
+    ],
+    "6": [
+      {
+        "term": "go shopping",
+        "meaning": "đi mua sắm",
+        "icon": "🛍️"
+      },
+      {
+        "term": "gift",
+        "meaning": "quà tặng",
+        "icon": "🎁"
+      },
+      {
+        "term": "stall",
+        "meaning": "quầy hàng",
+        "icon": "🏪"
+      },
+      {
+        "term": "money",
+        "meaning": "tiền",
+        "icon": "💵"
+      },
+      {
+        "term": "expensive",
+        "meaning": "đắt",
+        "icon": "💸"
+      },
+      {
+        "term": "cheap",
+        "meaning": "rẻ",
+        "icon": "🏷️"
+      },
+      {
+        "term": "useful",
+        "meaning": "hữu ích",
+        "icon": "🧰"
+      },
+      {
+        "term": "colorful",
+        "meaning": "nhiều màu sắc",
+        "icon": "🌈"
+      },
+      {
+        "term": "choose",
+        "meaning": "chọn",
+        "icon": "✅"
+      },
+      {
+        "term": "pay",
+        "meaning": "thanh toán",
+        "icon": "💳"
+      },
+      {
+        "term": "quarter",
+        "meaning": "một phần tư",
+        "icon": "¼"
+      },
+      {
+        "term": "half",
+        "meaning": "một nửa",
+        "icon": "½"
+      },
+      {
+        "term": "hour",
+        "meaning": "giờ",
+        "icon": "🕐"
+      },
+      {
+        "term": "minute",
+        "meaning": "phút",
+        "icon": "⏱️"
+      },
+      {
+        "term": "second",
+        "meaning": "giây",
+        "icon": "⏲️"
+      },
+      {
+        "term": "century",
+        "meaning": "thế kỷ",
+        "icon": "💯"
+      },
+      {
+        "term": "decade",
+        "meaning": "thập kỷ",
+        "icon": "🔟"
+      },
+      {
+        "term": "shadow",
+        "meaning": "bóng",
+        "icon": "👤"
+      },
+      {
+        "term": "invent",
+        "meaning": "phát minh",
+        "icon": "💡"
+      },
+      {
+        "term": "tell the time",
+        "meaning": "xem, nói giờ",
+        "icon": "🕒"
+      }
+    ],
+    "7": [
+      {
+        "term": "chess",
+        "meaning": "cờ vua",
+        "icon": "♟️"
+      },
+      {
+        "term": "band",
+        "meaning": "ban nhạc",
+        "icon": "🎸"
+      },
+      {
+        "term": "musician",
+        "meaning": "nhạc công",
+        "icon": "🧑‍🎤"
+      },
+      {
+        "term": "magazine",
+        "meaning": "tạp chí",
+        "icon": "📰"
+      },
+      {
+        "term": "headphones",
+        "meaning": "tai nghe",
+        "icon": "🎧"
+      },
+      {
+        "term": "hang out",
+        "meaning": "đi chơi cùng nhau",
+        "icon": "🧑‍🤝‍🧑"
+      },
+      {
+        "term": "afraid",
+        "meaning": "sợ hãi",
+        "icon": "😨"
+      },
+      {
+        "term": "famous",
+        "meaning": "nổi tiếng",
+        "icon": "⭐"
+      },
+      {
+        "term": "traditional",
+        "meaning": "truyền thống",
+        "icon": "🏮"
+      },
+      {
+        "term": "modern",
+        "meaning": "hiện đại",
+        "icon": "✨"
+      },
+      {
+        "term": "orchestra",
+        "meaning": "dàn nhạc giao hưởng",
+        "icon": "🎻"
+      },
+      {
+        "term": "cello",
+        "meaning": "đàn cello",
+        "icon": "🎻"
+      },
+      {
+        "term": "drum",
+        "meaning": "trống",
+        "icon": "🥁"
+      },
+      {
+        "term": "clarinet",
+        "meaning": "kèn clarinet",
+        "icon": "🎶"
+      },
+      {
+        "term": "saxophone",
+        "meaning": "kèn saxophone",
+        "icon": "🎷"
+      },
+      {
+        "term": "trombone",
+        "meaning": "kèn trombone",
+        "icon": "🎺"
+      },
+      {
+        "term": "trumpet",
+        "meaning": "kèn trumpet",
+        "icon": "🎺"
+      },
+      {
+        "term": "string",
+        "meaning": "dây đàn",
+        "icon": "🧵"
+      },
+      {
+        "term": "dream",
+        "meaning": "giấc mơ",
+        "icon": "💭"
+      },
+      {
+        "term": "exciting",
+        "meaning": "hào hứng",
+        "icon": "🤩"
+      }
+    ],
+    "8": [
+      {
+        "term": "Moon",
+        "meaning": "Mặt Trăng",
+        "icon": "🌙"
+      },
+      {
+        "term": "bright",
+        "meaning": "sáng",
+        "icon": "✨"
+      },
+      {
+        "term": "worried",
+        "meaning": "lo lắng",
+        "icon": "😟"
+      },
+      {
+        "term": "cry",
+        "meaning": "khóc",
+        "icon": "😭"
+      },
+      {
+        "term": "stick",
+        "meaning": "cành cây",
+        "icon": "🪵"
+      },
+      {
+        "term": "owl",
+        "meaning": "cú mèo",
+        "icon": "🦉"
+      },
+      {
+        "term": "in a hurry",
+        "meaning": "đang vội",
+        "icon": "🏃"
+      },
+      {
+        "term": "frightened",
+        "meaning": "sợ hãi",
+        "icon": "😱"
+      },
+      {
+        "term": "bump",
+        "meaning": "va phải",
+        "icon": "💥"
+      },
+      {
+        "term": "rude",
+        "meaning": "thô lỗ",
+        "icon": "😠"
+      },
+      {
+        "term": "space station",
+        "meaning": "trạm vũ trụ",
+        "icon": "🛰️"
+      },
+      {
+        "term": "rocket",
+        "meaning": "tên lửa",
+        "icon": "🚀"
+      },
+      {
+        "term": "scientist",
+        "meaning": "nhà khoa học",
+        "icon": "🧑‍🔬"
+      },
+      {
+        "term": "float",
+        "meaning": "trôi, lơ lửng",
+        "icon": "🫧"
+      },
+      {
+        "term": "laboratory",
+        "meaning": "phòng thí nghiệm",
+        "icon": "🧪"
+      },
+      {
+        "term": "launch",
+        "meaning": "phóng",
+        "icon": "🚀"
+      },
+      {
+        "term": "orbit",
+        "meaning": "quỹ đạo",
+        "icon": "🪐"
+      },
+      {
+        "term": "telescope",
+        "meaning": "kính thiên văn",
+        "icon": "🔭"
+      },
+      {
+        "term": "planet",
+        "meaning": "hành tinh",
+        "icon": "🪐"
+      },
+      {
+        "term": "spacesuit",
+        "meaning": "bộ đồ vũ trụ",
+        "icon": "🧑‍🚀"
+      }
+    ],
+    "9": [
+      {
+        "term": "roof",
+        "meaning": "mái nhà",
+        "icon": "🏠"
+      },
+      {
+        "term": "balcony",
+        "meaning": "ban công",
+        "icon": "🏢"
+      },
+      {
+        "term": "attic",
+        "meaning": "gác mái",
+        "icon": "🏚️"
+      },
+      {
+        "term": "view",
+        "meaning": "quang cảnh",
+        "icon": "🌅"
+      },
+      {
+        "term": "wood",
+        "meaning": "gỗ",
+        "icon": "🪵"
+      },
+      {
+        "term": "stone",
+        "meaning": "đá",
+        "icon": "🪨"
+      },
+      {
+        "term": "sweep",
+        "meaning": "quét",
+        "icon": "🧹"
+      },
+      {
+        "term": "build",
+        "meaning": "xây dựng",
+        "icon": "🏗️"
+      },
+      {
+        "term": "steep",
+        "meaning": "dốc",
+        "icon": "⛰️"
+      },
+      {
+        "term": "flat",
+        "meaning": "bằng phẳng",
+        "icon": "➖"
+      },
+      {
+        "term": "narrow",
+        "meaning": "hẹp",
+        "icon": "↔️"
+      },
+      {
+        "term": "wide",
+        "meaning": "rộng",
+        "icon": "↔️"
+      },
+      {
+        "term": "concrete",
+        "meaning": "bê tông",
+        "icon": "🧱"
+      },
+      {
+        "term": "bricks",
+        "meaning": "gạch",
+        "icon": "🧱"
+      },
+      {
+        "term": "metal",
+        "meaning": "kim loại",
+        "icon": "🔩"
+      },
+      {
+        "term": "plastic",
+        "meaning": "nhựa",
+        "icon": "🧴"
+      },
+      {
+        "term": "move",
+        "meaning": "chuyển nhà, di chuyển",
+        "icon": "📦"
+      },
+      {
+        "term": "stairs",
+        "meaning": "cầu thang bộ",
+        "icon": "🪜"
+      },
+      {
+        "term": "elevator",
+        "meaning": "thang máy",
+        "icon": "🛗"
+      },
+      {
+        "term": "basement",
+        "meaning": "tầng hầm",
+        "icon": "⬇️"
+      }
+    ],
+    "10": [
+      {
+        "term": "stomach",
+        "meaning": "dạ dày, bụng",
+        "icon": "🫄"
+      },
+      {
+        "term": "back",
+        "meaning": "lưng",
+        "icon": "🧍"
+      },
+      {
+        "term": "neck",
+        "meaning": "cổ",
+        "icon": "🧣"
+      },
+      {
+        "term": "shoulder",
+        "meaning": "vai",
+        "icon": "💪"
+      },
+      {
+        "term": "fever",
+        "meaning": "sốt",
+        "icon": "🌡️"
+      },
+      {
+        "term": "bandage",
+        "meaning": "băng gạc",
+        "icon": "🩹"
+      },
+      {
+        "term": "take medicine",
+        "meaning": "uống thuốc",
+        "icon": "💊"
+      },
+      {
+        "term": "rest",
+        "meaning": "nghỉ ngơi",
+        "icon": "🛌"
+      },
+      {
+        "term": "pale",
+        "meaning": "xanh xao",
+        "icon": "😶"
+      },
+      {
+        "term": "sick",
+        "meaning": "ốm",
+        "icon": "🤒"
+      },
+      {
+        "term": "muscles",
+        "meaning": "cơ bắp",
+        "icon": "💪"
+      },
+      {
+        "term": "skin",
+        "meaning": "da",
+        "icon": "🖐️"
+      },
+      {
+        "term": "brain",
+        "meaning": "não",
+        "icon": "🧠"
+      },
+      {
+        "term": "heart",
+        "meaning": "tim",
+        "icon": "❤️"
+      },
+      {
+        "term": "cold",
+        "meaning": "cảm lạnh",
+        "icon": "🤧"
+      },
+      {
+        "term": "cough",
+        "meaning": "ho",
+        "icon": "😷"
+      },
+      {
+        "term": "sneeze",
+        "meaning": "hắt hơi",
+        "icon": "🤧"
+      },
+      {
+        "term": "vaccination",
+        "meaning": "tiêm chủng",
+        "icon": "💉"
+      },
+      {
+        "term": "spread",
+        "meaning": "lây lan",
+        "icon": "🦠"
+      },
+      {
+        "term": "save your life",
+        "meaning": "cứu mạng",
+        "icon": "🛟"
+      }
+    ],
+    "11": [
+      {
+        "term": "South Pole",
+        "meaning": "Nam Cực",
+        "icon": "🧭"
+      },
+      {
+        "term": "penguin",
+        "meaning": "chim cánh cụt",
+        "icon": "🐧"
+      },
+      {
+        "term": "expedition",
+        "meaning": "chuyến thám hiểm",
+        "icon": "🧭"
+      },
+      {
+        "term": "temperature",
+        "meaning": "nhiệt độ",
+        "icon": "🌡️"
+      },
+      {
+        "term": "degrees",
+        "meaning": "độ",
+        "icon": "°"
+      },
+      {
+        "term": "ice",
+        "meaning": "băng",
+        "icon": "🧊"
+      },
+      {
+        "term": "continent",
+        "meaning": "châu lục",
+        "icon": "🌍"
+      },
+      {
+        "term": "freezing",
+        "meaning": "lạnh cóng",
+        "icon": "🥶"
+      },
+      {
+        "term": "crack",
+        "meaning": "vết nứt",
+        "icon": "🧊"
+      },
+      {
+        "term": "deep",
+        "meaning": "sâu",
+        "icon": "⬇️"
+      },
+      {
+        "term": "fur",
+        "meaning": "lông thú",
+        "icon": "🦊"
+      },
+      {
+        "term": "octopus",
+        "meaning": "bạch tuộc",
+        "icon": "🐙"
+      },
+      {
+        "term": "hunt",
+        "meaning": "săn mồi",
+        "icon": "🎯"
+      },
+      {
+        "term": "krill",
+        "meaning": "loài nhuyễn thể krill",
+        "icon": "🦐"
+      },
+      {
+        "term": "feather",
+        "meaning": "lông vũ",
+        "icon": "🪶"
+      },
+      {
+        "term": "layer",
+        "meaning": "lớp",
+        "icon": "📚"
+      },
+      {
+        "term": "migrate",
+        "meaning": "di cư",
+        "icon": "🦅"
+      },
+      {
+        "term": "poisonous",
+        "meaning": "có độc",
+        "icon": "☠️"
+      },
+      {
+        "term": "wing",
+        "meaning": "cánh",
+        "icon": "🪽"
+      },
+      {
+        "term": "waterproof",
+        "meaning": "không thấm nước",
+        "icon": "💧"
+      }
+    ],
+    "12": [
+      {
+        "term": "lantern",
+        "meaning": "đèn lồng",
+        "icon": "🏮"
+      },
+      {
+        "term": "parade",
+        "meaning": "diễu hành",
+        "icon": "🎊"
+      },
+      {
+        "term": "emperor",
+        "meaning": "hoàng đế",
+        "icon": "👑"
+      },
+      {
+        "term": "stilt walker",
+        "meaning": "người đi cà kheo",
+        "icon": "🪵"
+      },
+      {
+        "term": "annoying",
+        "meaning": "gây khó chịu",
+        "icon": "😣"
+      },
+      {
+        "term": "hang",
+        "meaning": "treo",
+        "icon": "🪝"
+      },
+      {
+        "term": "crowded",
+        "meaning": "đông đúc",
+        "icon": "👥"
+      },
+      {
+        "term": "costume",
+        "meaning": "trang phục",
+        "icon": "👘"
+      },
+      {
+        "term": "furry",
+        "meaning": "có nhiều lông",
+        "icon": "🦊"
+      },
+      {
+        "term": "fireworks",
+        "meaning": "pháo hoa",
+        "icon": "🎆"
+      },
+      {
+        "term": "eel",
+        "meaning": "lươn",
+        "icon": "🐍"
+      },
+      {
+        "term": "cathedral",
+        "meaning": "nhà thờ lớn",
+        "icon": "⛪"
+      },
+      {
+        "term": "bell",
+        "meaning": "chuông",
+        "icon": "🔔"
+      },
+      {
+        "term": "get married",
+        "meaning": "kết hôn",
+        "icon": "💍"
+      },
+      {
+        "term": "water fight",
+        "meaning": "trò té nước",
+        "icon": "💦"
+      },
+      {
+        "term": "spray",
+        "meaning": "xịt, phun",
+        "icon": "💦"
+      },
+      {
+        "term": "have a day off",
+        "meaning": "được nghỉ một ngày",
+        "icon": "🏖️"
+      },
+      {
+        "term": "grown-up",
+        "meaning": "người lớn",
+        "icon": "🧑"
+      },
+      {
+        "term": "sticky",
+        "meaning": "dính",
+        "icon": "🍯"
+      },
+      {
+        "term": "coconut",
+        "meaning": "dừa",
+        "icon": "🥥"
+      }
+    ]
+  },
+  "titles": {
+    "1": "How do we find our way?",
+    "2": "How do we know about the past?",
+    "3": "Why do we go on vacation?",
+    "4": "Why do we tell stories?",
+    "5": "Why take care of the environment?",
+    "6": "Why do we use numbers every day?",
+    "7": "What do we do for entertainment?",
+    "8": "Why is space interesting?",
+    "9": "How are homes different?",
+    "10": "How do we take care of our body?",
+    "11": "Why is Antarctica special?",
+    "12": "Why do we have festivals?"
+  }
+}

@@ -1,0 +1,340 @@
+html.milo-auth-checking body { visibility: hidden !important; }
+/* V60.12.6 · Bắt buộc đăng nhập và tách rõ Đăng nhập / Đăng ký */
+.auth-switch {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin: 14px 0 20px;
+  padding: 6px;
+  border: 1px solid #d9e2f0;
+  border-radius: 16px;
+  background: #f1f5fb;
+}
+.auth-switch button {
+  min-height: 48px;
+  border: 0;
+  border-radius: 12px;
+  background: transparent;
+  color: #526078;
+  font: inherit;
+  font-size: 15px;
+  font-weight: 950;
+  cursor: pointer;
+}
+.auth-switch button.active {
+  color: #fff;
+  background: linear-gradient(135deg, #7358dc, #168bf2);
+  box-shadow: 0 8px 20px rgba(70, 78, 190, .25);
+}
+.profile-submit > span,
+.login-submit > span {
+  font-size: 16px;
+  font-weight: 950;
+}
+.profile-login-existing,
+.login-create-account {
+  border: 2px solid #755fd0 !important;
+  background: #fff !important;
+  color: #5945bd !important;
+}
+.profile-login-existing b,
+.login-create-account b {
+  font-size: 14px !important;
+}
+body.milo-auth-required {
+  overflow: hidden !important;
+}
+body.milo-auth-required > main,
+body.milo-auth-required > .app,
+body.milo-auth-required > .shell {
+  pointer-events: none !important;
+  user-select: none;
+  filter: blur(2px) saturate(.7);
+}
+body.milo-auth-required #accountLoginModal,
+body.milo-auth-required #childLogin {
+  z-index: 100000 !important;
+}
+body.milo-auth-required #accountLoginModal .close,
+body.milo-auth-required #childLogin .profile-close {
+  display: none !important;
+}
+.auth-required-note {
+  margin: 0 0 12px;
+  padding: 11px 13px;
+  border: 1px solid #cfe0f7;
+  border-radius: 13px;
+  background: #edf6ff;
+  color: #315f87;
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 1.45;
+}
+@media (max-width: 720px) {
+  .auth-switch { margin-top: 10px; }
+  .auth-switch button { min-height: 44px; font-size: 14px; }
+}
+
+
+/* V60.12.7 · Login is the mandatory first screen; actions remain visible. */
+html.milo-auth-required-boot body {
+  visibility: hidden !important;
+}
+
+body.milo-auth-required #accountLoginModal,
+body.milo-auth-required #childLogin {
+  display: grid;
+}
+
+.auth-form-panel,
+.login-form-panel {
+  position: relative;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
+}
+
+.auth-switch {
+  position: sticky;
+  top: -1px;
+  z-index: 8;
+  margin-top: 0;
+  background: rgba(241,245,251,.98);
+  box-shadow: 0 8px 20px rgba(20,35,70,.08);
+  backdrop-filter: blur(10px);
+}
+
+.auth-switch button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  border: 1px solid transparent;
+}
+
+.auth-switch button:not(.active) {
+  border-color: #d8e1f0;
+  background: #fff;
+  color: #33435f;
+}
+
+.auth-action-footer {
+  position: sticky;
+  z-index: 9;
+  bottom: -1px;
+  margin: 12px -8px 0;
+  padding: 10px 8px 4px;
+  border-top: 1px solid #e2e8f2;
+  background: linear-gradient(to bottom, rgba(255,255,255,.86), #fff 24%);
+  box-shadow: 0 -12px 24px rgba(23,39,74,.08);
+  backdrop-filter: blur(12px);
+}
+
+.auth-action-footer .profile-error {
+  min-height: 0;
+  margin: 0 0 6px;
+}
+
+.auth-action-footer .profile-submit,
+.auth-action-footer .profile-login-existing,
+.auth-action-footer .login-create-account {
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.auth-login-actions .login-divider {
+  margin: 8px 0;
+}
+
+body.milo-auth-required #accountLoginModal.hidden,
+body.milo-auth-required #childLogin.hidden {
+  display: none !important;
+}
+
+@media (max-height: 760px) {
+  .auth-showcase,
+  .login-showcase {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .auth-form-panel,
+  .login-form-panel {
+    padding-top: 18px;
+    padding-bottom: 14px;
+  }
+
+  .auth-form-panel h2,
+  .login-form-panel h2 {
+    margin-top: 10px;
+  }
+
+  .auth-stepper {
+    margin-top: 12px;
+  }
+}
+
+
+/* V60.12.8 · Đồng bộ UI Đăng nhập/Đăng ký và luôn hiện nút hành động */
+#accountLoginModal.child-login,
+#childLogin.child-login {
+  padding: 20px;
+  background:
+    radial-gradient(circle at 18% 18%, rgba(112, 89, 220, .32), transparent 34%),
+    radial-gradient(circle at 82% 82%, rgba(85, 200, 223, .22), transparent 36%),
+    rgba(10, 16, 34, .83);
+  backdrop-filter: blur(18px) saturate(125%);
+}
+
+#accountLoginForm.child-login-card.pro-auth-shell,
+#childLoginForm.child-login-card.pro-auth-shell {
+  width: min(1060px, calc(100vw - 40px)) !important;
+  height: min(820px, calc(100vh - 36px));
+  max-height: min(820px, calc(100vh - 36px)) !important;
+  grid-template-columns: minmax(340px, .88fr) minmax(480px, 1.2fr) !important;
+  border-radius: 34px !important;
+}
+
+#accountLoginForm .login-showcase.auth-showcase,
+#childLoginForm .auth-showcase {
+  padding: 32px 30px 28px !important;
+  overflow-y: auto;
+}
+
+#accountLoginForm .login-form-panel,
+#childLoginForm .auth-form-panel {
+  min-height: 0;
+  padding: 30px 36px 22px !important;
+  display: grid;
+  grid-template-rows: auto auto minmax(0, 1fr) auto auto;
+  overflow: hidden !important;
+}
+
+.auth-form-scroll {
+  min-width: 0;
+  min-height: 0;
+  padding: 0 5px 10px 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+  overscroll-behavior: contain;
+}
+
+.auth-form-scroll > h2,
+.auth-form-scroll > .auth-form-intro,
+.auth-form-scroll > .login-intro {
+  text-align: left;
+}
+
+.auth-action-footer {
+  position: static !important;
+  z-index: 2;
+  width: 100%;
+  margin: 10px 0 0 !important;
+  padding: 10px 0 0 !important;
+  border-top: 1px solid #e2e8f2;
+  background: #fff !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+}
+
+#childLoginForm.is-register .auth-action-footer .profile-submit,
+#accountLoginForm .auth-action-footer .login-submit,
+#accountLoginForm .auth-action-footer .login-create-account {
+  display: flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  width: 100%;
+  min-height: 50px;
+}
+
+#childLoginForm.is-register .profile-submit > span::after {
+  content: "";
+}
+
+#accountLoginForm .auth-login-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 10px;
+}
+
+#accountLoginForm .auth-login-actions .profile-error {
+  grid-column: 1 / -1;
+  margin: 0;
+}
+
+#accountLoginForm .auth-login-actions .login-divider {
+  display: none;
+}
+
+#accountLoginForm .login-create-account {
+  min-height: 50px;
+  margin: 0;
+  justify-content: center;
+  gap: 8px;
+  border: 2px solid #755fd0 !important;
+  border-radius: 14px;
+  background: #fff !important;
+}
+
+#accountLoginForm .login-create-account span,
+#accountLoginForm .login-create-account b {
+  color: #5945bd !important;
+  font-size: 13px !important;
+  font-weight: 950;
+}
+
+#accountLoginForm .login-submit {
+  margin: 0;
+}
+
+#accountLoginForm .login-support,
+#childLoginForm .profile-privacy {
+  margin-top: 8px;
+}
+
+#accountLoginForm .login-profile-card {
+  margin-top: 22px;
+}
+
+#accountLoginForm .login-security-card,
+#accountLoginForm .login-vip-orbit {
+  display: none !important;
+}
+
+@media (max-width: 850px) {
+  #accountLoginForm.child-login-card.pro-auth-shell,
+  #childLoginForm.child-login-card.pro-auth-shell {
+    width: calc(100vw - 24px) !important;
+    height: calc(100vh - 24px);
+    max-height: calc(100vh - 24px) !important;
+    grid-template-columns: 1fr !important;
+  }
+
+  #accountLoginForm .login-showcase.auth-showcase,
+  #childLoginForm .auth-showcase {
+    min-height: 205px;
+    max-height: 230px;
+  }
+
+  #accountLoginForm .auth-form-panel,
+  #childLoginForm .auth-form-panel {
+    padding: 22px 24px 16px !important;
+  }
+}
+
+@media (max-width: 620px) {
+  #accountLoginModal.child-login,
+  #childLogin.child-login {
+    padding: 6px;
+  }
+
+  #accountLoginForm .auth-login-actions {
+    grid-template-columns: 1fr;
+  }
+
+  #accountLoginForm .login-create-account,
+  #accountLoginForm .login-submit {
+    min-height: 46px;
+  }
+}

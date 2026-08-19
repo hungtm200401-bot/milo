@@ -1,0 +1,32 @@
+{
+  "name": "Milo English Adventure V60.13.1",
+  "short_name": "Milo App học",
+  "description": "Khóa học tiếng Anh lớp 2–5 miễn phí với 48 Big Questions; Trợ lý AI Pro Max tùy chọn có chẩn đoán và trò chuyện giọng nói hai chiều.",
+  "lang": "vi",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#e7f8ff",
+  "theme_color": "#765fd0",
+  "icons": [
+    {
+      "src": "milo-student-app.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "pet-assets/levels/milo/lv-01-idle.webp",
+      "sizes": "640x640",
+      "type": "image/webp",
+      "purpose": "any"
+    },
+    {
+      "src": "pet-assets/levels/milo/lv-50-idle.webp",
+      "sizes": "640x640",
+      "type": "image/webp",
+      "purpose": "maskable"
+    }
+  ]
+}

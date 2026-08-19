@@ -1,0 +1,204 @@
+/* Milo V60.13.12 — AI Plus mặc định, VIP PRO MAX theo quyền, trợ lý xuyên hành trình */
+:root {
+  --milo-ai-navy: #12305d;
+  --milo-ai-blue: #198af4;
+  --milo-ai-cyan: #58c6e9;
+  --milo-ai-violet: #7559dd;
+  --milo-ai-violet-dark: #5237b7;
+  --milo-ai-green: #35a873;
+  --milo-ai-orange: #ff8517;
+  --milo-ai-line: #cfe2f1;
+  --milo-ai-paper: #ffffff;
+  --milo-ai-muted: #667d97;
+  --milo-ai-shadow: 0 20px 55px rgba(27, 76, 119, .2);
+}
+
+/* Nút hỏi AI xuất hiện trên mọi trang chính và bài học. */
+.milo-ai-global-dock {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 1500;
+  width: min(330px, calc(100vw - 28px));
+  padding: 10px;
+  border: 1px solid rgba(173, 211, 235, .95);
+  border-radius: 22px;
+  background: rgba(255,255,255,.96);
+  box-shadow: 0 18px 50px rgba(22, 74, 118, .24);
+  backdrop-filter: blur(18px);
+}
+.milo-ai-global-dock.is-minimized { width: auto; padding: 7px; border-radius: 18px; }
+.milo-ai-global-dock.is-minimized .milo-ai-dock-body,
+.milo-ai-global-dock.is-minimized .milo-ai-dock-copy { display: none; }
+.milo-ai-dock-head { display:flex; align-items:center; gap:9px; }
+.milo-ai-dock-logo {
+  width: 40px; height: 40px; display:grid; place-items:center; flex:0 0 auto;
+  border-radius: 14px; background: linear-gradient(145deg,#e7f5ff,#eee7ff); font-size:22px;
+}
+.milo-ai-dock-copy { min-width:0; flex:1; }
+.milo-ai-dock-copy b,.milo-ai-dock-copy small { display:block; }
+.milo-ai-dock-copy b { color:var(--milo-ai-navy); font-size:13px; }
+.milo-ai-dock-copy small { margin-top:2px; color:var(--milo-ai-muted); font-size:9px; line-height:1.35; }
+.milo-ai-dock-toggle { width:32px;height:32px;border:0;border-radius:10px;background:#edf5fb;color:#486982;font-weight:950;cursor:pointer; }
+.milo-ai-dock-body { display:grid; grid-template-columns:1fr 1fr; gap:7px; margin-top:9px; }
+.milo-ai-dock-action {
+  min-height:52px; border:1px solid var(--milo-ai-line); border-radius:14px; padding:8px 9px;
+  text-align:left; cursor:pointer; transition:.18s ease; font:inherit;
+}
+.milo-ai-dock-action:hover { transform:translateY(-2px); box-shadow:0 8px 18px rgba(24,93,145,.13); }
+.milo-ai-dock-action b,.milo-ai-dock-action small { display:block; }
+.milo-ai-dock-action b { font-size:11px; }
+.milo-ai-dock-action small { margin-top:3px; font-size:8px; line-height:1.3; opacity:.85; }
+.milo-ai-dock-action.plus { background:linear-gradient(145deg,#eaf8ff,#f4fbff);color:#075e9d; }
+.milo-ai-dock-action.pro { background:linear-gradient(145deg,#f0ebff,#e8f3ff);color:#583cb9; }
+.milo-ai-dock-action.pro.locked { background:#f5f6f9;color:#78889b; }
+.milo-ai-dock-tier {
+  margin-top:8px;padding:7px 9px;border-radius:11px;background:#f3f8fb;color:#4a6a82;font-size:8px;font-weight:850;text-align:center;
+}
+.milo-ai-dock-tier[data-tier="pro"] { background:#eee9ff;color:#5d42be; }
+
+/* Trung tâm trò chuyện chuyên nghiệp. */
+#view-chat.milo-chat-pro-view { padding-bottom: 115px; }
+.milo-chat-pro-layout {
+  display:grid; grid-template-columns:300px minmax(0,1fr); gap:16px; align-items:start;
+}
+.milo-chat-pro-sidebar {
+  position:sticky; top:18px; display:grid; gap:12px; padding:16px; border:1px solid #c9e0ef;
+  border-radius:24px; background:linear-gradient(160deg,#f8fcff,#f3efff); box-shadow:0 13px 32px rgba(35,91,132,.12);
+}
+.milo-chat-pro-sidebar > header { display:flex;align-items:center;gap:10px; }
+.milo-chat-pro-sidebar > header span { width:44px;height:44px;display:grid;place-items:center;border-radius:15px;background:linear-gradient(145deg,#168bf2,#7659dc);color:#fff;font-size:23px;box-shadow:0 10px 20px rgba(72,73,190,.23); }
+.milo-chat-pro-sidebar h3 { margin:0;color:var(--milo-ai-navy);font-size:17px; }
+.milo-chat-pro-sidebar header small { display:block;margin-top:3px;color:var(--milo-ai-muted);font-size:9px; }
+.milo-chat-tier-card { padding:13px;border:1px solid var(--milo-ai-line);border-radius:17px;background:#fff; }
+.milo-chat-tier-card.active { border-color:#7d6be5;box-shadow:0 0 0 3px rgba(118,89,220,.1); }
+.milo-chat-tier-card header { display:flex;justify-content:space-between;gap:8px;align-items:flex-start; }
+.milo-chat-tier-card header b { color:var(--milo-ai-navy);font-size:13px; }
+.milo-chat-tier-card header em { padding:4px 7px;border-radius:999px;background:#eaf5ff;color:#17689d;font-size:7px;font-style:normal;font-weight:950; }
+.milo-chat-tier-card.pro header em { background:#eee9ff;color:#6145c3; }
+.milo-chat-tier-card p { margin:7px 0 10px;color:var(--milo-ai-muted);font-size:9px;line-height:1.45; }
+.milo-chat-tier-card button { width:100%;border:0;border-radius:12px;padding:10px;color:#fff;font-weight:950;cursor:pointer; }
+.milo-chat-tier-card.plus button { background:linear-gradient(135deg,#168bf2,#52b9e3); }
+.milo-chat-tier-card.pro button { background:linear-gradient(135deg,#6a4dd1,#8f6ee8); }
+.milo-chat-tier-card.pro.locked button { background:linear-gradient(135deg,#8898aa,#aab4bf); }
+.milo-chat-context-card { padding:12px;border-radius:16px;background:#102c54;color:#fff; }
+.milo-chat-context-card small,.milo-chat-context-card b,.milo-chat-context-card span { display:block; }
+.milo-chat-context-card small { color:#aad9ff;font-size:8px;font-weight:900;letter-spacing:.08em; }
+.milo-chat-context-card b { margin-top:5px;font-size:13px; }
+.milo-chat-context-card span { margin-top:4px;color:#dcecff;font-size:9px;line-height:1.45; }
+.milo-chat-quick-list { display:grid;gap:6px; }
+.milo-chat-quick-list button { border:1px solid #d7e4ef;border-radius:11px;padding:9px;background:#fff;color:#34536e;text-align:left;font-size:9px;font-weight:800;cursor:pointer; }
+.milo-chat-pro-main { min-width:0;display:grid;gap:12px; }
+.milo-chat-pro-main .chat-large { margin:0; min-height:540px; border:1px solid #c8dfed; border-radius:24px; overflow:hidden; box-shadow:0 13px 34px rgba(38,88,126,.1); }
+.milo-chat-pro-main .messages { min-height:390px; padding:20px; background:linear-gradient(180deg,#f8fcff,#f6f3ff); }
+.milo-chat-pro-main .bubble { max-width:min(760px,88%); border-radius:18px; padding:12px 14px; line-height:1.55; }
+.milo-chat-pro-main .bubble.milo { background:#fff;border:1px solid #d6e6f1;box-shadow:0 8px 18px rgba(36,83,118,.08); }
+.milo-chat-pro-main .bubble.user { background:linear-gradient(135deg,#168bf2,#7160df);color:#fff; }
+.milo-chat-pro-main .chat-input { position:sticky;bottom:0;padding:12px;background:#fff;border-top:1px solid #d7e6ef; }
+.milo-chat-pro-main .chat-input input { min-height:48px;border-radius:15px;background:#f6f9fc; }
+
+/* Trợ lý theo từng chặng trong lesson. */
+.journey-ai-stage-card {
+  margin:18px 0 22px;padding:18px;border:1px solid #bedff0;border-radius:22px;
+  background:linear-gradient(135deg,#f5fbff,#f2edff 70%,#fff8e6);box-shadow:0 13px 30px rgba(36,91,128,.1);
+}
+.journey-ai-stage-head { display:flex;align-items:flex-start;gap:13px; }
+.journey-ai-stage-icon { width:48px;height:48px;display:grid;place-items:center;flex:0 0 auto;border-radius:16px;background:linear-gradient(145deg,#168bf2,#7559dd);color:#fff;font-size:25px;box-shadow:0 10px 23px rgba(70,72,185,.22); }
+.journey-ai-stage-copy { min-width:0;flex:1; }
+.journey-ai-stage-copy small { color:#7257ce;font-size:8px;font-weight:950;letter-spacing:.1em; }
+.journey-ai-stage-copy h3 { margin:4px 0 5px;color:#173c69;font-size:19px; }
+.journey-ai-stage-copy p { margin:0;color:#58748c;font-size:11px;line-height:1.55; }
+.journey-ai-stage-badge { padding:6px 9px;border-radius:999px;background:#fff;color:#315b79;font-size:8px;font-weight:950;white-space:nowrap; }
+.journey-ai-stage-actions { display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:14px; }
+.journey-ai-stage-actions button { min-height:52px;border:0;border-radius:15px;padding:10px 13px;color:#fff;text-align:left;font-weight:950;cursor:pointer; }
+.journey-ai-stage-actions button b,.journey-ai-stage-actions button small { display:block; }
+.journey-ai-stage-actions button b { font-size:12px; }
+.journey-ai-stage-actions button small { margin-top:3px;font-size:8px;opacity:.9; }
+.journey-ai-stage-actions .plus { background:linear-gradient(135deg,#158cf2,#54bddf); }
+.journey-ai-stage-actions .pro { background:linear-gradient(135deg,#6c4dd3,#9574ea); }
+.journey-ai-stage-actions .pro.locked { background:linear-gradient(135deg,#8596a8,#a9b4bf); }
+.journey-ai-prompts { display:flex;flex-wrap:wrap;gap:6px;margin-top:10px; }
+.journey-ai-prompts button { border:1px solid #cedfec;border-radius:999px;padding:7px 10px;background:#fff;color:#3d5c74;font-size:8px;font-weight:850;cursor:pointer; }
+
+/* Phòng từ mới và chấm phát âm trực tiếp. */
+.journey-vocab-coach { margin-top:14px;padding:14px;border:1px solid #d8d0f3;border-radius:18px;background:#fff; }
+.journey-vocab-coach-head { display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:10px; }
+.journey-vocab-coach-head h4 { margin:0;color:#1a416d;font-size:15px; }
+.journey-vocab-score { display:flex;align-items:center;gap:7px;padding:7px 10px;border-radius:12px;background:#eff7fc;color:#245c7f; }
+.journey-vocab-score strong { font-size:19px;color:#684dd0; }
+.journey-vocab-score small { font-size:8px; }
+.journey-vocab-word-grid { display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px; }
+.journey-vocab-word { min-width:0;padding:10px;border:1px solid #d8e6ef;border-radius:14px;background:#f9fcfe; }
+.journey-vocab-word > div { display:flex;align-items:center;gap:8px; }
+.journey-vocab-word .emoji { font-size:24px; }
+.journey-vocab-word b,.journey-vocab-word small { display:block; }
+.journey-vocab-word b { overflow-wrap:anywhere;color:#173d68;font-size:11px; }
+.journey-vocab-word small { margin-top:2px;color:#73879a;font-size:8px; }
+.journey-vocab-word footer { display:grid;grid-template-columns:1fr 1fr;gap:5px;margin-top:8px; }
+.journey-vocab-word button { border:0;border-radius:9px;padding:7px 5px;font-size:8px;font-weight:900;cursor:pointer; }
+.journey-vocab-word button.listen { background:#e7f5ff;color:#146a9e; }
+.journey-vocab-word button.score { background:#ede8ff;color:#6246bf; }
+.journey-vocab-word.is-active { border-color:#7559dd;box-shadow:0 0 0 3px rgba(117,89,221,.11); }
+.journey-vocab-word[data-score]::after { content:attr(data-score) "/100";display:block;margin-top:7px;color:#2e8a62;font-size:8px;font-weight:950;text-align:right; }
+
+/* Drawer chat trong từng bài học. */
+.journey-ai-drawer { position:fixed;inset:0;z-index:2400;display:grid;grid-template-columns:minmax(0,1fr) min(520px,94vw);background:rgba(7,22,42,.48);backdrop-filter:blur(7px); }
+.journey-ai-drawer.hidden { display:none; }
+.journey-ai-drawer-panel { grid-column:2;min-width:0;height:100%;display:grid;grid-template-rows:auto auto 1fr auto;background:#f7fbfe;box-shadow:-25px 0 60px rgba(8,38,68,.28); }
+.journey-ai-drawer-head { display:flex;align-items:center;gap:11px;padding:16px 17px;background:linear-gradient(135deg,#12375f,#654ac7);color:#fff; }
+.journey-ai-drawer-head > span { width:44px;height:44px;display:grid;place-items:center;border-radius:14px;background:#ffffff1e;font-size:23px; }
+.journey-ai-drawer-head div { min-width:0;flex:1; }
+.journey-ai-drawer-head small,.journey-ai-drawer-head b { display:block; }
+.journey-ai-drawer-head small { color:#cce7ff;font-size:8px;font-weight:900;letter-spacing:.08em; }
+.journey-ai-drawer-head b { margin-top:3px;font-size:15px; }
+.journey-ai-drawer-close { width:36px;height:36px;border:1px solid #ffffff43;border-radius:11px;background:#ffffff17;color:#fff;font-size:20px;cursor:pointer; }
+.journey-ai-drawer-mode { display:grid;grid-template-columns:1fr 1fr;gap:7px;padding:10px 13px;background:#fff;border-bottom:1px solid #dce8f0; }
+.journey-ai-drawer-mode button { border:1px solid #d2e1ed;border-radius:12px;padding:10px;background:#f8fbfd;color:#3e5a73;font-weight:950;cursor:pointer; }
+.journey-ai-drawer-mode button.active.plus { border-color:#3aa7e8;background:#eaf8ff;color:#076b9f; }
+.journey-ai-drawer-mode button.active.pro { border-color:#7d62df;background:#eee9ff;color:#5d3fc1; }
+.journey-ai-drawer-messages { min-height:0;overflow:auto;padding:16px;display:flex;flex-direction:column;gap:10px; }
+.journey-ai-message { max-width:88%;padding:11px 13px;border-radius:17px;font-size:11px;line-height:1.55;white-space:pre-wrap; }
+.journey-ai-message.milo { align-self:flex-start;background:#fff;border:1px solid #d6e5ef;color:#2d4d66;box-shadow:0 7px 16px rgba(35,78,110,.08); }
+.journey-ai-message.user { align-self:flex-end;background:linear-gradient(135deg,#168bf2,#7459db);color:#fff; }
+.journey-ai-message.thinking { opacity:.65; }
+.journey-ai-drawer-form { padding:12px;border-top:1px solid #d9e6ef;background:#fff; }
+.journey-ai-drawer-form textarea { width:100%;min-height:78px;max-height:150px;resize:vertical;border:1px solid #cbddea;border-radius:14px;padding:11px;font:inherit;color:#203f59;background:#f8fbfd;outline:none; }
+.journey-ai-drawer-form textarea:focus { border-color:#6b59d9;box-shadow:0 0 0 3px rgba(107,89,217,.11); }
+.journey-ai-drawer-form div { display:flex;justify-content:space-between;gap:8px;align-items:center;margin-top:8px; }
+.journey-ai-drawer-form small { color:#74899b;font-size:8px; }
+.journey-ai-drawer-form button { border:0;border-radius:11px;padding:10px 15px;background:linear-gradient(135deg,#168bf2,#7159dd);color:#fff;font-weight:950;cursor:pointer; }
+
+/* Điểm tạm thời khi bé đang nói. */
+.pronunciation-live-score {
+  display:grid;grid-template-columns:auto 1fr;grid-template-rows:auto auto;gap:2px 10px;align-items:center;
+  margin:10px 0;padding:11px 13px;border:1px solid #cfe1ee;border-radius:15px;background:linear-gradient(135deg,#f5fbff,#f0edff);
+}
+.pronunciation-live-score strong { grid-row:1/3;font-size:30px;color:#6245c5;line-height:1; }
+.pronunciation-live-score span { color:#294e6c;font-size:10px;font-weight:900; }
+.pronunciation-live-score small { color:#6e8294;font-size:8px; }
+.pronunciation-live-score i { grid-column:1/-1;height:7px;overflow:hidden;border-radius:999px;background:#dce7ee; }
+.pronunciation-live-score i em { display:block;height:100%;width:0;border-radius:inherit;background:linear-gradient(90deg,#4ebae0,#7559dd,#43b67d);transition:width .16s ease; }
+.pronunciation-live-score[data-state="listening"] { border-color:#7a66df;box-shadow:0 0 0 3px rgba(122,102,223,.1); }
+.pronunciation-live-score[data-state="final"] { border-color:#57b889;background:#effbf5; }
+
+@media (max-width: 1180px) {
+  .milo-chat-pro-layout { grid-template-columns:1fr; }
+  .milo-chat-pro-sidebar { position:static;grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .milo-chat-pro-sidebar > header,.milo-chat-context-card,.milo-chat-quick-list { grid-column:1/-1; }
+  .journey-vocab-word-grid { grid-template-columns:repeat(3,minmax(0,1fr)); }
+}
+@media (max-width: 780px) {
+  .milo-ai-global-dock { right:10px;bottom:86px; }
+  .milo-chat-pro-sidebar { grid-template-columns:1fr; }
+  .milo-chat-pro-sidebar > header,.milo-chat-context-card,.milo-chat-quick-list { grid-column:auto; }
+  .journey-ai-stage-actions { grid-template-columns:1fr; }
+  .journey-vocab-word-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .journey-ai-drawer { grid-template-columns:1fr; }
+  .journey-ai-drawer-panel { grid-column:1; }
+}
+@media (max-width: 480px) {
+  .milo-ai-dock-body { grid-template-columns:1fr; }
+  .journey-vocab-word-grid { grid-template-columns:1fr; }
+  .journey-ai-stage-head { flex-wrap:wrap; }
+  .journey-ai-stage-badge { margin-left:61px; }
+}

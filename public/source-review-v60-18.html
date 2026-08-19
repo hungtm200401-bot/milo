@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Milo · Đối chiếu nguồn lớp 2–3</title>
+  <link rel="stylesheet" href="source-review-v60-18.css?v=60.25.0-source-exact">
+</head>
+<body>
+  <header>
+    <div>
+      <small>KHU QUẢN TRỊ / PHỤ HUYNH</small>
+      <h1>Đối chiếu ảnh nguồn và OCR</h1>
+      <p>Chỉ nội dung đã nhìn ảnh và chép đúng từng chữ mới được mở cho học sinh.</p>
+    </div>
+    <a href="admin.html">← Quay lại quản trị</a>
+  </header>
+  <main>
+    <section class="auth" id="reviewAuth">
+      <h2>Xác thực quản trị</h2>
+      <p>Nhập mật khẩu trong <code>MILO_ADMIN_PASSWORD</code>.</p>
+      <form id="reviewLogin">
+        <input id="reviewPassword" type="password" autocomplete="current-password" placeholder="Mật khẩu quản trị" required>
+        <button>Đăng nhập</button>
+      </form>
+      <p id="reviewAuthStatus"></p>
+    </section>
+    <section class="hidden" id="reviewApp">
+      <aside>
+        <label>Lớp
+          <select id="reviewGrade">
+            <option value="2">Lớp 2</option>
+            <option value="3">Lớp 3</option>
+          </select>
+        </label>
+        <label>Unit
+          <select id="reviewUnit"></select>
+        </label>
+        <label>Trạng thái
+          <select id="reviewStatus">
+            <option value="pending">Cần đối chiếu</option>
+            <option value="all">Tất cả</option>
+            <option value="ocr">OCR cần duyệt</option>
+            <option value="needs_review">Cần xem ảnh</option>
+            <option value="exact">Đã exact</option>
+          </select>
+        </label>
+        <label>Section
+          <select id="reviewSection"></select>
+        </label>
+        <div id="reviewSummary"></div>
+      </aside>
+      <article id="reviewContent"></article>
+    </section>
+  </main>
+  <script src="source-sections-v60-17.js?v=60.18.0"></script>
+  <script src="source-exact-transcriptions.js"></script>
+  <script src="source-review-v60-18.js?v=60.25.0-source-exact"></script>
+</body>
+</html>

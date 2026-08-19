@@ -1,0 +1,1854 @@
+{
+  "source": "Two uploaded ZIPs anh_tam(1) and anh_tam(2)",
+  "scope": "Official Vocabulary 1 and Vocabulary 2 boxes only",
+  "totalUnits": 12,
+  "totalTerms": 196,
+  "units": [
+    {
+      "unit": 1,
+      "title": "What do we do on school days?",
+      "theme": "Trường học",
+      "groups": [
+        {
+          "label": "Key vocabulary 1",
+          "terms": [
+            "math",
+            "art",
+            "science",
+            "P.E.",
+            "computer science",
+            "music",
+            "violin practice",
+            "piano practice"
+          ]
+        },
+        {
+          "label": "Key vocabulary 2",
+          "terms": [
+            "tired",
+            "bored",
+            "worried",
+            "difficult",
+            "easy",
+            "interesting",
+            "busy",
+            "important"
+          ]
+        }
+      ],
+      "items": [
+        {
+          "term": "math",
+          "meaning": "môn Toán",
+          "icon": "➗",
+          "example": "I have math today.",
+          "prompt": "Listen and say: math."
+        },
+        {
+          "term": "art",
+          "meaning": "môn Mỹ thuật",
+          "icon": "🎨",
+          "example": "I have art today.",
+          "prompt": "Listen and say: art."
+        },
+        {
+          "term": "science",
+          "meaning": "môn Khoa học",
+          "icon": "🔬",
+          "example": "I have science today.",
+          "prompt": "Listen and say: science."
+        },
+        {
+          "term": "P.E.",
+          "meaning": "môn Thể dục",
+          "icon": "🏃",
+          "example": "I have P.E. today.",
+          "prompt": "Listen and say: P.E.."
+        },
+        {
+          "term": "computer science",
+          "meaning": "môn Tin học",
+          "icon": "💻",
+          "example": "I have computer science today.",
+          "prompt": "Listen and say: computer science."
+        },
+        {
+          "term": "music",
+          "meaning": "môn Âm nhạc",
+          "icon": "🎵",
+          "example": "I have music today.",
+          "prompt": "Listen and say: music."
+        },
+        {
+          "term": "violin practice",
+          "meaning": "buổi luyện vĩ cầm",
+          "icon": "🎻",
+          "example": "I have violin practice today.",
+          "prompt": "Listen and say: violin practice."
+        },
+        {
+          "term": "piano practice",
+          "meaning": "buổi luyện piano",
+          "icon": "🎹",
+          "example": "I have piano practice today.",
+          "prompt": "Listen and say: piano practice."
+        },
+        {
+          "term": "tired",
+          "meaning": "mệt",
+          "icon": "😴",
+          "example": "I feel tired after school.",
+          "prompt": "Listen and say: tired."
+        },
+        {
+          "term": "bored",
+          "meaning": "chán",
+          "icon": "🥱",
+          "example": "I feel bored.",
+          "prompt": "Listen and say: bored."
+        },
+        {
+          "term": "worried",
+          "meaning": "lo lắng",
+          "icon": "😟",
+          "example": "I am worried about the test.",
+          "prompt": "Listen and say: worried."
+        },
+        {
+          "term": "difficult",
+          "meaning": "khó",
+          "icon": "🧗",
+          "example": "Math is difficult.",
+          "prompt": "Listen and say: difficult."
+        },
+        {
+          "term": "easy",
+          "meaning": "dễ",
+          "icon": "🟢",
+          "example": "This task is easy.",
+          "prompt": "Listen and say: easy."
+        },
+        {
+          "term": "interesting",
+          "meaning": "thú vị",
+          "icon": "💡",
+          "example": "Science is interesting.",
+          "prompt": "Listen and say: interesting."
+        },
+        {
+          "term": "busy",
+          "meaning": "bận rộn",
+          "icon": "⏱️",
+          "example": "Monday is busy.",
+          "prompt": "Listen and say: busy."
+        },
+        {
+          "term": "important",
+          "meaning": "quan trọng",
+          "icon": "⭐",
+          "example": "Learning is important.",
+          "prompt": "Listen and say: important."
+        }
+      ],
+      "sourceImages": {
+        "vocabulary1": "anh_tam(1)(1).zip/anh_tam/frame_0016.png",
+        "vocabulary2": "anh_tam(1)(1).zip/anh_tam/frame_0020.png"
+      }
+    },
+    {
+      "unit": 2,
+      "title": "Where do wild animals live?",
+      "theme": "Động vật hoang dã",
+      "groups": [
+        {
+          "label": "Key vocabulary 1",
+          "terms": [
+            "crocodile",
+            "kangaroo",
+            "panda",
+            "snake",
+            "cheetah",
+            "seal",
+            "camel",
+            "whale"
+          ]
+        },
+        {
+          "label": "Key vocabulary 2",
+          "terms": [
+            "angry",
+            "smart",
+            "fat",
+            "thin",
+            "funny",
+            "lazy",
+            "dangerous",
+            "strong"
+          ]
+        }
+      ],
+      "items": [
+        {
+          "term": "crocodile",
+          "meaning": "cá sấu",
+          "icon": "🐊",
+          "example": "I can see a crocodile.",
+          "prompt": "Listen and say: crocodile."
+        },
+        {
+          "term": "kangaroo",
+          "meaning": "chuột túi",
+          "icon": "🦘",
+          "example": "I can see a kangaroo.",
+          "prompt": "Listen and say: kangaroo."
+        },
+        {
+          "term": "panda",
+          "meaning": "gấu trúc",
+          "icon": "🐼",
+          "example": "I can see a panda.",
+          "prompt": "Listen and say: panda."
+        },
+        {
+          "term": "snake",
+          "meaning": "rắn",
+          "icon": "🐍",
+          "example": "I can see a snake.",
+          "prompt": "Listen and say: snake."
+        },
+        {
+          "term": "cheetah",
+          "meaning": "báo săn",
+          "icon": "🐆",
+          "example": "I can see a cheetah.",
+          "prompt": "Listen and say: cheetah."
+        },
+        {
+          "term": "seal",
+          "meaning": "hải cẩu",
+          "icon": "🦭",
+          "example": "I can see a seal.",
+          "prompt": "Listen and say: seal."
+        },
+        {
+          "term": "camel",
+          "meaning": "lạc đà",
+          "icon": "🐪",
+          "example": "I can see a camel.",
+          "prompt": "Listen and say: camel."
+        },
+        {
+          "term": "whale",
+          "meaning": "cá voi",
+          "icon": "🐋",
+          "example": "I can see a whale.",
+          "prompt": "Listen and say: whale."
+        },
+        {
+          "term": "angry",
+          "meaning": "tức giận",
+          "icon": "😠",
+          "example": "The animal is angry.",
+          "prompt": "Listen and say: angry."
+        },
+        {
+          "term": "smart",
+          "meaning": "thông minh",
+          "icon": "🧠",
+          "example": "The animal is smart.",
+          "prompt": "Listen and say: smart."
+        },
+        {
+          "term": "fat",
+          "meaning": "béo, mập",
+          "icon": "🦛",
+          "example": "The animal is fat.",
+          "prompt": "Listen and say: fat."
+        },
+        {
+          "term": "thin",
+          "meaning": "gầy, mảnh",
+          "icon": "🦎",
+          "example": "The animal is thin.",
+          "prompt": "Listen and say: thin."
+        },
+        {
+          "term": "funny",
+          "meaning": "ngộ nghĩnh",
+          "icon": "😄",
+          "example": "The animal is funny.",
+          "prompt": "Listen and say: funny."
+        },
+        {
+          "term": "lazy",
+          "meaning": "lười biếng",
+          "icon": "😴",
+          "example": "The animal is lazy.",
+          "prompt": "Listen and say: lazy."
+        },
+        {
+          "term": "dangerous",
+          "meaning": "nguy hiểm",
+          "icon": "⚠️",
+          "example": "The animal is dangerous.",
+          "prompt": "Listen and say: dangerous."
+        },
+        {
+          "term": "strong",
+          "meaning": "khỏe, mạnh",
+          "icon": "💪",
+          "example": "The animal is strong.",
+          "prompt": "Listen and say: strong."
+        }
+      ],
+      "sourceImages": {
+        "vocabulary1": "anh_tam(1)(1).zip/anh_tam/frame_0028.png",
+        "vocabulary2": "anh_tam(1)(1).zip/anh_tam/frame_0032.png"
+      }
+    },
+    {
+      "unit": 3,
+      "title": "How does the weather change?",
+      "theme": "Thời tiết",
+      "groups": [
+        {
+          "label": "Key vocabulary 1",
+          "terms": [
+            "windy",
+            "foggy",
+            "thunder",
+            "lightning",
+            "storm",
+            "hail",
+            "sleet",
+            "tornado"
+          ]
+        },
+        {
+          "label": "Key vocabulary 2",
+          "terms": [
+            "scarf",
+            "cap",
+            "sunglasses",
+            "sweat suit",
+            "sneakers",
+            "flip flops",
+            "robe",
+            "slippers"
+          ]
+        }
+      ],
+      "items": [
+        {
+          "term": "windy",
+          "meaning": "có gió",
+          "icon": "💨",
+          "example": "The weather is windy.",
+          "prompt": "Listen and say: windy."
+        },
+        {
+          "term": "foggy",
+          "meaning": "có sương mù",
+          "icon": "🌫️",
+          "example": "The weather is foggy.",
+          "prompt": "Listen and say: foggy."
+        },
+        {
+          "term": "thunder",
+          "meaning": "sấm",
+          "icon": "⚡",
+          "example": "I can hear thunder.",
+          "prompt": "Listen and say: thunder."
+        },
+        {
+          "term": "lightning",
+          "meaning": "chớp",
+          "icon": "🌩️",
+          "example": "I can see lightning.",
+          "prompt": "Listen and say: lightning."
+        },
+        {
+          "term": "storm",
+          "meaning": "cơn bão",
+          "icon": "⛈️",
+          "example": "A storm is coming.",
+          "prompt": "Listen and say: storm."
+        },
+        {
+          "term": "hail",
+          "meaning": "mưa đá",
+          "icon": "🧊",
+          "example": "Hail is falling.",
+          "prompt": "Listen and say: hail."
+        },
+        {
+          "term": "sleet",
+          "meaning": "mưa tuyết",
+          "icon": "🌨️",
+          "example": "Sleet is falling.",
+          "prompt": "Listen and say: sleet."
+        },
+        {
+          "term": "tornado",
+          "meaning": "lốc xoáy",
+          "icon": "🌪️",
+          "example": "The tornado is dangerous.",
+          "prompt": "Listen and say: tornado."
+        },
+        {
+          "term": "scarf",
+          "meaning": "khăn quàng",
+          "icon": "🧣",
+          "example": "I am wearing scarf.",
+          "prompt": "Listen and say: scarf."
+        },
+        {
+          "term": "cap",
+          "meaning": "mũ lưỡi trai",
+          "icon": "🧢",
+          "example": "I am wearing cap.",
+          "prompt": "Listen and say: cap."
+        },
+        {
+          "term": "sunglasses",
+          "meaning": "kính râm",
+          "icon": "🕶️",
+          "example": "I am wearing sunglasses.",
+          "prompt": "Listen and say: sunglasses."
+        },
+        {
+          "term": "sweat suit",
+          "meaning": "bộ đồ thể thao",
+          "icon": "🥋",
+          "example": "I am wearing sweat suit.",
+          "prompt": "Listen and say: sweat suit."
+        },
+        {
+          "term": "sneakers",
+          "meaning": "giày thể thao",
+          "icon": "👟",
+          "example": "I am wearing sneakers.",
+          "prompt": "Listen and say: sneakers."
+        },
+        {
+          "term": "flip flops",
+          "meaning": "dép xỏ ngón",
+          "icon": "🩴",
+          "example": "I am wearing flip flops.",
+          "prompt": "Listen and say: flip flops."
+        },
+        {
+          "term": "robe",
+          "meaning": "áo choàng",
+          "icon": "🥼",
+          "example": "I am wearing robe.",
+          "prompt": "Listen and say: robe."
+        },
+        {
+          "term": "slippers",
+          "meaning": "dép đi trong nhà",
+          "icon": "🥿",
+          "example": "I am wearing slippers.",
+          "prompt": "Listen and say: slippers."
+        }
+      ],
+      "sourceImages": {
+        "vocabulary1": "anh_tam(1)(1).zip/anh_tam/frame_0040.png",
+        "vocabulary2": "anh_tam(1)(1).zip/anh_tam/frame_0044.png"
+      }
+    },
+    {
+      "unit": 4,
+      "title": "What can you find in big cities?",
+      "theme": "Thành phố",
+      "groups": [
+        {
+          "label": "Key vocabulary 1",
+          "terms": [
+            "bookstore",
+            "library",
+            "playground",
+            "toy store",
+            "bank",
+            "computer store",
+            "movie theater",
+            "restaurant"
+          ]
+        },
+        {
+          "label": "Key vocabulary 2",
+          "terms": [
+            "factory",
+            "train station",
+            "gas station",
+            "street",
+            "traffic",
+            "small town",
+            "fields",
+            "market"
+          ]
+        }
+      ],
+      "items": [
+        {
+          "term": "bookstore",
+          "meaning": "hiệu sách",
+          "icon": "📚",
+          "example": "There is a bookstore in the city.",
+          "prompt": "Listen and say: bookstore."
+        },
+        {
+          "term": "library",
+          "meaning": "thư viện",
+          "icon": "🏛️",
+          "example": "There is a library in the city.",
+          "prompt": "Listen and say: library."
+        },
+        {
+          "term": "playground",
+          "meaning": "sân chơi",
+          "icon": "🛝",
+          "example": "There is a playground in the city.",
+          "prompt": "Listen and say: playground."
+        },
+        {
+          "term": "toy store",
+          "meaning": "cửa hàng đồ chơi",
+          "icon": "🧸",
+          "example": "There is a toy store in the city.",
+          "prompt": "Listen and say: toy store."
+        },
+        {
+          "term": "bank",
+          "meaning": "ngân hàng",
+          "icon": "🏦",
+          "example": "There is a bank in the city.",
+          "prompt": "Listen and say: bank."
+        },
+        {
+          "term": "computer store",
+          "meaning": "cửa hàng máy tính",
+          "icon": "🖥️",
+          "example": "There is a computer store in the city.",
+          "prompt": "Listen and say: computer store."
+        },
+        {
+          "term": "movie theater",
+          "meaning": "rạp chiếu phim",
+          "icon": "🎬",
+          "example": "There is a movie theater in the city.",
+          "prompt": "Listen and say: movie theater."
+        },
+        {
+          "term": "restaurant",
+          "meaning": "nhà hàng",
+          "icon": "🍽️",
+          "example": "There is a restaurant in the city.",
+          "prompt": "Listen and say: restaurant."
+        },
+        {
+          "term": "factory",
+          "meaning": "nhà máy",
+          "icon": "🏭",
+          "example": "We can find a factory near the city.",
+          "prompt": "Listen and say: factory."
+        },
+        {
+          "term": "train station",
+          "meaning": "nhà ga",
+          "icon": "🚉",
+          "example": "We can find a train station near the city.",
+          "prompt": "Listen and say: train station."
+        },
+        {
+          "term": "gas station",
+          "meaning": "trạm xăng",
+          "icon": "⛽",
+          "example": "We can find a gas station near the city.",
+          "prompt": "Listen and say: gas station."
+        },
+        {
+          "term": "street",
+          "meaning": "đường phố",
+          "icon": "🛣️",
+          "example": "We can find a street near the city.",
+          "prompt": "Listen and say: street."
+        },
+        {
+          "term": "traffic",
+          "meaning": "giao thông",
+          "icon": "🚦",
+          "example": "There is a lot of traffic.",
+          "prompt": "Listen and say: traffic."
+        },
+        {
+          "term": "small town",
+          "meaning": "thị trấn nhỏ",
+          "icon": "🏘️",
+          "example": "We can find a small town near the city.",
+          "prompt": "Listen and say: small town."
+        },
+        {
+          "term": "fields",
+          "meaning": "cánh đồng",
+          "icon": "🌾",
+          "example": "There are fields near the town.",
+          "prompt": "Listen and say: fields."
+        },
+        {
+          "term": "market",
+          "meaning": "chợ",
+          "icon": "🧺",
+          "example": "We can find a market near the city.",
+          "prompt": "Listen and say: market."
+        }
+      ],
+      "sourceImages": {
+        "vocabulary1": "anh_tam(1)(1).zip/anh_tam/frame_0052.png",
+        "vocabulary2": "anh_tam(1)(1).zip/anh_tam/frame_0056.png"
+      }
+    },
+    {
+      "unit": 5,
+      "title": "How do we celebrate?",
+      "theme": "Lễ kỷ niệm",
+      "groups": [
+        {
+          "label": "Key vocabulary 1",
+          "terms": [
+            "balloon",
+            "card",
+            "candle",
+            "burger",
+            "cupcake",
+            "milkshake",
+            "popcorn",
+            "fruit salad"
+          ]
+        },
+        {
+          "label": "Key vocabulary 2",
+          "terms": [
+            "ice rink",
+            "bowling alley",
+            "aquarium",
+            "theme park",
+            "adventure playground",
+            "arts center",
+            "swimming pool",
+            "nature center"
+          ]
+        }
+      ],
+      "items": [
+        {
+          "term": "balloon",
+          "meaning": "bóng bay",
+          "icon": "🎈",
+          "example": "There is a balloon at the party.",
+          "prompt": "Listen and say: balloon."
+        },
+        {
+          "term": "card",
+          "meaning": "thiệp",
+          "icon": "💌",
+          "example": "There is a card at the party.",
+          "prompt": "Listen and say: card."
+        },
+        {
+          "term": "candle",
+          "meaning": "nến",
+          "icon": "🕯️",
+          "example": "There is a candle at the party.",
+          "prompt": "Listen and say: candle."
+        },
+        {
+          "term": "burger",
+          "meaning": "bánh burger",
+          "icon": "🍔",
+          "example": "There is a burger at the party.",
+          "prompt": "Listen and say: burger."
+        },
+        {
+          "term": "cupcake",
+          "meaning": "bánh nhỏ",
+          "icon": "🧁",
+          "example": "There is a cupcake at the party.",
+          "prompt": "Listen and say: cupcake."
+        },
+        {
+          "term": "milkshake",
+          "meaning": "sữa lắc",
+          "icon": "🥤",
+          "example": "There is a milkshake at the party.",
+          "prompt": "Listen and say: milkshake."
+        },
+        {
+          "term": "popcorn",
+          "meaning": "bỏng ngô",
+          "icon": "🍿",
+          "example": "There is some popcorn.",
+          "prompt": "Listen and say: popcorn."
+        },
+        {
+          "term": "fruit salad",
+          "meaning": "sa lát trái cây",
+          "icon": "🥗",
+          "example": "There is some fruit salad.",
+          "prompt": "Listen and say: fruit salad."
+        },
+        {
+          "term": "ice rink",
+          "meaning": "sân trượt băng",
+          "icon": "⛸️",
+          "example": "We can celebrate at the ice rink.",
+          "prompt": "Listen and say: ice rink."
+        },
+        {
+          "term": "bowling alley",
+          "meaning": "sân bowling",
+          "icon": "🎳",
+          "example": "We can celebrate at the bowling alley.",
+          "prompt": "Listen and say: bowling alley."
+        },
+        {
+          "term": "aquarium",
+          "meaning": "thủy cung",
+          "icon": "🐠",
+          "example": "We can celebrate at the aquarium.",
+          "prompt": "Listen and say: aquarium."
+        },
+        {
+          "term": "theme park",
+          "meaning": "công viên chủ đề",
+          "icon": "🎡",
+          "example": "We can celebrate at the theme park.",
+          "prompt": "Listen and say: theme park."
+        },
+        {
+          "term": "adventure playground",
+          "meaning": "sân chơi phiêu lưu",
+          "icon": "🛝",
+          "example": "We can celebrate at the adventure playground.",
+          "prompt": "Listen and say: adventure playground."
+        },
+        {
+          "term": "arts center",
+          "meaning": "trung tâm nghệ thuật",
+          "icon": "🎨",
+          "example": "We can celebrate at the arts center.",
+          "prompt": "Listen and say: arts center."
+        },
+        {
+          "term": "swimming pool",
+          "meaning": "bể bơi",
+          "icon": "🏊",
+          "example": "We can celebrate at the swimming pool.",
+          "prompt": "Listen and say: swimming pool."
+        },
+        {
+          "term": "nature center",
+          "meaning": "trung tâm thiên nhiên",
+          "icon": "🌿",
+          "example": "We can celebrate at the nature center.",
+          "prompt": "Listen and say: nature center."
+        }
+      ],
+      "sourceImages": {
+        "vocabulary1": "anh_tam(1)(1).zip/anh_tam/frame_0064.png",
+        "vocabulary2": "anh_tam(1)(1).zip/anh_tam/frame_0068.png"
+      }
+    },
+    {
+      "unit": 6,
+      "title": "What jobs can I do?",
+      "theme": "Nghề nghiệp",
+      "groups": [
+        {
+          "label": "Key vocabulary 1",
+          "terms": [
+            "police officer",
+            "chef",
+            "dentist",
+            "vet",
+            "astronaut",
+            "doctor",
+            "hairdresser",
+            "photographer"
+          ]
+        },
+        {
+          "label": "Key vocabulary 2",
+          "terms": [
+            "check",
+            "help",
+            "fix",
+            "cook",
+            "whistle",
+            "perform",
+            "clean",
+            "study"
+          ]
+        }
+      ],
+      "items": [
+        {
+          "term": "police officer",
+          "meaning": "cảnh sát",
+          "icon": "👮",
+          "example": "I want to be a police officer.",
+          "prompt": "Listen and say: police officer."
+        },
+        {
+          "term": "chef",
+          "meaning": "đầu bếp",
+          "icon": "🧑‍🍳",
+          "example": "I want to be a chef.",
+          "prompt": "Listen and say: chef."
+        },
+        {
+          "term": "dentist",
+          "meaning": "nha sĩ",
+          "icon": "🦷",
+          "example": "I want to be a dentist.",
+          "prompt": "Listen and say: dentist."
+        },
+        {
+          "term": "vet",
+          "meaning": "bác sĩ thú y",
+          "icon": "🐾",
+          "example": "I want to be a vet.",
+          "prompt": "Listen and say: vet."
+        },
+        {
+          "term": "astronaut",
+          "meaning": "phi hành gia",
+          "icon": "🧑‍🚀",
+          "example": "I want to be a astronaut.",
+          "prompt": "Listen and say: astronaut."
+        },
+        {
+          "term": "doctor",
+          "meaning": "bác sĩ",
+          "icon": "🩺",
+          "example": "I want to be a doctor.",
+          "prompt": "Listen and say: doctor."
+        },
+        {
+          "term": "hairdresser",
+          "meaning": "thợ làm tóc",
+          "icon": "💇",
+          "example": "I want to be a hairdresser.",
+          "prompt": "Listen and say: hairdresser."
+        },
+        {
+          "term": "photographer",
+          "meaning": "nhiếp ảnh gia",
+          "icon": "📷",
+          "example": "I want to be a photographer.",
+          "prompt": "Listen and say: photographer."
+        },
+        {
+          "term": "check",
+          "meaning": "kiểm tra",
+          "icon": "✅",
+          "example": "I can check at work.",
+          "prompt": "Listen and say: check."
+        },
+        {
+          "term": "help",
+          "meaning": "giúp đỡ",
+          "icon": "🤝",
+          "example": "I can help at work.",
+          "prompt": "Listen and say: help."
+        },
+        {
+          "term": "fix",
+          "meaning": "sửa chữa",
+          "icon": "🔧",
+          "example": "I can fix at work.",
+          "prompt": "Listen and say: fix."
+        },
+        {
+          "term": "cook",
+          "meaning": "nấu ăn",
+          "icon": "🍳",
+          "example": "I can cook at work.",
+          "prompt": "Listen and say: cook."
+        },
+        {
+          "term": "whistle",
+          "meaning": "huýt sáo",
+          "icon": "🎵",
+          "example": "I can whistle at work.",
+          "prompt": "Listen and say: whistle."
+        },
+        {
+          "term": "perform",
+          "meaning": "biểu diễn",
+          "icon": "🎭",
+          "example": "I can perform at work.",
+          "prompt": "Listen and say: perform."
+        },
+        {
+          "term": "clean",
+          "meaning": "làm sạch",
+          "icon": "🧹",
+          "example": "I can clean at work.",
+          "prompt": "Listen and say: clean."
+        },
+        {
+          "term": "study",
+          "meaning": "học tập",
+          "icon": "📖",
+          "example": "I can study at work.",
+          "prompt": "Listen and say: study."
+        }
+      ],
+      "sourceImages": {
+        "vocabulary1": "anh_tam(1)(1).zip/anh_tam/frame_0076.png",
+        "vocabulary2": "anh_tam(1)(1).zip/anh_tam/frame_0080.png"
+      }
+    },
+    {
+      "unit": 7,
+      "title": "Why do we play sports?",
+      "theme": "Thể thao",
+      "groups": [
+        {
+          "label": "Key vocabulary 1",
+          "terms": [
+            "badminton",
+            "baseball",
+            "field hockey",
+            "horseback riding",
+            "ping-pong",
+            "water polo",
+            "skiing",
+            "paddleboarding"
+          ]
+        },
+        {
+          "label": "Key vocabulary 2",
+          "terms": [
+            "bounce",
+            "catch",
+            "hit",
+            "kick",
+            "throw",
+            "hold",
+            "push",
+            "pull"
+          ]
+        }
+      ],
+      "items": [
+        {
+          "term": "badminton",
+          "meaning": "cầu lông",
+          "icon": "🏸",
+          "example": "I can play badminton.",
+          "prompt": "Listen and say: badminton."
+        },
+        {
+          "term": "baseball",
+          "meaning": "bóng chày",
+          "icon": "⚾",
+          "example": "I can play baseball.",
+          "prompt": "Listen and say: baseball."
+        },
+        {
+          "term": "field hockey",
+          "meaning": "khúc côn cầu sân cỏ",
+          "icon": "🏑",
+          "example": "I can play field hockey.",
+          "prompt": "Listen and say: field hockey."
+        },
+        {
+          "term": "horseback riding",
+          "meaning": "cưỡi ngựa",
+          "icon": "🏇",
+          "example": "I can go horseback riding.",
+          "prompt": "Listen and say: horseback riding."
+        },
+        {
+          "term": "ping-pong",
+          "meaning": "bóng bàn",
+          "icon": "🏓",
+          "example": "I can play ping-pong.",
+          "prompt": "Listen and say: ping-pong."
+        },
+        {
+          "term": "water polo",
+          "meaning": "bóng nước",
+          "icon": "🤽",
+          "example": "I can play water polo.",
+          "prompt": "Listen and say: water polo."
+        },
+        {
+          "term": "skiing",
+          "meaning": "trượt tuyết",
+          "icon": "🎿",
+          "example": "I can go skiing.",
+          "prompt": "Listen and say: skiing."
+        },
+        {
+          "term": "paddleboarding",
+          "meaning": "chèo ván",
+          "icon": "🏄",
+          "example": "I can go paddleboarding.",
+          "prompt": "Listen and say: paddleboarding."
+        },
+        {
+          "term": "bounce",
+          "meaning": "làm nảy",
+          "icon": "🏀",
+          "example": "I can bounce the ball.",
+          "prompt": "Listen and say: bounce."
+        },
+        {
+          "term": "catch",
+          "meaning": "bắt",
+          "icon": "👐",
+          "example": "I can catch the ball.",
+          "prompt": "Listen and say: catch."
+        },
+        {
+          "term": "hit",
+          "meaning": "đánh",
+          "icon": "🏓",
+          "example": "I can hit the ball.",
+          "prompt": "Listen and say: hit."
+        },
+        {
+          "term": "kick",
+          "meaning": "đá",
+          "icon": "🦶",
+          "example": "I can kick the ball.",
+          "prompt": "Listen and say: kick."
+        },
+        {
+          "term": "throw",
+          "meaning": "ném",
+          "icon": "🤾",
+          "example": "I can throw the ball.",
+          "prompt": "Listen and say: throw."
+        },
+        {
+          "term": "hold",
+          "meaning": "giữ",
+          "icon": "✋",
+          "example": "I can hold the ball.",
+          "prompt": "Listen and say: hold."
+        },
+        {
+          "term": "push",
+          "meaning": "đẩy",
+          "icon": "➡️",
+          "example": "I can push the ball.",
+          "prompt": "Listen and say: push."
+        },
+        {
+          "term": "pull",
+          "meaning": "kéo",
+          "icon": "⬅️",
+          "example": "I can pull the ball.",
+          "prompt": "Listen and say: pull."
+        }
+      ],
+      "sourceImages": {
+        "vocabulary1": "anh_tam(1)(1).zip/anh_tam/frame_0088.png",
+        "vocabulary2": "anh_tam(1)(1).zip/anh_tam/frame_0092.png"
+      }
+    },
+    {
+      "unit": 8,
+      "title": "What makes us feel good?",
+      "theme": "Răng và giác quan",
+      "groups": [
+        {
+          "label": "Key vocabulary 1",
+          "terms": [
+            "toothpaste",
+            "toothbrush",
+            "mouthwash",
+            "rinse",
+            "chew",
+            "toothache",
+            "dirty",
+            "braces"
+          ]
+        },
+        {
+          "label": "Key vocabulary 2",
+          "terms": [
+            "hear",
+            "smell",
+            "taste",
+            "touch",
+            "hurt",
+            "feel",
+            "relax",
+            "breathe"
+          ]
+        }
+      ],
+      "items": [
+        {
+          "term": "toothpaste",
+          "meaning": "kem đánh răng",
+          "icon": "🪥",
+          "example": "I use toothpaste for my teeth.",
+          "prompt": "Listen and say: toothpaste."
+        },
+        {
+          "term": "toothbrush",
+          "meaning": "bàn chải đánh răng",
+          "icon": "🪥",
+          "example": "I use toothbrush for my teeth.",
+          "prompt": "Listen and say: toothbrush."
+        },
+        {
+          "term": "mouthwash",
+          "meaning": "nước súc miệng",
+          "icon": "💧",
+          "example": "I use mouthwash for my teeth.",
+          "prompt": "Listen and say: mouthwash."
+        },
+        {
+          "term": "rinse",
+          "meaning": "súc",
+          "icon": "🚿",
+          "example": "I rinse my mouth.",
+          "prompt": "Listen and say: rinse."
+        },
+        {
+          "term": "chew",
+          "meaning": "nhai",
+          "icon": "😋",
+          "example": "I chew my food.",
+          "prompt": "Listen and say: chew."
+        },
+        {
+          "term": "toothache",
+          "meaning": "đau răng",
+          "icon": "🦷",
+          "example": "I have a toothache.",
+          "prompt": "Listen and say: toothache."
+        },
+        {
+          "term": "dirty",
+          "meaning": "bẩn",
+          "icon": "🟤",
+          "example": "My teeth are dirty.",
+          "prompt": "Listen and say: dirty."
+        },
+        {
+          "term": "braces",
+          "meaning": "niềng răng",
+          "icon": "😁",
+          "example": "She has braces.",
+          "prompt": "Listen and say: braces."
+        },
+        {
+          "term": "hear",
+          "meaning": "nghe",
+          "icon": "👂",
+          "example": "I can hear.",
+          "prompt": "Listen and say: hear."
+        },
+        {
+          "term": "smell",
+          "meaning": "ngửi",
+          "icon": "👃",
+          "example": "I can smell.",
+          "prompt": "Listen and say: smell."
+        },
+        {
+          "term": "taste",
+          "meaning": "nếm",
+          "icon": "👅",
+          "example": "I can taste.",
+          "prompt": "Listen and say: taste."
+        },
+        {
+          "term": "touch",
+          "meaning": "chạm",
+          "icon": "✋",
+          "example": "I can touch.",
+          "prompt": "Listen and say: touch."
+        },
+        {
+          "term": "hurt",
+          "meaning": "đau",
+          "icon": "🤕",
+          "example": "My tooth can hurt.",
+          "prompt": "Listen and say: hurt."
+        },
+        {
+          "term": "feel",
+          "meaning": "cảm thấy",
+          "icon": "🙂",
+          "example": "I feel good.",
+          "prompt": "Listen and say: feel."
+        },
+        {
+          "term": "relax",
+          "meaning": "thư giãn",
+          "icon": "🧘",
+          "example": "I can relax.",
+          "prompt": "Listen and say: relax."
+        },
+        {
+          "term": "breathe",
+          "meaning": "thở",
+          "icon": "🌬️",
+          "example": "I can breathe.",
+          "prompt": "Listen and say: breathe."
+        }
+      ],
+      "sourceImages": {
+        "vocabulary1": "anh_tam(2)(1).zip/anh_tam/020.png",
+        "vocabulary2": "anh_tam(2)(1).zip/anh_tam/025.png"
+      }
+    },
+    {
+      "unit": 9,
+      "title": "How are the seasons different?",
+      "theme": "Mùa và tháng",
+      "groups": [
+        {
+          "label": "Key vocabulary 1",
+          "terms": [
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December"
+          ]
+        },
+        {
+          "label": "Key vocabulary 2",
+          "terms": [
+            "spring",
+            "summer",
+            "fall",
+            "winter",
+            "seasons",
+            "world",
+            "North",
+            "South"
+          ]
+        }
+      ],
+      "items": [
+        {
+          "term": "January",
+          "meaning": "tháng Một",
+          "icon": "1️⃣",
+          "example": "January is a month.",
+          "prompt": "Listen and say: January."
+        },
+        {
+          "term": "February",
+          "meaning": "tháng Hai",
+          "icon": "2️⃣",
+          "example": "February is a month.",
+          "prompt": "Listen and say: February."
+        },
+        {
+          "term": "March",
+          "meaning": "tháng Ba",
+          "icon": "3️⃣",
+          "example": "March is a month.",
+          "prompt": "Listen and say: March."
+        },
+        {
+          "term": "April",
+          "meaning": "tháng Tư",
+          "icon": "4️⃣",
+          "example": "April is a month.",
+          "prompt": "Listen and say: April."
+        },
+        {
+          "term": "May",
+          "meaning": "tháng Năm",
+          "icon": "5️⃣",
+          "example": "May is a month.",
+          "prompt": "Listen and say: May."
+        },
+        {
+          "term": "June",
+          "meaning": "tháng Sáu",
+          "icon": "6️⃣",
+          "example": "June is a month.",
+          "prompt": "Listen and say: June."
+        },
+        {
+          "term": "July",
+          "meaning": "tháng Bảy",
+          "icon": "7️⃣",
+          "example": "July is a month.",
+          "prompt": "Listen and say: July."
+        },
+        {
+          "term": "August",
+          "meaning": "tháng Tám",
+          "icon": "8️⃣",
+          "example": "August is a month.",
+          "prompt": "Listen and say: August."
+        },
+        {
+          "term": "September",
+          "meaning": "tháng Chín",
+          "icon": "9️⃣",
+          "example": "September is a month.",
+          "prompt": "Listen and say: September."
+        },
+        {
+          "term": "October",
+          "meaning": "tháng Mười",
+          "icon": "🔟",
+          "example": "October is a month.",
+          "prompt": "Listen and say: October."
+        },
+        {
+          "term": "November",
+          "meaning": "tháng Mười một",
+          "icon": "🍁",
+          "example": "November is a month.",
+          "prompt": "Listen and say: November."
+        },
+        {
+          "term": "December",
+          "meaning": "tháng Mười hai",
+          "icon": "🎄",
+          "example": "December is a month.",
+          "prompt": "Listen and say: December."
+        },
+        {
+          "term": "spring",
+          "meaning": "mùa xuân",
+          "icon": "🌸",
+          "example": "We learn about spring.",
+          "prompt": "Listen and say: spring."
+        },
+        {
+          "term": "summer",
+          "meaning": "mùa hè",
+          "icon": "☀️",
+          "example": "We learn about summer.",
+          "prompt": "Listen and say: summer."
+        },
+        {
+          "term": "fall",
+          "meaning": "mùa thu",
+          "icon": "🍂",
+          "example": "We learn about fall.",
+          "prompt": "Listen and say: fall."
+        },
+        {
+          "term": "winter",
+          "meaning": "mùa đông",
+          "icon": "❄️",
+          "example": "We learn about winter.",
+          "prompt": "Listen and say: winter."
+        },
+        {
+          "term": "seasons",
+          "meaning": "các mùa",
+          "icon": "🗓️",
+          "example": "We learn about seasons.",
+          "prompt": "Listen and say: seasons."
+        },
+        {
+          "term": "world",
+          "meaning": "thế giới",
+          "icon": "🌍",
+          "example": "We learn about world.",
+          "prompt": "Listen and say: world."
+        },
+        {
+          "term": "North",
+          "meaning": "phía Bắc",
+          "icon": "⬆️",
+          "example": "We learn about North.",
+          "prompt": "Listen and say: North."
+        },
+        {
+          "term": "South",
+          "meaning": "phía Nam",
+          "icon": "⬇️",
+          "example": "We learn about South.",
+          "prompt": "Listen and say: South."
+        }
+      ],
+      "sourceImages": {
+        "vocabulary1": "anh_tam(2)(1).zip/anh_tam/032.png",
+        "vocabulary2": "anh_tam(2)(1).zip/anh_tam/037.png"
+      }
+    },
+    {
+      "unit": 10,
+      "title": "How are we all different?",
+      "theme": "Con người",
+      "groups": [
+        {
+          "label": "Key vocabulary 1",
+          "terms": [
+            "hardworking",
+            "shy",
+            "kind",
+            "helpful",
+            "creative",
+            "chatty",
+            "active",
+            "grumpy"
+          ]
+        },
+        {
+          "label": "Key vocabulary 2",
+          "terms": [
+            "beard",
+            "bald",
+            "blonde",
+            "straight",
+            "curly",
+            "wavy",
+            "eyebrows",
+            "mustache"
+          ]
+        }
+      ],
+      "items": [
+        {
+          "term": "hardworking",
+          "meaning": "chăm chỉ",
+          "icon": "📚",
+          "example": "My friend is hardworking.",
+          "prompt": "Listen and say: hardworking."
+        },
+        {
+          "term": "shy",
+          "meaning": "nhút nhát",
+          "icon": "🙈",
+          "example": "My friend is shy.",
+          "prompt": "Listen and say: shy."
+        },
+        {
+          "term": "kind",
+          "meaning": "tốt bụng",
+          "icon": "💚",
+          "example": "My friend is kind.",
+          "prompt": "Listen and say: kind."
+        },
+        {
+          "term": "helpful",
+          "meaning": "hay giúp đỡ",
+          "icon": "🤝",
+          "example": "My friend is helpful.",
+          "prompt": "Listen and say: helpful."
+        },
+        {
+          "term": "creative",
+          "meaning": "sáng tạo",
+          "icon": "🎨",
+          "example": "My friend is creative.",
+          "prompt": "Listen and say: creative."
+        },
+        {
+          "term": "chatty",
+          "meaning": "hay nói chuyện",
+          "icon": "💬",
+          "example": "My friend is chatty.",
+          "prompt": "Listen and say: chatty."
+        },
+        {
+          "term": "active",
+          "meaning": "năng động",
+          "icon": "⚡",
+          "example": "My friend is active.",
+          "prompt": "Listen and say: active."
+        },
+        {
+          "term": "grumpy",
+          "meaning": "cáu kỉnh",
+          "icon": "😠",
+          "example": "My friend is grumpy.",
+          "prompt": "Listen and say: grumpy."
+        },
+        {
+          "term": "beard",
+          "meaning": "râu",
+          "icon": "🧔",
+          "example": "He has a beard.",
+          "prompt": "Listen and say: beard."
+        },
+        {
+          "term": "bald",
+          "meaning": "hói",
+          "icon": "👨‍🦲",
+          "example": "He is bald.",
+          "prompt": "Listen and say: bald."
+        },
+        {
+          "term": "blonde",
+          "meaning": "vàng hoe",
+          "icon": "👱",
+          "example": "She has blonde hair.",
+          "prompt": "Listen and say: blonde."
+        },
+        {
+          "term": "straight",
+          "meaning": "thẳng",
+          "icon": "📏",
+          "example": "He has straight hair.",
+          "prompt": "Listen and say: straight."
+        },
+        {
+          "term": "curly",
+          "meaning": "xoăn",
+          "icon": "🌀",
+          "example": "She has curly hair.",
+          "prompt": "Listen and say: curly."
+        },
+        {
+          "term": "wavy",
+          "meaning": "gợn sóng",
+          "icon": "〰️",
+          "example": "She has wavy hair.",
+          "prompt": "Listen and say: wavy."
+        },
+        {
+          "term": "eyebrows",
+          "meaning": "lông mày",
+          "icon": "👀",
+          "example": "He has thick eyebrows.",
+          "prompt": "Listen and say: eyebrows."
+        },
+        {
+          "term": "mustache",
+          "meaning": "ria mép",
+          "icon": "🥸",
+          "example": "He has a mustache.",
+          "prompt": "Listen and say: mustache."
+        }
+      ],
+      "sourceImages": {
+        "vocabulary1": "anh_tam(2)(1).zip/anh_tam/044.png",
+        "vocabulary2": "anh_tam(2)(1).zip/anh_tam/049.png"
+      }
+    },
+    {
+      "unit": 11,
+      "title": "How do we solve problems?",
+      "theme": "Toán và tư duy",
+      "groups": [
+        {
+          "label": "Key vocabulary 1",
+          "terms": [
+            "add",
+            "subtract",
+            "sum",
+            "plus",
+            "minus",
+            "equals",
+            "measure",
+            "problem"
+          ]
+        },
+        {
+          "label": "Key vocabulary 2",
+          "terms": [
+            "hide",
+            "lost",
+            "solve",
+            "clue",
+            "treasure hunt",
+            "maze",
+            "entrance",
+            "exit"
+          ]
+        }
+      ],
+      "items": [
+        {
+          "term": "add",
+          "meaning": "cộng",
+          "icon": "➕",
+          "example": "We use add in math.",
+          "prompt": "Listen and say: add."
+        },
+        {
+          "term": "subtract",
+          "meaning": "trừ",
+          "icon": "➖",
+          "example": "We use subtract in math.",
+          "prompt": "Listen and say: subtract."
+        },
+        {
+          "term": "sum",
+          "meaning": "tổng",
+          "icon": "🧮",
+          "example": "We use sum in math.",
+          "prompt": "Listen and say: sum."
+        },
+        {
+          "term": "plus",
+          "meaning": "dấu cộng",
+          "icon": "➕",
+          "example": "We use plus in math.",
+          "prompt": "Listen and say: plus."
+        },
+        {
+          "term": "minus",
+          "meaning": "dấu trừ",
+          "icon": "➖",
+          "example": "We use minus in math.",
+          "prompt": "Listen and say: minus."
+        },
+        {
+          "term": "equals",
+          "meaning": "bằng",
+          "icon": "🟰",
+          "example": "We use equals in math.",
+          "prompt": "Listen and say: equals."
+        },
+        {
+          "term": "measure",
+          "meaning": "đo",
+          "icon": "📏",
+          "example": "We use measure in math.",
+          "prompt": "Listen and say: measure."
+        },
+        {
+          "term": "problem",
+          "meaning": "bài toán/vấn đề",
+          "icon": "❓",
+          "example": "We use problem in math.",
+          "prompt": "Listen and say: problem."
+        },
+        {
+          "term": "hide",
+          "meaning": "giấu",
+          "icon": "🙈",
+          "example": "We can hide in this puzzle.",
+          "prompt": "Listen and say: hide."
+        },
+        {
+          "term": "lost",
+          "meaning": "bị lạc/mất",
+          "icon": "🧭",
+          "example": "The map is lost.",
+          "prompt": "Listen and say: lost."
+        },
+        {
+          "term": "solve",
+          "meaning": "giải",
+          "icon": "💡",
+          "example": "We can solve in this puzzle.",
+          "prompt": "Listen and say: solve."
+        },
+        {
+          "term": "clue",
+          "meaning": "manh mối",
+          "icon": "🔎",
+          "example": "We found a clue.",
+          "prompt": "Listen and say: clue."
+        },
+        {
+          "term": "treasure hunt",
+          "meaning": "cuộc săn kho báu",
+          "icon": "🗺️",
+          "example": "We play a treasure hunt.",
+          "prompt": "Listen and say: treasure hunt."
+        },
+        {
+          "term": "maze",
+          "meaning": "mê cung",
+          "icon": "🌀",
+          "example": "We solve a maze.",
+          "prompt": "Listen and say: maze."
+        },
+        {
+          "term": "entrance",
+          "meaning": "lối vào",
+          "icon": "🚪",
+          "example": "This is the entrance.",
+          "prompt": "Listen and say: entrance."
+        },
+        {
+          "term": "exit",
+          "meaning": "lối ra",
+          "icon": "🚶",
+          "example": "This is the exit.",
+          "prompt": "Listen and say: exit."
+        }
+      ],
+      "sourceImages": {
+        "vocabulary1": "anh_tam(2)(1).zip/anh_tam/056.png",
+        "vocabulary2": "anh_tam(2)(1).zip/anh_tam/061.png"
+      }
+    },
+    {
+      "unit": 12,
+      "title": "Why is it good to be outdoors?",
+      "theme": "Thiên nhiên",
+      "groups": [
+        {
+          "label": "Key vocabulary 1",
+          "terms": [
+            "grass",
+            "lake",
+            "hills",
+            "pond",
+            "wildlife",
+            "meadow",
+            "rocks",
+            "sand"
+          ]
+        },
+        {
+          "label": "Key vocabulary 2",
+          "terms": [
+            "fins",
+            "snorkel",
+            "water wings",
+            "air mattress",
+            "hotel",
+            "shell",
+            "seaweed",
+            "sandcastle"
+          ]
+        }
+      ],
+      "items": [
+        {
+          "term": "grass",
+          "meaning": "cỏ",
+          "icon": "🌱",
+          "example": "We can see grass outdoors.",
+          "prompt": "Listen and say: grass."
+        },
+        {
+          "term": "lake",
+          "meaning": "hồ",
+          "icon": "🏞️",
+          "example": "We can see a lake outdoors.",
+          "prompt": "Listen and say: lake."
+        },
+        {
+          "term": "hills",
+          "meaning": "đồi",
+          "icon": "⛰️",
+          "example": "We can see hills outdoors.",
+          "prompt": "Listen and say: hills."
+        },
+        {
+          "term": "pond",
+          "meaning": "ao",
+          "icon": "🪷",
+          "example": "We can see a pond outdoors.",
+          "prompt": "Listen and say: pond."
+        },
+        {
+          "term": "wildlife",
+          "meaning": "động vật hoang dã",
+          "icon": "🦋",
+          "example": "We can see wildlife outdoors.",
+          "prompt": "Listen and say: wildlife."
+        },
+        {
+          "term": "meadow",
+          "meaning": "đồng cỏ",
+          "icon": "🌼",
+          "example": "We can see a meadow outdoors.",
+          "prompt": "Listen and say: meadow."
+        },
+        {
+          "term": "rocks",
+          "meaning": "đá",
+          "icon": "🪨",
+          "example": "We can see rocks outdoors.",
+          "prompt": "Listen and say: rocks."
+        },
+        {
+          "term": "sand",
+          "meaning": "cát",
+          "icon": "🏖️",
+          "example": "We can see sand outdoors.",
+          "prompt": "Listen and say: sand."
+        },
+        {
+          "term": "fins",
+          "meaning": "chân nhái",
+          "icon": "🩴",
+          "example": "We pack fins for the beach.",
+          "prompt": "Listen and say: fins."
+        },
+        {
+          "term": "snorkel",
+          "meaning": "ống thở",
+          "icon": "🤿",
+          "example": "We pack snorkel for the beach.",
+          "prompt": "Listen and say: snorkel."
+        },
+        {
+          "term": "water wings",
+          "meaning": "phao tay",
+          "icon": "🛟",
+          "example": "We pack water wings for the beach.",
+          "prompt": "Listen and say: water wings."
+        },
+        {
+          "term": "air mattress",
+          "meaning": "đệm hơi",
+          "icon": "🛏️",
+          "example": "We pack air mattress for the beach.",
+          "prompt": "Listen and say: air mattress."
+        },
+        {
+          "term": "hotel",
+          "meaning": "khách sạn",
+          "icon": "🏨",
+          "example": "We stay at a hotel.",
+          "prompt": "Listen and say: hotel."
+        },
+        {
+          "term": "shell",
+          "meaning": "vỏ sò",
+          "icon": "🐚",
+          "example": "I found a shell.",
+          "prompt": "Listen and say: shell."
+        },
+        {
+          "term": "seaweed",
+          "meaning": "rong biển",
+          "icon": "🌿",
+          "example": "There is seaweed in the water.",
+          "prompt": "Listen and say: seaweed."
+        },
+        {
+          "term": "sandcastle",
+          "meaning": "lâu đài cát",
+          "icon": "🏰",
+          "example": "We made a sandcastle.",
+          "prompt": "Listen and say: sandcastle."
+        }
+      ],
+      "sourceImages": {
+        "vocabulary1": "anh_tam(2)(1).zip/anh_tam/068.png",
+        "vocabulary2": "anh_tam(2)(1).zip/anh_tam/073.png"
+      }
+    }
+  ],
+  "filenameNote": "196 terms: Unit 9 has 20 terms; the old 192 filename was inaccurate.",
+  "legacyVocabularyTermsRemoved": 390
+}
