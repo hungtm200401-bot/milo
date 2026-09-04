@@ -41,7 +41,7 @@
   const pageTitle = byId("currentPageTitle");
   const pageSubtitle = byId("currentPageSubtitle");
 
-  const validViews = ["overview", "pending", "accounts", "orders", "plans", "transactions", "connection", "reports", "settings"];
+  const validViews = ["overview", "pending", "accounts", "orders", "plans", "transactions", "connection", "updates", "reports", "settings"];
   let password = sessionStorage.getItem(PASSWORD_KEY) || "";
   let payloadCache = { purchases: [], accounts: [], summary: {}, database: {}, provider: {}, plans: [], commonFeatures: [] };
   let activeView = validViews.includes(location.hash.replace(/^#/, "")) ? location.hash.replace(/^#/, "") : "overview";
@@ -539,7 +539,7 @@
         <div class="plan-icon">${index === 0 ? "✦" : index === 1 ? "♛" : "◆"}</div>
         <h3>${escapeHtml(plan.name)}</h3>
         <div class="plan-price">${money(plan.price)} <small>/ ${number(plan.durationMonths)} tháng</small></div>
-        <p class="plan-description">${escapeHtml(plan.purpose || "Gói VIP PRO MAX đang được hệ thống cung cấp.")}</p>
+        <p class="plan-description">${escapeHtml(plan.purpose || "Gói VIP đang được hệ thống cung cấp.")}</p>
         <ul class="plan-features">${features.map((feature) => `<li>${escapeHtml(feature)}</li>`).join("")}</ul>
         <div class="plan-real-stats"><div><small>Đơn thật</small><b>${number(purchases.length)}</b></div><div><small>Doanh thu duyệt</small><b>${money(revenue)}</b></div></div>
       </article>`;
@@ -633,6 +633,7 @@
       plans: plansPanel,
       transactions: transactionsPanel,
       connection: connectionPanel,
+      updates: updatesPanel,
       reports: reportsPanel,
       settings: settingsPanel,
     };
@@ -649,6 +650,7 @@
       plans: ["Gói dịch vụ & VIP", "Cấu hình gói đang áp dụng"],
       transactions: ["Đối chiếu giao dịch", "Mã đơn, nội dung chuyển khoản và số tiền"],
       connection: ["Kết nối AI", "Trạng thái dịch vụ thực tế"],
+      updates: ["Trung Tâm Phát Hành & Cập Nhật", "Đồng bộ bài học và tính năng mới"],
       reports: ["Báo cáo & Thống kê", "Dữ liệu tổng hợp từ database thật"],
       settings: ["Cài đặt hệ thống", "Sao lưu và trạng thái cấu hình"],
     };
@@ -804,7 +806,7 @@
       selectedPurchaseId = id;
       await load({ silent: true });
       if (activeView === "pending") closeDetail("pending");
-      setStatus(action === "confirm" ? "Đã duyệt đơn và kích hoạt VIP PRO MAX." : "Đã từ chối đơn.");
+      setStatus(action === "confirm" ? "Đã duyệt đơn và kích hoạt gói VIP thành công." : "Đã từ chối đơn.");
       showToast(action === "confirm" ? "Đã duyệt đơn thật." : "Đã từ chối đơn.", "success");
     } catch (error) {
       setStatus(error.message, true);

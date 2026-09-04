@@ -2,6 +2,7 @@ import { readFile, writeFile, mkdir, readdir, stat } from "node:fs/promises";
 import { existsSync, readFileSync, createReadStream, createWriteStream } from "node:fs";
 import { join, dirname, relative, resolve } from "node:path";
 import { pipeline } from "node:stream/promises";
+import { execSync } from "node:child_process";
 import { appRoot } from "./paths.mjs";
 
 const root = appRoot;
@@ -20,23 +21,31 @@ export function getAppVersion() {
 }
 
 let activeRelease = {
-  version: "60.25.7",
+  version: "60.25.18",
   releaseDate: new Date().toISOString(),
-  title: "Bản sửa lỗi V60.25.7 (Ưu tiên Runtime nội bộ tuyệt đối + Tăng tốc khởi động máy cũ)",
+  title: "Bản nâng cấp V60.25.18",
   changelog: [
-    "Sửa triệt để lỗi FindNode: Ưu tiên tuyệt đối RUNTIME_NOI_BO nội bộ, không bị PATH system đè lên",
-    "Tăng timeout khởi động lên 35 giây để hỗ trợ máy cũ/yếu của phụ huynh",
-    "Sửa đường dẫn icon Desktop shortcut chính xác",
-    "Ghi log chi tiết từng bước tìm kiếm node.exe để dễ chẩn đoán lỗi tương lai"
+    "• Cập nhật và tối ưu hóa hệ thống"
   ],
   hasUpdate: true,
 };
+
+// Try to load persisted release state on module load
+try {
+  const relPath = join(root, "data", "latest-release.json");
+  if (existsSync(relPath)) {
+    const saved = JSON.parse(readFileSync(relPath, "utf8"));
+    if (saved && saved.version) {
+      activeRelease = saved;
+    }
+  }
+} catch {}
 
 const DEFAULT_REMOTE_RELEASE_URL = process.env.MILO_REMOTE_UPDATE_URL || "";
 
 export function createUpdateService({ rootDir = root } = {}) {
   async function getStatus() {
-    let currentVersion = "60.24.4";
+    let currentVersion = "60.25.10";
     try {
       const pkg = JSON.parse(await readFile(join(rootDir, "package.json"), "utf8"));
       currentVersion = pkg.version || currentVersion;
@@ -67,13 +76,13 @@ export function createUpdateService({ rootDir = root } = {}) {
       }
     }
 
-    const isNewer = compareVersions(activeRelease.version, currentVersion) > 0;
+    const isNewer = compareVersions(activeRelease.version, currentVersion) > 0 || activeRelease.hasUpdate;
     const contentReady = checkContentReady(rootDir);
 
     return {
       currentVersion,
       latestVersion: activeRelease.version,
-      hasUpdate: isNewer,
+      hasUpdate: Boolean(isNewer),
       contentReady,
       releaseDate: activeRelease.releaseDate,
       title: activeRelease.title,
@@ -89,16 +98,25 @@ export function createUpdateService({ rootDir = root } = {}) {
   }
 
   async function setLatestRelease(payload = {}) {
+    const newVer = payload.version || activeRelease.version;
     activeRelease = {
-      version: payload.version || activeRelease.version,
+      version: newVer,
       releaseDate: new Date().toISOString(),
-      title: payload.title || `Bản cập nhật V${payload.version}`,
+      title: payload.title || `Bản nâng cấp V${newVer}`,
       changelog: Array.isArray(payload.changelog)
         ? payload.changelog
         : [payload.description || "Cập nhật bài học và cải tiến hệ thống"],
       hasUpdate: true,
       downloadUrl: payload.downloadUrl || "",
     };
+
+    // Save to data/latest-release.json so it persists
+    try {
+      const dataDir = join(rootDir, "data");
+      await mkdir(dataDir, { recursive: true });
+      await writeFile(join(dataDir, "latest-release.json"), JSON.stringify(activeRelease, null, 2), "utf8");
+    } catch {}
+
     return activeRelease;
   }
 
@@ -194,10 +212,68 @@ export function createUpdateService({ rootDir = root } = {}) {
     const patchData = await res.json();
     return applyPatchFromData(patchData);
   }
+  function getPendingChanges() {
+    try {
+      const output = execSync("git status --porcelain", { cwd: rootDir, encoding: "utf8" });
+      const lines = output.split("\n").map((l) => l.trim()).filter(Boolean);
+      const changes = [];
+      const changelog = [];
+
+      for (const line of lines) {
+        const file = line.replace(/^[A-Z?\s]+\s+/, "").trim();
+        if (file.includes("data/backups/") || file.includes("reports/") || file.endsWith(".log") || (file.endsWith(".json") && file.includes("TASK_UNIQUENESS")) || file.includes("latest-release.json")) {
+          continue;
+        }
+        changes.push(file);
+        
+        const lower = file.toLowerCase();
+        const basename = file.split(/[/\\]/).pop();
+
+        if (lower.includes("update-manager")) {
+          changelog.push(`• Cập nhật tệp ${basename}: Tự động quét tệp vừa sửa và phát tín hiệu 1-Click.`);
+        } else if (lower.includes("update-client")) {
+          changelog.push(`• Cập nhật tệp ${basename}: Tự động hiển thị thông báo bản mới trên App Học Viên.`);
+        } else if (lower.includes("admin-ai-connection")) {
+          changelog.push(`• Cập nhật tệp ${basename}: Kiểm tra kết nối và đo độ trễ AI real-time.`);
+        } else if (lower.includes("admin-vip-pro-max") || lower.includes("admin.html")) {
+          changelog.push(`• Cập nhật tệp ${basename}: Loại bỏ nhãn PRO MAX và tối ưu cỡ chữ 12px-14px.`);
+        } else if (lower.includes("server.mjs")) {
+          changelog.push(`• Cập nhật tệp ${basename}: Tối ưu máy chủ và quyền phát hành mượt mà.`);
+        } else if (lower.includes("update-service.mjs")) {
+          changelog.push(`• Cập nhật tệp ${basename}: Quản lý lưu trữ phiên bản và quét tệp sửa đổi.`);
+        } else if (lower.includes("package.json")) {
+          changelog.push(`• Cập nhật tệp ${basename}: Cập nhật số phiên bản ứng dụng.`);
+        } else if (lower.includes("changelog.md")) {
+          changelog.push(`• Cập nhật tệp ${basename}: Ghi nhật ký thay đổi hệ thống.`);
+        } else if (lower.includes("run-all.mjs")) {
+          changelog.push(`• Cập nhật tệp ${basename}: Cải tiến và tối ưu logic mã nguồn kiểm thử.`);
+        } else if (lower.startsWith("content/") || lower.includes("/content/") || lower.includes("flashcard")) {
+          changelog.push(`• Cập nhật bài học tệp ${basename}: Cập nhật nội dung dữ liệu bài học.`);
+        } else {
+          changelog.push(`• Cập nhật tệp ${basename}: Tối ưu mã nguồn và cấu hình.`);
+        }
+      }
+
+      const uniqueChangelog = Array.from(new Set(changelog));
+
+      return {
+        count: changes.length,
+        files: changes,
+        changelog: uniqueChangelog,
+      };
+    } catch {
+      return {
+        count: 0,
+        files: [],
+        changelog: [],
+      };
+    }
+  }
 
   return {
     getStatus,
     setLatestRelease,
+    getPendingChanges,
     applyPatchFromData,
     applyRemotePatch,
     createPatchBundle,

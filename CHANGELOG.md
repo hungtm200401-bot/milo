@@ -2,6 +2,21 @@
 
 Tất cả các thay đổi quan trọng của dự án Milo English Adventure sẽ được ghi nhận tại đây.
 
+## [60.25.13] - 2026-09-04
+
+### Real-Time Auto-Update System & Admin Cleanup
+- **Phát Hành Cập Nhật 1-Click Thời Gian Thực (Real-time Broadcast):** Tích hợp `BroadcastChannel` và `storage` trigger cùng bộ đếm 5s fast-poll giúp App Học Viên (`Milo.exe`, `index.html`) lập tức phát hiện và hiện banner **🔔 Cập nhật (V...)** ngay sau khi bấm nút Phát Hành từ Admin mà không cần bấm F5.
+- **Tự Động Nhận Biết Bản Mới Qua Timestamp:** Cập nhật cơ chế so sánh `releaseDate` kết hợp `SemVer`, đảm bảo mọi lần bấm Phát Hành đều tự động kích hoạt thông báo cập nhật lên tất cả thiết bị học sinh.
+- **Làm Sạch Giao Diện Quản Trị:** Loại bỏ các chuỗi "PRO MAX" / "VIP PRO MAX", nâng cấp Sandbox thử nghiệm Prompt AI trực tiếp với chỉ số độ trễ ms.
+
+## [60.25.8] - 2026-09-04
+
+### Admin UI & Release Manager Enhancements
+- **Thiết Kế Lại Sidebar Admin (Light Mode):** Chuyển thanh Sidebar trang quản trị VIP PRO MAX sang tone sáng Indigo chuyên nghiệp (Figma/Notion/Stripe style), tối ưu tương phản font chữ, icon và hiệu ứng hover/active.
+- **Trình Quản Lý Phát Hành Cập Nhật (Admin Update Manager):** Tích hợp tab Phát hành Cập nhật thông minh trong menu Admin (`admin.html`), kiểm tra SemVer tự động khóa/mở nút bấm chống click nhầm bản cũ.
+- **Tích Hợp Live Preview:** Cho phép quản trị viên xem trước thông báo cập nhật giao diện học viên trước khi push toàn hệ thống.
+- **Đồng Bộ Bộ Tệp Client:** Đồng bộ tệp `admin-update-manager.js` và `admin-vip-pro-max-v60-7.css` đồng nhất giữa `src/` và `public/`.
+
 ---
 
 ## [60.25.7] - 2026-08-19

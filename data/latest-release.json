@@ -1,0 +1,21 @@
+{
+  "version": "60.25.19",
+  "releaseDate": "2026-09-04T02:11:13.452Z",
+  "title": "Bản nâng cấp V60.25.19",
+  "changelog": [
+    "• Cập nhật tệp CHANGELOG.md: Ghi nhật ký thay đổi hệ thống.",
+    "• Cập nhật tệp commerce.json: Tối ưu mã nguồn và cấu hình.",
+    "• Cập nhật tệp package.json: Cập nhật số phiên bản ứng dụng.",
+    "• Cập nhật tệp admin-ai-connection-v60-24.js: Kiểm tra kết nối và đo độ trễ AI real-time.",
+    "• Cập nhật tệp admin-update-manager.js: Tự động quét tệp vừa sửa và phát tín hiệu 1-Click.",
+    "• Cập nhật tệp admin-vip-pro-max-v60-7.css: Loại bỏ nhãn PRO MAX và tối ưu cỡ chữ 12px-14px.",
+    "• Cập nhật tệp admin-vip-pro-max-v60-7.js: Loại bỏ nhãn PRO MAX và tối ưu cỡ chữ 12px-14px.",
+    "• Cập nhật tệp admin.html: Loại bỏ nhãn PRO MAX và tối ưu cỡ chữ 12px-14px.",
+    "• Cập nhật tệp update-client.js: Tự động hiển thị thông báo bản mới trên App Học Viên.",
+    "• Cập nhật tệp server.mjs: Tối ưu máy chủ và quyền phát hành mượt mà.",
+    "• Cập nhật tệp update-service.mjs: Quản lý lưu trữ phiên bản và quét tệp sửa đổi.",
+    "• Cập nhật tệp run-all.mjs: Cải tiến và tối ưu logic mã nguồn kiểm thử."
+  ],
+  "hasUpdate": true,
+  "downloadUrl": ""
+}

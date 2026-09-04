@@ -18,7 +18,22 @@
   }
 
   function updateHeaderBadges(status) {
-    const topBtn = document.getElementById("topUpdateAppButton");
+    let topBtn = document.getElementById("topUpdateAppButton");
+    if (!topBtn) {
+      const headerActions = document.querySelector(".header-actions") || document.querySelector(".header");
+      if (headerActions) {
+        topBtn = document.createElement("button");
+        topBtn.id = "topUpdateAppButton";
+        topBtn.className = "pill";
+        topBtn.style.cssText = "display:inline-flex!important;align-items:center!important;gap:6px!important;background:linear-gradient(135deg,#ef4444,#f97316)!important;color:#fff!important;font-weight:900!important;border:0!important;border-radius:999px!important;padding:8px 16px!important;box-shadow:0 4px 15px rgba(239,68,68,0.45)!important;cursor:pointer!important;z-index:9999!important;font-size:13px!important;margin-right:8px!important;";
+        topBtn.addEventListener("click", () => window.MiloUpdater?.openModal());
+        if (headerActions.firstChild) {
+          headerActions.insertBefore(topBtn, headerActions.firstChild);
+        } else {
+          headerActions.appendChild(topBtn);
+        }
+      }
+    }
     if (topBtn) {
       if (status && status.hasUpdate) {
         topBtn.style.display = "inline-flex";
@@ -41,25 +56,30 @@
 
   async function initUpdater() {
     try {
-      const res = await fetch("/api/update/status");
+      const res = await fetch("/api/update/status?t=" + Date.now());
       if (!res.ok) return;
       updateStatus = await res.json();
 
-      const appliedVer = localStorage.getItem("milo_applied_version") || localStorage.getItem("milo_last_updated_version");
-      const latestVer = updateStatus?.latestVersion;
-      const currentVer = updateStatus?.currentVersion;
+      const userUpdatedVer = localStorage.getItem("milo_user_updated_version") || "";
+      const userUpdatedTime = parseInt(localStorage.getItem("milo_user_updated_time") || "0", 10);
+      const serverReleaseTime = new Date(updateStatus.releaseDate || 0).getTime();
 
-      const hasApplied = appliedVer && compareVersions(appliedVer, latestVer) >= 0;
-      const isUpToDate = !updateStatus.hasUpdate || hasApplied || compareVersions(currentVer, latestVer) >= 0;
+      // Only suppress update if student clicked "Cập nhật ngay" for THIS EXACT latestVersion AFTER server released it!
+      const userHasAlreadyUpdatedThisRelease = 
+        (userUpdatedVer === updateStatus.latestVersion) && 
+        (userUpdatedTime >= serverReleaseTime) &&
+        (serverReleaseTime > 0);
 
-      updateStatus.hasUpdate = !isUpToDate;
+      if (userHasAlreadyUpdatedThisRelease) {
+        updateStatus.hasUpdate = false;
+      }
+
       updateHeaderBadges(updateStatus);
 
-      // If initial content sync is needed
       if (updateStatus && updateStatus.contentReady === false) {
         showFirstLaunchSplash();
       } else if (updateStatus && updateStatus.hasUpdate) {
-        const dismissed = sessionStorage.getItem("milo_dismissed_update_" + latestVer);
+        const dismissed = sessionStorage.getItem("milo_dismissed_update_" + updateStatus.latestVersion + "_" + (updateStatus.releaseDate || ""));
         if (!dismissed) {
           showUpdateNotification(updateStatus);
         }
@@ -140,7 +160,7 @@
 
     document.getElementById("milo-btn-update-close")?.addEventListener("click", () => {
       if (info?.latestVersion) {
-        sessionStorage.setItem("milo_dismissed_update_" + info.latestVersion, "1");
+        sessionStorage.setItem("milo_dismissed_update_" + info.latestVersion + "_" + (info.releaseDate || ""), "1");
       }
       banner.remove();
     });
@@ -253,6 +273,8 @@
       if (!res.ok || !data.ok) throw new Error(data.error || "Không thể nạp bản cập nhật.");
 
       const appliedVer = patchData.version || data.updatedVersion || updateStatus?.latestVersion || "60.25.0";
+      localStorage.setItem("milo_user_updated_version", appliedVer);
+      localStorage.setItem("milo_user_updated_time", String(Date.now()));
       localStorage.setItem("milo_applied_version", appliedVer);
       localStorage.setItem("milo_last_updated_at", new Date().toISOString());
 
@@ -274,7 +296,7 @@
     if (progressText) progressText.innerText = "Đang tải và đồng bộ bài học mới từ máy chủ...";
 
     try {
-      const targetVer = updateStatus?.latestVersion || "60.25.6";
+      const targetVer = updateStatus?.latestVersion || "60.25.11";
       const payload = updateStatus?.downloadUrl 
         ? { downloadUrl: updateStatus.downloadUrl, version: targetVer }
         : { version: targetVer };
@@ -287,6 +309,8 @@
       const data = await res.json();
       if (!res.ok || !data.ok) throw new Error(data.error || "Không thể nạp bản cập nhật.");
 
+      localStorage.setItem("milo_user_updated_version", targetVer);
+      localStorage.setItem("milo_user_updated_time", String(Date.now()));
       localStorage.setItem("milo_applied_version", targetVer);
       localStorage.setItem("milo_last_updated_at", new Date().toISOString());
 
@@ -319,14 +343,30 @@
     },
   };
 
-  // Initial check & periodic check every 10 minutes
+  // Real-time update listeners (BroadcastChannel + Storage Event + Fast 3s poll)
+  try {
+    const updateChannel = new BroadcastChannel("milo_app_updates");
+    updateChannel.onmessage = (e) => {
+      if (e.data && (e.data.type === "MILO_NEW_UPDATE" || e.data.type === "UPDATE_PUBLISHED")) {
+        initUpdater();
+      }
+    };
+  } catch {}
+
+  window.addEventListener("storage", (e) => {
+    if (e.key === "milo_last_published_timestamp" || e.key === "milo_update_trigger") {
+      initUpdater();
+    }
+  });
+
+  // Initial check & fast check (every 3 seconds) so updates show immediately without manual refresh
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", () => {
-      setTimeout(initUpdater, 1000);
-      setInterval(initUpdater, 10 * 60 * 1000);
+      setTimeout(initUpdater, 400);
+      setInterval(initUpdater, 3000);
     });
   } else {
-    setTimeout(initUpdater, 1000);
-    setInterval(initUpdater, 10 * 60 * 1000);
+    setTimeout(initUpdater, 400);
+    setInterval(initUpdater, 3000);
   }
 })();

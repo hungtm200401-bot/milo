@@ -3,7 +3,7 @@
   "meta": {
     "schemaVersion": 7,
     "createdAt": "2026-08-18T03:01:44.173Z",
-    "updatedAt": "2026-09-04T01:56:19.246Z",
+    "updatedAt": "2026-08-18T07:37:33.997Z",
     "sharedSince": "2026-08-18T03:01:44.173Z",
     "migratedFrom": []
   },
@@ -728,7 +728,7 @@
       "nickname": "minh2",
       "pinSalt": "424e0d30bb63e4daeb268ace25447e6f",
       "pinHash": "dd8048a900a82c5eac4c1101381097b60d35acae301491705c7461ee6f33f7a8",
-      "tokenHash": "1b2afd9d29df5ba4a413291d97ad82782f7a61ac051f13b8c33f3a132721e438",
+      "tokenHash": "e819f2a1b6a7a6663aaf3db02f9a3ca173d9a3e9275a75ed5088c1d61e5095b1",
       "displayName": "bin",
       "gender": "boy",
       "selectedGrade": 2,
@@ -1429,12 +1429,12 @@
           "updatedAt": "2026-08-18T03:13:54.434Z"
         }
       },
-      "lastLoginAt": "2026-09-04T01:45:00.269Z",
-      "lastSeenAt": "2026-09-04T01:45:00.269Z",
-      "loginCount": 3,
+      "lastLoginAt": "2026-08-18T03:13:57.690Z",
+      "lastSeenAt": "2026-08-18T03:13:57.690Z",
+      "loginCount": 2,
       "loginDisabled": false,
       "createdAt": "2026-08-18T03:13:54.433Z",
-      "updatedAt": "2026-09-04T01:56:19.245Z"
+      "updatedAt": "2026-08-18T07:37:33.997Z"
     },
     {
       "id": "012cb686-d58b-42c4-acc2-88cf45558251",

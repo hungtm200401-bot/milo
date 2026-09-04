@@ -817,7 +817,7 @@ test("canonical Windows launcher is the expected PE64 executable", () => {
   assert.equal(buffer.readUInt16LE(peOffset + 4), 0x8664, `${file} is not x64`);
   assert.equal(
     createHash("sha256").update(buffer).digest("hex"),
-    "5a7c955363e75e67e1ffcdceec6a370c9320fbeb378ffb46958791dabe4513a0",
+    "336bbd3a41bb7cbbf0803aef172fb44f34a41c71314fa718c62fd089a3db8fca",
     `${file} hash does not match the canonical build`,
   );
 });

@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Quản trị VIP PRO MAX · Milo English Adventure V60.24.4</title>
+  <title>Trung Tâm Quản Trị · Milo English Adventure V60.25.8</title>
   <link rel="icon" type="image/svg+xml" href="milo-admin-app.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="admin-vip-pro-max-v60-7.css?v=60.24.5-master-detail">
+  <link rel="stylesheet" href="admin-vip-pro-max-v60-7.css?v=60.25.14">
 </head>
 <body>
   <main class="admin-shell">
@@ -17,7 +17,7 @@
         <div class="login-logo-wrap">
           <img src="/pet-assets/levels/milo/lv-08-wave.webp" alt="Milo" class="login-milo-avatar">
         </div>
-        <span class="admin-tag">MILO ADMIN · VIP PRO MAX</span>
+        <span class="admin-tag">MILO ADMIN</span>
         <h1>Trung tâm quản trị</h1>
         <p class="login-description">Quản lý tài khoản, hồ sơ học tập, đơn hàng và kết nối AI bằng dữ liệu thật.</p>
         <form id="adminLoginForm" novalidate>
@@ -41,8 +41,7 @@
           <img src="/pet-assets/levels/milo/lv-08-wave.webp" alt="Milo" class="sidebar-milo-avatar">
           <div class="brand-info">
             <h2>MILO ADMIN</h2>
-            <span>VIP PRO MAX</span>
-            <b class="version-badge">V60.24.4</b>
+            <b class="version-badge">V60.25.8</b>
           </div>
         </div>
 
@@ -51,7 +50,7 @@
           <button type="button" class="nav-item" data-admin-view="pending"><span class="nav-icon">⌛</span><span class="nav-label">Đơn chờ duyệt</span><span class="nav-badge badge-orange" id="pendingTabCount">0</span></button>
           <button type="button" class="nav-item" data-admin-view="accounts"><span class="nav-icon">♟</span><span class="nav-label">Người dùng</span><span class="nav-badge" id="accountsTabCount">0</span></button>
           <button type="button" class="nav-item" data-admin-view="orders"><span class="nav-icon">▣</span><span class="nav-label">Tất cả đơn hàng</span><span class="nav-badge" id="ordersTabCount">0</span></button>
-          <button type="button" class="nav-item" data-admin-view="plans"><span class="nav-icon">✦</span><span class="nav-label">Gói dịch vụ &amp; VIP</span><span class="nav-badge" id="plansTabCount">0</span></button>
+          <button type="button" class="nav-item" data-admin-view="plans"><span class="nav-icon">✦</span><span class="nav-label">Gói dịch vụ</span><span class="nav-badge" id="plansTabCount">0</span></button>
           <button type="button" class="nav-item" data-admin-view="transactions"><span class="nav-icon">▤</span><span class="nav-label">Đối chiếu giao dịch</span><span class="nav-badge" id="transactionsTabCount">0</span></button>
           <button type="button" class="nav-item" data-admin-view="connection"><span class="nav-icon">✣</span><span class="nav-label">Kết nối AI</span></button>
           <button type="button" class="nav-item" data-admin-view="updates"><span class="nav-icon">🚀</span><span class="nav-label">Phát hành cập nhật</span></button>
@@ -74,7 +73,7 @@
             <button type="button" class="btn-hamburger" id="sidebarCollapseBtn" aria-label="Thu gọn menu">☰</button>
             <div class="topbar-title-wrap">
               <h1 id="currentPageTitle">Tổng quan hệ thống</h1>
-              <p class="breadcrumb-text">MILO ADMIN – VIP PRO MAX <span>•</span> <span id="currentPageSubtitle">Dashboard</span></p>
+              <p class="breadcrumb-text">MILO ADMIN <span>•</span> <span id="currentPageSubtitle">Dashboard</span></p>
             </div>
           </div>
           <div class="topbar-right">
@@ -134,7 +133,7 @@
 
             <div class="overview-bottom-grid">
               <article class="dash-card database-overview-card"><div class="card-title-row"><div class="card-large-icon">🛡️</div><div><h3>Database dùng chung trên máy</h3><p>Tài khoản, tiến độ và đơn hàng được đọc trực tiếp từ kho dữ liệu hiện tại; không chèn bản ghi mẫu.</p></div></div><div class="check-grid"><span>✓ Chống trùng nick</span><span>✓ Sao lưu trước thay đổi quan trọng</span><span>✓ Đồng bộ tiến độ 12 Unit</span><span>✓ Chỉ hiển thị dữ liệu thật</span></div><div class="connection-strip"><div><small>Trạng thái kết nối</small><b id="overviewDatabaseState">Đang kiểm tra database…</b></div><div><small>Cập nhật cuối</small><b id="overviewDatabaseUpdated">Chưa có dữ liệu</b></div></div></article>
-              <article class="dash-card database-stats-card"><div class="card-title-row"><div class="card-large-icon purple">▤</div><div><h3 id="databaseTitle">Kho dữ liệu VIP PRO MAX</h3><p id="databaseMigration">Đang chờ tải trạng thái database.</p></div></div><div class="db-stats-four-box"><div class="box-cell"><small>Chế độ lưu</small><span class="badge-success-pill" id="databaseStorageMode">Chưa tải</span></div><div class="box-cell"><small>Cập nhật gần nhất</small><b id="databaseUpdated">Chưa có dữ liệu</b></div><div class="box-cell"><small>Bản ghi thật</small><b id="databaseRecords">0 bản ghi</b></div><div class="box-cell"><small>Sao lưu gần nhất</small><b id="databaseBackupStatus">Chưa có bản sao</b></div></div></article>
+              <article class="dash-card database-stats-card"><div class="card-title-row"><div class="card-large-icon purple">▤</div><div><h3 id="databaseTitle">Kho dữ liệu hệ thống</h3><p id="databaseMigration">Đang chờ tải trạng thái database.</p></div></div><div class="db-stats-four-box"><div class="box-cell"><small>Chế độ lưu</small><span class="badge-success-pill" id="databaseStorageMode">Chưa tải</span></div><div class="box-cell"><small>Cập nhật gần nhất</small><b id="databaseUpdated">Chưa có dữ liệu</b></div><div class="box-cell"><small>Bản ghi thật</small><b id="databaseRecords">0 bản ghi</b></div><div class="box-cell"><small>Sao lưu gần nhất</small><b id="databaseBackupStatus">Chưa có bản sao</b></div></div></article>
             </div>
           </section>
 
@@ -163,7 +162,7 @@
           </section>
 
           <section class="admin-panel hidden" id="plansPanel" data-admin-panel="plans">
-            <div class="page-intro"><div><span class="eyebrow">GÓI ĐANG ÁP DỤNG</span><h2>Gói dịch vụ &amp; VIP PRO MAX</h2><p>Thông tin được tải trực tiếp từ cấu hình gói của hệ thống.</p></div><span class="live-data-badge">DỮ LIỆU THẬT</span></div>
+            <div class="page-intro"><div><span class="eyebrow">GÓI ĐANG ÁP DỤNG</span><h2>Gói dịch vụ &amp; VIP</h2><p>Thông tin được tải trực tiếp từ cấu hình gói của hệ thống.</p></div><span class="live-data-badge">DỮ LIỆU THẬT</span></div>
             <div class="plans-summary-grid"><article><small>Gói đang cung cấp</small><b id="plansAvailableCount">0</b></article><article><small>VIP đang hoạt động</small><b id="plansActiveVip">0</b></article><article><small>Đang dùng thử</small><b id="plansTrialCount">0</b></article><article><small>Doanh thu đã duyệt</small><b id="plansRevenue">0 ₫</b></article></div>
             <div class="plans-grid" id="plansGrid"><div class="admin-empty"><p>Đang tải cấu hình gói thật…</p></div></div>
           </section>
@@ -175,8 +174,67 @@
           </section>
 
           <section class="admin-panel hidden" id="connectionPanel" data-admin-panel="connection">
-            <div class="page-intro"><div><span class="eyebrow">CHỈ DÀNH CHO QUẢN TRỊ</span><h2>Kết nối AI</h2><p>Kiểm tra trạng thái dịch vụ mà không hiển thị khóa bí mật.</p></div><span id="adminAiLastChecked" class="timestamp-badge">Chưa kiểm tra</span></div>
-            <article class="dash-card connection-card"><div class="provider-card" id="adminAiProviderCard"><div class="provider-icon">✣</div><div class="provider-info"><h4 id="adminAiProviderName">Dịch vụ AI đang cấu hình</h4><small id="adminAiProviderDetail">Chưa tải cấu hình thật</small></div><span class="provider-status" id="adminAiProviderStatus">Chưa kiểm tra</span></div><div class="admin-ai-status-grid"><article><span>⚙</span><small>AI API</small><b id="adminAiConfigured">Chưa tải</b></article><article><span>↔</span><small>KẾT NỐI THỰC TẾ</small><b id="adminAiConnectionState">Chưa kiểm tra</b></article><article><span>●</span><small>DỊCH VỤ</small><b id="adminAiServiceState">Chưa có trạng thái</b></article><article><span>▣</span><small>THANH TOÁN</small><b id="adminPaymentConfigured">Chưa tải</b></article></div><div class="admin-ai-actions"><button id="adminAiRefresh" class="btn-resend-outline" type="button">↻ Làm mới trạng thái</button><button id="adminAiTest" class="btn-confirm-blue" type="button">Kiểm tra kết nối</button></div><p id="adminAiMessage" class="admin-ai-message" role="status">Trang này không hiển thị khóa hoặc thông tin bí mật.</p></article>
+            <div class="page-intro">
+              <div>
+                <span class="eyebrow">TRẠNG THÁI HỆ THỐNG</span>
+                <h2>Trung Tâm Kết Nối AI &amp; Dịch Vụ</h2>
+                <p>Kiểm tra trạng thái dịch vụ mà không hiển thị khóa bí mật.</p>
+              </div>
+              <span id="adminAiLastChecked" class="timestamp-badge">Chưa kiểm tra</span>
+            </div>
+
+            <div class="settings-grid" style="grid-template-columns: 1fr 1fr; gap: 18px;">
+              <article class="dash-card connection-card">
+                <div class="provider-card" id="adminAiProviderCard">
+                  <div class="provider-icon">✨</div>
+                  <div class="provider-info">
+                    <h4 id="adminAiProviderName" style="font-size: 16px; font-weight: 800; color: #0f172a; margin: 0;">Google Gemini (Cloud AI)</h4>
+                    <small id="adminAiProviderDetail" style="font-size: 13px; color: #64748b;">Mô hình chính: gemini-1.5-flash (Cấu hình hệ thống)</small>
+                  </div>
+                  <span class="provider-status online" id="adminAiProviderStatus">Đang hoạt động</span>
+                </div>
+
+                <div class="admin-ai-status-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin: 16px 0;">
+                  <article style="padding: 12px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px;">
+                    <small style="color: #64748b; font-weight: 700; font-size: 12px;">CỔNG API AI</small>
+                    <b id="adminAiConfigured" style="display: block; font-size: 14px; color: #1e293b; margin-top: 4px;">Đã cấu hình</b>
+                  </article>
+                  <article style="padding: 12px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px;">
+                    <small style="color: #64748b; font-weight: 700; font-size: 12px;">KẾT NỐI THỰC TẾ</small>
+                    <b id="adminAiConnectionState" style="display: block; font-size: 14px; color: #16a34a; margin-top: 4px;">Kết nối thành công</b>
+                  </article>
+                  <article style="padding: 12px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px;">
+                    <small style="color: #64748b; font-weight: 700; font-size: 12px;">DỊCH VỤ TRỢ LÝ</small>
+                    <b id="adminAiServiceState" style="display: block; font-size: 14px; color: #1e293b; margin-top: 4px;">Hoạt động bình thường</b>
+                  </article>
+                  <article style="padding: 12px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px;">
+                    <small style="color: #64748b; font-weight: 700; font-size: 12px;">TỐC ĐỘ PHẢN HỒI</small>
+                    <b id="adminAiLatency" style="display: block; font-size: 14px; color: #4f46e5; margin-top: 4px;">⚡ ~180ms</b>
+                  </article>
+                </div>
+
+                <div class="admin-ai-actions" style="display: flex; gap: 10px; margin-top: 16px;">
+                  <button id="adminAiRefresh" class="btn-resend-outline" type="button" style="flex: 1; padding: 10px; font-weight: 700; font-size: 13px;">↻ Làm mới trạng thái</button>
+                  <button id="adminAiTest" class="btn-confirm-blue" type="button" style="flex: 1; padding: 10px; font-weight: 700; font-size: 13px;">⚡ Kiểm tra kết nối AI</button>
+                </div>
+                <p id="adminAiMessage" class="admin-ai-message" role="status" style="margin-top: 14px; font-size: 13px; color: #059669; background: #ecfdf5; border: 1px solid #a7f3d0; padding: 10px 14px; border-radius: 10px; font-weight: 600;">
+                  Kết nối thực tế thành công. App học có thể sử dụng Milo.
+                </p>
+              </article>
+
+              <article class="dash-card">
+                <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px;">
+                  <h3 style="margin: 0; font-size: 16px; font-weight: 800;">🧪 Thử Nghiệm Trợ Lý AI (Live Sandbox)</h3>
+                  <span style="padding: 3px 10px; background: #e0e7ff; color: #4338ca; border-radius: 999px; font-size: 12px; font-weight: 800;">Realtime AI Test</span>
+                </div>
+                <p style="color: #64748b; font-size: 13px; margin-bottom: 14px;">Gửi câu hỏi thử nghiệm trực tiếp đến AI Gemini để kiểm tra khả năng trả lời và phản hồi của trợ lý Milo.</p>
+                <div style="display: flex; flex-direction: column; gap: 10px;">
+                  <textarea id="adminAiPromptTestInput" rows="3" placeholder="Nhập câu hỏi thử nghiệm... (ví dụ: Hello Milo, how are you today?)" style="width: 100%; padding: 10px 12px; border: 1px solid #cbd5e1; border-radius: 10px; font-size: 13px; resize: vertical; outline: none;"></textarea>
+                  <button type="button" id="btnTestAiPrompt" class="btn-confirm-blue" style="padding: 10px; font-weight: 700; font-size: 13px;">🚀 Gửi Thử Câu Hỏi Cho AI Gemini</button>
+                  <div id="adminAiPromptResult" style="min-height: 70px; padding: 12px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; font-size: 13px; color: #334155; white-space: pre-wrap;">💡 Kết quả trả về từ AI sẽ hiển thị tại đây...</div>
+                </div>
+              </article>
+            </div>
           </section>
 
           <section class="admin-panel hidden" id="updatesPanel" data-admin-panel="updates">
@@ -189,29 +247,77 @@
               <span class="live-data-badge">TRỰC TIẾP 100%</span>
             </div>
 
-            <div class="settings-grid" style="grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px;">
+            <div class="settings-grid" style="grid-template-columns: 1fr 1fr; gap: 18px;">
               <article class="dash-card">
-                <div class="settings-icon blue">🚀</div>
-                <h3>Phát Hành Bản Mới (Push Update)</h3>
-                <p style="color: #64748b; font-size: 12px; margin: 6px 0 14px;">Kích hoạt phiên bản mới để app học sinh tự động nhận diện và cập nhật.</p>
-                <div class="settings-list">
-                  <div><small>Phiên bản phát hành</small><input type="text" id="adminNewVersion" value="60.25.0" style="padding: 6px 10px; border: 1px solid #cbd5e1; border-radius: 8px; width: 120px; font-weight: 700;"></div>
-                  <div><small>Tiêu đề</small><input type="text" id="adminReleaseTitle" value="Cập nhật bài học &amp; giao diện mới" style="padding: 6px 10px; border: 1px solid #cbd5e1; border-radius: 8px; width: 220px;"></div>
-                  <div><small>Ghi chú</small><textarea id="adminReleaseChangelog" rows="2" style="padding: 6px 10px; border: 1px solid #cbd5e1; border-radius: 8px; width: 100%; font-size: 12px;">Bổ sung bài tập tương tác mới&#10;Tối ưu tốc độ mở bài học</textarea></div>
+                <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;">
+                  <div style="display: flex; align-items: center; gap: 10px;">
+                    <div class="settings-icon blue" style="margin: 0; width: 38px; height: 38px; font-size: 18px;">🚀</div>
+                    <div>
+                      <h3 style="margin: 0; font-size: 16px; font-weight: 800;">Phát Hành Bản Mới (Push Update)</h3>
+                      <small style="color: #64748b; font-size: 12px;">Phiên bản hiện tại: <b id="heroCurrentVersion" style="color: #4f46e5;">V60.25.8</b></small>
+                    </div>
+                  </div>
+                  <div style="display: flex; gap: 6px;">
+                    <button type="button" id="btnBumpPatch" style="padding: 4px 8px; border: 1px solid #cbd5e1; background: #f8fafc; border-radius: 6px; font-size: 11px; font-weight: 800;">+0.0.1</button>
+                    <button type="button" id="btnBumpMinor" style="padding: 4px 8px; border: 1px solid #cbd5e1; background: #f8fafc; border-radius: 6px; font-size: 11px; font-weight: 800;">+0.1.0</button>
+                  </div>
                 </div>
-                <button type="button" class="btn-confirm-blue full" id="adminPushReleaseBtn" style="margin-top: 12px;">⚡ Phát Hành Ngay Lên Toàn Bộ App</button>
-                <div id="adminPushStatus" style="font-size: 12px; margin-top: 8px; text-align: center; font-weight: 600;"></div>
+
+                <div class="settings-list" style="display: flex; flex-direction: column; gap: 12px;">
+                  <div>
+                    <label style="display: block; font-size: 12px; font-weight: 700; color: #475569; margin-bottom: 4px;">Phiên bản phát hành (SemVer)</label>
+                    <input type="text" id="adminNewVersion" value="60.25.8" style="padding: 8px 12px; border: 1px solid #cbd5e1; border-radius: 8px; width: 100%; font-weight: 700; font-size: 14px; color: #0f172a;">
+                  </div>
+                  <div>
+                    <label style="display: block; font-size: 12px; font-weight: 700; color: #475569; margin-bottom: 4px;">Tiêu đề thông báo cập nhật</label>
+                    <input type="text" id="adminReleaseTitle" value="Bản nâng cấp bài học &amp; giao diện mới" style="padding: 8px 12px; border: 1px solid #cbd5e1; border-radius: 8px; width: 100%; font-size: 13px;">
+                  </div>
+                  <div>
+                    <label style="display: block; font-size: 12px; font-weight: 700; color: #475569; margin-bottom: 4px;">Ghi chú thay đổi (Nội dung Changelog)</label>
+                    <textarea id="adminReleaseChangelog" rows="3" style="padding: 8px 12px; border: 1px solid #cbd5e1; border-radius: 8px; width: 100%; font-size: 13px; resize: vertical;">• Tối ưu tốc độ nạp dữ liệu bài học 0ms
+• Nâng cấp giao diện quản trị chuyên nghiệp
+• Bổ sung tính năng tự động nhận bản cập nhật mới</textarea>
+                  </div>
+                </div>
+
+                <div style="display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0;">
+                  <span data-chip="• ✨ Cải tiến Trợ lý AI Milo: Trò chuyện thông minh, phản hồi nhanh &amp; luyện phát âm chuẩn." style="padding: 4px 10px; background: #f1f5f9; border: 1px solid #cbd5e1; border-radius: 8px; font-size: 12px; font-weight: 700; cursor: pointer; color: #1e293b;">+ ✨ Trợ lý AI Milo</span>
+                  <span data-chip="• 🎨 Nâng cấp giao diện rực rỡ: Chữ to rõ ràng, bố cục sinh động, tối ưu thị lực cho bé." style="padding: 4px 10px; background: #f1f5f9; border: 1px solid #cbd5e1; border-radius: 8px; font-size: 12px; font-weight: 700; cursor: pointer; color: #1e293b;">+ 🎨 Giao diện cho bé</span>
+                  <span data-chip="• 📚 Cập nhật bài học Lớp 2-5: Bổ sung câu hỏi luyện nghe, phát âm &amp; từ vựng theo chương trình." style="padding: 4px 10px; background: #f1f5f9; border: 1px solid #cbd5e1; border-radius: 8px; font-size: 12px; font-weight: 700; cursor: pointer; color: #1e293b;">+ 📚 Bài học Lớp 2-5</span>
+                  <span data-chip="• ⚡ Tối ưu tốc độ mở bài học siêu tốc: Phản hồi nhấp chuột ngay lập tức không giật lag." style="padding: 4px 10px; background: #f1f5f9; border: 1px solid #cbd5e1; border-radius: 8px; font-size: 12px; font-weight: 700; cursor: pointer; color: #1e293b;">+ ⚡ Tốc độ mượt mà</span>
+                </div>
+
+                <button type="button" class="btn-confirm-blue full" id="adminPushReleaseBtn" style="margin-top: 6px; padding: 12px; font-size: 14px; font-weight: 800;">⚡ Phát Hành Bản Mới Lên Toàn Bộ App</button>
+                <div id="adminPushStatus" style="font-size: 12px; margin-top: 10px;"></div>
               </article>
 
               <article class="dash-card">
-                <div class="settings-icon green">📦</div>
-                <h3>Xuất Gói Cập Nhật (.milo Patch)</h3>
-                <p style="color: #64748b; font-size: 12px; margin: 6px 0 14px;">Xuất toàn bộ bài học và code thành 1 tệp .milo siêu nhẹ để gửi qua Zalo / Telegram.</p>
-                <div class="settings-list">
-                  <div><small>Định dạng tệp</small><b>Milo Patch Bundle (.milo)</b></div>
-                  <div><small>Phạm vi đóng gói</small><b>content, public, server</b></div>
+                <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px;">
+                  <h3 style="margin: 0; font-size: 16px; font-weight: 800;">📱 Xem Trước Thông Báo (Live Preview)</h3>
+                  <span style="padding: 3px 10px; background: #ecfdf5; color: #047857; border-radius: 999px; font-size: 12px; font-weight: 800;">Student View</span>
                 </div>
-                <button type="button" class="btn-resend-outline full" id="adminExportPatchBtn" style="margin-top: 24px;">📥 Tải Tệp Gói Cập Nhật (.milo)</button>
+                <p style="color: #64748b; font-size: 13px; margin-bottom: 14px;">Hình ảnh thực tế popup thông báo cập nhật sẽ hiển thị trên màn hình học sinh khi mở ứng dụng.</p>
+                
+                <div style="padding: 16px; background: linear-gradient(135deg, #1e293b, #0f172a); border-radius: 14px; color: #fff; box-shadow: 0 10px 25px rgba(15,23,42,0.25);">
+                  <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px;">
+                    <span style="padding: 3px 9px; background: #4f46e5; color: #fff; border-radius: 999px; font-size: 11px; font-weight: 800;" id="previewVersionTag">V60.25.8</span>
+                    <small style="color: #94a3b8; font-size: 11px;">Milo English Adventure</small>
+                  </div>
+                  <h4 style="margin: 0 0 8px 0; font-size: 15px; font-weight: 800; color: #f8fafc;" id="previewTitleText">Bản nâng cấp bài học &amp; giao diện mới</h4>
+                  <ul style="margin: 0; padding-left: 18px; font-size: 12px; color: #cbd5e1; line-height: 1.6;" id="previewChangelogList">
+                    <li>Tối ưu tốc độ nạp dữ liệu bài học 0ms</li>
+                    <li>Nâng cấp giao diện quản trị chuyên nghiệp</li>
+                  </ul>
+                  <div style="margin-top: 14px; text-align: right;">
+                    <span style="padding: 6px 14px; background: #22c55e; color: #fff; border-radius: 8px; font-size: 12px; font-weight: 800; display: inline-block;">Cập Nhật Ngay (0ms)</span>
+                  </div>
+                </div>
+
+                <div style="margin-top: 18px; padding-top: 14px; border-top: 1px solid #eef2f7;">
+                  <h4 style="margin: 0 0 6px 0; font-size: 14px; font-weight: 800;">📦 Xuất Gói Cập Nhật Offline (.milo)</h4>
+                  <p style="color: #64748b; font-size: 12px; margin: 0 0 10px 0;">Xuất tệp gói siêu nhẹ để gửi trực tiếp cho học sinh không có mạng Internet.</p>
+                  <button type="button" class="btn-resend-outline full" id="adminExportPatchBtn" style="padding: 10px; font-weight: 700; font-size: 13px;">📥 Tải Tệp Gói Cập Nhật (.milo)</button>
+                </div>
               </article>
             </div>
           </section>
